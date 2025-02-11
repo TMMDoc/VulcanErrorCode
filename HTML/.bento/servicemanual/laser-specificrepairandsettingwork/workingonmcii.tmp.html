@@ -1,0 +1,317 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_logging_in_mcii_with_service_user_level">Logging in MCII with service user level</a></li>
+<li><a href="#_querying_the_operating_hours_of_the_laser">Querying the operating hours of the laser</a></li>
+<li><a href="#_io_setting_of_the_laser_device">I/O setting of the laser device</a></li>
+<li><a href="#_checking_temperature_flow_rate_of_laser_module">Checking temperature &amp; flow rate of laser module</a></li>
+<li><a href="#_bypassing_laser_module_of_trufiber">Bypassing laser module of TruFiber</a></li>
+<li><a href="#_backing_up_restoring_the_laser_data">Backing up / restoring the laser data</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_logging_in_mcii_with_service_user_level">Logging in MCII with service user level</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Service user level in TOSh is activated. (see “<a href="#activating-the-service-user-level-in-tosh-1">Activating the Service user level in TOSh</a>”, pg. xxx)</p>
+</li>
+<li>
+<p>Access to HVM Password Manager.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Switch to “TOSh” interface.
+Start MCII</p>
+</li>
+<li>
+<p>Either</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Select “LASER Application”.</p>
+</li>
+<li>
+<p>Select “Machine Configuration”.</p>
+</li>
+<li>
+<p>Select “Google Chrome”.</p>
+</li>
+<li>
+<p>If it’s unable to enter laser control interface, type the laserIP address 172.29.3.1 in the web browser.</p>
+</li>
+<li>
+<p>If the customer changed the laser IP address, type the IPaddress as shown in the display of the laser.
+|<span class="image"><img src="img/image316.png" alt="img/image316" width="297" height="238"></span> |<span class="image"><img src="img/image317.png" alt="img/image317" width="297" height="238"></span></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>|Left: LASER Application |Right: Google Chrome
+Fig. 3‑1
+.Display of the laser Fig. 3‑2</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image318.png" alt="img/image318" width="297" height="162"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Open the software “HVM Password Manager”.
+Retrieve the password
+of the laser
+.Retrieve the password Fig. 3‑3</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image319.png" alt="img/image319" width="345" height="263"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Enter the “Equipment Number”.</p>
+</li>
+<li>
+<p>Select “Password Type”.</p>
+</li>
+<li>
+<p>Enter the “Reason”.</p>
+</li>
+<li>
+<p>Request the password of the laser.</p>
+</li>
+<li>
+<p>Select “Service” in the authority drop-down menu.
+Activate the service user
+.Fig. 3‑4</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image320.png" alt="img/image320" width="382" height="163"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="9">
+<li>
+<p>Enter the password.
+The service user level is active.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_querying_the_operating_hours_of_the_laser">Querying the operating hours of the laser</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Service user level in MCII is active.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select “Service Functions” &gt; “Running Hours” in MCII interface.
+.Fig. 3‑5</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image321.png" alt="img/image321" width="382" height="274"></span></p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>The “System On Time” value corresponds to:
+Laser switched on in hours.</p>
+</li>
+<li>
+<p>The “Laser On Time” value corresponds to:
+Beam ignited in hours.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_io_setting_of_the_laser_device">I/O setting of the laser device</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Service user level in MCII is active.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select “Settings” &gt; “Machine interface” in MCII interface.
+The laser interface
+.I/O interface Fig. 3‑6</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image322.png" alt="img/image322" width="624" height="350"></span> |</p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>|1 Digital inputs |2 Analogue inputs
+|3 Digital outputs |4 Analogue outputs</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p>The status of I/O interface is displayed by the indicator on theright side.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The red status means active.</p>
+</li>
+<li>
+<p>The laser interface should be used together with the ma-chine connection interface inside cabinet (see <strong>Chapter 2.4.2 Electrical control interfaces in 90-00-00-000000- ASEN FD90 Operator Manual</strong> for further information).</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_checking_temperature_flow_rate_of_laser_module">Checking temperature &amp; flow rate of laser module</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<div class="title">Fig. 3‑7</div>
+<p>|<span class="image"><img src="img/image323.png" alt="img/image323" width="382" height="274"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p>Check the “Water Temperature” and “Water Flowrate”.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>No Water Flowrate value for <strong>FD90</strong> due to no flowmeter.</p>
+</li>
+<li>
+<p>When actual cooling water flowrate is lower than needed alarm/warning will be triggered.
+.FD90 Tab. 3‑9</p>
+<div class="paragraph">
+<p>|Configuration |Minimum water flow requirement at nominal operating power at 25 °C
+|TruFiber 300X G |30 L/min
+|TruFiber 400X G |31.3 L/min
+|TruFiber 600X G |41.8 L/min
+|TruFiber 800X G |52.3 L/min
+.FD91 Tab. 3‑10</p>
+</div>
+<div class="paragraph">
+<p>|Configuration |Minimum water flow requirement at nominal operating power at 25 °C
+|TruFiber 300X G |28 L/min
+|TruFiber 600X G |55 L/min
+|TruFiber 1200X G |108 L/min</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_bypassing_laser_module_of_trufiber">Bypassing laser module of TruFiber</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Service user level in MCII is active.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select “Service Functions” &gt; “Module Settings” in MCII interface.</p>
+</li>
+<li>
+<p>Cancel the check mark on the laser module which you want to bypass at the “Enable” column.
+.Fig. 3‑8</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image324.png" alt="img/image324" width="382" height="238"></span></p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_backing_up_restoring_the_laser_data">Backing up / restoring the laser data</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Service user level in MCII is active.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select “Service Functions” &gt; “Product Parameter Backup” in MCII interface.
+Back up the laser data
+.Fig. 3‑9</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image325.png" alt="img/image325" width="382" height="312"></span></p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p>Click “Backup” button.
+Backup file of current system parameters will be created.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>All the backup files are stored in the SD card and can be recovered back to the laser if necessary.</p>
+</li>
+<li>
+<p>Only one backup file can be stored on one day and repeated backup will overwrite the files created before.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Select the needed backup file in the file list.
+Restore the laser data</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Without the needed backup file, the backup file on your computer can be uploaded to the SD card by “Upload” button and then restore the laser data.
+.Fig. 3‑10</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image326.png" alt="img/image326" width="382" height="294"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Select “Restore” in Function drop-down menu.</p>
+</li>
+<li>
+<p>Click “Run” button.
+The system parameters will be restored.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>

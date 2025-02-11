@@ -1,0 +1,83 @@
+
+= Working on the cover
+
+
+== Replacing the mechanical parts of the rear door
+
+
+== Replacing the electric switch of the rear door
+
+
+== Replacing the front safety door
+
+
+== Removing, mounting protective plates
+
+Plate order
+.Left side of the machine Fig. 4‑192
+[width="100%",cols="100%",options="header",]
+|image:img/image107.png[img/image107,width=403,height=165]
+
+.Right side of machine Fig. 4‑193
+[width="100%",cols="100%",options="header",]
+|image:img/image108.png[img/image108,width=403,height=179]
+
+.Fig. 4‑194
+[width="100%",cols="^50%,^50%",options="header",]
+|image:img/image109.png[img/image109,width=292,height=222] |image:img/image110.png[img/image110,width=294,height=222]
+
+|Front side of machine |Rear side of machine
+* The protective plates without number can be removed separately.
+[arabic]
+. When removing the protective plates, always start with plate number 1.
+Dismount and mount the
+left side of the machine
+[arabic, start=2]
+. Remove the other protective plates in the specified order.
+. Loosen screws on the respective protective plate.
+. lift it up and off.
+* No screws on the top.
+.Fig. 4‑195
+[width="100%",cols="100%",options="header",]
+|image:img/image111.png[img/image111,width=624,height=267]
+
+[arabic, start=5]
+. When mounting, the protective plates are fitted in the reverseorder.
+. Loosen the screws on the top.
+Dismount and mount the
+right side of machine, top
+.Fig. 4‑196
+[width="100%",cols="100%",options="header",]
+|image:img/image112.jpg[img/image112,width=379,height=267]
+
+[arabic, start=7]
+. Loosen the screws on the front-right corner.
+.Fig. 4‑197
+[width="100%",cols="100%",options="header",]
+|image:img/image113.png[img/image113,width=382,height=336]
+
+[arabic, start=8]
+. Lift the protective plate, thereby guiding it out of the function bar.
+.Function bar Fig. 4‑198
+[width="100%",cols="100%",options="header",]
+|image:img/image114.png[img/image114,width=624,height=256]
+
+[arabic, start=9]
+. When mounting:
+* Hang the protective plate on the supporting structure.
+* Press the protective plates downwards and lock it into function bar.
+[arabic, start=10]
+. Remove the screws on the respective protective plates.
+Dismount and mount the
+right side of machine,
+bottom
+[arabic, start=11]
+. Pull the protective plate downwards and remove it.
+.Fig. 4‑199
+[width="100%",cols="100%",options="header",]
+|image:img/image115.png[img/image115,width=624,height=256]
+
+* Curtain screens can be removed separately, or together with lower protective plates.
+* To mount wedge mounts, only three protective lower plates need to be removed.
+[arabic, start=12]
+. When mounting, fit the protective plates in the reverse order.

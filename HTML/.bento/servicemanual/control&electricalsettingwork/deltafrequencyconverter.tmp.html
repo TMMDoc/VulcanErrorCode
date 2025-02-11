@@ -1,0 +1,315 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_basic_information">Basic information</a></li>
+<li><a href="#_setting_parameters_for_the_frequency_converter">Setting parameters for the frequency converter</a></li>
+<li><a href="#_replacing_the_frequency_converter">Replacing the frequency converter</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_basic_information">Basic information</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The terminals used by L99 are shown as bellow.
+Control terminal
+specifications
+Please see the schematics for the wiring.
+.Fig. 5‑79</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image673.png" alt="img/image673" width="403" height="302"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Switch between NPN and PNP</strong>: Supplier default is NPN, butwe must set the switch to PNP type due to using the source mode for frequency converter.
+.Source mode with external power Fig. 5‑80</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image674.png" alt="img/image674" width="364" height="325"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p><strong>MI1-MI7</strong>: Multi-function input.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>MI1: Forward/Stop.</p>
+</li>
+<li>
+<p>MI2: Reverse/Stop.</p>
+</li>
+<li>
+<p>MI3: Fast.</p>
+</li>
+<li>
+<p>MI4: Slow.</p>
+</li>
+<li>
+<p>DCM: Digital signal common.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Safety function</strong>: The frequency converter provides a STO (safe torque off) function. Using two channels S1 and S2 signal input to turn off switch, further preventing the drive from outputting.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>S1/S2: Signal input for STO function, connected to the relay inside the switch cabinet.</p>
+</li>
+<li>
+<p>DCM: Reference ground for S1 and S2 signal.</p>
+</li>
+<li>
+<p>STO response time ≤ 20 ms.
+STO action logic and 7-segment display after S1/S2 signal input
+.Tab. 5‑37</p>
+<div class="paragraph">
+<p>|<strong>Signal</strong> |<strong>Terminal Function</strong> | | |
+|S1-DCM |ON |ON |OFF |OFF
+|S2-DCM |ON |OFF |ON |OFF
+|Drive output |Ready to output |Output off |Output off |Output off
+|Error displayed on the panel |No error |STL2 |STL1 |STO</p>
+</div>
+</li>
+<li>
+<p>ON means: S1-DCM/S2-DCM inputs a power supply &gt; 11V<sub>DC</sub> (Normally 24V<sub>DC</sub> for L99).</p>
+</li>
+<li>
+<p>OFF means: S1-DCM/S2-DCM inputs a power supply &lt; 5V<sub>DC</sub> (Normally 0V<sub>DC</sub> for L99).</p>
+</li>
+<li>
+<p>STO means channel 1 and 2 open circuit synchronously and enter Safe Torque Off.</p>
+</li>
+<li>
+<p>STL1/STL2 means only one channel opens circuit or the two channels are not synchronous.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Relay</strong>: To output the monitoring signals “frequency converterno error”.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>RB: Multi-function relay output (N.C).</p>
+</li>
+<li>
+<p>RC: Multi-function relay common.
+Keyboard panel
+.Fig. 5‑81</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image675.png" alt="img/image675" width="382" height="267"></span></p>
+</div>
+</li>
+<li>
+<p>1 Main Display Area.
+.Tab. 5‑38</p>
+<div class="paragraph">
+<p>|<strong>Displayed items</strong> |<strong>Description</strong>
+|<span class="image"><img src="img/image676.png" alt="img/image676" width="115" height="32"></span> |Display the present frequency setting.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image677.png" alt="img/image677" width="118" height="32"></span> |Display the actual output frequency.</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image678.png" alt="img/image678" width="118" height="32"></span> |Display the load current.</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image679.png" alt="img/image679" width="118" height="32"></span> |Display for approximately 1s if the data is accepted and automatically stored.</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image680.png" alt="img/image680" width="118" height="32"></span> |Display if the setting data is not accepted or exceeds the allowed range.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>2 Status display area: Display the operation status of drive (Run, Stop, Forward, Reverse, PLC).</p>
+</li>
+<li>
+<p>3 Up key: Change the setting value and the parameter.</p>
+</li>
+<li>
+<p>4 Run key: Start the drive.</p>
+</li>
+<li>
+<p>5 Stop/Reset key.</p>
+</li>
+<li>
+<p>6 Potentiometer: Adjust the input frequency.</p>
+</li>
+<li>
+<p>7 Mode key: Changes the display screen mode.</p>
+</li>
+<li>
+<p>8 Enter key: Enter the setting page or confirm the setting of parameter.</p>
+</li>
+<li>
+<p>9 Left shift/Down key: Switch between left shift and down by long pressing the mode key.
+<strong>Note</strong></p>
+</li>
+<li>
+<p>The above No.4~No.6 key is disable because of the parameter setting.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_setting_parameters_for_the_frequency_converter">Setting parameters for the frequency converter</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Setting parameters</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Press “ENTER” button enter parameter setting mode.</p>
+</li>
+<li>
+<p>Select “01” by “UP” and “Down” button.</p>
+</li>
+<li>
+<p>Press “ENTER”.</p>
+</li>
+<li>
+<p>Select “01.02”.</p>
+</li>
+<li>
+<p>Press “ENTER”.</p>
+</li>
+<li>
+<p>Set “400.0”.</p>
+</li>
+<li>
+<p>Press “ENTER”.</p>
+</li>
+<li>
+<p>The result is shown on the display：</p>
+<div class="ulist">
+<ul>
+<li>
+<p>“End” means setup work is successful.</p>
+</li>
+<li>
+<p>“Err” means error.
+.Setting the parameter Fig. 5‑82</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image681.png" alt="img/image681" width="624" height="133"></span></p>
+</div>
+</li>
+<li>
+<p>In parameter setup mode, use “MODE” to go back to previous menu level.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>If the parameter setting fails, please check the parameter “00-02”, it should be 0 by default.
+Write protection for
+parameters</p>
+<div class="ulist">
+<ul>
+<li>
+<p>You can apply the write protection for parameters by sett-ing “00-02” to 1 in case others modify the parameter.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_replacing_the_frequency_converter">Replacing the frequency converter</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Switch off the machine.
+Replace Delta frequency
+converter</p>
+</li>
+<li>
+<p>Remove the covers of the frequency converter.
+.Fig. 5‑83</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image682.png" alt="img/image682" width="288" height="331"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Disconnect all the cables.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If necessary, take a photo for reference.
+.Fig. 5‑84</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image683.png" alt="img/image683" width="307" height="304"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Dismantle the frequency converter from the device panel by screws (4x).
+.Fig. 5‑85</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image684.png" alt="img/image684" width="307" height="334"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="5">
+<li>
+<p>To install the new frequency converter: perform the removal steps in the reverse order.</p>
+</li>
+<li>
+<p>Set the DIP switch to “PNP” according to the instruction on the back of cover.
+Setup work on Delta
+frequency converter
+.Fig. 5‑86</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image685.jpeg" alt="img/image685" width="273" height="240"></span> |<span class="image"><img src="img/image686.png" alt="img/image686" width="318" height="240"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Set the frequency converter parameters one by one (see “<a href="#setting-parameters-for-the-frequency-converter">Setting parameters for the frequency converter</a>”, pg. xxx).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>For all the parameter setting value, see the frequency converter page in the circuit diagram <strong>93630-5-E1.</strong></p>
+</li>
+<li>
+<p>The parameter “00-47” differs depending on the infeed motor’s supplier.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>

@@ -1,0 +1,122 @@
+
+= General safety information
+
+Many service activities can be dangerous.
+Fundamental safety information and conduct guidelines are presented below and are not listed again separately in the instructions.
+Generally speaking:
+* Comply with the Safety chapter of the operator's manual.
+* Prohibition and warning signs on the machine as well as the warnings in the operator's manual and in the instructions alsoapply to the service engineer.
+* Comply with safety and warning instructions even when under time pressure.
+* The service engineer has the function of a role model with respect to the customer and must act accordingly.
+* When working on a machine with a customer or a second service engineer, ensure that you communicate clearly and make unambiguous arrangements.
+Training course
+* This service documentation is not intended for self-study. Participation in the corresponding product training course is required for service activities.
+* All service engineers must attend an occupational safety training course for service engineers once a year.
+If no safe alternative is available, the four-eyes principle must be applied before performing dangerous service activities.
+Four-eyes principle for
+dangerous activities
+In doing so, the planned action steps must be checked and approved by another qualified person (e.g. in-house service engineer).
+The information sheet on the four-eyes principle is part of the "Safety for service engineers" training and is available in SIS.
+Unsafe machine
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Unsafe operation of the machine by the user (e.g. manipulated guards, missing exhaust system/dust extraction).*
+*Risk of personal safety and health.*
+* Refuse to carry out the assignment.
+Malfunctions and errors
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Unforeseen malfunction.*
+*Risk of injury due to undocumented dangers.*
+* Estimate possible dangers before the service activity.
+* Take appropriate safety precautions.
+Temporary bypassing of
+guards
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Temporary bypassing of guards.*
+*Uncontrolled machine action.*
+* Only put guards out of operation if the service operation cannot be performed otherwise.
+* Make a note of all interventions in safety equipment before operation.
+* Compensate for missing protective functions with additional measures.
+* Restore and check protective function after end of operation.
+Persons in the danger
+All persons must be outside the machine's danger zone when drives are active. Wherever possible, perform troubleshooting and diagnostics from outside the danger zone (remote support).
+If it is absolutely necessary to enter in the danger zone, observe the following warnings.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Work in the danger zone.*
+*Risk of injury*
+* Switch off drives and secure them against being switched onagain (e.g. turn SAFETY-MODE key switch to position *1* andremove the key).
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Work in the danger zone when the drives are active.*
+*Risk of injury.*
+* Block drives by key switch (e.g., turn MOTOR CURRENT LIMIT key switch to position *1*).
+* Block axis mechanically.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Invisible laser radiation.*
+*Risk of severe skin burns and damage to the eyes. Eyesight impairment or even blindness possible!*
+* Secure the danger zone and shield off the laser area accordingly.
+The customer's assistance is needed for some service work.
+Customer assistance
+The customer cannot be expected to operate the machine safely during service work.
+Make sure the customer is outside the danger zone while service work is being performed.
+* If possible, try not to rely on the customer's assistance.
+* Do not encourage the customer to perform unauthorized activities.
+* If necessary, request a second service engineer or request support from the In-house Sales / Service (remote support).
+Obstructed view of the
+machine
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Poor visibility of the danger zone.*
+*Risk of injury.*
+* When performing service work, make sure that no one insidethe danger zone.
+* Cordon off a wide area around the automated system and the installation area to prevent unauthorized access.
+Stepping on the roof of the machine/machine frame
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Step on the roof of the machine/machine frame.*
+*Risk of Falling.*
+* Do not step on the roof of the machine/machine frame.
+Presence under
+suspended loads
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image3.png[img/image3,width=192,height=33] a|
+
+*Danger due to presence under suspended loads.*
+*Physical injury or death.*
+* Secure suspended loads by mechanical means, in addition to the motor brake.
+Working on the electrical
+cabinet or live parts
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image3.png[img/image3,width=192,height=33] a|
+
+*Live parts*
+*Risk of fatal injury*
+* Only a trained electrician is allowed to work on live parts.
+* Comply with the 5 safety rules for establishing and securing a voltage-free state in the working area for the duration of the work.
+* Disconnect the unit from the power supply.
+* Secure it against restarting.
+* Ensure the absence of voltage.
+* Ground it and short circuit the unit.
+* Cover or separate all adjacent live components.
+Additional equipment
+provided by the customer
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image3.png[img/image3,width=192,height=33] a|
+
+*Danger due to use of damaged/unchecked additional equipment.*
+*Physical injury or death.*
+* Ensure that additional equipment provided by the customer is regularly checked and approved.
+* Visually check additional equipment provided by the custom-er for damage before use.
+* If in doubt, request the required additional equipment from TRUMPF or from an external supplier.

@@ -1,0 +1,147 @@
+
+= Working on Panel IPC
+
+
+== Replacing the Panel IPC
+
+* The machine is connected to the network.
+* Vulcan system is still accessible (if not, please contact SCC teams to release the license).
+Means, Tools, Materials
+* Standard tool set, mat. no. 0135600.
+[arabic]
+. Go to HMI and click the “wrench” icon.
+Release the license
+[arabic, start=2]
+. Press “License”.
+.Fig. 5‑99
+[width="100%",cols="100%",options="header",]
+|image:img/image700.png[img/image700,width=379,height=218]
+
+[arabic, start=3]
+. Note down the license serial key and the machine number.
+.Fig. 5‑100
+[width="100%",cols="100%",options="header",]
+|image:img/image701.png[img/image701,width=382,height=210]
+
+[arabic, start=4]
+. Press the “Release license” button.
+* The machine must be connected to the network.
+[arabic, start=5]
+. Switch off the machine.
+. Detach the protective cover for the IPC.
+Remove the Panel IPC
+.Fig. 5‑101
+[width="100%",cols="100%",options="header",]
+|image:img/image702.png[img/image702,width=382,height=312]
+
+[arabic, start=7]
+. Disconnect all the cables and make some marks if necessary.
+. Remove the protective cover for the cables.
+.Fig. 5‑102
+[width="100%",cols="100%",options="header",]
+|image:img/image703.png[img/image703,width=382,height=213]
+
+[arabic, start=9]
+. Undo the screws for the protective box and place it onto the X2 axis.
+* Pay attention to the length limit of the cables.
+.Fig. 5‑103
+[width="100%",cols="100%",options="header",]
+|image:img/image704.png[img/image704,width=382,height=281]
+
+[arabic, start=10]
+. Loosen all the screws used to fix the Panel IPC.
+.Fig. 5‑104
+[width="100%",cols="100%",options="header",]
+|image:img/image705.png[img/image705,width=382,height=269]
+
+[arabic, start=11]
+. Take the old Panel IPC off from the machine.
+. Place the old Panel IPC on the table.
+. Remove the back cover of the old Panel IPC.
+Replace the Panel IPC
+* Another two screws on the left.
+.Fig. 5‑105
+[width="100%",cols="100%",options="header",]
+|image:img/image706.png[img/image706,width=288,height=283]
+
+[arabic, start=14]
+. Disconnect the cables for the SATA SSD.
+.Fig. 5‑106
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image707.png[img/image707,width=382,height=242] |
+
+|1 MSATA SSD |2 SATA SSD
+[arabic, start=15]
+. Undo the 4x screws for SATA SSD and take if off.
+. Undo the screw for MSATA SSD and take it off.
+. Fit the two SSD to the new Panel IPC.
+. To install the new Panel IPC, perform the removal steps in the reverse order.
+. Switch on the machine and go to HMI.
+. Register Vulcan according to the machine number and license.
+* An internet connection is needed for registration.
+.Fig. 5‑107
+[width="100%",cols="100%",options="header",]
+|image:img/image708.png[img/image708,width=382,height=228]
+
+
+== Replacing the SSD
+
+* The machine is already switched off.
+Means, Tools, Materials
+* Standard tool set, mat. no. 0135600.
+[arabic]
+. Take the Panel IPC off from the machine (see “link:#replacing-the-panel-ipc[Replacing thePanel IPC]”, pg. xxx).
+Remove the SSD
+* As for replacing the hard disk, it’s unnecessary to releasethe license.
+[arabic, start=2]
+. Remove the back cover of the Panel IPC.
+* Another two screws on the left.
+.Fig. 5‑108
+[width="100%",cols="100%",options="header",]
+|image:img/image706.png[img/image706,width=288,height=283]
+
+[arabic, start=3]
+. Disconnect the cables for the SATA SSD.
+.Fig. 5‑109
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image707.png[img/image707,width=382,height=242] |
+
+|1 MSATA SSD |2 SATA SSD
+[arabic, start=4]
+. Undo the 4x screws for SATA SSD and take if off.
+. Undo the screw for MSATA SSD and take it off.
+. Fit the new SSD.
+Fit the new SSD
+[arabic, start=7]
+. To install the Panel IPC, perform the removal steps in the reverse order.
+. Switch on the machine.
+. If the system startup disk (usually MSATA SSD) is replaced, restore the whole system (see “link:#back-uprestore-the-whole-system[Back up/Restore the whole system]”, pg. xxx).
+. If the disk used for backup (usually SATA SSD) is replaced, back up the whole system (see “link:#back-uprestore-the-whole-system[Back up/Restore the whole system]”, pg. xxx).
+
+== Replacing the battery
+
+* The machine is switched off.
+Means, Tools, Materials
+* Standard tool set, mat. no. 0135600.
+[arabic]
+. Take the Panel IPC off from the machine (see “link:#replacing-the-panel-ipc[Replacing thePanel IPC]”, pg. xxx).
+* As for replacing the hard disk, it’s unnecessary to releasethe license.
+[arabic, start=2]
+. Remove the back cover of the Panel IPC.
+* Another two screws on the left.
+.Fig. 5‑110
+[width="100%",cols="100%",options="header",]
+|image:img/image706.png[img/image706,width=288,height=283]
+
+[arabic, start=3]
+. Replace the battery under the black tape:
+* Red cable connected to the positive pole of battery.
+* Black cable connected to the negative pole of battery.
+* Apply insulation tape to the battery to fix the black and red cables.
+.Fig. 5‑111
+[width="100%",cols="100%",options="header",]
+|image:img/image709.png[img/image709,width=382,height=252]
+
+|1 Battery
+[arabic, start=4]
+. To install the Panel IPC, perform the removal steps in the reverse order.

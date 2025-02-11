@@ -1,0 +1,880 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_creating_a_spot_image">Creating a spot image</a></li>
+<li><a href="#_centering_the_beam_to_the_nozzle_tapeshot">Centering the beam to the nozzle (Tapeshot)</a></li>
+<li><a href="#_determining_the_focal_position">Determining the focal position</a></li>
+<li><a href="#_checking_and_cleaning_protective_glass_kl59">Checking and cleaning protective glass (KL59)</a></li>
+<li><a href="#_checking_and_cleaning_protective_glass_bm111">Checking and cleaning protective glass (BM111)</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_creating_a_spot_image">Creating a spot image</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The program is used to check the optical path for contamination. With K59, Creating two spot images with different focal diameter. With BM111, Creating one spot image.
+Condition
+* Service user level is activated.
+* No pallet inside the machine.
+Means, Tools, Materials
+* Photographic paper, black, mat. no. 1335798.
+* Holding plate for photographic paper, mat. no. 2826297.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Move the cutting unit to the front.
+Creating a spot image via
+service program</p>
+</li>
+<li>
+<p>Attach a nozzle (EAA27) to the nozzle holder.</p>
+</li>
+<li>
+<p>Fit the holding plate with magnetic support to the front bulkhead, aligning by the arrow mark.
+.Hydraulic pallet changer version Fig. 3‑11</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image327.png" alt="img/image327" width="305" height="259"></span> |<span class="image"><img src="img/image328.png" alt="img/image328" width="302" height="259"></span> |</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1 Holding plate for photo paper | |3 Magnets
+|2 Front bulkhead | |</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Double layer pallet changer version:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Move the lower pallet into the machine.</p>
+</li>
+<li>
+<p>Place the holding plate on the pallet against the middle sheet stop.</p>
+</li>
+<li>
+<p>Align the marked spot to the center of middle sheet stop.
+.Two-level pallet changer version Fig. 3‑12</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image329.png" alt="img/image329" width="382" height="258"></span> |</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1 Marked spot |2 Middle sheet stop</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="5">
+<li>
+<p>Place the photo paper at the marked spot on the holding plate.
+.Fig. 3‑13</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image330.jpeg" alt="img/image330" width="382" height="262"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>Open HMI, select “Controls”.</p>
+</li>
+<li>
+<p>Click “Target shot”.
+.Fig. 3‑14</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image331.png" alt="img/image331" width="382" height="235"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p>Set the parameters.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Focus diameter: 150 µm.</p>
+</li>
+<li>
+<p>Focus position: 0 mm.</p>
+</li>
+<li>
+<p>Laser power: 1500 Watts.</p>
+</li>
+<li>
+<p>Duration: 0.02 s.
+.Fig. 3‑15</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image332.png" alt="img/image332" width="382" height="252"></span></p>
+</div>
+</li>
+<li>
+<p>Need Vulcan service user level to modify the parameters.</p>
+</li>
+<li>
+<p>The energy value to be programmed depends on the paper thickness.</p>
+</li>
+<li>
+<p>If the spot image is over burn, try to reduce power or duration appropriately.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Close the safety door and lock it.</p>
+</li>
+<li>
+<p>Click “Exhaust ON” in HMI.</p>
+</li>
+<li>
+<p>Make sure the laser is standby:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Standby button on control panel is illuminated.</p>
+</li>
+<li>
+<p>Laser icon at the bottom-right corner of HMI is active.
+.Fig. 3‑16</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image333.png" alt="img/image333" width="288" height="173"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="12">
+<li>
+<p>Press START button.
+The spot image of focus diameter 150 µm will be created.</p>
+</li>
+<li>
+<p>Change the parameters.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Focus diameter: 210 µm.</p>
+</li>
+<li>
+<p>Focus position: 0 mm.</p>
+</li>
+<li>
+<p>Laser power: 1500 Watts.</p>
+</li>
+<li>
+<p>Duration: 0.001 s.
+.Fig. 3‑17</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image334.png" alt="img/image334" width="382" height="254"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="14">
+<li>
+<p>Press START button
+The spot image of focus diameter 210 µm will be created.</p>
+</li>
+<li>
+<p>Check the spot image for contamination.
+.Fig. 3‑18</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image335.png" alt="img/image335" width="182" height="185"></span> | |<span class="image"><img src="img/image336.png" alt="img/image336" width="184" height="185"></span> |</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|Good spot image |<span class="image"><img src="img/image337.png" alt="img/image337" width="32" height="28"></span> |Poor spot image |<span class="image"><img src="img/image338.png" alt="img/image338" width="33" height="28"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="16">
+<li>
+<p>Rotate the protective glass by 90°.
+Procedure for
+contamination</p>
+</li>
+<li>
+<p>Create another spot image.</p>
+</li>
+<li>
+<p>If the dirt is at a different point:</p>
+</li>
+<li>
+<p>Clean or replace protective glass.</p>
+</li>
+<li>
+<p>Create another spot image.</p>
+</li>
+<li>
+<p>If there is still contamination:</p>
+</li>
+<li>
+<p>Clean the cutting lens from below.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_centering_the_beam_to_the_nozzle_tapeshot">Centering the beam to the nozzle (Tapeshot)</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The service user level is activated.
+Means, Tools, Materials</p>
+</li>
+<li>
+<p>Measuring magnifier (10 to 20 fold magnification).</p>
+</li>
+<li>
+<p>Adhesive tape (transparent Tesa Film).</p>
+</li>
+<li>
+<p>Permanent felt-tip marker (for example, Edding 400).</p>
+</li>
+<li>
+<p>Allen key 4 mm AF.</p>
+</li>
+<li>
+<p>Allen key 3 mm AF.</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Move the cutting unit to the front.</p>
+</li>
+<li>
+<p>Attach a nozzle (EAA10) to the nozzle holder.</p>
+</li>
+<li>
+<p>Mark directly in front of the nozzle.
+.Fig. 3‑19</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image339.png" alt="img/image339" width="307" height="223"></span></p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Stick adhesive strips without tension over the nozzle orifice.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Do not touch the adhesive strips in the scorching areas toprevent impurities.
+.Fig. 3‑20</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image340.png" alt="img/image340" width="382" height="140"></span> |</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1 Correct |2 Incorrect</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="5">
+<li>
+<p>Select “Controls” in HMI.</p>
+</li>
+<li>
+<p>Click “Nozzle center”.
+.Fig. 3‑21</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image341.png" alt="img/image341" width="382" height="161"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Go with setting:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Focus diameter: 150 µm.</p>
+</li>
+<li>
+<p>Focus position: 0 mm.</p>
+</li>
+<li>
+<p>Power: 1000 Watts.</p>
+</li>
+<li>
+<p>Duration: 0.001 s.</p>
+</li>
+<li>
+<p>Need Vulcan service user level to modify the parameters.</p>
+</li>
+<li>
+<p>If the adhesive strip isn’t burnt through, increase the “Dwell time” appropriately.
+.Fig. 3‑22</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image342.png" alt="img/image342" width="382" height="256"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p>Close the safety door and lock it.</p>
+</li>
+<li>
+<p>Press the START button.</p>
+</li>
+<li>
+<p>Open the safety door.</p>
+</li>
+<li>
+<p>Screw out the nozzle.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If no hole or only one hole can be seen at the very edge of the nozzle orifice despite the laser beam being ignited,then a nozzle with larger diameter must be used.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Check that the hole in the adhesive strip is centered in the nozzle orifice with the aid of measuring magnifier.
+.Fig. 3‑23</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image343.png" alt="img/image343" width="382" height="261"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="13">
+<li>
+<p>If the hole in the adhesive strip is not centered in the nozzle orifice, use the mark made on the nozzle to determine the direction in which the adjustment must be made.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>KL59 and BM111 have the same adjusting direction.
+.Fig. 3‑24</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image344.png" alt="img/image344" width="382" height="260"></span> |</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1 Nozzle orifice |2 Nozzle with marking from below
+|3 Adhesive strip |4 Beam adjustment direction
+|Nr.1 Adjusting screw 1 |Nr.2 Adjusting screw 2</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="14">
+<li>
+<p>Use the adjusting screws to center the beam to the nozzle in the diagonal direction.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>For KL59, one turn of the adjusting screw, shifting the lens by 0.25mm.</p>
+</li>
+<li>
+<p>For KL59, if the adjusting screws are stiff, the screws canbe replaced individually.
+.Fig. 3‑25</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image345.png" alt="img/image345" width="310" height="230"></span> |<span class="image"><img src="img/image346.png" alt="img/image346" width="278" height="230"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|Left: KL59 |Right: BM111
+|1 Adjusting screw 1 |3 Adjusting screw (2x)
+|2 Adjusting screw 2 |</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="15">
+<li>
+<p>Stick a new adhesive strip on the nozzle hole and perform a tapeshot after every adjustment.</p>
+</li>
+<li>
+<p>Repeat this procedure until the hole is centered in relation to the nozzle orifice.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_determining_the_focal_position">Determining the focal position</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The machine is not equipped with “BrightLine fiber” and BM111 has only one focal diameter. With KL59, two focus combs with different focal diameters are cut. With BM111, only one focus comb is cut.
+Difference with different
+cutting unit
+Conditions
+* The protective glass has been checked and replaced, if nec-essary (see “<a href="#checking-and-cleaning-protective-glass-kl59">Checking and cleaning protective glass (KL59)</a>”,pg. xxx).
+* Nozzle centering has been checked and set, if necessary (see “<a href="#centering-the-beam-to-the-nozzle-tapeshot">Centering the beam to the nozzle (Tapeshot)</a>”, pg. xxx).
+* The service user level is active.
+Means, Tools, Materials
+* Mild or stainless-steel sheet, sheet thickness 1 mm.
+* Feeler gauge.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select “Controls” in HMI.
+Cutting focusing comb</p>
+</li>
+<li>
+<p>Press “Focus Comb”.
+.Fig. 3‑26</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image347.png" alt="img/image347" width="382" height="223"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Select 150µm for the “Focus Diameter”.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>With KL59, another focus comb of focus diameter 210µm needs to cut later.</p>
+</li>
+<li>
+<p>With BM111, select “EFocusDiameter.TwoHundred” for the “Focus Diameter”.</p>
+</li>
+<li>
+<p>The technology will be chosen automatically according to the focus diameter.
+.Fig. 3‑27</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image348.png" alt="img/image348" width="382" height="183"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Apply the appropriate nozzle according to the technology.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>KL59: EAA23.</p>
+</li>
+<li>
+<p>BM111: size 2.0.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Place a 1 mm thick sheet on the pallet (according to the technology).</p>
+</li>
+<li>
+<p>Select “Setup” &gt; “work offset” to set work offset:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>“Positioning diode” to start cutting the reference part at the positioning diode.</p>
+</li>
+<li>
+<p>“Nozzle center” to start cutting the reference part at the center of the nozzle.
+.Fig. 3‑28</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image349.png" alt="img/image349" width="382" height="202"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Back to the program “Focus comb”.</p>
+</li>
+<li>
+<p>Close the safety door and lock it.</p>
+</li>
+<li>
+<p>Make sure the laser is standby.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Standby button on control panel is illuminated.</p>
+</li>
+<li>
+<p>Laser icon in the bottom-right corner of HMI is active.
+.Fig. 3‑29</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image333.png" alt="img/image333" width="288" height="173"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="10">
+<li>
+<p>Press the START button.
+The focus comb will be cut.</p>
+</li>
+<li>
+<p>Repeat the above step to cut the focus comb with focal diameter 210 µm.</p>
+</li>
+<li>
+<p>Determine the smallest kerf “K” (= focus position) in the focuscomb:
+Determining the focus
+position and entering
+offset</p>
+<div class="ulist">
+<ul>
+<li>
+<p>With the suitable feeler gauge (e.g., 0.25 mm), starting from the left and right, respectively, check every individual kerf.</p>
+</li>
+<li>
+<p>Mark the kerf where the feeler gauge sticks on both left and right sides.
+.Fig. 3‑30</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image350.png" alt="img/image350" width="370" height="175"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="13">
+<li>
+<p>Calculate the focus shift and enter it under “Focus Shift1”.
+<strong>Example</strong>: Old focus shift A mm, smallest kerf K mm.
+Focus shift = A + K.
+.Fig. 3‑31</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image351.png" alt="img/image351" width="382" height="166"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If the values are outside the tolerance specified bellow, the cutting unit may need to be replaced in coordination with the service department or according to the “Checklist for replacing the cutting unit”.
+Machine with KL59, TruFiber Laser
+.Focal position tolerances Tab. 3‑21</p>
+<div class="paragraph">
+<p>|<strong>150 µm</strong> |<strong>210 µm</strong>
+|-3.0/ +3.0 mm |-3.0/ +3.0 mm
+|Max. difference between two focal position 3 mm |
+Machine with BM111, TruFiber Laser
+.Focal position tolerances Tab. 3‑22</p>
+</div>
+<div class="paragraph">
+<p>|<strong>200 µm</strong>
+|-4.0 / +4.0 mm</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_checking_and_cleaning_protective_glass_kl59">Checking and cleaning protective glass (KL59)</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The straight protective glass is monitored by scattered light.
+The exact procedure for cleaning and replacing the protective glass can be seen in the following YouTube video:
+Protective glass cleaning
+on YouTube</p>
+</li>
+<li>
+<p>Link DE: <a href="https://youtu.be/mQ9w2L14ZUk" class="bare">https://youtu.be/mQ9w2L14ZUk</a></p>
+</li>
+<li>
+<p>Link EN: <a href="https://youtu.be/s02bY8pHito" class="bare">https://youtu.be/s02bY8pHito</a>
+.QR codes for the videos on YouTube Fig. 3‑32</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image352.png" alt="img/image352" width="403" height="209"></span></p>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Condition
+* Service user level in Vulcan system is activated.
+Means, Tools, Materials
+* Cleaning kit, mat. no. 1675885.
+* LED lamp, mat. no. 1632115.
+* Allen key 3 mm AF.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select “Controls” in HMI.
+Checking the straight
+protective glass</p>
+</li>
+<li>
+<p>Press “Lumi measure”.
+.Fig. 3‑33</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image353.png" alt="img/image353" width="382" height="192"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image10.png" alt="img/image10" width="192" height="34"></span> a|</p>
+</div>
+<div class="paragraph">
+<p><strong>Destruction of components by reflected laser radiation!</strong>
+* Do not place any sheet metal under the measuring position.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Go with default settings or modify the measuring position if the sheet metal is on the pallet.
+.Fig. 3‑34</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image354.png" alt="img/image354" width="382" height="189"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Select whether new protective glass has been installed.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Offline: old protective glass.</p>
+</li>
+<li>
+<p>Reference: new installed protective glass.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Press START button.</p>
+</li>
+<li>
+<p>Depending on the result, clean or replace the protective glass.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>80%-90%: clean.</p>
+</li>
+<li>
+<p>&lt; 80%: replace.
+.Fig. 3‑35</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image355.png" alt="img/image355" width="382" height="277"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Undo the knurled nut using the hook wrench and unscrew it completely.
+Removing the protective
+.Fig. 3‑36</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image356.png" alt="img/image356" width="288" height="396"></span> |</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1 Protective glass |2 Knurled nut with groove for hook wrench
+|3 Nozzle |4 Air blast nozzle</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image10.png" alt="img/image10" width="192" height="34"></span> a|</p>
+</div>
+<div class="paragraph">
+<p><strong>Protective glass is only laid on.</strong>
+<strong>The protective glass may fall down.</strong>
+* Pull out the cartridge downwards without tilting it.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p>Pull out the cartridge with the straight protective glass carefully downwards and out of the cutting unit and set it down.</p>
+</li>
+<li>
+<p>Pull on fingers covers onto the thumb and index finger. The protective glass must not be exposed to skin contact.</p>
+</li>
+<li>
+<p>Seal the opening of the cutting head with green adhesive tape from the cleaning set.</p>
+</li>
+<li>
+<p>Set down protective glass in cleaning device.
+Clean the protective glass
+.Fig. 3‑37</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image357.png" alt="img/image357" width="364" height="253"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1- Bore for swabs</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="12">
+<li>
+<p>Place the flashlight in the cleaning device and switch it on.</p>
+</li>
+<li>
+<p>Remove loose dirt with a bellows.
+|<span class="image"><img src="img/image10.png" alt="img/image10" width="192" height="34"></span> a|</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Scratches in the protective glass due to soiled swabs.</strong>
+* Insert the swab in the hole in the cleaning fixture that is intended for this purpose.
+* Dispose of the swab after use.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="14">
+<li>
+<p>Drip methanol on to the swab. Shake out excess methanol.
+.Drip methanol over the swab Fig. 3‑38</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image358.png" alt="img/image358" width="364" height="249"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="15">
+<li>
+<p>Remove coarse dirt by rubbing with the moistened swab.
+.Cleaning the protective glass with the swab Fig. 3‑39</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image359.png" alt="img/image359" width="379" height="334"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image10.png" alt="img/image10" width="192" height="34"></span> a|</p>
+</div>
+<div class="paragraph">
+<p><strong>Protective glass contaminated by deposits.</strong>
+* Do not deposit swabs on the protective glass.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="16">
+<li>
+<p>Remove fine contamination with the flat side of the swab by evenly and slowly drawing it across the surface from one edge to the other.</p>
+</li>
+<li>
+<p>Wipe the swab slowly over the protective glass once more to remove the methanol haze.</p>
+</li>
+<li>
+<p>Turn the protective glass over and clean the rear side as described above.</p>
+</li>
+<li>
+<p>Clean the sealing surface, the inside and outside of the cartridge with the swab while it is still wet.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The swab may not be used to clean the protective glass again.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Dispose of the swab.</p>
+</li>
+<li>
+<p>Insert the protective glass into the cartridge. Make sure that the O-ring the protective glass rest on is present and not damaged.
+|<span class="image"><img src="img/image10.png" alt="img/image10" width="192" height="34"></span> a|</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Damage to the protective glass possible.</strong>
+* Make sure that the protective glass does not collide with the housing of the cutting head.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="22">
+<li>
+<p>Insert the cartridge and tighten the knurled nut with the hook wrench, until the arrow is exactly below the lock symbol.
+.Arrow marking in the cutting unit Fig. 3‑40</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image360.png" alt="img/image360" width="379" height="247"></span> |</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1- Lock symbol |2- Arrow</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="23">
+<li>
+<p>If the contamination cannot be completely removed, replace the straight protective glass.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_checking_and_cleaning_protective_glass_bm111">Checking and cleaning protective glass (BM111)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Need to discuss with the R&amp;D guys and SCC</p>
+</div>
+</div>
+</div>

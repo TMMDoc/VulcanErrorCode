@@ -1,0 +1,613 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_basic_information">Basic information</a></li>
+<li><a href="#_back_uprestore_inovance_drive_data">Back up/Restore Inovance drive data</a></li>
+<li><a href="#_replacing_inovance_drive">Replacing Inovance drive</a></li>
+<li><a href="#_replacing_the_battery_of_inovance_drive">Replacing the battery of Inovance drive</a></li>
+<li><a href="#_reset_error_message_e731_0_of_inovance_drive">Reset error message E731.0 of Inovance drive</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_basic_information">Basic information</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Obtain the user manual
+<strong>Or</strong> scan QR code on the product.
+Terminals of servo drive
+.Fig. 5‑53</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image663.png" alt="img/image663" width="336" height="339"></span></p>
+</div>
+<div class="paragraph">
+<div class="title">Tab. 5‑25</div>
+<p>|<strong>No.</strong> |<strong>Name</strong> |<strong>Description</strong>
+|1 |LED display |Used to display servo drive operation states and parameter settings.
+|2 |Buttons a|
+MODE: Used to switch the parameter in sequence.
+: Used to increase the set value of the blinking digt.
+: Used to decrease the set value of the blinking digt.
+: Used to shift the blinking digit leftwards.
+(hold on: Used to turn to the next page when the display value is comprised of more than five digits.)
+SET: Used to save modifications and enter the next level of menu.
+Charge
+(bus voltage indicator)
+Used to indicate that the bus capacitor carries electric charge.
+When this indicator lights up, electric charge may be still present in the internal capacitor of the servo drive even if the main circuit power supply if cut off.
+Do not touch the power terminals when this indicator lights up.
+|4 |L1C, L2C |Control circuit power input terminals.
+|5 |R, S, T |Main circuit power input terminals.
+P, D, C
+(terminals for connecting external brake resistor)
+|Before Connecting the brake resistor between P and C as needed, remove the jumper between terminals P and D.
+| |P, N (DC bus terminals) |Used as the common DC bus for multiple servo drives.
+|7 |U, V, W |Terminals for connecting the servo motor.
+|8 |PE |Connected to the motor grounding terminal.
+|9 |Battery location |/
+|10 a|
+CN3, CN4
+(EtherCAT terminal)
+CN3 (IN): Connected to the master or the last slave.
+CN4 (OUT): Connected to the next slave.
+|11 |CN6 (STO terminal) |Connected to the external safety signal.
+|12 |CN5 |Software tool communication terminal.
+|13 |CN1 |I/O interface.
+|14 |CN2 |Encoder interface.
+|15 |PE |Connected to the power supply grounding terminal.
+Parameter settings can be performed through the keypad. For details on parameters, please see the “SV660N Series Servo User Manual_EN”. The following figure shows how to change from position control mode after the power supply is switched on.
+Parameter settings
+.Procedure for parameter setting Fig. 5‑54</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image664.png" alt="img/image664" width="403" height="217"></span></p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="img/image665.png" alt="img/image665" width="132" height="19"></span> Click to install the commissioning software “InoDriverShop”.</p>
+</div>
+<div class="paragraph">
+<p>Commissioning software
+“InoDriverShop” can be used to do the commissioning and operation for the servo drive (e.g., parameter setting).
+It records only the single-turn position.
+Descriptions for the
+Incremental Encoder
+System (X)
+* No battery needed, no battery fault or multi-turn fault.
+It records not only the single-turn position, but also the number of revolutions.
+Descriptions for the
+Absolute Encoder System
+* Battery needed, indications of battery fault E730.0, multi-turncounting error and overflow fault available.
+* When the servo drive is powered off, the encoder performs data backup using the power supplied by the battery. The servo drive therefore can calculate the absolute mechanical position through the encoder after power-on.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_back_uprestore_inovance_drive_data">Back up/Restore Inovance drive data</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Means, Tools, Materials
+* USB to RS232 converter cable, mat. no. 385230.
+* RS232 to RJ45 converter cable, mat. no. 359401.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Connect your laptop to the respective X1/X2/Y/Z axis drive with communication cable by the port “CN5”.
+Connect InoDriveShop to
+Inovance drive
+.Fig. 5‑55</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image621.png" alt="img/image621" width="313" height="288"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p>Check the COM port of the communication cable in device manager on your laptop.
+.Fig. 5‑56</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image622.png" alt="img/image622" width="382" height="189"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Run software “InoDriveShop” on your laptop.</p>
+</li>
+<li>
+<p>Select “New project”.</p>
+</li>
+<li>
+<p>Choose “SV660N Series” and select the corresponding COMport as checked in device manager.</p>
+</li>
+<li>
+<p>Click “Next page”.
+.Fig. 5‑57</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image623.png" alt="img/image623" width="624" height="352"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Click “Begin Scan” and wait unit the connected drive module being found.</p>
+</li>
+<li>
+<p>Put a check mark on the target drive module and click “Finish”.
+.Fig. 5‑58</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image624.png" alt="img/image624" width="382" height="276"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="9">
+<li>
+<p>Double click on “Multi-machine parameter management”.
+Back up Inovance drive</p>
+</li>
+<li>
+<p>Select “Export to recipe” and confirm query with “Yes”.
+.Export to recipe Fig. 5‑59</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image625.png" alt="img/image625" width="624" height="320"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="11">
+<li>
+<p>Wait unit the transmission is done.</p>
+</li>
+<li>
+<p>Acknowledge the error message by clicking “OK”.
+.Fig. 5‑60</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image626.png" alt="img/image626" width="379" height="196"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="13">
+<li>
+<p>Name the backup data and save it on your laptop.</p>
+</li>
+<li>
+<p>Go to “InoDriverShop” home page.
+Restore Inovance drive</p>
+</li>
+<li>
+<p>Double click “Multi-machine parameter management”.</p>
+</li>
+<li>
+<p>Select “Import recipe file”.
+.Fig. 5‑61</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image627.png" alt="img/image627" width="382" height="153"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="17">
+<li>
+<p>Select the corresponding Inovance drive data.
+.Fig. 5‑62</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image628.png" alt="img/image628" width="382" height="215"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="18">
+<li>
+<p>Confirm with “Yes”.</p>
+</li>
+<li>
+<p>Acknowledge the pop-up window about restoring parameter by clicking “OK”.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>It’s normal that some system parameters or specific parameters fail to be written.
+.Fig. 5‑63</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image626.png" alt="img/image626" width="382" height="197"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="20">
+<li>
+<p>Import parameters successfully.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>In case that some parameters are unexpectedly lost, please double check the following parameters.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>In “Work Space”, select “SV660N” and double click on “Param List”.
+.Fig. 5‑64</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image629.png" alt="img/image629" width="382" height="267"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="22">
+<li>
+<p>Check “H08” &gt; “H08-19” (Speed feedforward gain).
+Check parameter H08-19
+Setting value: 100.
+.Fig. 5‑65</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image630.png" alt="img/image630" width="382" height="212"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>If the value is 100, the following step 23 to 28 can be skipped.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Find the parameter “H9-00”, change the setting value to1 (enabled).
+.Fig. 5‑66</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image631.png" alt="img/image631" width="624" height="270"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="24">
+<li>
+<p>Right click on the item just modified and choose “Download the selected items” to save the parameters.
+.Fig. 5‑67</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image632.png" alt="img/image632" width="382" height="155"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="25">
+<li>
+<p>Set “H08-19” (Speed feedforward gain) to 100.</p>
+</li>
+<li>
+<p>Right click on it to download the selected items.</p>
+</li>
+<li>
+<p>Set “H09-00” back to “0” (Disabled).</p>
+</li>
+<li>
+<p>Right click on it to download the selected items.</p>
+</li>
+<li>
+<p>Check “H08” &gt; “H08-00” (Speed loop gain).
+Check parameter H08-00</p>
+<div class="ulist">
+<ul>
+<li>
+<p>X1/X2 drive: 140.</p>
+</li>
+<li>
+<p>Y/Z drive: 170.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>If not, set the “H08-00” and right click on it to download the selected items.</p>
+</li>
+<li>
+<p>Check “H07” &gt; “H07-26” (Flux weakening selection).
+Check parameter H07-26
+Setting value: 1.
+.Fig. 5‑68</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image633.png" alt="img/image633" width="624" height="270"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="32">
+<li>
+<p>If not, change it to 1.</p>
+</li>
+<li>
+<p>Right click on the parameter to choose “Download the selected items”.</p>
+</li>
+<li>
+<p>Switch the main switch off and then switch the machine on again.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_replacing_inovance_drive">Replacing Inovance drive</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Means, Tools, Materials
+* USB to RS232 converter cable, mat. no. 385230.
+* RS232 to RJ45 converter cable, mat. no. 359401.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Switch off the machine and secure it being switched on again.</p>
+</li>
+<li>
+<p>Disconnect all the cables for the target Inovance drive.
+.Fig. 5‑69</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image666.png" alt="img/image666" width="192" height="327"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Remove the servo drive from the switch cabinet.</p>
+</li>
+<li>
+<p>Install the new servo drive by screws.
+.Example Fig. 5‑70</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image667.png" alt="img/image667" width="240" height="346"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Tab. 5‑30</div>
+<p>|<span class="image"><img src="img/image668.png" alt="img/image668" width="24" height="20"></span> <strong>CAUTION</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Do not run a damaged or defective device. Failure to comply may result in device faults or damage.</p>
+</li>
+<li>
+<p>Do not install the device in an environment exposed to water or corrosive objects. Failure to comply will result in device faults.</p>
+</li>
+<li>
+<p>Do not install the device near flammable gases or combustible materials. Failure to comply will result in a fire or electric shock.</p>
+</li>
+<li>
+<p>Install the device inside a fire-proof cabinet with electrical protections. Failure to comply will result in a fire.</p>
+</li>
+<li>
+<p>Ensure the specified clearances are reserved among the servo drive, the interior surface of the electric cabinet, and other machines. Failure to comply will result in a fire or device faults.</p>
+</li>
+<li>
+<p>Do not put heavy objects on the device. Failure to comply may result in physical injuries or device manage.</p>
+</li>
+<li>
+<p>Do not exert large impact force on the device. Failure to comply may result in device damage.</p>
+</li>
+<li>
+<p>Do not block the air inlet/outlet port of the servo drive or allow unwanted matters to fall into the device. Failure to comply may result in a fire or device faults.</p>
+<div class="olist arabic">
+<ol class="arabic" start="5">
+<li>
+<p>Connect cables to the new servo drive according to the label.</p>
+</li>
+<li>
+<p>Check cable connections, especially the grounding cable.</p>
+</li>
+<li>
+<p>Connect the new servo drive to the laptop.</p>
+</li>
+<li>
+<p>Restore the Inovance drive data (see “<a href="#back-uprestore-inovance-drive-data-1">Back up/Restore Inov-ance drive data</a>”, pg. xxx).</p>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_replacing_the_battery_of_inovance_drive">Replacing the battery of Inovance drive</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Condition
+* The machine is switched on.</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image2.png" alt="img/image2" width="192" height="33"></span> a|</p>
+</div>
+<div class="paragraph">
+<p><strong>Switch without the finger protection cover.</strong>
+<strong>Risk of electric shock!</strong>
+* Don’t touch the power supply cable connector.</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image2.png" alt="img/image2" width="192" height="33"></span> a|</p>
+</div>
+<div class="paragraph">
+<p><strong>Battery mistreated.</strong>
+<strong>Risk of explosion!</strong>
+* Do not recharge, disassemble, or dispose of battery in fire.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open the safety door.
+Replace the battery</p>
+</li>
+<li>
+<p>Remove the battery box at the bottom of the drive.
+.Fig. 5‑71</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image669.png" alt="img/image669" width="382" height="269"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Replace the battery (3.6 V/2600 mAh).</p>
+<div class="ulist">
+<ul>
+<li>
+<p>It is recommended to replace the battery every two years.The battery may have leakage liquids after a long-time use.</p>
+</li>
+<li>
+<p>Dispose of the retired battery according to the local regulations.
+.Fig. 5‑72</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image670.png" alt="img/image670" width="382" height="261"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Install the battery box back to the drive.</p>
+</li>
+<li>
+<p>The warning E730.0 will be cleared automatically.</p>
+</li>
+<li>
+<p></p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_reset_error_message_e731_0_of_inovance_drive">Reset error message E731.0 of Inovance drive</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Once the encoder cable is connected and the machine is switch- ed on, error E731.0 would be reported and we need to reset the error message.
+Means, Tools, Materials
+* USB to RS232 converter cable, mat. no. 385230.
+* RS232 to RJ45 converter cable, mat. no. 359401.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Connect your laptop to the respective Y/Z axis drive with communication cable by the port “CN5”.
+Connect InoDriveShop to
+Y/Z axis drive
+.Fig. 5‑73</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image621.png" alt="img/image621" width="288" height="264"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p>Check the COM port of the communication cable in device manager on your laptop.
+.Fig. 5‑74</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image622.png" alt="img/image622" width="382" height="189"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Run software “InoDriveShop” on your laptop.</p>
+</li>
+<li>
+<p>Select “New project”.</p>
+</li>
+<li>
+<p>Choose “SV660N Series” and select the corresponding COMport as checked in device manager.</p>
+</li>
+<li>
+<p>Click “Next page”.
+.Fig. 5‑75</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image623.png" alt="img/image623" width="624" height="352"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Click “Begin Scan” and wait unit the connected drive module being found.</p>
+</li>
+<li>
+<p>Put a check mark on the target drive module and click “Finish”.
+.Fig. 5‑76</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image624.png" alt="img/image624" width="382" height="276"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="9">
+<li>
+<p>In Work Space column, select “SV660N” and double click on “Param List”.
+Reset Y&amp;Z axis encoder
+faults</p>
+</li>
+<li>
+<p>Select “H0D [Auxiliary function parameters]”.</p>
+</li>
+<li>
+<p>Find “H0D-20 [Absolute encoder reset selection]”, set the value to 1 [Reset encoder faults].
+.Fig. 5‑77</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image671.png" alt="img/image671" width="624" height="233"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="12">
+<li>
+<p>Right click on the item just modified and choose “Download the selected items”.
+.Fig. 5‑78</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image672.png" alt="img/image672" width="624" height="220"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="13">
+<li>
+<p>Switch the main switch off and then switch the machine back on again.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>

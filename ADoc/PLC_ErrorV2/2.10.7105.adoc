@@ -1,16 +1,0 @@
-= 2.10.7105 Precitec - Sensor Insert Temperature Exceeded
-:imagesdir: img
-
-== Description
-Precitec - Sensor Insert Temperature Exceeded
-
-== CausePrecitec Warning messages
- 
-
-== Action
- 
-
-== Effect
- 
-
-

@@ -1,16 +1,0 @@
-= 2.10.801 Oil Lubrication End
-:imagesdir: img
-
-== Description
-Oil Lubrication End
-
-== CauseMessage to indicate a situation 
- 
-
-== Action
- 
-
-== Effect
- 
-
-

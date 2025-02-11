@@ -1,0 +1,178 @@
+
+= Exhaust system
+
+
+== Replacing cylinders and flaps of the suction channel
+
+* The machine is switched off and secured against restarting.
+* Both pallets are in the pallet changer.
+* The motion unit is at the max. X position.
+Means, Tools, Materials
+* Circlip plier.
+* Standard tool set, mat.no. 0135600.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Risk of squeezing and crushing!*
+*Hand injuries.*
+* Observe safety information of the manufacturer of the suction channel and suction system.
+* Wear personal protective equipment.
+[arabic]
+. Close the customer’s compressed air supply.
+Preparation work
+[arabic, start=2]
+. Bleed the compressed air manually by rotating the FESTO switch valve.
+.Bleed the compressed air Fig. 4‑200
+[width="100%",cols="100%",options="header",]
+|image:img/image6.png[img/image6,width=382,height=310]
+
+[arabic, start=3]
+. Remove the complete set of bulkheads.
+. In the respective section, unfold the cover sheet forward.
+Replace cylinder and flaps
+of suction channel (S02)
+.Fig. 4‑201
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image600.png[img/image600,width=382,height=254] |
+
+|1 Grid |2 Foldable protective plate
+[arabic, start=5]
+. Pull out the 2x circlips and push the axis out laterally.
+.Fig. 4‑202
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image601.png[img/image601,width=307,height=235] |image:img/image602.png[img/image602,width=307,height=238]
+
+[arabic, start=6]
+. Remove the screw on the cover sheets on both sides.
+.Fig. 4‑203
+[width="100%",cols="100%",options="header",]
+|image:img/image603.png[img/image603,width=382,height=269]
+
+[arabic, start=7]
+. Turn the connecting pin of the fork end and remove it.
+.Fig. 4‑204
+[width="100%",cols="100%",options="header",]
+|image:img/image604.png[img/image604,width=382,height=272]
+
+[arabic, start=8]
+. Disconnect the two pneumatic hoses and if necessary, make a mark.
+.Fig. 4‑205
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image605.png[img/image605,width=382,height=263] |
+
+|1 Lock nut |2 Groove of piston rod
+|3 Pneumatic connector |
+[arabic, start=9]
+. With the first open-end wrench, hold the groove of the piston rod of the cylinder, and with the second open-end wrench, loosen the lock nut.
+. Disconnect the piston rod of the cylinder by turning the fork head.
+.Fig. 4‑206
+[width="100%",cols="100%",options="header",]
+|image:img/image606.png[img/image606,width=382,height=246]
+
+[arabic, start=11]
+. Remove the circlip from the mounting axis of the cylinder andpull the axis out laterally.
+.Fig. 4‑207
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image607.png[img/image607,width=382,height=275] |
+
+|1 Circlip |2 Mounting axis
+[arabic, start=12]
+. Take out the cylinder.
+. To install a new cylinder: perform the removal steps of the cylinder in the reverse order.
+. If the flap is defective or deformed, screw the screws out of the flap bolt and remove the flap.
+.Fig. 4‑208
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image608.png[img/image608,width=382,height=240] |
+
+|1 Flap |2 Screws, flap bolt
+|3 Screws, flap stop |
+[arabic, start=15]
+. Mount a new flap: perform the removal steps in the reverse order.
+* The flap must have contact with the flap stop when it is closed.
+* Make the flap system leak-tight to achieve the optimal suction power.
+[arabic, start=16]
+. If there is an air gap between the flap and flap stop, the lock nut is loosened and the piston rod is turned in the desired direction.
+. In the respective section, dismount the protective covers overlapping the cover sheets.
+Replace cylinder and flaps
+of suction channel (S01)
+.Remove protective cover Fig. 4‑209
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image609.png[img/image609,width=382,height=277] |
+
+|1 Protective cover |2 Grid
+|3 Cover sheet, cylinder |
+[arabic, start=18]
+. Remove the cover sheet by loosening screws (4x).
+. Lift the grid upwards and remove it.
+.Fig. 4‑210
+[width="100%",cols="100%",options="header",]
+|image:img/image610.png[img/image610,width=382,height=233]
+
+[arabic, start=20]
+. Turn the connecting pin of the rod fork end and remove it.
+.Fig. 4‑211
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image611.png[img/image611,width=382,height=265] |
+
+|1 Connecting pin |2 Rod fork end
+[arabic, start=21]
+. Disconnect the two pneumatic hoses.
+. Loosen the screws (3x) to dismantle the cylinder mounting plate.
+.Example (with pneumatic hoses and connecting pin) Fig. 4‑212
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image612.png[img/image612,width=382,height=256] |
+
+|1 Groove, piston rod |2 Lock nut
+[arabic, start=23]
+. With the first open-end wrench holding the groove of the piston rod of the cylinder, and with the second open-end wrench, loosen the lock nut.
+. Dismount the cylinder from the mounting plate.
+. To install a new cylinder: perform the removal steps of the cylinder in the reverse order.
+. If the flap is defective or deformed, screw the screws out of the flap bolt and remove the flap.
+.Fig. 4‑213
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image613.png[img/image613,width=382,height=199] |
+
+|1 Screws, flap bolt |2 Flap
+|3 Screws, flap stop |
+[arabic, start=27]
+. Mount a new flap: perform the removal steps in the reverse order.
+* The flap must have contact with the flap stop when it is closed.
+* Make the flap system leak-tight to achieve the optimal suction power.
+[arabic, start=28]
+. If there is an air gap between the flap and flap stop, the lock nut is loosened and the piston rod is turned in the desired direction.
+. Move both pallets into the pallet changer.
+Suction channel function
+[arabic, start=30]
+. Move the X axis to the maximum X position.
+. In the switch cabinet, turn the current limit key switch to the right position.
+.Fig. 4‑214
+[width="100%",cols="100%",options="header",]
+|image:img/image492.png[img/image492,width=382,height=268]
+
+[arabic, start=32]
+. Acknowledge the service key is active at the bottom-left of HMI.
+.Fig. 4‑215
+[width="100%",cols="100%",options="header",]
+|image:img/image493.png[img/image493,width=382,height=112]
+
+[arabic, start=33]
+. Press the wrench icon and select “PField Parameter” in HMI.
+.Fig. 4‑216
+[width="100%",cols="100%",options="header",]
+|image:img/image614.png[img/image614,width=382,height=150]
+
+[arabic, start=34]
+. Select “Consecutive” and enter 1980 under “PField index”.
+.Fig. 4‑217
+[width="100%",cols="100%",options="header",]
+|image:img/image615.png[img/image615,width=382,height=192]
+
+[arabic, start=35]
+. Control the flaps one after the other.
+* Value 1 means: First flap is open (if the value is increased by one, the next flap opens, etc.).
+* Value 99 means: All flaps are open.
+[arabic, start=36]
+. Check all the flaps in the work area for correct function (check tight closing) and adjust flaps if necessary.
+* If a flap does not work: check pneumatic and/or electrical components (valve terminal or hose system, etc.).
+[arabic, start=37]
+. In the switch cabinet, turn the current limit key switch to the left.

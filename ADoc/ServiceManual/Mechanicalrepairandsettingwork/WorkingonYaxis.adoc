@@ -1,0 +1,565 @@
+
+= Working on Y axis
+
+
+== Replacing the Y axis motor and gearbox
+
+* The machine’s main switch is switched off and secured against being switched on again .
+Means, Tools, Materials
+* Standard tool set, mat. no. 0135600.
+* Adjustable hook wrench 35-60 mm, mat. no. 2014343.
+Or hook wrench, mat. no.1655965.
+* Torque wrench, 20-120 Nm.
+* Torque wrench, 2.5-22.5 Nm.
+* If possible, disconnect coupling between engine and gearbox to remove both components separately.
+[arabic]
+. Remove the front covers of the cutting unit.
+Removing the Y axis motor
+and gear box
+.Front covers of cutting unit Fig. 4‑49
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image431.png[img/image431,width=287,height=249] |image:img/image432.png[img/image432,width=311,height=249]
+
+[arabic, start=2]
+. Remove the bellows.
+. Disconnect the power cable and encoder cable from the motor.
+.Cables on Y motor Fig. 4‑50
+[width="100%",cols="100%",options="header",]
+|image:img/image473.png[img/image473,width=382,height=286]
+
+[arabic, start=4]
+. Remove the gearbox screw plug.
+.Fig. 4‑51
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image474.png[img/image474,width=382,height=237] |
+
+|1 Motor screws (4x) |2 Screw plug
+[arabic, start=5]
+. Remove the grease distributor with the bracket.
+.Grease distributor Fig. 4‑52
+[width="100%",cols="100%",options="header",]
+|image:img/image475.png[img/image475,width=382,height=286]
+
+[arabic, start=6]
+. Push the Y slide so that the clamping screws of the coupling is accessible.
+.Clamping screw Fig. 4‑53
+[width="100%",cols="100%",options="header",]
+|image:img/image476.png[img/image476,width=382,height=232]
+
+[arabic, start=7]
+. Loosen the coupling clamping screws.
+. Remove 4x motor screws (see “Fig. 4-50”, pg.xxx).
+. Remove the motor.
+. Loosen two long screws on the adjustment mechanism.
+.Fig. 4‑54
+[width="100%",cols="100%",options="header",]
+|image:img/image477.png[img/image477,width=382,height=242]
+
+|1 Long screws (2x), adjustment mechanism
+|2 Gearbox screws (4x)
+|3 Flange mount screws (4x), already removed
+[arabic, start=11]
+. Remove 4x flange mount screws with washers.
+. Remove the gearbox with the flange mount.
+. Remove the gearbox from the flange mount.
+. Clean the support areas on the Y slide, gearbox and motor.
+Installing Y axis gearbox
+and motor
+[arabic, start=15]
+. Find the marking for the highest point on Y rack.
+.Fig. 4‑55
+[width="100%",cols="100%",options="header",]
+|image:img/image478.png[img/image478,width=382,height=248]
+
+[arabic, start=16]
+. Starting from this marking, measure 110 mm in the direction of Y- and make another marking there on the Y rack using a permanent marker.
+. Push the Y slide until its right edge is flush with the new marking.
+.Fig. 4‑56
+[width="100%",cols="100%",options="header",]
+|image:img/image479.png[img/image479,width=382,height=258]
+
+[arabic, start=18]
+. Install the new gearbox to the flange mount with Loctite 243.
+* Torque requirement: 17 Nm.
+.Fig. 4‑57
+[width="100%",cols="100%",options="header",]
+|image:img/image480.png[img/image480,width=382,height=282]
+
+[arabic, start=19]
+. Turn the pinion so that the marking faces upward and the hole for clamping screw on the right.
+.Fig. 4‑58
+[width="100%",cols="100%",options="header",]
+|image:img/image481.png[img/image481,width=382,height=257]
+
+[arabic, start=20]
+. Insert the gearbox into the Y slide without turning the pinion.
+* The housing opening must point to the right (Y=0).
+.Fig. 4‑59
+[width="100%",cols="100%",options="header",]
+|image:img/image482.png[img/image482,width=382,height=277]
+
+[arabic, start=21]
+. Insert 4x flange mount screws using Loctite 243, but do not yet tighten.
+. Press the gearbox against the rack and tighten the screws to30 Nm.
+.Fig. 4‑60
+[width="100%",cols="100%",options="header",]
+|image:img/image483.jpg[img/image483,width=382,height=286]
+
+[arabic, start=23]
+. Push the Y slide so that the clamping screw of the coupling is accessible.
+. Remove the flat key on the shaft of new motor with the help of M3 screw.
+. Insert motor:
+* Align the keyway to the groove of coupling.
+* Motor cable interface must point to left (Y+).
+.Fig. 4‑61
+[width="100%",cols="100%",options="header",]
+|image:img/image484.png[img/image484,width=382,height=263]
+
+[arabic, start=26]
+. Insert 4x motor screws with Loctite 243 and tighten to 36 Nm.
+. Tighten the coupling clamping screw to 35 Nm.
+. Screw in and tighten the screw plug.
+. Place the two wedge block.
+.Fig. 4‑62
+[width="100%",cols="100%",options="header",]
+|image:img/image485.png[img/image485,width=382,height=284]
+
+[arabic, start=30]
+. Tighten the two long screws above the wedge block without two much force.
+. Fit the grease distributor with bracket.
+. Plug the power cable and encoder cable into the motor and tighten with the hook wrench.
+.Fig. 4‑63
+[width="100%",cols="100%",options="header",]
+|image:img/image486.png[img/image486,width=382,height=250]
+
+[arabic, start=33]
+. Further work:
+* Reset error message E731.0 of the Inovance drive. (see “link:#reset-error-message-e731.0-of-inovance-drive[Reset error message E731.0 of Inovance drive]”, pg. xxx)
+* Check and set the Y axis backlash. (see “link:#checking-and-setting-the-y-axis-backlash[Checking and setting the Y axis backlash]”, pg. xxx)
+* Check and set the Y axis reference point offset value andfixed stops of the Y axis. (see “link:#checking-and-setting-the-y-axis-reference-point-offset-value[Checking and setting the Y axis reference point off-set value]”, pg. xxx)
+* Set the Y axis limit switch. (see “link:#checking-and-setting-the-y-axis-limit-switch[Checking and setting the Y axis limit switch]”, pg. xxx)
+
+== Checking and setting the Y axis backlash
+
+Condition
+* Machine is switched on and ready for operation.
+Means, Tools, Material
+* Standard tool set, mat. no. 0135600.
+* Dial gauge 1/1000 with magnetic support, mat. no. 0002419.
+* Bluetooth dial gauge, mat. no. 2369502.
+* Permanent marker.
+* Ruler or measuring tape.
+[arabic]
+. Release the bellows on the left and right of the Y slide and push them to the side.
+. Find the marking for the highest point on Y rack.
+.Fig. 4‑64
+[width="100%",cols="100%",options="header",]
+|image:img/image478.png[img/image478,width=382,height=248]
+
+[arabic, start=3]
+. Starting from this marking, measure 110 mm in the direction of Y- and make another marking there on the Y rack using a permanent marker.
+. Push the Y slide until its right edge is flush with the new marking.
+.Fig. 4‑65
+[width="100%",cols="100%",options="header",]
+|image:img/image479.png[img/image479,width=382,height=258]
+
+* Check the backlash either with the help of current limit key switch or using the Bluetooth dial gauge.
+[arabic, start=5]
+. Remove the side enclosure.
+Check the backlash
+[arabic, start=6]
+. Remove the Y axis bellow mounting bracket.
+.Fig. 4‑66
+[width="100%",cols="100%",options="header",]
+|image:img/image487.png[img/image487,width=382,height=284]
+
+[arabic, start=7]
+. Remove the Y axis bellow supporting bar.
+.Fig. 4‑67
+[width="100%",cols="100%",options="header",]
+|image:img/image488.png[img/image488,width=382,height=265]
+
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Risk of injury due to active drive when door is open.*
+* Position the two mobile fixed stops before and after the X slide.
+* Position the two mobile fixed stops to the left and right of the Y slide.
+* Set the MOTOR CURRENT LIMIT key switch to right (ON).
+[arabic, start=8]
+. Position 2 mobile fixed stops before and behind the X slide.
+* L99’s X/Y mobile fixed stop is different from PLL’s.
+.Fig. 4‑68
+[width="100%",cols="^50%,^50%",options="header",]
+|image:img/image489.png[img/image489,width=301,height=228] |image:img/image490.png[img/image490,width=311,height=228]
+
+|Front |Rear
+[arabic, start=9]
+. Position 2 mobile fixed stops to the left and right of Y slide.
+.Fig. 4‑69
+[width="100%",cols="100%",options="header",]
+|image:img/image491.png[img/image491,width=382,height=245]
+
+[arabic, start=10]
+. Set the key switch for the motor current limit to right (ON).
+.Fig. 4‑70
+[width="100%",cols="100%",options="header",]
+|image:img/image492.png[img/image492,width=382,height=268]
+
+[arabic, start=11]
+. Switch on drives and open the safety door.
+. Acknowledge the service mode is active at the bottom-left of HMI.
+.Fig. 4‑71
+[width="100%",cols="100%",options="header",]
+|image:img/image493.png[img/image493,width=382,height=112]
+
+[arabic, start=13]
+. Acknowledge the feedrate changed to 0 by PLC controller.
+. Position the dial gauge against Y slide and zero.
+.Fig. 4‑72
+[width="100%",cols="100%",options="header",]
+|image:img/image494.jpg[img/image494,width=382,height=286]
+
+[arabic, start=15]
+. Push the Y slide in the + and – directions with a force of about 3 kg and read off the backlash from the dial gauge.
+Set value: 0.01±0.005 mm.
+[arabic, start=16]
+. Position the Bluetooth dial gauge to the right of the Y slide and zero.
+Check the backlash with
+the Bluetooth dial gauge
+.Fig. 4‑73
+[width="100%",cols="100%",options="header",]
+|image:img/image495.jpg[img/image495,width=382,height=286]
+
+[arabic, start=17]
+. Close the safety door and drive on.
+. In HMI, select “Setup” > “settings”.
+. Enter 0.001 under all the “Step” column.
+.Fig. 4‑74
+[width="100%",cols="100%",options="header",]
+|image:img/image496.png[img/image496,width=382,height=305]
+
+* The “Step” value must be reset at the end.
+[arabic, start=20]
+. In jog mode, press “-Y” arrow button to move in the minus direction until the dial gauge deflects.
+. In jog mode, press “+Y” arrow button to move in the plus direction and count the number of steps until the dial gauge display changes continuously.
+* The number of steps x 0.001mm equals the backlash.
+* Set value: 0.01±0.005 mm.
+[arabic, start=22]
+. Reset the step increment back to original value.
+. Loosen 4x screws on the gearbox flange mount.
+Set the Y axis backlash
+.Fig. 4‑75
+[width="100%",cols="100%",options="header",]
+|image:img/image497.png[img/image497,width=329,height=288]
+
+|1 Long screws (2x)
+|2 Screws with washers (4x)
+[arabic, start=24]
+. Adjust the backlash with the help of wedge mechanism:
+* To reduce the backlash, screw in the 2x long screws by the same distance.
+* To increase the backlash, unscrew the 2x long screws bythe same distance and then press the gearbox against it.
+[arabic, start=25]
+. Tighten 4x screws on the gearbox flange mount to 30 Nm.
+. Check the backlash again.
+. Fit the bellow supporting bar and bellow mounting bracket.
+. Attach the bellows on the left and on the right of the Y axis.
+. Mount the covers of the cutting unit.
+. Mount the side enclosure.
+. Further work:
+* Check and set the Y axis reference point offset value andfixed stops of the Y axis. (see “link:#checking-and-setting-the-y-axis-reference-point-offset-value[Checking and setting the Y axis reference point off-set value]”, pg. xxx)
+* Set the Y axis limit switch. (see “link:#checking-and-setting-the-y-axis-limit-switch[Checking and setting the Y axis limit switch]”, pg. xxx)
+
+== Replacing Y guide carriage
+
+* The machine’s main switch is switched off and secured agai-nst being switched on again.
+* The cutting unit has been removed and is lying on the motionunit (see “link:#replacing-the-motor-and-spindle-of-the-z-axis-drive[Replacing the motor and spindle of the Z axis drive]”, pg. xxx).
+Means, Tools, Materials
+* Feeler gauge 0.02mm
+* Gloves.
+[arabic]
+. Position the YZ unit roughly in the middle.
+Replace Y guide carriage
+[arabic, start=2]
+. Remove the stop at the end of the guide rail on both side.
+.Remove Y axis stops Fig. 4‑76
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image498.png[img/image498,width=307,height=201] |image:img/image499.png[img/image499,width=307,height=203]
+
+|1 Screws (3x), 14 Nm |2 Screws (2x), 36 Nm
+[arabic, start=3]
+. Move the Z slide upwards to loosen all the screws from the Yaxis lower guide carriages.
+.Fig. 4‑77
+[width="100%",cols="100%",options="header",]
+|image:img/image500.png[img/image500,width=382,height=354]
+
+[arabic, start=4]
+. Move the Z slide downwards to loosen all the screws from the Y axis upper guide carriages.
+.Fig. 4‑78
+[width="100%",cols="100%",options="header",]
+|image:img/image501.png[img/image501,width=382,height=321]
+
+[arabic, start=5]
+. Disconnect the lubrication line.
+. Remove the lower grease collection plate.
+.Fig. 4‑79
+[width="100%",cols="48%,52%",options="header",]
+|image:img/image502.png[img/image502,width=382,height=254] |
+
+|1 Lubrication line, lower |2 Grease collection plate, lower
+[arabic, start=7]
+. If necessary, remove the upper grease collection plate.
+.Fig. 4‑80
+[width="100%",cols="48%,52%",options="header",]
+|image:img/image503.png[img/image503,width=382,height=249] |
+
+|1 Lubrication line, upper |2 Grease collection plate, upper
+[arabic, start=8]
+. Remove the screws of one guide carriage.
+. Pull out the target guide carriage.
+* If necessary, remove the Y axis gearbox which will make the replacement work easier. (see “link:#replacing-the-y-axis-motor-and-gearbox[Replacing the Y axis motor and gearbox]”, pg. xxx).
+[arabic, start=10]
+. Slide the guide carriage to the left or right off the rail.
+. Clean all contact surfaces and, if necessary, strip with oil stone.
+* Do not spray the cleaning agent directly onto the guide rail, but onto a cloth.
+[arabic, start=12]
+. Remove the grease nipple (mat. no. 2750651) from the old guide carriage and install the grease nipple on the new one.
+.Fig. 4‑81
+[width="100%",cols="100%",options="header",]
+|image:img/image504.png[img/image504,width=382,height=245]
+
+[arabic, start=13]
+. Lubricate the new guide carriage before installation. (see “link:#lubricating-the-new-guide-carriage-before-installation[Lubricating the new guide carriage before installation]”, pg. xxx)
+. Insert the new, lubricated guide carriage onto the guide rails from the left or right using an insertion aid with the milled surface facing upwards.
+* When inserting the guide carriage, use an insertion aid to prevent the balls from falling out.
+.Insertion aid (example) Fig. 4‑82
+[width="100%",cols="100%",options="header",]
+|image:img/image505.png[img/image505,width=382,height=270]
+
+[arabic, start=15]
+. Position the carriage behind the Y slide.
+. Screw in the screws with washers but do not yet tighten.
+.Fig. 4‑83
+[width="100%",cols="100%",options="header",]
+|image:img/image506.png[img/image506,width=382,height=342]
+
+[arabic, start=17]
+. Repeat the procedure from step 8 to step 16 to replace other three Y guide carriages.
+. Slightly tap the YZ unit downwards to make the YZ unit touchthe Y axis upper guide carriage’s milled surface.
+. Tighten all the screws to 36 Nm.
+* Tighten the screws diagonally.
+[arabic, start=20]
+. Check that the Y slide touches the upper carriage’s milled surface with the help of a feeler gauge.
+Clearance < 0.02 mm.
+.Fig. 4‑84
+[width="100%",cols="100%",options="header",]
+|image:img/image507.png[img/image507,width=382,height=254]
+
+[arabic, start=21]
+. Further work:
+* Perform the removal steps in the reverse order.
+* Install the cutting unit (see “link:#replacing-the-motor-and-spindle-of-the-z-axis-drive[Replacing the motor and spi-ndle of the Z axis drive]” pg. xxx).
+* Check and set the Y axis reference point offset value andfixed stops of the Y axis (see “link:#checking-and-setting-the-y-axis-reference-point-offset-value[Checking and setting the Yaxis reference point offset value]”, pg. xxx).
+* Check the Y axis limit switch (see “link:#checking-and-setting-the-y-axis-limit-switch[Checking and setting the Y axis limit switch]”, pg. xxx).
+
+== Checking and setting the Y axis reference point offset value
+
+* Gauge block.
+[arabic]
+. Remove the Y bellows.
+Setting the right fixed stop
+[arabic, start=2]
+. Push the right stop as far as possible in the Y plus direction.
+* The left fixed stop would be set after setting Y axis reference point offset value.
+.Fig. 4‑85
+[width="100%",cols="100%",options="header",]
+|image:img/image508.png[img/image508,width=382,height=230]
+
+[arabic, start=3]
+. Tighten the screws to 14 Nm with Loctite 243.
+. Switch on the machine.
+Checking and setting the Y
+axis reference point offset
+[arabic, start=5]
+. Move the Y slide to approach the right stop.
+. Manually push the Y slide to the beginning of the fixed stop and hold it there.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image10.png[img/image10,width=192,height=34] a|
+
+*Strong strength needed to manually push the Y slide.*
+* Be careful when pushing the Y slide.
+.Fig. 4‑86
+[width="100%",cols="100%",options="header",]
+|image:img/image509.png[img/image509,width=382,height=294]
+
+[arabic, start=7]
+. Check the display value of Y axis on HMI:
+* S02 machine: -43 ± 0.5 mm.
+* S01 machine: -25 ± 0.5 mm.
+[arabic, start=8]
+. Select “Configure” > “Machine Settings” on HMI.
+.Fig. 4‑87
+[width="100%",cols="100%",options="header",]
+|image:img/image510.png[img/image510,width=382,height=173]
+
+[arabic, start=9]
+. Activate the service user level in Vulcan system.
+. Select “Axis Parameters” and then choose “Y” axis.
+. Scroll down and find “Referencing” catalog.
+. Set the “Homing offset” to:
+* S02 machine: -43 mm.
+* S01 machine: -25 mm.
+[arabic, start=13]
+. Enter 1 in “Homing direction and sequence”.
+.Fig. 4‑88
+[width="100%",cols="100%",options="header",]
+|image:img/image511.png[img/image511,width=382,height=305]
+
+[arabic, start=14]
+. Click “Close” and choose “Save and reload parameters” for the upcoming window.
+. Select “Setup” in the main menu.
+. Select “homing” and choose Y axis.
+.Fig. 4‑89
+[width="100%",cols="100%",options="header",]
+|image:img/image512.png[img/image512,width=382,height=229]
+
+[arabic, start=17]
+. Push the Start button to carry out a reference run of Y axis.
+* Actually the motion unit will not move, but the Y display value will be changed to what we enter in homing offset.
+[arabic, start=18]
+. Select “Configure” > “Machine Setting” > “Axis Parameters” >“Y” axis.
+. Change “Homing direction and sequence” back to 0.
+. Click “Close” to save and reload parameters.
+.Fig. 4‑90
+[width="100%",cols="100%",options="header",]
+|image:img/image513.png[img/image513,width=382,height=306]
+
+[arabic, start=21]
+. Manually push the Y slide to the beginning of the fixed stop and hold it there.
+. Check the display value of Y axis on HMI.
+* S02 machine: -43 ± 0.5 mm.
+* S01 machine: -25 ± 0.5 mm.
+[arabic, start=23]
+. Undo the screws of the left fixed stop.
+Setting the left fixed stop
+[arabic, start=24]
+. Move the Y slide to the left software limit.
+* S02 machine: 1524 mm.
+* S01 machine: 1515 mm.
+[arabic, start=25]
+. Set the left fixed stop a distance from the Y slide’s stop.
+* S02 machine: 7 mm.
+* S01 machine: 10 mm.
+.Fig. 4‑91
+[width="100%",cols="100%",options="header",]
+|image:img/image514.png[img/image514,width=382,height=292]
+
+[arabic, start=26]
+. Tighten the screws of the left stop to 14 Nm.
+. Push the Y slide against the left fixed stop and hold it there.
+. Check the display value of Y axis on HMI.
+* S02 machine: 1531 ± 0.5 mm.
+* S01 machine: 1525 ± 0.5 mm.
+[arabic, start=29]
+. Install the bellows.
+
+== Checking and setting the Y axis limit switch
+
+* Both Y axis hardware limit switches need to be checked.
+[arabic]
+. Move the cutting unit to approach Y axis software limit.
+Check Y axis limit switch
+[arabic, start=2]
+. Check the clearance between the limit switch and the switch-ing hexagon on the Y slide.
+Clearance: 2^+1^ mm.
+.Fig. 4‑92
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image515.png[img/image515,width=382,height=249] |
+
+|1 limit switch |2 switching hexagon
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image10.png[img/image10,width=192,height=34] a|
+
+*Strong strength needed to manually push the Y slide.*
+* Be careful when pushing the Y slide.
+[arabic, start=3]
+. Manually push the Y slide to the position where the sensor just works, checking by:
+* LED status of Y limit switch: from on to off.
+* the warning “E952.0” appearing on the display of Y Inovance drive.
+.Fig. 4‑93
+[width="100%",cols="48%,52%",options="header",]
+|image:img/image516.png[img/image516,width=174,height=182] |image:img/image517.png[img/image517,width=174,height=182]
+
+.Fig. 4‑94
+[width="100%",cols="100%",options="header",]
+|image:img/image518.png[img/image518,width=382,height=232]
+
+* Currently with the safety door open, it’s impossible to seethe warning message about hardware limit in this case.
+[arabic, start=4]
+. Check the display value in HMI.
+* S02 machine:
+Right limit switch: -38 ± 0.5 mm.
+Left limit switch: 1526 ± 0.5 mm.
+* S01 machine:
+Right limit switch: -20 ± 0.5 mm.
+Left limit switch: 1520 ± 0.5 mm.
+[arabic, start=5]
+. Manually push the YZ unit to the target position.
+Set Y axis limit switch
+* S02 machine:
+Right limit switch: -38 mm.
+Left limit switch: 1526 mm.
+* S01 machine:
+Right limit switch: -20 mm.
+Left limit switch: 1520 mm.
+[arabic, start=6]
+. Undo the screw of Y axis limit switch.
+. Adjust the limit switch position in Y direction to ensure Y=-38/1526 (S02), Y= -20/1520 (S01) is the position where the sensor just works.
+* LED of limit from on to off.
+* “E952.0” appearing on the display of Y Inovance drive.
+.Fig. 4‑95
+[width="100%",cols="100%",options="header",]
+|image:img/image519.png[img/image519,width=382,height=275]
+
+[arabic, start=8]
+. Tighten the screw of Y axis limit switch.
+. Recheck the clearance for Y limit switch.
+Nominal value: 2^+1^ mm.
+[arabic, start=10]
+. Move the Y slide away and approach the limit switch again. Recheck the Y axis limit switch position:
+* S02 machine:
+Right limit switch: -38 mm.
+Left limit switch: 1526 mm.
+* S01 machine:
+Right limit switch: -20 mm.
+Left limit switch: 1520 mm.
+
+== Replacing Y axis lubrication pinion
+
+.Tab. 4‑21
+[width="100%",cols="72%,28%",options="header",]
+|Service level |1
+|Number of service engineers needed |1
+Estimated task time (hh:mm)
+(Without referenced procedures)
+Modification log
+.Tab. 4‑22
+[width="100%",cols="27%,47%,26%",options="header",]
+|Date (yyyy-mm-dd) |Reason for change |Version
+|2024-04 |Procedure created. |00
+[arabic]
+. Remove the screws from lubrication pinion.
+.Lubrication pinion Fig. 4‑96
+[width="100%",cols="100%",options="header",]
+|image:img/image520.png[img/image520,width=382,height=281]
+
+[arabic, start=2]
+. Disconnect the lubrication line.
+. Remove the grease nipple from the old lubrication pinion and install the grease nipple to the new one.
+.Fig. 4‑97
+[width="100%",cols="100%",options="header",]
+|image:img/image521.png[img/image521,width=382,height=229]
+
+[arabic, start=4]
+. Fix the new lubrication pinion to support plate with lock nut.
+. Tighten the two screws with washers removed before.

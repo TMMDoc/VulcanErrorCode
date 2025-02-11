@@ -1,16 +1,0 @@
-= 2.10.870 Laser - Gas Pressure Cmd High for Low Pres Reg
-:imagesdir: img
-
-== Description
-Laser - Gas Pressure Cmd High for Low Pres Reg
-
-== CauseThe Set Gas pressure is higher than the allowed gas pressure in the Low pressure Line
- 
-
-== ActionMake sure that the Gas pressure set value is the below the allowed Limit
- 
-
-== Effect
- 
-
-

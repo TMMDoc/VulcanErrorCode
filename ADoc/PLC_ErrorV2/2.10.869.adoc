@@ -1,16 +1,0 @@
-= 2.10.869 Laser - Invalid Pierce type
-:imagesdir: img
-
-== Description
-Laser - Invalid Pierce type
-
-== CauseSelected Pierce Type Not available
- 
-
-== ActionMake sure to select the Proper Pierce Type
- 
-
-== Effect
- 
-
-

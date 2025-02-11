@@ -1,16 +1,0 @@
-= 2.10.7154 Precitec - PC - Head warning tempeartue - Contact Manufacturer
-:imagesdir: img
-
-== Description
-Precitec - PC - Head warning tempeartue - Contact Manufacturer
-
-== CausePrecitec Warning messages
- 
-
-== Action
- 
-
-== Effect
- 
-
-

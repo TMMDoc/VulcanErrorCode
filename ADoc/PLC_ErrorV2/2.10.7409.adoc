@@ -1,16 +1,0 @@
-= 2.10.7409 KL59 - Lens Index Pin Retract time out
-:imagesdir: img
-
-== Description
-KL59 - Lens Index Pin Retract time out
-
-== CauseLens Index Pin Retract feedback not received within 5 secs of Index pin Extend Output command. 
-Check Digital input feedback
-
-== ActionAir pressure may be low, check air pressure is ok.check feedback
- 
-
-== Effect
- 
-
-

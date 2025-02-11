@@ -1,16 +1,0 @@
-= 2.10.551 IO Open file Error
-:imagesdir: img
-
-== Description
-IO Open file Error
-
-== CauseInitial Configuration Setting issue. 
- 
-
-== Action
- 
-
-== Effect
- 
-
-

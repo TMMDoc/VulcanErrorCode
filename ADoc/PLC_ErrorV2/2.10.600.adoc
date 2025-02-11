@@ -1,16 +1,0 @@
-= 2.10.600 System Logging Started
-:imagesdir: img
-
-== Description
-System Logging Started
-
-== CauseMessage to indicate a situation
- 
-
-== Action
- 
-
-== Effect
- 
-
-

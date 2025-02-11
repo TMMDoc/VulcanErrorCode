@@ -1,0 +1,520 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_basic_information">Basic information</a></li>
+<li><a href="#_replacing_the_eckelmann_controller">Replacing the Eckelmann controller</a></li>
+<li><a href="#_establishing_connection_with_eckelmann_controller">Establishing connection with Eckelmann controller</a></li>
+<li><a href="#_replacing_the_battery_of_eckelmann_controller">Replacing the battery of Eckelmann controller</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_basic_information">Basic information</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<div class="title">Fig. 5‑27</div>
+<p>|<span class="image"><img src="img/image636.png" alt="img/image636" width="403" height="215"></span></p>
+</div>
+<div class="paragraph">
+<p>The controller SmartCore 800 is designed for top hat rail mounting and is determined for the use in machines with distributed control structures.
+* IP address: 172.29.109.1
+* Subnet mask: 255.255.0.0
+Terminals
+.Fig. 5‑28</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image637.png" alt="img/image637" width="624" height="608"></span></p>
+</div>
+<div class="paragraph">
+<div class="title">Tab. 5‑13</div>
+<p>|<strong>Terminal</strong> |<strong>Description</strong>
+|P1 |Functional earth
+|P2 |Power supply 24V DC
+|P3 CAN1 |CANopen port for height control module
+|P4 CAN2 |CANopen port for servo controller
+P5 RS422/485
+|Not use
+|P6 RS422/485 |Not use
+|P7 DIGITAL-IN |8 digital inputs DI1-DI8
+|P8 DIGITAL-IN |12 digital inputs DI9-DI20
+|P9 ANALOG-IN |4 analogue inputs AI1-AI4
+|P10 ANALOG-OUT |4 analogue outputs AO1-AO4
+|P11 DIGITAL-OUT |8 digital outputs DO9-DO16
+|P12 DIGITAL-OUT |8 digital outputs DO1-DO8
+|P13 ETHERCAT |Real-time Ethernet (connected to drive X1)
+|P14 ETHERNET |Ethernet TCP/IP interface (connected to Ethernet switch)
+|P15 SAFETY EXT |Not use
+|P16 SD-Card |Not use (Slot for an additional SD card)
+|PX1 AXIS-OUT |1&amp;2 analog outputs of the axis interface (laser power)
+|PX2 AXIS-IN |Not use (Digital inputs of the axis interface)
+|PX3 PWM-OUT |Pulse width modulation (connected to the laser)
+|PX4 ENCODER 1 |Not use (Encoder input)
+|PX5 ENCODER 2 |Not use (Encoder input)
+|PX6 ENCODER 3 |Not use (Encoder input)
+|PX7 ENCODER 4 |Not use (Encoder input)
+|PX8 AXIS-ENABLE |Not use (Controller enable signal of the axis interface)
+|PX9 AXIS-OUT |Not use (3&amp;4 analog outputs of the axis interface)
+* Please refer to the schematics for detailed information about the digital input and digital output.
+Configuration switches
+.Fig. 5‑29</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image638.png" alt="img/image638" width="105" height="192"></span> |<span class="image"><img src="img/image639.png" alt="img/image639" width="255" height="192"></span></p>
+</div>
+<div class="paragraph">
+<div class="title">Tab. 5‑14</div>
+<p>|<strong>Designation</strong> |<strong>Description</strong>
+|S1-1 a|
+Termination for CAN1
+* ON: termination active
+|S1-2 a|
+Termination for CAN2
+* ON: termination active
+|S2 |Selection of interface type and termination for COM2 and COM3 (see the schematic or the Eckelmann con-troller manual for detail information)</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The connection state for EtherCAT P13 is indicated by the state of two LEDs which are integrated into the connector.
+Status information
+.Fig. 5‑30</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image640.png" alt="img/image640" width="254" height="192"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Tab. 5‑15</div>
+<p>|<strong>Designation</strong> |<strong>Description</strong>
+|Yellow LED a|
+Activity status
+Flashing light: LED indicates a data transfer
+|Green LED a|
+Connection status
+On: connection is established
+Off: no connection available</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p>The status display contains 4 LEDs.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>WDG LED combines watch dog and PLC.</p>
+</li>
+<li>
+<p>The watchdog circuit is used to monitor the software. Theselected output is switched off when the watchdog is triggered.
+.Status LED Fig. 5‑31</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image641.png" alt="img/image641" width="196" height="259"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<div class="title">Tab. 5‑16</div>
+<p>|<strong>LED</strong> | |<strong>Display</strong> |<strong>Description</strong>
+|CAN1/CAN2 |/ |/ |See schematics or Eckelmann controller technical manual for details.
+|ECAT |/ |/ |See chapter “4.3 Status information for EtherCAT” inEckelmann controller technical manual for details.
+|WDG (combined watchdog and PLC LED) |Green |On |Watchdog ok, PLC runs.
+| |Orange |On |Watchdog ok, PLC stopped.
+| |Red |On |Watchdog error, PLC stopped.
+| | |Off |Watchdog error, PLC runs.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>A 7-segment indicator on the controller indicates the current operating state and probable fault (see chapter 4.2 “7-segment indicator” in Eckelmann controller technical manual).
+.7-segment indicator Fig. 5‑32</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image642.png" alt="img/image642" width="382" height="244"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Probable errors are reported by showing the characters sequentially with the speed 2 characters/sec.
+For example: E01: RAM error.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Green LED indicating digital input and digital output state.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Located above the connector.</p>
+</li>
+<li>
+<p>On: with input or output.</p>
+</li>
+<li>
+<p>Off: without input or output.
+.Fig. 5‑33</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image643.png" alt="img/image643" width="382" height="196"></span> |</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>|1 LED for external voltage supply |2 LEDs for external input</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_replacing_the_eckelmann_controller">Replacing the Eckelmann controller</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>A flat-bladed screwdriver.
+Disassemble the controller</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image2.png" alt="img/image2" width="192" height="33"></span> a|</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Hazardous voltage!</strong>
+<strong>Risk of electric shock!</strong>
+* All connectors may only be connected and disconnected when power is off.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Switch off the main switch.</p>
+</li>
+<li>
+<p>Disconnect all the cables from the controller.
+.Fig. 5‑34</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image644.png" alt="img/image644" width="382" height="227"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Pull out the two retaining springs with a flat-bladed screwdriver until they click into place.
+.Fig. 5‑35</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image645.png" alt="img/image645" width="382" height="87"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Remove the device from the DIN rail by tilting it upwards.
+.Fig. 5‑36</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image646.png" alt="img/image646" width="172" height="241"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="5">
+<li>
+<p>Using a flat-bladed screwdriver, pull out the two retaining springs on the underside of the new controller until they click into place.
+Assemble the controller
+.Fig. 5‑37</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image647.png" alt="img/image647" width="382" height="102"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>Place the controller on the top edge of the DIN rail and tilt it downwards until the controller is positioned on the lower edge of the DIN rail.
+.Fig. 5‑38</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image648.png" alt="img/image648" width="172" height="271"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Press the two retaining springs until they click into place.
+.Fig. 5‑39</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image649.png" alt="img/image649" width="382" height="87"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p>Check that the controller is firmly attached to the DIN rail.</p>
+</li>
+<li>
+<p>Connect all the cables to the controller according to the label.</p>
+</li>
+<li>
+<p>Switch on the machine.</p>
+</li>
+<li>
+<p>Establish connection with Eckelmann controller (see “<a href="#establishing-connection-with-eckelmann-controller">Establi-shing connection with Eckelmann controller</a>”, pg. xxx).
+Further work</p>
+</li>
+<li>
+<p>Go to HMI, run the program “Nozzle clean &amp; height sensor calibration”.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_establishing_connection_with_eckelmann_controller">Establishing connection with Eckelmann controller</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Establishing connection with the controller is necessary.
+Check the configuration</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Go to TOSh, select “Machine Configuration” &gt; “PlcGtwConfigureTool”.
+.Fig. 5‑40</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image650.png" alt="img/image650" width="382" height="202"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="2">
+<li>
+<p>Select “CNC1” and check the “Settings”:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>IP Address: 172.29.109.1.</p>
+</li>
+<li>
+<p>PC directory of the configuration file: ProgramData/Metamation/Vulcan/Data/Cfg.
+.Fig. 5‑41</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image651.png" alt="img/image651" width="382" height="188"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Select “Machine Configuration” &gt; “ConSet”.
+Establish connection with
+the controller
+.Fig. 5‑42</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image652.png" alt="img/image652" width="382" height="208"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Select Connection Type “Ethernet”.</p>
+</li>
+<li>
+<p>Click the wrench icon.
+.Fig. 5‑43</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image653.png" alt="img/image653" width="382" height="205"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>Configure the controller and “Apply”.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>IP address: 172.29.109.1.</p>
+</li>
+<li>
+<p>Subnet Mask: 255.255.0.0.</p>
+</li>
+<li>
+<p>Gateway: 0.0.0.0.
+.Fig. 5‑44</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image654.png" alt="img/image654" width="382" height="256"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>Restart the controller by the switch “=MA+SC-F1”.
+.Fig. 5‑45</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image655.png" alt="img/image655" width="382" height="201"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p>Press the “Connect” button.
+The connection of Eckelmann controller is established.
+.Fig. 5‑46</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image656.png" alt="img/image656" width="382" height="274"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="9">
+<li>
+<p>Select “Configure” &gt; “Laser Database” on HMI.
+Save DCA parameters
+.Fig. 5‑47</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image657.png" alt="img/image657" width="382" height="192"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="10">
+<li>
+<p>Enter the two sets of parameters as the following figure.
+.Fig. 5‑48</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image658.png" alt="img/image658" width="382" height="183"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="11">
+<li>
+<p>Save the parameters by clicking “write fields”.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_replacing_the_battery_of_eckelmann_controller">Replacing the battery of Eckelmann controller</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Life of a battery depends on the operational time and ambient temperature. It is recommended to exchange the battery after 5 years.</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image2.png" alt="img/image2" width="192" height="33"></span> a|</p>
+</div>
+<div class="paragraph">
+<p><strong>Battery mistreated.</strong>
+<strong>Risk of explosion!</strong>
+* Do not recharge, disassemble, or dispose of battery in fire.
+* The battery replacement may only be performed by qualified person.
+* If the battery exchange is completed within 15 minutes (time between power off and the mounting of a new battery), data loss in the RAM can be avoided.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Switch off the main switch.</p>
+</li>
+<li>
+<p>Remove the controller from the DIN rail (see “<a href="#replacing-the-eckelmann-controller">Replacing the Eckelmann controller</a>”, pg. xxx).</p>
+</li>
+<li>
+<p>Push the plastic lid’s two left-hand snap lugs inwards and upwards with a flat-bladed screwdriver.
+.Fig. 5‑49</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image659.png" alt="img/image659" width="382" height="233"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Lift the lid with a swinging movement.
+.Fig. 5‑50</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image660.png" alt="img/image660" width="382" height="269"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="5">
+<li>
+<p>Pull the battery up out of its holder.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Please dispose of the battery according to the local regulation.
+.Fig. 5‑51</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image661.png" alt="img/image661" width="382" height="265"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>Touch the new battery (Type CR2450N, 3V Lithium) with a cloth and push it into the battery holder.
+.Fig. 5‑52</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image662.png" alt="img/image662" width="192" height="175"></span></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Do not touch the new battery with metal pliers, as it might be short-circuited and destroyed.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Push the lid down until it clicks into place.</p>
+</li>
+<li>
+<p>Mount the controller (see “<a href="#replacing-the-eckelmann-controller">Replacing the Eckelmann controll-er</a>”, pg. xxx).</p>
+</li>
+<li>
+<p>Go to HMI, run the program “Nozzle clean &amp; height sensor calibration”.
+Additional work in case of
+data loss</p>
+</li>
+</ol>
+</div>
+</div>
+</div>

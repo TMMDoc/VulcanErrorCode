@@ -1,16 +1,0 @@
-= 2.10.7019 Axis - Reset the Focus axis offset to 0
-:imagesdir: img
-
-== Description
-Axis - Reset the Focus axis offset to 0
-
-== CauseMessage to indicate a situation
- 
-
-== Action
- 
-
-== Effect
- 
-
-

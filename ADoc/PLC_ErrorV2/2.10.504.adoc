@@ -1,16 +1,0 @@
-= 2.10.504 NC Wrong Firmware downloaded
-:imagesdir: img
-
-== Description
-NC Wrong Firmware downloaded
-
-== CauseThis Error occurs when wrong firmware is loaded in the controller.
- 
-
-== ActionCheck with the manufacturer
- 
-
-== Effect
- 
-
-

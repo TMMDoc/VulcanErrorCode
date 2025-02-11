@@ -1,16 +1,0 @@
-= 2.10.7408 KL59 - Lens Index Pin Extend time out
-:imagesdir: img
-
-== Description
-KL59 - Lens Index Pin Extend time out
-
-== CauseLens Index Pin Extend feedback not received within 5 secs of Index pin Extend Output command. 
-Check air pressure or Digital Output
-
-== ActionAir pressure may be low, check air pressure is ok.check feedback
- 
-
-== Effect
- 
-
-

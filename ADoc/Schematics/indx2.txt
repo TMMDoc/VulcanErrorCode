@@ -1,0 +1,220 @@
+xref:.//img/Schematics-2.pdf[1 Cover page]
+
+xref:.//img/Schematics-3.pdf[2 Contents Page 1]
+
+xref:.//img/Schematics-4.pdf[3 Contents Page 2]
+
+xref:.//img/Schematics-5.pdf[4 Contents Page 3]
+
+xref:.//img/Schematics-6.pdf[5 Location overview]
+
+xref:.//img/Schematics-7.pdf[6 Functional group overview]
+
+xref:.//img/Schematics-8.pdf[7 Variants and options overview]
+
+xref:.//img/Schematics-9.pdf[8 Reference ID overview]
+
+xref:.//img/Schematics-10.pdf[9 Symbol/component legend]
+
+xref:.//img/Schematics-11.pdf[10 Mains supply]
+
+xref:.//img/Schematics-12.pdf[11 Options]
+
+xref:.//img/Schematics-13.pdf[12 Power supply]
+
+xref:.//img/Schematics-14.pdf[13 Power supply]
+
+xref:.//img/Schematics-15.pdf[14 =MA Multi-function Power supply Drive]
+
+xref:.//img/Schematics-16.pdf[15 =MA Multi-function  Transformer 220V(option BM111)]
+
+xref:.//img/Schematics-17.pdf[16 =MA Multi-function  Power supply, 24V DC]
+
+xref:.//img/Schematics-18.pdf[17 =MA Multi-function 0V/PE]
+
+xref:.//img/Schematics-19.pdf[18 =MA Multi-function  24VDC]
+
+xref:.//img/Schematics-20.pdf[19 =MA Multi-function Safety relay - Emergency stop]
+
+xref:.//img/Schematics-21.pdf[20 =MA Multi-function Emergency stop]
+
+xref:.//img/Schematics-22.pdf[21 =MA Multi-function Safety relay - Safety door monitoring]
+
+xref:.//img/Schematics-23.pdf[22 =SY.SD Safety functions with safety doors  Safety door monitoring]
+
+xref:.//img/Schematics-24.pdf[23 =MS.02 Make safe access to pallet changer  Light barrier]
+
+xref:.//img/Schematics-25.pdf[24 =MA Multi-function STO]
+
+xref:.//img/Schematics-26.pdf[25 =DV Machine kinematics (axes system/main axes)  Drive Axis X1]
+
+xref:.//img/Schematics-27.pdf[26 =DV Machine kinematics (axes system/main axes)  Drive Axis X2]
+
+xref:.//img/Schematics-28.pdf[27 =DV Machine kinematics (axes system/main axes)  Drive Axis Y]
+
+xref:.//img/Schematics-29.pdf[28 =DV Machine kinematics (axes system/main axes)  Drive Axis Z  Page Func./Loc. Description]
+
+xref:.//img/Schematics-30.pdf[29 =DV Machine kinematics (axes system/main axes)  Frequency converter]
+
+xref:.//img/Schematics-31.pdf[30 =WP Workpiece  Pallet fixing device(Option: two level pallet)]
+
+xref:.//img/Schematics-32.pdf[31 =WP Workpiece  Pallet infeed sensors]
+
+xref:.//img/Schematics-33.pdf[32 =WP Workpiece  Upper Pallet clamping Sensors (option: two level pallet)]
+
+xref:.//img/Schematics-34.pdf[33 =WP Workpiece  Lower Pallet clamping Sensors (option: two level pallet)]
+
+xref:.//img/Schematics-35.pdf[34 =TL Handle laser beam tool  Cutting unit KL59]
+
+xref:.//img/Schematics-36.pdf[35 =DV Machine kinematics (axes system/main axes)  Cutting unit BM111/Focal drive (option: BM111)]
+
+xref:.//img/Schematics-37.pdf[36 =MA Multi-function  Controller Laser core 800]
+
+xref:.//img/Schematics-38.pdf[37 =MA Multi-function  Controller Laser core 800]
+
+xref:.//img/Schematics-39.pdf[38 =MA Multi-function  Controller Laser core 800]
+
+xref:.//img/Schematics-40.pdf[39 =MA Multi-function  EtherCAT modules]
+
+xref:.//img/Schematics-41.pdf[40 =MA Multi-function  Ethernet switch]
+
+xref:.//img/Schematics-42.pdf[41 =MA Multi-function  M Guard]
+
+xref:.//img/Schematics-43.pdf[42 =MA Multi-function  4G Router]
+
+xref:.//img/Schematics-44.pdf[43 =MA Multi-function  Outputs ]
+
+xref:.//img/Schematics-45.pdf[44 =MA Multi-function  Outputs]
+
+xref:.//img/Schematics-46.pdf[45 =MA Multi-function  Frequency converter Inputs and Outputs]
+
+xref:.//img/Schematics-47.pdf[46 =MA Multi-function  hydraulic Unit Pallet position Sensor]
+
+xref:.//img/Schematics-48.pdf[47 =MA Multi-function  Hydraulic lift unit interface]
+
+xref:.//img/Schematics-49.pdf[48 =MA Multi-function  Hydraulic lift unit interface]
+
+xref:.//img/Schematics-50.pdf[49 =IF.09 Prepare hydraulic energy  Hydraulic lift unit]
+
+xref:.//img/Schematics-51.pdf[50 =WP.03 Move workpiece pallet vertically  hydraulic Unit Pallet position Sensor]
+
+xref:.//img/Schematics-52.pdf[51 =EC.01 Provide air conditioning in electrical cabinet  Fan unit/ Service Key]
+
+xref:.//img/Schematics-53.pdf[52 =HM.05 Operation of workpiece changer  Start post With light barrier]
+
+xref:.//img/Schematics-54.pdf[53 =HM.05 Operation of workpiece changer  Start post Without light barrier(Delete from S02.00)]
+
+xref:.//img/Schematics-55.pdf[54 =HM.05 Operation of workpiece changer  Start post E-stop ]
+
+xref:.//img/Schematics-56.pdf[55 =HM.06 Activate safety lock using key switch  Control panel]
+
+xref:.//img/Schematics-57.pdf[56 =IF.08 Recool cooling water  Combination process cooler]
+
+xref:.//img/Schematics-58.pdf[57 =MA Multi-function  Laser suction Control]
+
+xref:.//img/Schematics-59.pdf[58 =MA Multi-function  Laser suction Control]
+
+xref:.//img/Schematics-60.pdf[59 =RM.05 Suction out fumes and dusts  Laser suction]
+
+xref:.//img/Schematics-61.pdf[60 =RM.05 Suction out fumes and dusts  Suction flaps]
+
+xref:.//img/Schematics-62.pdf[61 =IL Laser interfaces  Laser signal in]
+
+xref:.//img/Schematics-63.pdf[62 =IL Laser interfaces  Laser signal out]
+
+xref:.//img/Schematics-64.pdf[63 =IL Laser interfaces  Laser]
+
+xref:.//img/Schematics-65.pdf[64 =IL Laser interfaces  Laser ]
+
+xref:.//img/Schematics-66.pdf[65 =MA Multi-function  Machine body interface]
+
+xref:.//img/Schematics-67.pdf[66 =MA Multi-function  Motion unit interface]
+
+xref:.//img/Schematics-68.pdf[67 =MA Multi-function  Motion unit interface, 24VDC]
+
+xref:.//img/Schematics-69.pdf[68 =WP Workpiece  Motion unit Proximity switch/ Front lift plate sensor]
+
+xref:.//img/Schematics-70.pdf[69 =WM &=WM;  Motion unit Proximity switch]
+
+xref:.//img/Schematics-71.pdf[70 =TL Handle laser beam tool  Motion unit-Valves and Alignment laser diode  Page Func./Loc. Description]
+
+xref:.//img/Schematics-72.pdf[71 =TL.11 Guide and shape cutting gas flow  Motion unit Lanny Valve]
+
+xref:.//img/Schematics-73.pdf[72 =MA Multi-function  Pallet door interface]
+
+xref:.//img/Schematics-74.pdf[73 =MS.01 Make safe enclosed protective housing and pallet opening access  Pallet changer door (Left rear)]
+
+xref:.//img/Schematics-75.pdf[74 =MA Multi-function  Gas circuit interface]
+
+xref:.//img/Schematics-76.pdf[75 =IF Interfaces  Cutting gas control]
+
+xref:.//img/Schematics-77.pdf[76 =IF.10 Prepare and distribute lubricant  Lubrication]
+
+xref:.//img/Schematics-78.pdf[77 =IF Interfaces  Device panel]
+
+xref:.//img/Schematics-79.pdf[78 =CM &=CM;  Device panel]
+
+xref:.//img/Schematics-80.pdf[79 =HM.04 Show operating status of machine with signal lamps  Status indicator]
+
+xref:.//img/Schematics-81.pdf[80 =EC.03 lluminate work area  Work area illumination]
+
+xref:.//img/Schematics-82.pdf[81 =HM.01 Observe work area  Camera (not used now)]
+
+xref:.//img/Schematics-83.pdf[82 =PE Protective earthing and EMC  Equipotential bonding Star point 1 (left front)]
+
+xref:.//img/Schematics-84.pdf[83 =PE Protective earthing and EMC  Equipotential bonding Star point 2 (left rear)]
+
+xref:.//img/Schematics-85.pdf[84 =PE Protective earthing and EMC  Equipotential bonding Star point 3 (right rear)]
+
+xref:.//img/Schematics-86.pdf[85 =PE Protective earthing and EMC  Equipotential bonding Star point 4 (right front)]
+
+xref:.//img/Schematics-87.pdf[86 =PE Protective earthing and EMC  Equipotential bonding Valve terminal]
+
+xref:.//img/Schematics-88.pdf[87 =PE Protective earthing and EMC  Equipotential bonding Motion unit]
+
+xref:.//img/Schematics-89.pdf[88 +TF &+TF;  Cable laser interface]
+
+xref:.//img/Schematics-90.pdf[89 +CO Cooling aggregate  Power cable Cooling aggregate]
+
+xref:.//img/Schematics-91.pdf[90 +OP Operating panel  Panel PC Topology]
+
+xref:.//img/Schematics-92.pdf[91 EtherCAT topology  /92 EtherCAT topology]
+
+xref:.//img/Schematics-93.pdf[93  Ethernet topology]
+
+xref:.//img/Schematics-94.pdf[94  +MB Machine body  Two Level Pallet changers Sensor station]
+
+xref:.//img/Schematics-95.pdf[95  +MB Machine body  One Level Pallet changers Sensor station]
+
+xref:.//img/Schematics-96.pdf[96  +PC Pallet changer Pallet A or B in pallet changer(option:one level pallet)]
+
+xref:.//img/Schematics-97.pdf[97  +PC Pallet changer hydraulic Unit Pallet position Sensor]
+
+xref:.//img/Schematics-98.pdf[98  +PC Pallet changer hydraulic Unit Pallet position Sensor]
+
+xref:.//img/Schematics-99.pdf[99 +MB.04 Machine body section 4 Pallet changer door Sensors]
+
+xref:.//img/Schematics-100.pdf[100  +MB.04 Machine body section 4 Additional pallet unit Door]
+
+xref:.//img/Schematics-101.pdf[101  +MB Machine body Pallet clamping Sensors (option: two level pallet)]
+
+xref:.//img/Schematics-102.pdf[102 +MB Machine bodyPallet clamping Sensors (option: two level pallet)]
+
+xref:.//img/Schematics-103.pdf[103  Pallet clamping Sensors (option: one level pallet]
+
+xref:.//img/Schematics-104.pdf[104) Pallet clamping Sensors (option: one level pallet]
+
+xref:.//img/Schematics-105.pdf[105) Switch Cabinet ]
+
+xref:.//img/Schematics-106.pdf[106  Instrument plate]
+
+xref:.//img/Schematics-107.pdf[107  Setting values]
+
+xref:.//img/Schematics-108.pdf[108  EtherCAT bus overview]
+
+xref:.//img/Schematics-109.pdf[109  Ethernet bus overview]
+
+xref:.//img/Schematics-110.pdf[110  PLC I/O list Sorting A (Ascending address) Page 1]
+
+xref:.//img/Schematics-111.pdf[111  PLC I/O list Sorting A (Ascending address) Page ]
+

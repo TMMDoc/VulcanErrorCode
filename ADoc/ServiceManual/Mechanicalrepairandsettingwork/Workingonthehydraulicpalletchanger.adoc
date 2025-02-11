@@ -1,0 +1,238 @@
+
+= Working on the hydraulic pallet changer
+
+
+== Replacing cam assembly and the infeed chain
+
+
+== Replacing proximity switch for pallet deceleration/stop
+
+* In case of problem with pallet exchange, check the frequencyconverter parameters first (see “link:#putting-the-hydraulic-pallet-changer-into-service[Putting the hydraulic pallet changer into service]”, pg. xxx).
+* If the proximity switch has detected the switching cam, then the proximity switch must light up.
+[arabic]
+. Measure the distance from the old proximity switch to the mounting plane.
+.Fig. 4‑170
+[width="100%",cols="100%",options="header",]
+|image:img/image588.png[img/image588,width=382,height=256]
+
+[arabic, start=2]
+. Mount the new proximity switch on the mounting plate.
+.Fig. 4‑171
+[width="100%",cols="34%,33%,33%",options="header",]
+|image:img/image589.jpg[img/image589,width=198,height=264] |image:img/image590.jpg[img/image590,width=198,height=264] |image:img/image591.jpg[img/image591,width=198,height=264]
+
+Forward stop switch (upper)
+Reverse stop switch (lower)
+|Reverse deceleration switch |Forward deceleration switch
+[arabic, start=3]
+. Roughly set the distance from the mounting plate by turning the nuts on both sides of the proximity switch according to the measured distance.
+. Check the clearance for all the pallet deceleration switches and pallet stop switches.
+Check the clearance for
+proximity switch
+Nominal value: 2^+1^ mm.
+* Move the pallet in jog mode in case of collision.
+.Fig. 4‑172
+[width="100%",cols="51%,49%",options="header",]
+|image:img/image244.png[img/image244,width=307,height=216] |image:img/image245.png[img/image245,width=305,height=216]
+
+|Forward deceleration/stop switch |Reverse deceleration/stop switch
+[arabic, start=5]
+. Press “Pallet forward” and hold on to move the pallet A into the machine.
+Check proximity switch in
+X direction
+* “Pallet auto” is *not allowed* to use until the setup work of proximity switches is finished.
+[arabic, start=6]
+. Check that the roller guide stops at the 3 o’clock position.
+* Check if the ruler against the roller is parallel to the guideblock.
+.Fig. 4‑173
+[width="100%",cols="100%",options="header",]
+|image:img/image293.png[img/image293,width=382,height=291]
+
+[arabic, start=7]
+. If not:
+* Adjust the forward stop switch in X direction.
+* Check again if the roller guide stops at 3 o’clock position while pallet A moves into the machine.
+.Fig. 4‑174
+[width="100%",cols="59%,41%",options="header",]
+|image:img/image294.png[img/image294,width=354,height=230] |image:img/image295.png[img/image295,width=252,height=230]
+
+|1 Forward deceleration switch |2 Forward stop switch
+|3 Reverse stop switch |4 Reverse deceleration switch
+[arabic, start=8]
+. Press “Pallet reverse” and hold on to move pallet A out of the machine.
+. Check the drive dog stops at such a position that the guide iswithin the range of the groove of drive dog with the help of a right angle or ruler.
+.Fig. 4‑175
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image296.png[img/image296,width=336,height=260] |
+
+|1 Guide |2 Drive dog
+[arabic, start=10]
+. If not:
+* Adjust the reverse stop switch in X direction, meanwhile ensure that the position of forward stop switch doesn’t change
+* Check the drive dog stop position again while pallet A moves onto the pallet changer.
+.Fig. 4‑176
+[width="100%",cols="100%",options="header",]
+|image:img/image297.png[img/image297,width=313,height=336]
+
+[arabic, start=11]
+. Using the “Mode” button to make the display of frequency show “H 0.00” (actual output frequency).
+.Fig. 4‑177
+[width="100%",cols="100%",options="header",]
+|image:img/image298.png[img/image298,width=132,height=240]
+
+[arabic, start=12]
+. Check the X position of two deceleration switches by:
+* Exchange the pallet.
+* See if the output frequency can be slowed down to 4.00 Hz before the pallet reaches the stop switch.
+.Fig. 4‑178
+[width="100%",cols="100%",options="header",]
+|image:img/image299.png[img/image299,width=132,height=240]
+
+[arabic, start=13]
+. If not, adjust the corresponding deceleration switch towards X+ direction.
+* If the two deceleration switches’ position changed, the two stop switches position must be rechecked.
+.Fig. 4‑179
+[width="100%",cols="100%",options="header",]
+|image:img/image300.png[img/image300,width=382,height=249]
+
+
+== Replacing indexing cylinder
+
+
+== Replacing the brake-lowering valve
+
+
+== Replacing the rigid sliding device
+
+
+== Replacing proximity switch for pallet changer position
+
+. Set the correct distance by turning the nuts on both sides of the proximity switch.
+.Fig. 4‑180
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image592.png[img/image592,width=336,height=325] |
+
+|1 Switching cam |2 Proximity switch
+|3 Leaf spring |
+* The sliding piece of the leaf spring must fit closely against the switching cam.
+* If the sliding piece is not up against the switching cam, then it’s possible that the leaf spring will become bent.
+* If the proximity switch moves to a position at switching cam at which it switches, then the proximity switch must light up.
+
+== Performing pallet changer function test
+
+Condition
+* The proximity switch for pallet deceleration/stop has been checked (see “link:#replacing-proximity-switch-for-pallet-decelerationstop[Replacing proximity switch for pallet decelera-tion/stop]”, pg. xxx).
+[arabic]
+. Select “Programs” menu in HMI.
+. Select “Service programs” folder.
+. Find and run the program “RunPalletLoop.din”.
+.Fig. 4‑181
+[width="100%",cols="100%",options="header",]
+|image:img/image593.png[img/image593,width=382,height=207]
+
+[arabic, start=4]
+. Press “Edit” to enter program edit mode.
+. Modify loop counter and interval time if necessary.
+.Fig. 4‑182
+[width="100%",cols="100%",options="header",]
+|image:img/image594.png[img/image594,width=382,height=316]
+
+[arabic, start=6]
+. Press the START button to perform 10 automatic pallet exchanges.
+* The pallet exchange should take place with little sound.
+* The unloaded lift motion should proceed evenly at all 4 corners, both upwards and downward. If this is not the case, check for sluggishness or for grazing against other components.
+
+== Replacing pallet roller
+
+
+== Replacing proximity switch for pallet deceleration/stop
+
+.Tab. 4‑61
+[width="100%",cols="72%,28%",options="header",]
+|Service level |1
+|Number of service engineers needed |1
+Estimated task time (hh:mm)
+(Without referenced procedures)
+Modification log
+.Tab. 4‑62
+[width="100%",cols="27%,47%,26%",options="header",]
+|Date (yyyy-mm-dd) |Reason for change |Version
+|2024-04 |Procedure created. |00
+* In case of problem with pallet exchange, check the frequencyconverter parameters first (see “link:#putting-the-two-level-pallet-changer-into-service[Putting the two-level pallet changer into service]”, pg. xxx).
+* If the proximity switch has detected the switching cam, then the proximity switch must light up.
+[arabic]
+. Mount the new proximity switch on the mounting plate.
+.Fig. 4‑183
+[width="100%",cols="52%,48%",options="header",]
+|image:img/image595.png[img/image595,width=382,height=254] |
+
+|1 Deceleration switch, pallet A |2 Stop switch, pallet A
+|3 Deceleration switch, pallet B |4 Stop switch, pallet B
+[arabic, start=2]
+. Roughly set the distance from the mounting plate by turning the nuts on both sides of the proximity switch:
+* Deceleration switch for pallet B: 5 mm.
+* Other three proximity switches: 20 mm.
+* According to the proximity switch to be replaced.
+.Fig. 4‑184
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image596.png[img/image596,width=305,height=225] |image:img/image597.png[img/image597,width=307,height=225]
+
+|Deceleration switch, pallet B |Other three proximity switches
+[arabic, start=3]
+. Check the clearance for the new proximity switch.
+Check the clearance for
+proximity switch
+Nominal value: 2^+1^ mm.
+* Move the pallet in jog mode in case collision occurs.
+.Fig. 4‑185
+[width="100%",cols="100%",options="header",]
+|image:img/image598.png[img/image598,width=382,height=248]
+
+[arabic, start=4]
+. Exchange the pallet to make pallet A inside the machine.
+Check the proximity switch
+in X direction
+[arabic, start=5]
+. Make sure pallet A doesn’t collide with the stop and it has a distance of 2±1 mm away from the stop.
+.Fig. 4‑186
+[width="100%",cols="100%",options="header",]
+|image:img/image305.png[img/image305,width=382,height=245]
+
+[arabic, start=6]
+. If not, adjust the pallet A stop switch in X direction.
+.Fig. 4‑187
+[width="100%",cols="100%",options="header",]
+|image:img/image599.png[img/image599,width=382,height=250]
+
+[arabic, start=7]
+. Recheck the distance of 2±1 mm for pallet A after pallet exchange.
+. Exchange the pallet to make pallet B inside the machine.
+. Make sure pallet B doesn’t collide with the stop and it has a distance of 2±1 mm away from the stop.
+.Fig. 4‑188
+[width="100%",cols="100%",options="header",]
+|image:img/image307.png[img/image307,width=382,height=287]
+
+[arabic, start=10]
+. If not, adjust pallet B stop switch in X direction.
+.Fig. 4‑189
+[width="100%",cols="100%",options="header",]
+|image:img/image308.png[img/image308,width=382,height=257]
+
+[arabic, start=11]
+. Recheck the distance of 2±1 mm for pallet B after pallet exchange.
+. Using the “Mode” button to make the display of frequency show “H 0.00” (actual output frequency).
+.Fig. 4‑190
+[width="100%",cols="100%",options="header",]
+|image:img/image298.png[img/image298,width=132,height=240]
+
+[arabic, start=13]
+. Check the X position of two deceleration switches by:
+* Exchange the pallet.
+* See if the output frequency can be slowed down to 4.00 Hz before the pallet reaches the stop switch.
+.Fig. 4‑191
+[width="100%",cols="100%",options="header",]
+|image:img/image309.png[img/image309,width=382,height=265]
+
+[arabic, start=14]
+. If not, adjust the corresponding deceleration switch towards X+ direction.
+* If the two deceleration switches’ position changed, the two stop switches position must be rechecked.

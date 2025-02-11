@@ -1,16 +1,0 @@
-= 2.10.7501 KL59 - Error Initialization
-:imagesdir: img
-
-== Description
-KL59 - Error Initialization
-
-== CauseKL59 Initialization Error. 
- "Refer node ID" 
-
-== Action
- 
-
-== Effect
- 
-
-

@@ -1,0 +1,7 @@
+fid=fopen('indx.txt','r');
+fid2=fopen('indx2.txt','w');
+ii=1;
+while ~feof(fid);
+    fprintf(fid2,'xref:.//imgservicemanual/laser-specificrepairandsettingwork/cleaningandsettingwork.adoc#_creating_a_spot_image[Checking lens with a spot image]%s\n',fgetl(fid));
+end
+fclose(fid); fclose(fid2); 

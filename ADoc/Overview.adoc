@@ -1,0 +1,10 @@
+= Overview over components
+:imagesdir: img
+
+image:Devicepanel_comp.jpg[]
+
+image:Cabinet1.jpg[]
+
+xref:./Schematics/Schematics-26.pdf[Servo drives]
+
+image:Cabinet2.jpg[]

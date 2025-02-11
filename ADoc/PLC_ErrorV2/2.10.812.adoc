@@ -1,16 +1,0 @@
-= 2.10.812 Pallet Up/Down Motion is not Possible
-:imagesdir: img
-
-== Description
-Pallet Up/Down Motion is not Possible
-
-== CausePallet not in fwd/Rev Position for Up or Down Movement. 
-Check the Pallet For/Rev position
-
-== ActionCheck the pallet position is in Forward or Reverse position(For Machine with Hydraulic up/down)
- 
-
-== Effect
- 
-
-

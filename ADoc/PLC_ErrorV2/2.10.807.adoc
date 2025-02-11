@@ -1,16 +1,0 @@
-= 2.10.807 Oxygen Pressure Low - Program Paused
-:imagesdir: img
-
-== Description
-Oxygen Pressure Low - Program Paused
-
-== CauseOxygen Pressure is low. 
-Check the Pressure and Start
-
-== ActionCheck oxygen pressure valve is open
- 
-
-== Effect
- 
-
-

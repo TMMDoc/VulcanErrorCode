@@ -1,0 +1,200 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_replacing_yaskawa_drive">Replacing Yaskawa drive</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_replacing_yaskawa_drive">Replacing Yaskawa drive</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Switch off the machine.</p>
+</li>
+<li>
+<p>Disconnect all the cables from the Yaskawa drive.
+.Fig. 5‑87</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image687.png" alt="img/image687" width="382" height="315"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Remove the Yaskawa drive from the switch cabinet.</p>
+</li>
+<li>
+<p>Mount a new Yaskawa drive.</p>
+</li>
+<li>
+<p>Connect your laptop to CN7 port on the drive by Mini USB cable.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>The driver needs to install when connecting for the first time.
+.Fig. 5‑88</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image688.png" alt="img/image688" width="382" height="299"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>Open the software SigmaWin+.</p>
+</li>
+<li>
+<p>Select “Start” &gt; “Connect the SERVOPACK”.
+.Fig. 5‑89</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image689.png" alt="img/image689" width="382" height="241"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p>Select “USB Connection” &gt; “Search for SERVOPACKs”.
+.Fig. 5‑90</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image690.png" alt="img/image690" width="382" height="238"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="9">
+<li>
+<p>Select the target drive and connect.</p>
+</li>
+<li>
+<p>Click on menu button in the top-left corner of the interface.
+.Fig. 5‑91</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image691.png" alt="img/image691" width="382" height="184"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="11">
+<li>
+<p>Select “I/O Signal Allocation” for the pop-up window.
+.Fig. 5‑92</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image692.png" alt="img/image692" width="382" height="189"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="12">
+<li>
+<p>Allocate the pin number for input signal of prohibiting the for-ward/reverse run and press “Write”.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>P-OT: CN1-7.</p>
+</li>
+<li>
+<p>N-OT: CN1-8.
+.Fig. 5‑93</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image693.png" alt="img/image693" width="382" height="295"></span></p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="13">
+<li>
+<p>Acknowledge the warning.</p>
+</li>
+<li>
+<p>Select “Jog” in main menu.
+.Fig. 5‑94</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image694.png" alt="img/image694" width="382" height="199"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="15">
+<li>
+<p>Acknowledge the warning to enter the jog operation.</p>
+</li>
+<li>
+<p>Make sure the servo is on.
+.Fig. 5‑95</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image695.png" alt="img/image695" width="217" height="240"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="17">
+<li>
+<p>Click the forward/reverse button several times to approach the upper/lower limit position and check if the “P-OT”/ “N-OT”signal turns green.
+.Fig. 5‑96</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image696.png" alt="img/image696" width="382" height="298"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="18">
+<li>
+<p>Check that the pointer can reach both upper and lower limit position and the alarm “A.710” is triggered.
+.Upper limit position Fig. 5‑97</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image697.png" alt="img/image697" width="189" height="132"></span> |<span class="image"><img src="img/image698.png" alt="img/image698" width="189" height="132"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="19">
+<li>
+<p>Switch off the servo by the “Servo OFF” button.</p>
+</li>
+<li>
+<p>Double click the Axis interface (orange area) to show alarm Display.</p>
+</li>
+<li>
+<p>Reset the alarm by click “Reset axes” button.
+.Fig. 5‑98</p>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image699.png" alt="img/image699" width="382" height="218"></span></p>
+</div>
+</li>
+</ol>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="22">
+<li>
+<p>Drive the servo motor on</p>
+</li>
+<li>
+<p>Move the focus position away from the upper/lower limit position.</p>
+</li>
+<li>
+<p>Restart the machine and then the servo motor will do homing automatically.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>

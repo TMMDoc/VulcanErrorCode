@@ -1,16 +1,0 @@
-= 2.10.503 NC not Initialized
-:imagesdir: img
-
-== Description
-NC not Initialized
-
-== CauseThis Error occurs when there is mismatch between the PLC and Vulcan HMI Version. 
- 
-
-== ActionCheck with the manufacturer for correct version combination. Check for communication between HMI and PLC
- 
-
-== Effect
- 
-
-

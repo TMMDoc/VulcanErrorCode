@@ -1,16 +1,0 @@
-= 2.10.641 System M function file Corrupted
-:imagesdir: img
-
-== Description
-System M function file Corrupted
-
-== CauseSystem Error
- 
-
-== ActionCheck with the manufacturer
- 
-
-== Effect
- 
-
-

@@ -1,0 +1,8 @@
+Generalwork
+WorkingonZaxis
+WorkingonYaxis
+WorkingonXaxis
+Workingonthehydraulicpalletchanger
+Workingonthecover
+Exhaustsystem
+Cuttinggassupply

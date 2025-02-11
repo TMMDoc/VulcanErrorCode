@@ -1,0 +1,22 @@
+
+= LLK types and plug-and-socket devices
+
+For L99 machine (FD90/91), the new LLK plug type is QD.
+QD is plugged without a plug-and-socket device.
+QD has no protective glass.
+.L99 LLK types and plug-and-socket devices Tab. 1‑6
+[width="100%",cols="30%,35%,35%",options="header",]
+| |*QD* |*LLK-X*
+|LLK plug |image:img/image88.png[img/image88,width=140,height=60] |image:img/image89.png[img/image89,width=140,height=73]
+
+End cap
+/Protective glass
+image:img/image90.png[img/image90,width=140,height=127]
+
+*Inseparable protective glass*
+|image:img/image91.png[img/image91,width=140,height=121]
+
+|Plug-and-socket device usable |No |No
+|Laser type |FD90, FD91 |FD90, FD91
+|Inserting LLK |(See “link:#plugging-qd-connector-into-the-cutting-unit[Plugging QD co-nnector into the cutting unit]”, pg. xxx) |/
+Chapter *2*

@@ -1,0 +1,396 @@
+
+= Working on Z axis
+
+
+== Replacing the motor and spindle of the Z axis drive
+
+* Standard tool set, mat. no. 0135600.
+* Circlip plier.
+* Hook wrench 22-26 mm.
+[arabic]
+. Move the pallet out of the machine.
+Remove the motor
+[arabic, start=2]
+. Switch the machine’s main switch off and secure it against being switched on again.
+. Remove the front cover of the cutting unit.
+.Front covers of the cutting unit Fig. 4‑7
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image431.png[img/image431,width=287,height=249] |image:img/image432.png[img/image432,width=311,height=249]
+
+[arabic, start=4]
+. Unplug the cable and hoses on the Z slide:
+* Collision protection.
+* Compressed air.
+* Lubrication line.
+* Positioning laser diode.
+* Make a mark for collision protection cable to distinguish between collision protection cable and positioning diode cable when reassembling.
+.Fig. 4‑8
+[width="100%",cols="36%,34%,30%",options="header",]
+|image:img/image433.png[img/image433,width=207,height=225] |image:img/image434.png[img/image434,width=210,height=225] |image:img/image435.png[img/image435,width=185,height=225]
+
+|1 Compressed air |3 PE |5 Positioning diode
+|2 Collision protection |4 Lubrication line |
+[arabic, start=5]
+. Undo the chain (4x screws) at the front and rear side.
+.Fig. 4‑9
+[width="100%",cols="100%",options="header",]
+|image:img/image436.png[img/image436,width=288,height=261]
+
+[arabic, start=6]
+. Tilt the chain to the side and place the cutting unit onto the motion unit.
+* Pay attention to the minimum bend radius of the LLK > 100 mm.
+.Cutting unit removed and set aside Fig. 4‑10
+[width="100%",cols="100%",options="header",]
+|image:img/image437.png[img/image437,width=382,height=232]
+
+[arabic, start=7]
+. Remove the chain holding plate.
+.Fig. 4‑11
+[width="100%",cols="100%",options="header",]
+|image:img/image438.png[img/image438,width=382,height=246]
+
+[arabic, start=8]
+. Unplug the Z motor cable.
+.Fig. 4‑12
+[width="100%",cols="100%",options="header",]
+|image:img/image439.png[img/image439,width=288,height=384]
+
+[arabic, start=9]
+. Unscrew (17 Nm) motor screws (4x).
+.Fig. 4‑13
+[width="100%",cols="100%",options="header",]
+|image:img/image440.png[img/image440,width=382,height=236]
+
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image10.png[img/image10,width=192,height=34] a|
+
+*Z slide may fall down due to screws of the coupling being loosen.*
+*Risk of defective machine.*
+* Hold on the Z slide and lower it to the bottom carefully when undoing the coupling.
+[arabic, start=10]
+. Undo (14 Nm) the coupling on the spindle.
+* Rotate the motor to loosen the screws on the back of the coupling.
+.The coupling Fig. 4‑14
+[width="100%",cols="100%",options="header",]
+|image:img/image441.png[img/image441,width=265,height=268]
+
+[arabic, start=11]
+. Lower the Z slide carefully to the lowest position.
+. Pull out the motor.
+. Remove the coupling on the spindle.
+Additional work for
+removing the spindle
+[arabic, start=14]
+. Remove two brackets on the cutting unit receptacle.
+.Fig. 4‑15
+[width="100%",cols="100%",options="header",]
+|image:img/image442.png[img/image442,width=382,height=245]
+
+[arabic, start=15]
+. Undo (4.5 Nm) the screws (4x) on the ball nut.
+.Fig. 4‑16
+[width="100%",cols="100%",options="header",]
+|image:img/image443.png[img/image443,width=382,height=262]
+
+[arabic, start=16]
+. Loosen the screws of guide carriages.
+.Fig. 4‑17
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image444.png[img/image444,width=382,height=220] |
+
+|1 Shoulder screws (2x) |2 Screws (14x)
+[arabic, start=17]
+. Remove the Z slide.
+. Fix the ball nut on the spindle and the Z carriages.
+* Be careful of the ball nut and Z carriages falling.
+.Fig. 4‑18
+[width="100%",cols="100%",options="header",]
+|image:img/image445.png[img/image445,width=382,height=299]
+
+[arabic, start=19]
+. Undo the jackscrew on the lock nut.
+.Fig. 4‑19
+[width="100%",cols="100%",options="header",]
+|image:img/image446.png[img/image446,width=382,height=266]
+
+[arabic, start=20]
+. With the open-end wrench (size 14 mm) holding the groove of the spindle, and with the hook wrench, remove the lock nut.
+.Lock nut removal Fig. 4‑20
+[width="100%",cols="100%",options="header",]
+|image:img/image447.png[img/image447,width=382,height=314]
+
+[arabic, start=21]
+. Dismantle the spray shield.
+.Fig. 4‑21
+[width="100%",cols="100%",options="header",]
+|image:img/image448.png[img/image448,width=382,height=218]
+
+[arabic, start=22]
+. Remove the ball screw from the upper bearing mount by knocking lightly from above.
+.Fig. 4‑22
+[width="100%",cols="100%",options="header",]
+|image:img/image449.png[img/image449,width=382,height=364]
+
+[arabic, start=23]
+. Remove the circlip under the lower bearing.
+.Fig. 4‑23
+[width="100%",cols="100%",options="header",]
+|image:img/image450.png[img/image450,width=382,height=327]
+
+[arabic, start=24]
+. Remove the lower bearing.
+. Tilt the spindle towards you and remove the spindle upwards.
+.Fig. 4‑24
+[width="100%",cols="100%",options="header",]
+|image:img/image451.png[img/image451,width=382,height=354]
+
+[arabic, start=26]
+. Remove the cover on the upper bearing mount.
+* The screws on the bearing mount which are used for alignment *must not be loosened*, otherwise the spindle must be realigned in the X-Y plane.
+* The countersunk screws on the cover must not be loose-ned with the ball head of Allen key.
+.Fig. 4‑25
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image452.png[img/image452,width=382,height=237] |
+
+|1 Cover |2 Sleeve
+|3 Axial bearing (2x) |4 Bearing mount
+[arabic, start=27]
+. Replace the upper axial bearing (2x) and lower bearing (1x).
+Install the new spindle
+* Pay attention to the direction of two upper bearings. The mark on them must form an arrow downwards.
+.Fig. 4‑26
+[width="100%",cols="100%",options="header",]
+|image:img/image453.png[img/image453,width=382,height=250]
+
+[arabic, start=28]
+. Remove the grease nipple from the old ball screw and install it on the new one, facing forward.
+.Fig. 4‑27
+[width="100%",cols="100%",options="header",]
+|image:img/image454.png[img/image454,width=382,height=277]
+
+[arabic, start=29]
+. Clean all the installation contact surface.
+. Insert the spindle through the bearing mount.
+. Guide two upper bearings to the spindle.
+. Guide a sleeve to the spindle.
+. Mount the cover for the bearings.
+* Attach Loctite to the countersunk screws.
+.Fig. 4‑28
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image452.png[img/image452,width=382,height=237] |
+
+|1 Cover |2 Sleeve
+|3 Axial bearing (2x) |4 Bearing mount
+[arabic, start=34]
+. With the open-end wrench (size 14 mm) holding the groove of the spindle, and with the hook wrench, tighten the lock nut.
+.Fig. 4‑29
+[width="100%",cols="100%",options="header",]
+|image:img/image447.png[img/image447,width=382,height=314]
+
+[arabic, start=35]
+. Tighten the jackscrew on the lock nut.
+. Slightly knock the lower bearing from below to the spindle until the groove of spindle is visible.
+. Fit circlip to the groove of spindle.
+.Fig. 4‑30
+[width="100%",cols="100%",options="header",]
+|image:img/image455.png[img/image455,width=382,height=185]
+
+[arabic, start=38]
+. Mount the spray shield.
+. Remove the fixture for ball nut and Z carriages.
+. Install the Z slide:
+* Screw in 2x shoulder screws first, but not yet tighten.
+* Screw in 14x screws for carriages, but not yet tighten.
+* Screw in 4x screws for ball nut, but not yet tighten.
+* Move the Z slide up and down multiple times to be relieved of tension.
+* Tighten 2x shoulder screws by hand first, without Loctite.
+* Tighten 14x screws for carriages to 10 Nm, with Loctite.
+* Tighten 4x screws for ball nut to 4.5 Nm, with Loctite.
+* Do not use Loctite when assembling the shoulder screw.
+.Fig. 4‑31
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image456.png[img/image456,width=382,height=246] |
+
+|1 M5 screws (14x), carriages |2 M4 screws (4x), ball nut
+|3 Shoulder screws (2x) |
+[arabic, start=41]
+. Check if the Z slide move smoothly.
+. Place the coupling.
+. Using M3 screw, remove the flat key on the shaft of new motor.
+Install the new motor
+.Fig. 4‑32
+[width="100%",cols="100%",options="header",]
+|image:img/image457.png[img/image457,width=382,height=225]
+
+[arabic, start=44]
+. Clean all the installation contact surface.
+. Insert the motor into the YZ unit, aligning the slot of coupling to the key way.
+* The motor interface faces Y+ direction.
+.Fig. 4‑33
+[width="100%",cols="100%",options="header",]
+|image:img/image458.png[img/image458,width=382,height=241]
+
+[arabic, start=46]
+. Tighten 2x screws on the coupling to 14 Nm.
+. Rotate the motor to tighten the remaining 2 screws on the coupling to 14 Nm.
+.Fig. 4‑34
+[width="100%",cols="100%",options="header",]
+|image:img/image459.png[img/image459,width=240,height=214]
+
+[arabic, start=48]
+. Rotate the motor back to original position.
+. Tighten the screws of motor to 17 Nm.
+. Perform the removal steps in the reverse order.
+. Further work:
+* Reset error message E731.0 of the Inovance drive. (see “link:#reset-error-message-e731.0-of-inovance-drive[Reset error message E731.0 of Inovance drive]”, pg. xxx)
+* Set the Z axis reference point offset value. (see “link:#checking-and-setting-the-z-axis-reference-point-offset-value[Checking and setting the Z axis reference point off-set value]”, pg. xxx)
+
+== Replacing the guide rails
+
+* The machine’s main switch is switched off and secured against being switched on again.
+* The Z slide is removed (see “link:#replacing-the-motor-and-spindle-of-the-z-axis-drive[Replacing the motor and spindl-e of the Z axis drive]”, pg. xxx).
+Means, Tools, Materials
+* 2x recirculating ball unit, consisting of 1 guide rail and 2 guid-e carriages, mat. no. 2750694.
+* Standard tool set, mat. no. 0135600.
+[arabic]
+. Disassemble the spray shield under the Y slide.
+.Fig. 4‑35
+[width="100%",cols="100%",options="header",]
+|image:img/image460.png[img/image460,width=382,height=213]
+
+[arabic, start=2]
+. Guide all guide carriages downwards from the rails.
+. Remove the screw sealing caps from both guide rails.
+. Dismantle both guide rails.
+. Clean contact surfaces well and, if necessary, strip with an oil stone.
+. Clean the new guide rail contact surface and, if necessary strip it with an oil stone.
+. Insert the left guide rail into the Y slide.
+.Fig. 4‑36
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image461.png[img/image461,width=382,height=235] |
+
+|1 Sealing cap |2 Stop edge
+[arabic, start=8]
+. Screw in all screws with Loctite 243, but do not yet tighten.
+. Fasten the guide rail:
+* Use a hammer handle to push the guide rail against the stop edge in the area of topmost screw.
+* Tighten the screw to 4.5 Nm.
+[arabic, start=10]
+. Repeat the procedure one after the other from top to bottom for all screws.
+. Repeat steps 6. to 10. with the right guide rail.
+.Fig. 4‑37
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image462.png[img/image462,width=382,height=236] |
+
+|1 Sealing cap |2 Stop edge
+[arabic, start=12]
+. Insert all the screw sealing cap.
+. Apply some grease to the guide rails before installing the guide carriages.
+* The Z guide carriages are maintenance free.
+[arabic, start=14]
+. Guide the new guide carriages onto the guide rail, with the milled surface facing left.
+.Fig. 4‑38
+[width="100%",cols="100%",options="header",]
+|image:img/image463.png[img/image463,width=382,height=309]
+
+|1 Milled surface
+[arabic, start=15]
+. Mount spray shield.
+. Further work:
+* Mount Z slide. (see “link:#replacing-the-motor-and-spindle-of-the-z-axis-drive[Replacing the motor and spindle of Z axis drive]”, pg. xxx)
+* Set the Z axis reference point offset value. (see “link:#checking-and-setting-the-z-axis-reference-point-offset-value[Checking and setting the Z axis reference point off-set value]”, pg. xxx).
+
+== Checking and setting the Z axis reference point offset value
+
+Condition
+* Z slide is at the lowest position.
+* All pallets are out of the machine.
+* Machine is switched on.
+* Any nozzle is set up.
+* Service user level in Vulcan system is active.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Homing before setting the Z axis reference point offset value.*
+*Risk of collision.*
+* Roughly set the Z axis reference point offset value before homing.
+* Due to moving Z axis to 115 position, Z axis reference point offset value need to be set roughly in advance.
+[arabic]
+. Select “Configure” > “Machine Settings” on HMI.
+.Fig. 4‑39
+[width="100%",cols="100%",options="header",]
+|image:img/image464.png[img/image464,width=382,height=173]
+
+[arabic, start=2]
+. Select “Axis Parameters” > “Z” axis.
+. Scroll down and find “Referencing” catalog.
+. Enter -195 in “Homing offset” and 1 in “Homing direction and sequence”.
+.Fig. 4‑40
+[width="100%",cols="100%",options="header",]
+|image:img/image465.png[img/image465,width=382,height=306]
+
+[arabic, start=5]
+. Click “Close” and choose “Save and reload parameters” for the querying window.
+. Go to “Setup” menu and carry out a reference run of Z axis.
+.Fig. 4‑41
+[width="100%",cols="100%",options="header",]
+|image:img/image466.png[img/image466,width=382,height=201]
+
+[arabic, start=7]
+. Go back to the previous interface for setting Z referencing.
+. Change “Homing direction and sequence” back to 0.
+.Fig. 4‑42
+[width="100%",cols="100%",options="header",]
+|image:img/image467.png[img/image467,width=382,height=172]
+
+[arabic, start=9]
+. Click “Close” to save and reload parameters.
+. In “Setup” interface, select “Homing” > “Automatic” and pressthe green START button to run homing.
+.Fig. 4‑43
+[width="100%",cols="100%",options="header",]
+|image:img/image468.png[img/image468,width=382,height=155]
+
+[arabic, start=11]
+. In “Controls”, run “Go to park position” program.
+.Fig. 4‑44
+[width="100%",cols="100%",options="header",]
+|image:img/image469.png[img/image469,width=382,height=264]
+
+[arabic, start=12]
+. Place a sheet metal at least 2 mm thick on the pallet.
+. Move the pallet into the machine.
+. Position cutting unit above the sheet metal.
+. Move the cutting unit downwards slowly to approach the sheet metal.
+* Cutting unit goes down step by step with an increment of 0.5 mm, when it’s close to the sheet.
+* The cutting unit should nearly touch the sheet metal rather than colliding with the sheet.
+.Fig. 4‑45
+[width="100%",cols="100%",options="header",]
+|image:img/image470.png[img/image470,width=382,height=271]
+
+[arabic, start=16]
+. Check the display value of Z axis on HMI. Nominal value: sheet thickness ± 0.5 mm.
+. If not, select “Configure” > “Machine Settings” on HMI.
+. Select “Axis Parameters” > “Z” axis.
+. Scroll down and find “Referencing” catalog.
+. Enter sheet thickness (e.g., 2 mm) in “Homing offset” and enter 1 in “Homing direction and sequence”.
+.Fig. 4‑46
+[width="100%",cols="100%",options="header",]
+|image:img/image471.png[img/image471,width=382,height=305]
+
+[arabic, start=21]
+. Click “Close” and then “Save and reload parameters”
+. Come back to “Setup” menu and carry out a reference run of Z axis.
+.Fig. 4‑47
+[width="100%",cols="100%",options="header",]
+|image:img/image466.png[img/image466,width=382,height=201]
+
+[arabic, start=23]
+. Go back to the previous interface for setting Z referencing.
+. Change “Homing direction and sequence” back to 0.
+.Fig. 4‑48
+[width="100%",cols="100%",options="header",]
+|image:img/image472.png[img/image472,width=382,height=305]
+
+[arabic, start=25]
+. Click “Close” and then “Save and reload parameters”.
+. Check the display value of Z axis on HMI. Nominal value: sheet thickness ± 0.5 mm.

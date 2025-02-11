@@ -1,0 +1,134 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_kl59_main_assemblies">KL59 main assemblies</a></li>
+<li><a href="#_luminous_displays_on_the_kl59_cutting_unit">Luminous displays on the KL59 cutting unit</a></li>
+<li><a href="#_lens_holder_status_display">Lens holder status display</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_kl59_main_assemblies">KL59 main assemblies</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<div class="title">Structure of the KL59 cutting unit Fig. 1‑8</div>
+<p>|<span class="image"><img src="img/image78.png" alt="img/image78" width="240" height="451"></span> |</p>
+</div>
+<div class="paragraph">
+<p>|1 Adjustment unit, lens change |2 Plug receptacle
+|3 Base plate with media connections |4 Adjustment mechanism for beam alignment
+|5 Cutting unit |
+* Two types of firmware for cutting head:
+* CAN OPEN (new version).
+* CAN ONLY (old version).
+* Incompatible cutting heads with different firmware.
+Media connections
+.KL59 media connections Fig. 1‑9</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image79.png" alt="img/image79" width="364" height="423"></span> |</p>
+</div>
+<div class="paragraph">
+<p>|1 Sealing gas (only available from a laser power of 6 kW) |2 Cutting gas
+|3 CoolLine |4 Optical laser cable
+|5 Compressed air |6 CAN bus for motor of the collimation lens
+|7 Water cooler |8 CAN bus for electronics of the cutting head
+|9 Lateral air blast |10 24V power supply
+Additional cooling with
+high laser power
+.KL59 cutting unit for high laser power Fig. 1‑10</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image80.png" alt="img/image80" width="403" height="290"></span> |</p>
+</div>
+<div class="paragraph">
+<p>|1 Cooling for 8 and 10 kW |2 Cooling for 12kW with cable connection
+With the KL59 cutting unit for 12kW an additional scattered light sensor and temperature sensor are integrated.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_luminous_displays_on_the_kl59_cutting_unit">Luminous displays on the KL59 cutting unit</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After switching on the machine or drives, the cutting unit is supplied with voltage. The drive in the cutting unit moves into the reference position.
+LEDs on the adjustment
+unit for the lens change
+The LEDs on the housing show the status of the cutting unit.
+The LEDs on the adjustment unit indicate the status of the cutting unit drive.
+.LEDs of the adjustment unit for the lens change Fig. 1‑11</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image81.png" alt="img/image81" width="307" height="321"></span></p>
+</div>
+<div class="paragraph">
+<div class="title">Status of LEDs on the adjustment unit for the lens change Tab. 1‑4</div>
+<p>|<strong>LED status</strong> |<strong>Status</strong>
+|<strong>POWER (green)</strong> |Power supply ON.
+<strong>ONLINE</strong>
+<strong>(orange)</strong>
+CAN OPEN status:
+* Continuous light – Working mode.
+* Slowly flashing – Bus communication possible.
+* Quickly flashing – No bus communication possible.
+|<strong>BOOT (red)</strong> a|
+Status of the bootloader. Bootloader is a separateprogram which starts the controller and updates the main program.
+* Continuous light – Bootloader active.
+* Off – Bootloader inactive.
+|<strong>RUN (yellow)</strong> a|
+Status of the main program.
+* Continuous light – Main program active.
+* Flashing – Main program is being updated.
+* Off – Main program inactive.
+|<strong>OUT (yellow)</strong> |Output for valve index pin. Illuminated if the outputis active
+|<strong>IN 4 (yellow)</strong> |Display the contact of the swivel lever with fixed stops. Illuminates when the lever is in contact.
+|<strong>IN 3 (yellow)</strong> |Query of the state of the index pin. Illuminated if the index pin is retracted.
+|<strong>IN 2 (yellow)</strong> |Query which collimation lens is swiveled in. Illuminated if the lens with focal diameter of 210μm is swiveled in (f = 71.4).
+|<strong>IN 1 (yellow)</strong> |Query which collimation lens is swiveled in. Illuminated if the lens with focal diameter of 150μm is swiveled in (f = 100).
+LEDs on the cutting head
+The LEDs on the cutting head indicate the status of the cutting head/CAN bus connection.
+.Luminous displays for the sensor system electronics Fig. 1‑12</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image82.png" alt="img/image82" width="288" height="337"></span></p>
+</div>
+<div class="paragraph">
+<p>on the lower cutting unit
+.Status display of the electronics and sensor system Tab. 1‑5</p>
+</div>
+<div class="paragraph">
+<p>|<strong>LED status</strong> |<strong>Status</strong>
+|<strong>RUN (yellow)</strong> a|
+Status of the main program.
+* Continuous light - Main program active.
+* Flashing - Main program is being updated.
+* Off - Main program inactive.
+|<strong>BOOT (red)</strong> a|
+Status of the bootloader. Bootloader is a separateprogram which starts the controller and updates the main program.
+* Continuous light - Bootloader active.
+* Off - Bootloader inactive.
+<strong>ONLINE</strong>
+<strong>(orange)</strong>
+|Receiving CAN telegram.
+|<strong>POWER (green)</strong> |Power supply ON.
+in the cutting head</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lens_holder_status_display">Lens holder status display</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The position of the lens holder can be read off from the display window of the cutting unit. The focal point range is derived from this.
+.Position of the lens and focal point range Fig. 1‑13</p>
+</div>
+<div class="paragraph">
+<p>|<span class="image"><img src="img/image83.png" alt="img/image83" width="403" height="378"></span> |</p>
+</div>
+<div class="paragraph">
+<p>|A Lens swiveling |B Focal point range
+|1 Upper fixed stop |2 Upper change position
+|3 Neutral position |4 Lower change position
+|5 Lower fixed stop |</p>
+</div>
+</div>
+</div>

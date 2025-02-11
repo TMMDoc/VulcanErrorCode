@@ -14,3 +14,14 @@ This is the internal error code data base for Vulcan control (L99, Eckelmann). P
 
 * xref:NC_Error2/index#[NC_Error2]
 
+see additional documents
+
+link:./manuals/ErrorMessagesNCControllers_EN.pdf#[Eckelmann documentation]
+
+link:./manuals/LC800ProgrammingManual_V1.61.pdf#[PRogramming Manual]
+
+xref:ServiceManual/index#[L99 Service manual]
+
+xref:OPManual/index#[L99 Operation manual]
+
+xref:Schematics/index#[L99 Schemtatics]

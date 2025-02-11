@@ -1,16 +1,0 @@
-= 2.10.7412 KL59 - Command Focus position is greater than Positive Limit
-:imagesdir: img
-
-== Description
-KL59 - Command Focus position is greater than Positive Limit
-
-== CauseSet focus position is Greater than the Positive Limit or the focus position reached the Positive Limit.
- 
-
-== ActionSet the Focus position within the Limits
- 
-
-== Effect
- 
-
-

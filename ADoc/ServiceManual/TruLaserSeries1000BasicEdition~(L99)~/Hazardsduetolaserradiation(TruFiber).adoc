@@ -1,0 +1,48 @@
+
+= Hazards due to laser radiation (TruFiber)
+
+Solid-state laser TruFiber
+The TruFiber is a laser class 4 solid-state laser.
+Solid-state lasers generate intensive light in the invisible near infrared spectral range with a wavelength of 900 to 1250nm.
+Biological tissue absorbs light in different ways. It is usually converted into heat and causes thermal damage (e.g. burns, destruction of protein) and permanent retina damage.
+Eyes and skin are especially at risk due to direct and reflective laser radiation.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image3.png[img/image3,width=192,height=33] a|
+
+*Invisible, high-energy laser radiation!*
+*Risk of severe skin burns and damage to the eyes. Impairment or even loss of eyesight possible!*
+* Only operate the machine with the guards active.
+* Check the guards for damage daily.
+* Observe warning signs and warning symbols.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image3.png[img/image3,width=192,height=33] a|
+
+*Incorrect laser safety glasses!*
+*Serious eye injuries. Vision impairment and blindness.*
+* Use laser safety glasses that are approved for the wavelength of the laser radiation of the laser.
+Wavelengths
+.Laser wavelength of FD 90/91 Tab. 1‑1
+[width="100%",cols="34%,28%,38%",options="header",]
+|*Laser* |*Wavelength* |*Spectral range*
+|Fiber laser module |1050 - 1250 nm |Invisible, near infrared
+|Pilot laser |630 – 680 nm |Visible, red
+Laser classes
+.Tab. 1‑2
+[width="100%",cols="78%,22%",options="header",]
+|*Device, component* |*Laser class*
+|Laser device with closed case |1
+|Laser device with open case |4
+|Laser light cables |1
+|Laser machine with protective cover |1
+|Laser machine without protective cover |4
+|Laser diode for machine adjustment work |3R
+|Focusing optics under a closed protective cover |1
+|Focusing optics without protective cover |4
+|Pilot laser at the exit of the focusing optics |2
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Risk of eye injuries due to laser radiation!*
+*Laser radiation causes irreparable damage to the eyes.*
+* Do not look directly into the beam.
+* Do not view with optical instruments.

@@ -1,16 +1,0 @@
-= 2.10.827 Pallet Door Closed
-:imagesdir: img
-
-== Description
-Pallet Door Closed
-
-== CausePallet Door close feedback is On during Pallet movement. 
-Pallet Motion aborted
-
-== ActionCheck Pallet door close feedback.Check connection as per Page.57 in the Electrical scheme
- 
-
-== Effect
- 
-
-

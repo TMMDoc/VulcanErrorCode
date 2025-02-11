@@ -1,16 +1,0 @@
-= 2.10.7209 Empower - Minimum and Maximum Frequency value error
-:imagesdir: img
-
-== Description
-Empower - Minimum and Maximum Frequency value error
-
-== CauseThere is no difference in Minimum and maximum frequency value during Height Calibration
-Check the Sensor insert
-
-== Action
- 
-
-== Effect
- 
-
-
