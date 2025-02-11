@@ -1,0 +1,45 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CAN-Drive: Configured CAN-Bus-Interface is not available</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A CAN drive interface is configured in the machine constants, which is not available at the controller.This can have several reasons:
+ An MK file was loaded that does not match the controller type (the original controller had more CAN interfaces)
+ The configured CAN interface is available on the hardware side, but not enabled via the customer configuration
+ An optional expansion device is missing that provides the configured CAN interface (e.g. CAN88 for EXC88)
+ There may be a hardware defect</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Check whether the interface specified in the additional error information exists on your controller and that it is enabled, and adjust the machine constants if necessary.? If the interface is not enabled and an upgrade is desired,please contact our sales department.? If the interface is present and enabled on the hardware side, it is probably a hardware defect. In this case, after making sure that it is not the enable after all, send the controller in for repair.ExampleA possible error case with an EXC66 hwconf with error-free controller:hwconf at the controller with this error message:CAN3, CAN4, RTC, the buffered CMOS RAM and the SD card are located on the expansion board of the controller, which is no longer displayed by HWCONF in the reported error for this controller.In this case, the controller must be sent in and replaced. The cause must be determined by the manufacturer.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

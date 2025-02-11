@@ -1,0 +1,26 @@
+
+*Error No:*
+2.26.5117
+
+*Description*
+Ether CAT: State polling No response from slave. Check wiring and reload machine constants/plc sa1006(Slave Address) stun known err5113
+
+Further possible causes:
+Ether CAT Connection may be loose or disconnected.
+MCB-F6 may have tripped
+
+Further possible actions:
+Check Ether-cat Connection cable.
+Check MCB-F6 for trip Condition.
+The term sa1006 in the description indicates the slave address.
+Check for the minimum slave address in the message and check the Connection.
+(If suppose Slave Address sa1005 connection is loose or disconnected, then the Error message will appear for all the slave devices that is connected after the slave device with the address 1005. So, need to check first the connection of the slave device (1005). Slave device details as follows)
+
+image:img/media/image5.png[A diagram of a computer AI-generated content may be incorrect.,width=396,height=332]
+
+image:img/media/image6.png[A computer hardware diagram with many different colored parts AI-generated content may be incorrect.,width=591,height=244]image:img/media/image7.png[A diagram of a computer AI-generated content may be incorrect.,width=504,height=304]
+
+
+image:img/media/image8.png[A computer hardware with many different ports AI-generated content may be incorrect.,width=404,height=276]
+
+After checking the connection, go to controls page in the Vulcan and select Ether cat Master restart for restarting the communication

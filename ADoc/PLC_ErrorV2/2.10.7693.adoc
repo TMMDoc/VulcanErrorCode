@@ -1,0 +1,31 @@
+= 2.10.7693 KL59 - Error External 24V not present
+:imagesdir: img
+
+== Description
+KL59 - Error External 24V not present- IO module CAN 2 NODE_ID=30
+
+== Cause
+
+Further possible causes:
+
+MCB F5 may have tripped.
+
+KL59 Supply cable may be disconnected.
+
+
+== Action
+
+Further possible actions:
+
+Check whether MCB F5 is tripped. If Yes, Check for any short circuit in the 24V.
+
+Switch On the MCB F5.
+
+Check KL59 Supply voltage Cable for any loose connection or disconnected.
+
+image:img/media/image13.png[A diagram of a computer AI-generated content may be incorrect.,width=407,height=380]
+
+
+== Effect
+ 
+

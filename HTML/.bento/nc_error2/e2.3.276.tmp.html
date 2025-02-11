@@ -1,0 +1,47 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>G2 invalid target channel entry</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>In G22 (subroutine call), an impermissible NC channel was specified in parameter K. This can have several reasons:
+The controller is not enabled for the use of the specified channel
+MK_NC_MAX_CHANNELS / MK_KANALANZAHL is set to a too low value
+Necessary information for opening a new NC channel in the G22 call has been omitted</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The solution depends on the cause.
+ Only use NC channels that are enabled on your controllers. If the number of activated channels is not sufficient, please contact your sales consultant.
+ Increase the MK_NC_MAX_CHANNELS / MK_KANALANZAHL
+ When calling G22 with parameter K, always also specify a value for L and the axes to be transferred to the new channel</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

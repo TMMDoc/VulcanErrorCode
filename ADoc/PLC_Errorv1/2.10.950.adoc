@@ -1,0 +1,15 @@
+= 2.10.950 CNC1 & 2	 Tandem Limit Reached - Pgm Paused
+:imagesdir: img
+
+== Description
+CNC1 & 2	 Tandem Limit Reached - Pgm Paused
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

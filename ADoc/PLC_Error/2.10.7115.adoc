@@ -1,0 +1,15 @@
+= 2.10.7115 Precitec - PC - Linear Drive no supply voltage
+:imagesdir: img
+
+== Description
+Precitec - PC - Linear Drive no supply voltage
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

@@ -1,0 +1,16 @@
+= 2.10.2001 CAN_OPEN - Axis End Limit Active
+:imagesdir: img
+
+== Description
+CAN_OPEN - Axis End Limit Active
+
+== CauseFocus position Motor reached the End Limit
+ 
+
+== ActionMake sure to move the Posiiton within the Limits
+ 
+
+== Effect
+ 
+
+

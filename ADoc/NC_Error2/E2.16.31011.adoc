@@ -1,0 +1,15 @@
+= 2.16.31011
+:imagesdir: img
+
+== Description
+SERCOS not configured or not supported
+
+== Cause
+The firmware doesn't match the installed sercos board of the controller. There are two different hardware revisions of the board, containing different FPGAs.
+
+== Action
+Use at least firmware version V2.23beta3.
+
+== Effect
+ 
+

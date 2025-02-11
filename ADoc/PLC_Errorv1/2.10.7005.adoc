@@ -1,0 +1,15 @@
+= 2.10.7005 Axis - Negative Software Limit Active
+:imagesdir: img
+
+== Description
+Axis - Negative Software Limit Active
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

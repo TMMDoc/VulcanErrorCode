@@ -1,0 +1,15 @@
+= 2.10.464 No Technology Cutting Head is Activated
+:imagesdir: img
+
+== Description
+No Technology Cutting Head is Activated
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

@@ -1,0 +1,15 @@
+= 2.9.1121
+:imagesdir: img
+
+== Description
+Stop signal present, program start not possible
+
+== Cause
+An attempt was made to start a DIN program via the start key while the stop key was active.
+
+== Action
+Do not press Start and Stop at the same time. If the stop button was not pressed, it may be a wiring error or a hardware problem.
+
+== Effect
+ 
+

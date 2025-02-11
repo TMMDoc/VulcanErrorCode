@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CMOS-RAM invalid: residual data will be deleted</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The CMOS RAM of the controller is used to store coordinate systems and other data. The data is buffered with means of a battery, even if no external power is supplied to the controller.The battery might be empty (also has a separate error message) or has been recently changed (The battery exchange is buffered by a capacitor, but this buffering only covers a short period). The Data might be corrupted by other influences.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In this case you have to transfer the user defined coordinate systems and zero points once again to the controller. Otherwise DIN program might not be executed correctly.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

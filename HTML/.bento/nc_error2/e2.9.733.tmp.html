@@ -1,0 +1,44 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>EtherCAT interface is not available or has not been unlocked</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>EtherCAT axes are configured in the machine constants, although no EtherCAT interface is available at the controller.This can have several reasons:
+ An MK file was loaded that does not match the controller type (the previous controller had more CAN interfaces)
+ The CAN interface is available on the hardware side, but not enabled via the customer configuration
+ There may be a hardware defect</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Check whether the EtherCAT interface exists on your controller and that it is enabled, and adjust the machine constants if necessary.? If the interface is not enabled and an upgrade is desired,please contact our sales department.? If the interface is present and enabled on the hardware side, it is probably a hardware defect. In this case, after making sure that it is not the enable after all, send the controller in for repair.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

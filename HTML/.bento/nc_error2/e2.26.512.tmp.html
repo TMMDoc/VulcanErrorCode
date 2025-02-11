@@ -1,0 +1,37 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>EtherCAT: PLC master cycle time doesn&#8217;t match to interpolation cycle time Complete error message:</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The values from MK_CFG_INTERPOLATION_CYCLE_TIME / MK_DELTAT and the master cycle time from CODESYS must match as soon as at least one CNC or motion axis is configured. This is due to the fact that CODESYS determines the DC parameters of the slaves from the master cycle time. The value from the machine constants is completely unknown to CODESYS during this offline calculation and cannot be communicated to it. If the DC parameters of the slaves are based on an incorrect master cycle time, then DC may not work properly.Possible solutionEnter the same value for the master cycle time in CODESYS as in the MK file and recompile and load the PLC or vice versa.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

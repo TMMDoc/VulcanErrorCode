@@ -1,0 +1,42 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Too many parameters for machine constant</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In a MK file the the machine constant MK_VOREINSTELLUNG isn&#8217;t terminated with a semicolon. Excerpt from the MK file:MK_VOREINSTELLUNG             "G60 X0 K2 E7;G26X0Y0U0V0W0w0" MK_APPLACHSIDX                0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,-1,-1;The error message shows the identifier of the next machine constant (in this case MK_APPLACHSIDX, see red marking):</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For cause A:
+ Save the old MK file.
+ Go to Diagnostics &gt; Machine Constants &gt; MC Configurator, execute "Save + load" once.Only axes parameters are transferred that refer to activated / existing axes.For cause B:
+ Add the missing semicolon!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

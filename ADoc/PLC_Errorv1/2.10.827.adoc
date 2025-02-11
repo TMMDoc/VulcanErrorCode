@@ -1,0 +1,15 @@
+= 2.10.827 Pallet Door Closed
+:imagesdir: img
+
+== Description
+Pallet Door Closed
+
+== Cause
+Pallet Motion aborted
+
+== Action
+ 
+
+== Effect
+ 
+

@@ -1,0 +1,15 @@
+= 2.10.2000 CAN_OPEN - Device not found
+:imagesdir: img
+
+== Description
+CAN_OPEN - Device not found
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

@@ -1,0 +1,15 @@
+= 2.10.830 Pallet Hydraulic Pump time out
+:imagesdir: img
+
+== Description
+Pallet Hydraulic Pump time out
+
+== Cause
+Pallet not reached to the end limits
+
+== Action
+ 
+
+== Effect 
+ 
+

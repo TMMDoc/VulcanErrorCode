@@ -1,0 +1,15 @@
+= 2.10.818 Pallet Door Open Motion is not Possible
+:imagesdir: img
+
+== Description
+Pallet Door Open Motion is not Possible
+
+== Cause
+Close the Pallet Door
+
+== Action
+ 
+
+== Effect 
+ 
+

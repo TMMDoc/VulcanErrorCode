@@ -1,0 +1,17 @@
+= 2.11.64793
+:imagesdir: img
+
+== Description
+RTC: backup power lost: realtime clock has no valid time
+
+== Cause
+The controller has a battery-backed real-time clock. If the battery has been removed or is empty, the controller loses the current time.
+
+== Action
+
+ Make sure that there is a full battery in the controller. Instructions for changing the battery can be found in the relevant Technical Manual for the controller.
+ Set Date and time after battery change with the monitor command "date" or the corresponding function in EConSet or your HMI.
+
+== Effect
+ 
+

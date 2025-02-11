@@ -1,0 +1,42 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CAN-Bus: BUSOFF-Interrupt</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The CAN communication is terminated.The hex value in the additional error information contains the content of the interrupt state register of the CAN controller:  (*) according to CAN specification 2.0, Part B, see annex.The x in the table shows if an appropriate function is implemented.The signal CAN_WAKEINT has no meaning for the controller.Example0x00200               CAN_TXWARN+             0x00100               CAN_RXWARN+             0x00020               CAN_FCS_ERROR_BUSOFF+             0x00010               CAN_FCS_ERROR_PASSIVE+             0x00004               CAN_BOFFINT+             0x00002               CAN_ERRINT+             0x00001               CAN_WAKEINT=             0x00336</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Baud rates must be the same in the servo and in the machine constant MK_CFG_CANOPEN_BITRATE (old syntax: MK_CANOPEN_BAUDRATE).
+Termination or cabling is erroneous</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

@@ -1,0 +1,41 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Too many physical axes configured</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>More axes were configured on a controller than permitted due to the customer configuration.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Configure fewer axes or contact our sales department for an upgrade.ExampleContents of the additional information:incorrect axis index (=8).Cause: The axis is parameterized in the machine constants (here MK_CANDRIVES). The CAN node (=5) was configured for the axis with the corresponding index (=8), although only eight axes (corresponding to index 0..7) are permitted with this controller.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

@@ -1,0 +1,19 @@
+= 2.9.902
+:imagesdir: img
+
+== Description
+Control system not ready, single block not executable
+
+== Cause
+A single block requested by the PLC is not executed because the controller is not in the IDLE state.
+
+== Action
+Possible reasons:
+ Running DIN program or single block
+ Global error not acknowledged
+ Machine constants are being loaded
+ Controller has not finished bootingThe state of the central controller at the time the single block is called up is stored in the additional error information. The error reason can be derived from this.Possible states:Z_ZST_NOT_INIT_E Z_ZST_INIT_E Z_ZST_WAIT_Z_POS_KALTSTART_E Z_ZST_WAIT_Z_POS_WARMSTART_E Z_ZST_MK_UPDATE_EZ_ZST_WAIT_Z_POS_IDLE_E Z_ZST_IDLE_E Z_ZST_IDLE_UB_SOLL_AUS_E Z_ZST_WAIT_Z_POS_RUN_E Z_ZST_RUN_E Z_ZST_RUN_UB_SOLL_EIN_EZ_ZST_WAIT_Z_POS_FEHLER_HALT_E Z_ZST_FEHLER_HALT_E Z_ZST_WAIT_Z_POS_FEHLER_FREI_E Z_ZST_FEHLER_FREI_E Z_ZST_WAIT_FEHLER_FREI_UB_SOLL_EIN_E Z_ZST_WAIT_Z_POS_RESTART_K0_E Z_ZST_WAIT_Z_POS_IDLE_OR_RUN_E                                         Z_ZST_WAIT_Z_POS_FEHLER_ABBRUCH_E Z_ZST_FEHLER_ABBRUCH_E
+
+== Effect
+ 
+

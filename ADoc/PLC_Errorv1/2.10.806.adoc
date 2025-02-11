@@ -1,0 +1,15 @@
+= 2.10.806 Safety Door Opened - Program Paused
+:imagesdir: img
+
+== Description
+Safety Door Opened - Program Paused
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

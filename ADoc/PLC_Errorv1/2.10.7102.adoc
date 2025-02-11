@@ -1,0 +1,15 @@
+= 2.10.7102 Precitec - Cable Cut
+:imagesdir: img
+
+== Description
+Precitec - Cable Cut
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

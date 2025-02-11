@@ -1,0 +1,23 @@
+= 2.10.605 System Parameter Out of Range
+:imagesdir: img
+
+== Description
+
+System Parameter Out of Range
+
+== Cause
+
+The Exhaust Lag time to stop parameter is set out of range. 
+ 
+
+== Action
+
+The allowed range is (15secs to 7200secs). The Parameter is available in the Configuration--Tech parameters--laser Technology - Custom Parameter3--Exhaust Lag Time to stop
+
+image:image3.png[A screenshot of a computer AI-generated content may be incorrect.,width=426,height=281]
+
+
+== Effect 
+ 
+
+

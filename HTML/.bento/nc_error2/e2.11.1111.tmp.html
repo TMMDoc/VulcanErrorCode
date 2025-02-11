@@ -1,0 +1,42 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CANopen: connected device doesn&#8217;t fit to the PLC controller configuration</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In the PLC controller configuration in CODESYS, in the General tab, in the Checks at Startup area, checks are enabled for the CAN node mentioned that failed. See Introduction Manual EEXC 880, EEXC 89.Additional information:
+ Case  Vendor IDs do not match ? CANx: Affected CAN bus ? NodeID: Node number of the affected node ? found: Vendor ID (hexadecimal) of the node found on the bus (object 1018h, subindex 1) ? expected: Vendor ID (hexadecimal) of the node in the controller configuration (taken from the EDS file)
+ Case Product codes do not match ? CANx: Affected CAN bus ? NodeID: Node number of the affected node? found: Product code (hexadecimal) of the node found on the bus (object 1018h, subindex 2) ? expected: Product code (hexadecimal) of the node in the controller configuration (taken from the EDS file).
+ Case  Revision do not match ? CANx: Affected CAN bus ? NodeID: Node number of the affected node ? found: Revision (hexadecimal) of the node found on the bus (object 1018h, subindex 3) ? expected: Revision (hexadecimal) of the node in the controller configuration (taken from the EDS file).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In the PLC controller configuration, use the EDS files that match the used node or disable the respective check.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

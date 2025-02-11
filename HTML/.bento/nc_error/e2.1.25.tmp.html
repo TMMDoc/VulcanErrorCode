@@ -1,0 +1,48 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Cable breakage in the case of UA2</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The encoder monitoring for an analog axis checks the signals of the encoder interface. For this reason the negated signals of UA0, UA1 and UA2 are checked to be present in the right polarity.If a check fails the corresponding error 2.1.23, 2.1.24 or 2.1.25 is generated.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Check all connections of the encoder signals while commissioning. There might be one or more connections missing
+An encoder cable might be broken. Cables, running through a drag chain, might break after several years of usage.
+The motor encoder might be broken (only might occur in a certain temperature range)
+The contacts in the encoder connector might be corroded (motor-&gt; servo controller, servo controller-&gt; nc controller)
+The axis interface of the controller might be broken
+Check for electromagnetic interferences that might distort the signals and trigger the error message? Encoder monitoring can be switched off. In this case wrong positing might occur.
+Use MK_AXIS_ENCODER_MONITORING_UA1_UA2 / MK_UA12 to switch off the monitoring for the signals UA1 and UA2
+Use MK_AXIS_ENCODER_MONITORING_UA0 / MK_UA0 to switch off the monitoring for the signal UA0.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

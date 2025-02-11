@@ -1,0 +1,15 @@
+= 2.10.7698 KL59 - Error External Flash memory
+:imagesdir: img
+
+== Description
+KL59 - Error External Flash memory
+
+== Cause
+ ""
+
+== Action
+ 
+
+== Effect
+ 
+

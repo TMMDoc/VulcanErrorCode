@@ -1,0 +1,18 @@
+= 2.10.7205 Empower - Focus position time out
+:imagesdir: img
+
+== Description
+
+Empower - Focus position time out
+
+== Cause
+Focus position not reached within the set time even after the start command
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+
+

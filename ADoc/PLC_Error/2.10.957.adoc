@@ -1,0 +1,15 @@
+= 2.10.957 Tandem Pallet not in Cutting Position - Pgm Aborted
+:imagesdir: img
+
+== Description
+Tandem Pallet not in Cutting Position - Pgm Aborted
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

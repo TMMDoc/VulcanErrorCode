@@ -1,0 +1,16 @@
+= 2.8.205
+:imagesdir: img
+
+== Description
+LocalBus: user flash memory CRC error
+
+== Cause
+There is invalid data in the flash memory of an LBM module. The additional information about the error contains the module index (counted from 0). For example, the additional information "lbm_read_all_config(10)" indicates that module 10, counting the 11th module starting from the controller, is affected.
+
+== Action
+
+ Replace faulty LBM module.
+
+== Effect
+ 
+

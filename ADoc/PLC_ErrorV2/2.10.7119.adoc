@@ -1,0 +1,15 @@
+= 2.10.7119 Precitec - PC - Focus lens max temperature exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Focus lens max temperature exceeded
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

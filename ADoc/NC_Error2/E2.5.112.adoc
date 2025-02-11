@@ -1,0 +1,15 @@
+= 2.5.112
+:imagesdir: img
+
+== Description
+No CMOS-RAM available: RETAIN data will not be saved
+
+== Cause
+ExC66 compact has no buffered RAM.The solder bridge J21 is missing on the back of the PNC55.
+
+== Action
+Set MK_CFG_SAVE_ORIGINS / MK_NULLPUNKTE_SPEICHERN to 0 (zero).Controller PNC55Cause PNC55Check if the necessary solder bridges exist on the back of the PNC55 (J13 & J21).Additional Information PNC55J13 connects the battery to the controllerJ21 informs the processor via processor pin C20 that CMOS ram is available.
+
+== Effect
+ 
+

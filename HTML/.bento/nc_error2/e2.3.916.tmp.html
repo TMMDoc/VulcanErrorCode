@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>WLK: illegal G function (only allowed during idle travel)</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>An attempt was made to call a G function with active tool compensation (G41/G42), which is only permitted in empty runs. For example, transformations cannot be activated or deactivated with compensation turned on.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If a transformation is to be switched on or off during workpiece machining, the compensation must first be switched off with G40.ExampleAdditional error description: CH0 %9901 N0/5 115Before the end of the program (G99), the tool compensation (G40 E1) must be switched off.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

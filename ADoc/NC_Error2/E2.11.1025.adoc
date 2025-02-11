@@ -1,0 +1,15 @@
+= 2.11.1025
+:imagesdir: img
+
+== Description
+CAN Incorrect baud rate
+
+== Cause
+The baud rate, configured at a CAN device, doesn't correspond to the configuration of the controller (MK_CFG_CANOPEN_BITRATE / MK_CANOPEN_BAUDRATE). The error occurs at CAN2-4 (drive bus) of the EXC66.
+
+== Action
+Set MK_CFG_CANOPEN_BITRATE / MK_CANOPEN_BAUDRATE to the right value or change the baud rate configuration of the CAN device.
+
+== Effect
+ 
+

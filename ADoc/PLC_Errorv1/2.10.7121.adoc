@@ -1,0 +1,15 @@
+= 2.10.7121 Precitec - PC - Diffusion max level exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Diffusion max level exceeded
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

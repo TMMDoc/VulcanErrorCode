@@ -1,0 +1,15 @@
+= 2.10.873 Laser - Invalid Tech Parameter
+:imagesdir: img
+
+== Description
+Laser - Invalid Tech Parameter
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

@@ -1,0 +1,18 @@
+= 2.10.7100 Precitec - Calibration Timeout
+:imagesdir: img
+
+== Description
+
+Precitec - Calibration Timeout
+
+== Cause
+Height calibration not finished within the timeout period.
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+
+

@@ -1,0 +1,16 @@
+= 2.3.434
+:imagesdir: img
+
+== Description
+G9 S0 cannot be shifted
+
+== Cause
+An attempt is made to move the zero point of the base coordinate system S0 by G92, although this was forbidden by machine constant MK_CFG_ENABLE_S0T0_OFFSET / MK_S0T0_VERSATZ_ERLAUBT.
+
+== Action
+
+ Correct the G92 call to use a different coordinate system, or enable MK_CFG_ENABLE_S0T0_OFFSET / MK_S0T0_VERSATZ_ERLAUBT..
+
+== Effect
+ 
+

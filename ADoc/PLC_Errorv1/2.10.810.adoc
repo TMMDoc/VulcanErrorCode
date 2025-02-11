@@ -1,0 +1,15 @@
+= 2.10.810 Pallet Enable Input is OFF
+:imagesdir: img
+
+== Description
+Pallet Enable Input is OFF
+
+== Cause
+Pallet Motion Aborted
+
+== Action
+ 
+
+== Effect
+ 
+

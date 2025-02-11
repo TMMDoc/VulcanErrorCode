@@ -1,0 +1,15 @@
+= 2.1.110
+:imagesdir: img
+
+== Description
+CAN-Drive: Internal drive limit active. Please contact your servo manufacturer.
+
+== Cause
+The corresponding bit in the status word is set (Bit 11 Internal limit active in object 6041h Further information can be found in the CANopen documentation from the CiA. http://www.can-cia.org/standardization/specifications/ Documentation DSP402_V2.pdf page 51 table 6.
+
+== Action
+Please ask the servo manufacturer for further information.
+
+== Effect
+ 
+

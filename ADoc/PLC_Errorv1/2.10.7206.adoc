@@ -1,0 +1,15 @@
+= 2.10.7206 Empower - Focus Axis not configured
+:imagesdir: img
+
+== Description
+Empower - Focus Axis not configured
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

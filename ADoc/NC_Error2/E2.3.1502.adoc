@@ -1,0 +1,15 @@
+= 2.3.1502
+:imagesdir: img
+
+== Description
+G2/G no level programmed
+
+== Cause
+No plane was selected where the circular interpolation should be performed.
+
+== Action
+Before programming a circle / arc with G2/G3 you have to select a plane with G17 (X-Y) G18 (X -Z) or G19 (Y- Z).
+
+== Effect
+ 
+

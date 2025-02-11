@@ -1,0 +1,42 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>G23 specified digital measured value channel not configured</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A digital measured value channel was configured when the height control was switched on, which is not configured in the machine constants. In demo mode (enabled MK_CFG_AXIS_EMULATION / MK_TEST_OHNEMECHANIK) only analog measurement channels are simulated, but no digital channels.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>When using an incremental or absolute encoder input, the assigned axis must be configured as a measuring axis (see CNC Configuration Manual MK_AXIS_PROPERTIES / MK_ACHSENART).
+In demo mode, configure an analog input instead of a digital input for height control with the G231. This one can then be simulated. For this purpose use parameter J1 at G231 (e.g. G231 Z1 J1 K0.5 F600 L2).</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

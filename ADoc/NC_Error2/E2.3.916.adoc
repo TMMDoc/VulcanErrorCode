@@ -1,0 +1,15 @@
+= 2.3.916
+:imagesdir: img
+
+== Description
+WLK: illegal G function (only allowed during idle travel)
+
+== Cause
+An attempt was made to call a G function with active tool compensation (G41/G42), which is only permitted in empty runs. For example, transformations cannot be activated or deactivated with compensation turned on.
+
+== Action
+If a transformation is to be switched on or off during workpiece machining, the compensation must first be switched off with G40.ExampleAdditional error description: CH0 %9901 N0/5 115Before the end of the program (G99), the tool compensation (G40 E1) must be switched off.
+
+== Effect
+ 
+

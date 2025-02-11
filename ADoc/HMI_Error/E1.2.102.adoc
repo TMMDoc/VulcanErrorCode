@@ -1,0 +1,18 @@
+= 1.2.102
+:imagesdir: img
+
+== Description
+Could not open specified NC
+
+== Cause
+An attempt was made to establish a connection to a controller whose name is unknown (not configured in MMIGTWAY) or to which no connection can be established.
+
+== Action
+
+ Check the controller name (case sensitive)
+ Check the connection to the controller
+ Check the HMI installation
+
+== Effect
+ 
+

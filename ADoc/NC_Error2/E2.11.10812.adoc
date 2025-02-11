@@ -1,0 +1,21 @@
+= 2.11.10812
+:imagesdir: img
+
+== Description
+CAN open: Emergency Message: CAN in error passive mode CAN2: NodeID:25
+
+== Cause
+CAN Bus communication interrupted for Cutting head KL59 Focus Drive.
+CAN Bus Connection may be loose or disconnected from the Cutting head KL59 Focus Drive
+
+== Action
+
+Check CAN-Bus Connection cable Cutting Head KL59 Focus Drive
+
+image:img/media/image11.png[A close-up of a machine AI-generated content may be incorrect.,width=555,height=234]
+
+
+image:img/media/image12.png[A diagram of a machine AI-generated content may be incorrect.,width=416,height=252]
+
+== Effect
+ 

@@ -1,0 +1,15 @@
+= 2.10.7409 KL59 - Lens Index Pin Retract time out
+:imagesdir: img
+
+== Description
+KL59 - Lens Index Pin Retract time out
+
+== Cause
+Check Digital input feedback
+
+== Action
+ 
+
+== Effect
+ 
+

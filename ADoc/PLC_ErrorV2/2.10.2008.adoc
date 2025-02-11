@@ -1,0 +1,15 @@
+= 2.10.2008 CAN_OPEN - Axis Homing Error
+:imagesdir: img
+
+== Description
+CAN_OPEN - Axis Homing Error
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

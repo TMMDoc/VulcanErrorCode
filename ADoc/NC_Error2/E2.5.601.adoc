@@ -1,0 +1,15 @@
+= 2.5.601
+:imagesdir: img
+
+== Description
+Incorrect IO basis address configured for CAN module
+
+== Cause
+Error in the CODESYS controller configuration.
+
+== Action
+The error occurs if the process data of a configured CAN node no longer fit into the process image (configured base address + length > process image size 1024 bytes) - affects CODESYS V2 only.
+
+== Effect
+ 
+

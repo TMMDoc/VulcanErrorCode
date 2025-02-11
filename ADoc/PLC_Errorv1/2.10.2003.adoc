@@ -1,0 +1,15 @@
+= 2.10.2003 CAN_OPEN - Command Not allowed
+:imagesdir: img
+
+== Description
+CAN_OPEN - Command Not allowed
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

@@ -1,0 +1,28 @@
+= 2.10.872x Laser - Back Refelction Alarm
+:imagesdir: img
+
+== Description
+Laser - Back Refelction Alarm
+
+== Cause
+1) Perform all maintenance tasks according chap3.17 of the maintenance manual
+xref:Productreports\B1296_en_maintenance.pdf[Maintenance manual]
+
+2) Check alignment of the laser light cable (Tapeshot)
+xref:Productreports\PR001065en_02.pdf#[Procedure]
+
+3) Adjusting the incoupling optics
+xref:Productreports\PR001656en.pdf#[Procedure]
+
+4) Replacing and cleaning cutting lens KL59
+xref:Productreports\PR001597en.pdf#[Procedure]
+
+5) Look for further instruction on the Knowlegehub
+xref:https://trumpf.esc-eu-central-1.empolisservices.com/service-express/portal/project1_p/search?filter=%7B%22Category%22%3A%5B%22Productreport%22%5D,%22esc_Languages%22%3A%5B%22en%22%5D%7D&useExpertQuery=1&text=80000360#[Knowlegehub]
+
+== Action
+ 
+
+== Effect
+ 
+

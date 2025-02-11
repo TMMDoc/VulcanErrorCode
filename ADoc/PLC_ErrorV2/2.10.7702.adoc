@@ -1,0 +1,15 @@
+= 2.10.7702 KL59 - Error Access to Accelerometer
+:imagesdir: img
+
+== Description
+KL59 - Error Access to Accelerometer
+
+== Cause
+ ""
+
+== Action
+ 
+
+== Effect
+ 
+

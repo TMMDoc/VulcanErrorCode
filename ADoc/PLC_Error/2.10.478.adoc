@@ -1,0 +1,15 @@
+= 2.10.478 HMI Message Buffer Over-flow
+:imagesdir: img
+
+== Description
+HMI Message Buffer Over-flow
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

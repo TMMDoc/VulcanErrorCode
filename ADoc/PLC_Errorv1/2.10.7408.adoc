@@ -1,0 +1,15 @@
+= 2.10.7408 KL59 - Lens Index Pin Extend time out
+:imagesdir: img
+
+== Description
+KL59 - Lens Index Pin Extend time out
+
+== Cause
+Check air pressure or Digital Output
+
+== Action
+ 
+
+== Effect
+ 
+

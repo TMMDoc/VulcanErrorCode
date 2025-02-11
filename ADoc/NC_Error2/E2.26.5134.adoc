@@ -1,0 +1,24 @@
+= 2.26.5134
+:imagesdir: img
+
+== Description
+state change not possible sa 1004 st=safeop- op
+
+== Cause
+
+Ether CAT Connection for specific drive slave address may be loose or disconnected.
+
+
+== Action
+Check Ether-cat Connection cable connection for the specific drive.
+
+The term sa1004 in the description indicates the slave address.
+
+image:img/media/image7.png[A diagram of a computer AI-generated content may be incorrect.,width=504,height=304]
+
+After checking the connection, go to controls page in the Vulcan and select Ether cat Master restart for restarting the communication
+
+
+== Effect
+ 
+

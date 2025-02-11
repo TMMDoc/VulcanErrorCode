@@ -1,0 +1,18 @@
+= 2.10.7106 Precitec - Plasma Percentage Exceeded
+:imagesdir: img
+
+== Description
+
+Precitec - Plasma Percentage Exceeded
+
+== Cause
+Precitec Warning messages
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+
+

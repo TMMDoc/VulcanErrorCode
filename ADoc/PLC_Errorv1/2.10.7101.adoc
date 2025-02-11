@@ -1,0 +1,15 @@
+= 2.10.7101 Precitec - Nozzle Lost
+:imagesdir: img
+
+== Description
+Precitec - Nozzle Lost
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

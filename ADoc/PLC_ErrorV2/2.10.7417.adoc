@@ -1,0 +1,16 @@
+= 2.10.7417 KL59 - Index pin retracted during swivel motion
+:imagesdir: img
+
+== Description
+KL59 - Index pin retracted during swivel motion
+
+== CauseIndex Pin retratced during Lens Swivel Movement
+Reset and press Focus Ref button
+
+== ActionCheck Index Pin retracted feedback. It should be in off condition during the swivel movement
+ 
+
+== Effect
+ 
+
+

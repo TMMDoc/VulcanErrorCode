@@ -1,0 +1,16 @@
+= 2.10.820 Lanny Valve Over Temperature Electronics
+:imagesdir: img
+
+== Description
+Lanny Valve Over Temperature Electronics
+
+== CauseOvertemperature feedback from Lanny Valve
+ 
+
+== Action
+ 
+
+== Effect
+ 
+
+

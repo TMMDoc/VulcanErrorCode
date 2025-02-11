@@ -1,0 +1,17 @@
+= 2.3.1520
+:imagesdir: img
+
+== Description
+G2/G circle radius is too small
+
+== Cause
+The radius of the programmed circle (or arc) is smaller than the tolerance defined in MK_CFG_POSITION_TOLERANCE_MM (old name: MK_EPSILONMM).
+
+== Action
+There are two possible solutions:
+ Define an arc / circle with a larger radius in the CAD/CAM system or
+ set the tolerance in MK_CFG_POSITION_TOLERANCE_MM (old name: MK_EPSILONMM) to a smaller value
+
+== Effect
+ 
+

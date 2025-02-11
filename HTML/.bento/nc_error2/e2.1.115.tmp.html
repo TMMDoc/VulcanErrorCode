@@ -1,0 +1,46 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CAN-Drive: Configured CAN-Bus-Interface is not available</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Configuration error: The used controller only has two CAN interfaces, a node ID was configured in MK_CANDRIVES, that refers to CAN3 or CAN4
+Insufficient activation code: a node ID was configured in MK_CANDRIVES that refers to a CAN bus that is physically available, but that is locked via the activation code
+Hardware defect: the expansion board of the EXC66H13 could not be found.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Map CAN axes only to interfaces that are available and that are not locked by the activation code (Caution: Please note the fixed mapping of CAN node IDs to the CAN buses of the controller)
+In case of a hardware defect return the device to the manufacturer.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

@@ -1,0 +1,19 @@
+= 2.10.815 Axes Jog aborted due to Pallet position
+:imagesdir: img
+
+== Description
+
+Axes Jog aborted due to Pallet position
+
+== Cause
+Pallet not in Position for jog operation. 
+Check the Pallet For/Rev position
+
+== Action
+Check for the pallet posittion physically. If not in position,move the pallet with manual operation. Check the Pallet In postion sensor
+ 
+
+== Effect 
+ 
+
+

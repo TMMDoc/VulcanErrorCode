@@ -1,0 +1,43 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>EtherCAT: Unknown or unsupported device type found</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>An EtherCAT device configured as an axis is not a supported drive controller.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Only use drive controllers approved by Eckelmann as CNC or motion axes.
+Check the EtherCAT configuration in the machine constants. Are the specified addresses correct?
+With topological addressing the logical EtherCAT address 1 is reserved for the internal bus coupler of the EXC89. The first device after EXC89 is addressed via the second index in MK_DRV_ETHERCAT_AXES / MK_ETHERCATDRIVES. Especially this has to be considered if you want to migrate from another controller type to the EXC89 (or vice versa).</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

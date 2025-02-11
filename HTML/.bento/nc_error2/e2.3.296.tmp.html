@@ -1,0 +1,43 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Axis is not assigned to the current channel</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The controller cannot evaluate the programmed axis, i.e. it is either incorrectly configured or not programmed at all, or assigned to the wrong NC channel.Possible causes:
+ Axis was programmed incorrectly, e.g. x was programmed instead of X
+ Axis is not configured at all or is configured incorrectly  ? Check machine constants? Is the axis letter assigned to the correct axis? ? Does the axis have an axis letter?
+ Axis is assigned to the wrong channel (axis is to be moved in channel 0, but is assigned to channel 1)
+ Axis is configured as handwheel, measuring axis and/or spindle and cannot execute the single block / DIN command</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Change programming according to the listed causes.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

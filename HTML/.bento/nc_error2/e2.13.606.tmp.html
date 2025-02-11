@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CMOS-RAM failure: tool coordinate system lost</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Breakdown of battery: The CMOS RAM is a battery buffered memory. If the battery fails or the battery is removed for a too long period, the content of the RAM gets lost. If the battery is removed for a short time, the data doesn&#8217;t get corrupted (e.g. while exchanging the battery).Hardware defect: The CMOS RAM of the EXC66H13 and EXC66H43 is located on the expansion board together with additional field bus interfaces (CAN3 and CAN4 or EtherCAT or Sercos). The error message might also occur if the expansion board is defective. Typically other error messages are displayed in connection with this one e.g. 2.1.115.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Breakdown of battery: Exchange the battery and handle the controller as if it was a new one without any persistent data in the CMOS RAM.Hardware defect: Return the controller to the manufacturer.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

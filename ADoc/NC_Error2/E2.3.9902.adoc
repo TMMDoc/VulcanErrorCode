@@ -1,0 +1,17 @@
+= 2.3.9902
+:imagesdir: img
+
+== Description
+Program structure error too many blocks without geometry
+
+== Cause
+If the tool compensation is enabled, only a limited number of blocks without geometric information can be buffered.
+
+== Action
+
+ Switch off the tool compensation in the meantime
+ Reduce the number of blocks without geometric information
+
+== Effect
+ 
+

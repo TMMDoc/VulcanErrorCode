@@ -1,0 +1,15 @@
+= 2.10.7124 Precitec - PC - Protective window cartridge COL missing
+:imagesdir: img
+
+== Description
+Precitec - PC - Protective window cartridge COL missing
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

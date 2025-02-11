@@ -1,0 +1,16 @@
+= 2.11.64526
+:imagesdir: img
+
+== Description
+ExC88 Found unknown or unsupported extension card!
+
+== Cause
+The extension card of the EXC88x was not recognized by the controller firmware. Possible causes are firmware that is too old or a hardware defect.
+
+== Action
+
+ Make sure that a current EXC controller firmware is used. 
+
+== Effect
+ 
+

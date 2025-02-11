@@ -1,0 +1,15 @@
+= 2.26.512
+:imagesdir: img
+
+== Description
+EtherCAT: PLC master cycle time doesn't match to interpolation cycle time Complete error message:
+
+== Cause
+The values from MK_CFG_INTERPOLATION_CYCLE_TIME / MK_DELTAT and the master cycle time from CODESYS must match as soon as at least one CNC or motion axis is configured. This is due to the fact that CODESYS determines the DC parameters of the slaves from the master cycle time. The value from the machine constants is completely unknown to CODESYS during this offline calculation and cannot be communicated to it. If the DC parameters of the slaves are based on an incorrect master cycle time, then DC may not work properly.Possible solutionEnter the same value for the master cycle time in CODESYS as in the MK file and recompile and load the PLC or vice versa.
+
+== Action
+ 
+
+== Effect
+ 
+

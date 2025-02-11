@@ -1,0 +1,37 @@
+= 2.10.808 Air Pressure Low - Program Paused
+:imagesdir: img
+
+== Description
+Air Pressure Low - Program Paused
+
+== Cause
+Air input is low. 
+
+Check the Pressure and Start
+
+Further possible causes:
+
+Compressed Air input pressure is low.
+
+MCB -F3 may have tripped
+
+== Action
+Check Air compressor is On.Check the valves are open.
+
+Further possible actions:
+
+Check Air compressor is On.
+
+Check the valves are open.
+
+Check connection as per page No.58 and 43. Device Tag =IF.01+DP-B1
+
+Check MCB-F3 for trip Condition.
+
+image:img/media/image9.png[img/media/image9,width=591,height=402]
+
+
+== Effect
+ 
+
+

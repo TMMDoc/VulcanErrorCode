@@ -1,0 +1,15 @@
+= 2.10.864 Laser - Status Error
+:imagesdir: img
+
+== Description
+Laser - Status Error
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

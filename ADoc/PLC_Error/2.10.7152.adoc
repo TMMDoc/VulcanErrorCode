@@ -1,0 +1,18 @@
+= 2.10.7152 Precitec - PC - Collimating lens warning temperature - Contact Manufacturer
+:imagesdir: img
+
+== Description
+
+Precitec - PC - Collimating lens warning temperature - Contact Manufacturer
+
+== Cause
+Precitec Warning messages
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+
+

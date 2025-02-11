@@ -1,0 +1,17 @@
+= 2.13.602
+:imagesdir: img
+
+== Description
+CMOS-RAM: battery is empty, please change
+
+== Cause
+Battery is empty.
+
+== Action
+
+ Make sure that there is a full battery in the controller. Instructions for changing the battery can be found in the relevant Technical Manual for the controller.
+ Set Date and time after battery change with the monitor command "date" or the corresponding function in EConSet or your HMI.
+
+== Effect
+ 
+

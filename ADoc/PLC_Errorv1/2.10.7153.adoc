@@ -1,0 +1,15 @@
+= 2.10.7153 Precitec - PC - Focus lens warning temperature - Contact Manufacturer
+:imagesdir: img
+
+== Description
+Precitec - PC - Focus lens warning temperature - Contact Manufacturer
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

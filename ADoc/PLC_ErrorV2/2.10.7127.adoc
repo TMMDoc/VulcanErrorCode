@@ -1,0 +1,15 @@
+= 2.10.7127 Precitec - PC - Humidity Max Level exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Humidity Max Level exceeded
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

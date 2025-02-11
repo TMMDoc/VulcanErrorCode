@@ -1,0 +1,15 @@
+= 2.10.7120 Precitec - PC - Head max tempeartue exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Head max tempeartue exceeded
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

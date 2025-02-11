@@ -1,0 +1,4 @@
+[HMI_Error]
+[PLC_Error]
+[NC_Error]
+[NC_error2]

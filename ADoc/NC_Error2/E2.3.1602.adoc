@@ -1,0 +1,16 @@
+= 2.3.1602
+:imagesdir: img
+
+== Description
+G23 specified 2D/3D compensation table not loaded
+
+== Cause
+When the G233 was switched on, a correction table was specified for one or more axes which had not previously been loaded into the controller.The number of the missing compensation table can be taken from the additional information (last number, in the example 1).
+
+== Action
+
+ Check the call of G233. Make sure that all required compensation tables are loaded into the controller before use.
+
+== Effect
+ 
+

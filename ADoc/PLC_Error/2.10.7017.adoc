@@ -1,0 +1,19 @@
+= 2.10.7017 Axis - Change the Y-axis offset value
+:imagesdir: img
+
+== Description
+
+Axis - Change the Y-axis offset value
+
+== Cause
+Work Offset value exceeds the Limit value
+ 
+
+== Action
+Make sure that Work offset captured is well within the positive and negative limits
+ 
+
+== Effect 
+ 
+
+

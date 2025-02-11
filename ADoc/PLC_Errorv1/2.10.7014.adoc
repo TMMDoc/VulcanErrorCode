@@ -1,0 +1,15 @@
+= 2.10.7014 Axis - X Negative Limit changed for Tandem Operation
+:imagesdir: img
+
+== Description
+Axis - X Negative Limit changed for Tandem Operation
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

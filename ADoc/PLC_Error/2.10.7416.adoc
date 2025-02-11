@@ -1,0 +1,19 @@
+= 2.10.7416 KL59 - PGM Warning based on Linearity value
+:imagesdir: img
+
+== Description
+
+KL59 - PGM Warning based on Linearity value
+
+== Cause
+Lumi measured Linearity value exceeded the Limti
+ 
+
+== Action
+Check The protecive window for any dust or damage. Clean the Protective Window if dust is present or replace the protective window if damaged
+ 
+
+== Effect 
+ 
+
+

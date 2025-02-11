@@ -1,0 +1,16 @@
+= 2.10.816 External Start Stop Btn Activated
+:imagesdir: img
+
+== Description
+External Start Stop Btn Activated
+
+== CauseThe buttons in the Vulcan HMI is deactivated through the machine configuration. 
+Check the PLC Configuration
+
+== ActionReset and Start the program with External start button available on the operator panel. 
+ 
+
+== Effect
+ 
+
+

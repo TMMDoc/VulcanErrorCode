@@ -1,0 +1,15 @@
+= 2.10.7701 KL59 - Error Access to PCB Temperature
+:imagesdir: img
+
+== Description
+KL59 - Error Access to PCB Temperature
+
+== Cause
+ ""
+
+== Action
+ 
+
+== Effect
+ 
+

@@ -1,0 +1,47 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>G2/G start-destination distance &gt; (Radius + dRadius)</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Wrong radius or wrong target point programmed
+Rounding error and MK_EPSILONMM = 0
+Start position was changed (e.g. by an interrupt program)</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Make sure that the start and target points are located actually on an arc of the programmed radius.
+Raise MK_EPSILONMM to a value &gt;0.
+Make sure that interrupt programs leave all axis positions as they were before.  CAUTION: Not only the movement of axes changes the axis positions. Also the (G161) function for actual position transfer provides a minimal change of the axis positions, which can lead to this error without countermeasure (move to the initially found position at the end of the interrupt program).</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

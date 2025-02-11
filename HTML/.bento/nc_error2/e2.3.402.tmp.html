@@ -1,0 +1,41 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>G88/G8 too many simultanously active rotations</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As of firmware version V2.68, the G88/G89 supports up to 8 simultaneously active rotations with different major/minor axis participation. For this, the axis assignment programmable with G16 is taken into account. Overlapping axis participations with simultaneously active rotations are generally not allowed. When programming the G88/G89, previously switched-on rotations are assigned by comparing the current G16 configuration with the configuration that has been active since switch-on, whereby the configuration, i.e. all involved axes and their assignment to the mayor and minor axes, must match completely. In the case of rotations that are not clearly assigned, a corresponding error is reported. This also applies when switching off via G89 without parameters.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Before calling G88/G89, make sure that the axis assignment selected via G16 is correct. In particular, it must be ensured that an exactly matching axis assignment is used in each case when the same rotation is changed several times. To switch off all active rotations without taking the axis assignment into account, you can use the G87 function .</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

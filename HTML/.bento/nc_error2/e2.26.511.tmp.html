@@ -1,0 +1,40 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>EtherCAT: Statepolling: No response from slave. Check wiring and reload machineconstants/PLC</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For configured EtherCAT devices the current state is checked every 500ms. If an error occurs during this check, this collective error message is displayed (details of the error that occurred can be taken from the additional information, but this only plays a minor role). Since the slave state is unclear at this point, "unknown" is displayed.Possible solutionCheck wiring:
+ Do the RJ45 connectors sit firmly in the EtherCAT socket of the controller?
+ Are the latches properly engaged or broken off?
+ At which position in the topology such a problem may occur can be limited by reading out the error counters in the EtherCAT devices (monitor command ecat errcnt). Replace cable if necessary.Reboot EtherCAT (reload machine constants or reload PLC).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

@@ -1,0 +1,16 @@
+= 2.10.642 System CNC License Expired
+:imagesdir: img
+
+== Description
+System CNC License Expired
+
+== CauseSystem Error
+Contact Manufacturer
+
+== ActionCheck with the manufacturer
+ 
+
+== Effect
+ 
+
+

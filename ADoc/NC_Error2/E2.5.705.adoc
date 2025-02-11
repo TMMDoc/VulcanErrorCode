@@ -1,0 +1,17 @@
+= 2.5.705
+:imagesdir: img
+
+== Description
+Generating of hmi information failed
+
+== Cause
+The error message may occur when loading a CODESYS V2.3 PLC project if the controller configuration was empty. The error occurs only between EXC firmware version V2.60beta1 and V2.62.The following screenshot excerpt shows an empty controller configuration. For example, LBM or other modules are missing.
+
+== Action
+The error can be acknowledged and has no further effect.To prevent the error, use
+ a firmware higher than version V2.62 / 01-10-2015
+ a firmware prior version V2.60beta1
+
+== Effect
+ 
+

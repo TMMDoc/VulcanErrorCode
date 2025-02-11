@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>No CMOS-RAM available: RETAIN data will not be saved</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ExC66 compact has no buffered RAM.The solder bridge J21 is missing on the back of the PNC55.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Set MK_CFG_SAVE_ORIGINS / MK_NULLPUNKTE_SPEICHERN to 0 (zero).Controller PNC55Cause PNC55Check if the necessary solder bridges exist on the back of the PNC55 (J13 &amp; J21).Additional Information PNC55J13 connects the battery to the controllerJ21 informs the processor via processor pin C20 that CMOS ram is available.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

@@ -1,0 +1,16 @@
+= 2.10.7207 Empower - Command Focus position is lesser than Negative Limit
+:imagesdir: img
+
+== Description
+Empower - Command Focus position is lesser than Negative Limit
+
+== CauseSet focus position is lesser than the Negative Limit or the focus position reached the Negative Limit.
+ 
+
+== ActionSet the Focus position within the Limits
+ 
+
+== Effect
+ 
+
+

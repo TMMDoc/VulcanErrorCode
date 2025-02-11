@@ -1,0 +1,15 @@
+= 2.11.1151
+:imagesdir: img
+
+== Description
+CANopen: Invalid SDO command
+
+== Cause
+This error messages occurs if the order of messages is not correct, while a SDO transfer takes place (read or write CANopen objects).There can be two reasons for this behavior:
+
+== Action
+ 
+
+== Effect
+ 
+

@@ -1,0 +1,15 @@
+= 2.10.7122 Precitec - PC - Cutting gas pressure max exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Cutting gas pressure max exceeded
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

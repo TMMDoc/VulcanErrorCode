@@ -1,0 +1,15 @@
+= 2.10.2004 CAN_OPEN - Wrong Device Type
+:imagesdir: img
+
+== Description
+CAN_OPEN - Wrong Device Type
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

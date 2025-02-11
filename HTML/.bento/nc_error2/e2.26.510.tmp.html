@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>EtherCAT-Config: configured node not found</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This error message indicates an address conflict or a problem with the assignment of application axis numbers to EtherCAT nodes.Possible errors:
+ The units of a multi-axis controller were assigned to an EtherCAT node in the machine constants with different address modes (e.g. unit 1 via topological address, unit 2 via explicit address).
+ When assigning application axis numbers to the units of an EtherCAT node and addressing via explicit addresses, gaps were generated (e.g. addressing via explicit addresses and unit 1 does not get an application address, but unit 2 gets one)Possible solutionCheck entries in the machine constants MK_DRV_ETHERCAT_AXES / MK_ETHERCATDRIVES and MK_DRV_ETHERCAT_ADDRESSES/MK_ETHERCATADDRESSES.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

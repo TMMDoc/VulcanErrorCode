@@ -1,0 +1,29 @@
+= 2.10.826 Pallet Door is Opened	 close and continue the program
+:imagesdir: img
+
+== Description
+Pallet Door is Opened	 close and continue the program
+
+== Cause
+Pallet Door is not closed.
+
+Pallet close sensor may be malfunctioning
+
+
+== Action
+Check pallet door for close condition. Check connection as per Page.57 in the Electrical scheme
+ 
+Further possible actions:
+
+Check pallet door for close condition.
+
+Check pallet door close Sensor connection as per Page.57 in the Electrical scheme
+
+image:img/media/image15.png[A diagram of electrical wiring AI-generated content may be incorrect.,width=353,height=409]
+
+image:img/media/image16.png[A close-up of a machine AI-generated content may be incorrect.,width=486,height=252]
+
+== Effect
+ 
+
+

@@ -1,0 +1,15 @@
+= 2.10.600 System Logging Started
+:imagesdir: img
+
+== Description
+System Logging Started
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

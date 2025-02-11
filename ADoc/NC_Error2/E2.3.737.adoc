@@ -1,0 +1,16 @@
+= 2.3.737
+:imagesdir: img
+
+== Description
+2D/3D compensation file: unconfigured axis specified in the header
+
+== Cause
+ An attempt was made to load a compensation file containing an axis that is not present in the machine constants.
+
+== Action
+
+ Make sure that loaded compensation files match the machine configuration.
+
+== Effect
+ 
+

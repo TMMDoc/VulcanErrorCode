@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CANopen: Emergency Message: Internal voltage too low</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A CAN participant reports an undervoltage error. You can identify the station by the additional error information.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Check the power supply of the relevant device.Structure of the additional information:CAN%d NodeID=%u EEC=%04X ER=%02X MSEF=%02X,%02X,%02X,%02X,%02XCANx: Corresponding CAN busNodeID: Node ID of the device that reports the errorEEC: Error number in hexadecimal notation (for 2.11.10322 it results in 10322 as hexadecimal notation = 0x2852)ER: Error registerMSEF: Manufacturer specific error code</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

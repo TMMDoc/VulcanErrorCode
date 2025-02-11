@@ -1,0 +1,15 @@
+= 2.10.7403 KL59 - Minimum and Maximum Frequency value error
+:imagesdir: img
+
+== Description
+KL59 - Minimum and Maximum Frequency value error
+
+== Cause
+Check the Sensor insert
+
+== Action
+ 
+
+== Effect
+ 
+

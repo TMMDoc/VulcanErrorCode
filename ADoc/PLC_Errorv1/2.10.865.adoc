@@ -1,0 +1,15 @@
+= 2.10.865 Laser - Emission failed
+:imagesdir: img
+
+== Description
+Laser - Emission failed
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

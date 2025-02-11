@@ -1,0 +1,50 @@
+= 2.10.2000 CAN_OPEN - Device not found
+:imagesdir: img
+
+== Description
+
+CAN_OPEN - Device not found
+
+CAN_OPEN Device not Found KL59 HS device not found in CAN1 NODE_ID=16
+
+CAN_OPEN Device not Found KL59 Focus not found in CAN2 NODE_ID=25
+
+CAN_OPEN Device not Found KL59 Focus not found in CAN2 NODE_ID=30
+
+== Cause
+
+KL59 Focus Control Drive not Detected.
+
+Further possible causes:
+
+    CAN1:NodeID=16
+    CAN Bus communication interrupted for Cutting head KL59 Height sensing unit.
+    CAN Bus Connection may be loose or disconnected from the Cutting head KL59 Height sensing unit
+    CAN2:NodeID=25
+    CAN Bus communication interrupted for Cutting head KL59 Focus drive.
+    CAN Bus Connection may be loose or disconnected from the Cutting head KL59 Focus drive
+    CAN2:NodeID=30
+    CAN Bus communication interrupted for Cutting head KL59 IOM module.
+    CAN Bus Connection may be loose or disconnected from the Cutting head KL59 IOM module
+    MCB-F5 may have tripped
+
+== Action
+
+Check CAN connection cable is Connected
+
+Further possible actions:
+
+Check CAN-Bus Connection cable Cutting Head KL59 Height sensing unit, Focus Drive and IOM Module
+
+Check MCB-F5 for trip condition.
+
+image:image11.png[A close-up of a machine AI-generated content may be incorrect.,width=247,height=196]image:image13.png[A diagram of a computer AI-generated content may be incorrect.,width=290,height=232]
+
+
+image:image12.png[A diagram of a machine AI-generated content may be incorrect.,width=416,height=252]
+
+
+== Effect 
+ 
+
+

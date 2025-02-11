@@ -1,0 +1,15 @@
+= 2.10.7694 KL59 - Error Accelerometer
+:imagesdir: img
+
+== Description
+KL59 - Error Accelerometer
+
+== Cause
+ ""
+
+== Action
+ 
+
+== Effect 
+ 
+

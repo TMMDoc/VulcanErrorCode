@@ -1,0 +1,15 @@
+= 2.16.30126
+:imagesdir: img
+
+== Description
+SERCOS: SVC Timeout, BusyAT not set
+
+== Cause
+This error message indicates, that after the master has sent a request to the slave on the service channel (communication  between controller (Master) and servo controller (slave)), no answer is received from the slave.
+
+== Action
+The firmware, that is executed on the controller, is too old (V2.29.x.x).Use a firmware version V2.29.3.3 or newer.
+
+== Effect
+ 
+

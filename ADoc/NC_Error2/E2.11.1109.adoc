@@ -1,0 +1,15 @@
+= 2.11.1109
+:imagesdir: img
+
+== Description
+CANOpen: unexpected module restart
+
+== Cause
+A CAN device that was already present on the bus and at least in the PreOperational state has sent a new boot-up message.
+
+== Action
+Determine what caused the device to restart. It is possible, for example, that there was a brief power supply loss to the device or that there was a software error in the device. It is also possible that the restart was explicitly requested by the PLC application.
+
+== Effect
+ 
+

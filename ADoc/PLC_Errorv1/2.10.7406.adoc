@@ -1,0 +1,15 @@
+= 2.10.7406 KL59 - Cable Cut
+:imagesdir: img
+
+== Description
+KL59 - Cable Cut
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

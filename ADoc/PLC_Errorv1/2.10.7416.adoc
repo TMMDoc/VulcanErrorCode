@@ -1,0 +1,15 @@
+= 2.10.7416 KL59 - PGM Warning based on Linearity value
+:imagesdir: img
+
+== Description
+KL59 - PGM Warning based on Linearity value
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

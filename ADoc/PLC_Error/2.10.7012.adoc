@@ -1,0 +1,19 @@
+= 2.10.7012 Axis - Z-axis Negative limit changed for Pallet Position
+:imagesdir: img
+
+== Description
+
+Axis - Z-axis Negative limit changed for Pallet Position
+
+== Cause
+This errro will appear when the pallet is changed 
+ 
+
+== Action
+Acknowledge the Error and Press reset
+ 
+
+== Effect 
+ 
+
+

@@ -1,0 +1,38 @@
+= 2.11.1022
+:imagesdir: img
+
+== Description
+CAN-Bus: Error- Interrupt
+
+Can-bus: Error-interrupt CAN1: Error Status=0x00212
+Can-bus: Error-interrupt CAN2: Error Status=0x00212
+
+== Cause
+The error is triggered by the error interrupted of the CAN controller. There are too many disturbed CAN frames. The data transmission is disturbed on the CAN bus.The hex value in the additional error information contains the content of the interrupt state register of the CAN controller:(*) according to CAN specification 2.0, Part B, see annex.The x in the table shows if an appropriate function is implemented.The signal CAN_WAKEINT has no meaning for the controller.
+
+
+Further possible causes:
+CAN Bus communication interrupted for Cutting head KL59 Height sensing unit or Focus Drive.
+CAN Bus Connection may be loose or disconnected from the Cutting head KL59 Height sensing unit or Focus drive
+
+== Action
+Check the following reasons:
+    Bus termination (120 Ohm at both ends of the bus)
+    Shielding / shield connection
+    disturbances on the wiring, ground loops
+    too long wiring, too many stubs or stubs are too long
+    defective bus devices or wrong baud rates configured
+
+
+Further possible actions:
+Check CAN-Bus Connection cable Cutting Head KL59 Height sensing unit and Focus Drive
+
+image:img/media/image11.png[A close-up of a machine AI-generated content may be incorrect.,width=456,height=186]
+
+
+image:img/media/image12.png[A diagram of a machine AI-generated content may be incorrect.,width=416,height=252]
+
+
+== Effect
+ 
+

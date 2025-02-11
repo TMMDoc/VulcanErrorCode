@@ -1,0 +1,15 @@
+= 2.10.643 System PLC Message to HMI for Program Parameter Tx String Buffer OverFlow
+:imagesdir: img
+
+== Description
+System PLC Message to HMI for Program Parameter Tx String Buffer OverFlow
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

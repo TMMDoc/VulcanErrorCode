@@ -1,0 +1,15 @@
+= 2.10.7438 KL59 - Warning Temperature Swivel Shaft reached
+:imagesdir: img
+
+== Description
+KL59 - Warning Temperature Swivel Shaft reached
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

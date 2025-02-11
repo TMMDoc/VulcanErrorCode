@@ -1,0 +1,15 @@
+= 2.13.606
+:imagesdir: img
+
+== Description
+CMOS-RAM failure: tool coordinate system lost
+
+== Cause
+Breakdown of battery: The CMOS RAM is a battery buffered memory. If the battery fails or the battery is removed for a too long period, the content of the RAM gets lost. If the battery is removed for a short time, the data doesn't get corrupted (e.g. while exchanging the battery).Hardware defect: The CMOS RAM of the EXC66H13 and EXC66H43 is located on the expansion board together with additional field bus interfaces (CAN3 and CAN4 or EtherCAT or Sercos). The error message might also occur if the expansion board is defective. Typically other error messages are displayed in connection with this one e.g. 2.1.115.
+
+== Action
+Breakdown of battery: Exchange the battery and handle the controller as if it was a new one without any persistent data in the CMOS RAM.Hardware defect: Return the controller to the manufacturer.
+
+== Effect
+ 
+

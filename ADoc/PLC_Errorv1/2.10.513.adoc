@@ -1,0 +1,15 @@
+= 2.10.513 NC Automatic mode is Active
+:imagesdir: img
+
+== Description
+NC Automatic mode is Active
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

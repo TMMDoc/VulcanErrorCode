@@ -1,0 +1,35 @@
+= 2.10.817 Nitrogen Pressure Low - Program Paused
+:imagesdir: img
+
+== Description
+
+Nitrogen Pressure Low - Program Paused
+
+== Cause
+
+Nitrogen Pressure is low.
+
+Check the Pressure and Start
+
+Further possible causes:
+
+Nitrogen Valve (External) may be in close condition.
+
+Nitrogen Bundle/Cylinder may be empty
+
+Further possible actions:
+
+Check nitrogen valve (External) is open
+
+Check Nitrogen Bundle/Cylinder Pressure. Replace the Cylinder/Bundle if required.
+
+
+== Action
+
+ Check nitrogen pressure valve is open
+ 
+
+== Effect 
+ 
+
+

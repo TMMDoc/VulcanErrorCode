@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CANdrive: CAN interface is already in use by the PLC and is therefore not available for axes</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A machine constant file has been loaded in which CAN axes are defined for a CAN bus that has already been defined as I/O CAN in the PLC application and thus reserved for use with PLC participants. CNC/motion axes and PLC participants cannot be mixed on the same CAN bus.The information which CAN bus is affected can be taken from the additional error information.The assignment of CAN node numbers to CAN buses for CNC and motion axes is controller-specific and can be found in chapter MK_DRV_CAN_AXES / MK_CANDRIVES of the CNC Configuration Manual (Machine Constants).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Make sure that PLC application and machine constants fit to each other (and to the actual setup of the machine). Use a different CAN bus for the axes by changing the node numbers accordingly, or define the CAN bus in the PLC as Drive-CAN.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

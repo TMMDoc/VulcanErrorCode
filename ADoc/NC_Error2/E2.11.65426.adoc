@@ -1,0 +1,17 @@
+= 2.11.65426
+:imagesdir: img
+
+== Description
+Unknown device name
+
+== Cause
+A file system access was performed to a non-existing drive.EXC66 compact as CNC -> ENC66 compact has no buffered RAM
+
+== Action
+
+ Access the right drive
+ Special case EXC66H00 / EXC66 compact (see the following example)ExampleSpecial case EXC66H00 / EXC66 compactError when switching from S0 to S1CauseSet MK_CFG_SAVE_ORIGINS / MK_NULLPUNKTE_SPEICHERN to 0 (zero).
+
+== Effect
+ 
+

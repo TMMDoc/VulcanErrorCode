@@ -1,0 +1,16 @@
+= 2.10.7432 KL59 - Warning Temperature Head Or IO module reached
+:imagesdir: img
+
+== Description
+KL59 - Warning Temperature Head Or IO module reached
+
+== CauseKL59 Warning Messages
+ "Refer the Node ID" 
+
+== Action
+ 
+
+== Effect
+ 
+
+

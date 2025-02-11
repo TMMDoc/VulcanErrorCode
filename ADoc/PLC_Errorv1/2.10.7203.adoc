@@ -1,0 +1,15 @@
+= 2.10.7203 Empower - Cable Cut
+:imagesdir: img
+
+== Description
+Empower - Cable Cut
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

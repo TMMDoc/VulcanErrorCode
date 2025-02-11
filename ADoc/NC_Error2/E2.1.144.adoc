@@ -1,0 +1,18 @@
+= 2.1.144
+:imagesdir: img
+
+== Description
+EtherCAT: Unknown or unsupported device type found
+
+== Cause
+An EtherCAT device configured as an axis is not a supported drive controller.
+
+== Action
+
+ Only use drive controllers approved by Eckelmann as CNC or motion axes.
+ Check the EtherCAT configuration in the machine constants. Are the specified addresses correct?
+ With topological addressing the logical EtherCAT address 1 is reserved for the internal bus coupler of the EXC89. The first device after EXC89 is addressed via the second index in MK_DRV_ETHERCAT_AXES / MK_ETHERCATDRIVES. Especially this has to be considered if you want to migrate from another controller type to the EXC89 (or vice versa).
+
+== Effect
+ 
+

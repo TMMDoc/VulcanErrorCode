@@ -1,0 +1,16 @@
+= 2.10.7433 KL59 - Warning Temperature Distance Sensor reached
+:imagesdir: img
+
+== Description
+KL59 - Warning Temperature Distance Sensor reached
+
+== CauseKL59 Warning Messages
+ 
+
+== Action
+ 
+
+== Effect
+ 
+
+

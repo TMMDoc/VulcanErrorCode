@@ -1,0 +1,19 @@
+= 1.2.403
+:imagesdir: img
+
+== Description
+Timeout during ncrReadParamList
+
+== Cause
+The connection to the controller has been interrupted
+
+== Action
+
+ Check network connection / cabling or the network components (e.g. switch, hub)
+ Check the network utilization
+ Check the PC utilization (system performance)
+ Crash of the controller (by the PLC program or caused by EMC problems)
+
+== Effect
+ 
+

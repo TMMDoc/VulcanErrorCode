@@ -1,0 +1,19 @@
+= 1.2.401
+:imagesdir: img
+
+== Description
+Timeout during ncrWriteParamList
+
+== Cause
+Connection to the controller interrupted
+
+== Action
+
+ Check network connection/cabling or network equipment (switch/hub etc.).
+ Check utilization of the network.
+ Check utilization of the PC (system performance).
+ Controller has crashed (caused by the PLC program or EMC problems)
+
+== Effect
+ 
+

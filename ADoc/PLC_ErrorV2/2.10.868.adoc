@@ -1,0 +1,16 @@
+= 2.10.868 Laser - Multiple Pierce Steps = 0
+:imagesdir: img
+
+== Description
+Laser - Multiple Pierce Steps = 0
+
+== CauseMulti Stage pierce is selected and steps value is Zero
+ 
+
+== ActionCheck the Parameter Pfield No.2050-2165
+ 
+
+== Effect
+ 
+
+

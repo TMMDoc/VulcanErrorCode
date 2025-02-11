@@ -1,0 +1,15 @@
+= 2.10.953 CNC1 & 2	 Reference are different - Pgm Aborted
+:imagesdir: img
+
+== Description
+CNC1 & 2	 Reference are different - Pgm Aborted
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

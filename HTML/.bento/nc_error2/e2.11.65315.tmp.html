@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>File system: unsupported media format</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The file system of an external drive cannot be read.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Check the corresponding data medium.If the problem occurs in connection with the NetDisk (drive nd:), either set the working directory before accessing the NetDisk for the first time by calling SetCurrentPath in the PLC application with "nd:&lt;IP address&gt;". Alternatively, use a controller firmware v2.29.3.4 or later, and configure the IP address of the Netdisk server using the machine constant  MK_CFG_NETDISK_SERVER_IP_ADDRESS / MK_NETDISK_SRVADDR (see CNC Configuration Manual).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

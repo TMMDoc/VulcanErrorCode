@@ -1,0 +1,15 @@
+= 2.10.454 HMI PLC Communication Lost
+:imagesdir: img
+
+== Description
+HMI PLC Communication Lost
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

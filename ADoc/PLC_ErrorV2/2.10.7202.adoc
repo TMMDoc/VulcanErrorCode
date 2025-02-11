@@ -1,0 +1,16 @@
+= 2.10.7202 Empower - Nozzle Lost
+:imagesdir: img
+
+== Description
+Empower - Nozzle Lost
+
+== CauseThis error occurs when nozzle is removed from the cutting head. 
+ 
+
+== ActionMake sure that nozzle is mounted properly.
+ 
+
+== Effect
+ 
+
+

@@ -1,0 +1,15 @@
+= 2.10.7693 KL59 - Error External 24V not present
+:imagesdir: img
+
+== Description
+KL59 - Error External 24V not present
+
+== Cause
+ ""
+
+== Action
+ 
+
+== Effect
+ 
+

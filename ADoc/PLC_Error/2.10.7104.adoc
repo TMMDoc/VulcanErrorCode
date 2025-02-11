@@ -1,0 +1,18 @@
+= 2.10.7104 Precitec - Focus position time out
+:imagesdir: img
+
+== Description
+
+Precitec - Focus position time out
+
+== Cause
+Focus position not reached within the set time even after the start command
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+
+

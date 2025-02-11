@@ -1,0 +1,15 @@
+= 2.10.7538 KL59 - Error Temperature Swivel Shaft reached
+:imagesdir: img
+
+== Description
+KL59 - Error Temperature Swivel Shaft reached
+
+== Cause
+ "" 
+
+== Action
+ 
+
+== Effect
+ 
+

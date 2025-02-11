@@ -1,0 +1,17 @@
+= 2.3.1584
+:imagesdir: img
+
+== Description
+G23 The configured maximum deceleration of the virtual axis (E) 
+exceeds the defined limit of the distance controlled axis
+
+== Cause
+The error occurs if the parameter E (virtual control) has been programmed at G231. The maximum delay of the virtual axis must not be higher than 80 % of the maximum delay of the height-controlled axis so that the controller has sufficient control reserve for the height control.
+
+== Action
+
+ Change the machine constant  so that the maximum delay of the virtual axis is at most 80 % of the maximum delay of the height-controlled axis.ExampleError message:
+
+== Effect
+ 
+

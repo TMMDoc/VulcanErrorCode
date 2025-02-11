@@ -1,0 +1,39 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Block without G function while unknown modal G function</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If an instruction without a G-function (except addresses S/T/M/H/Q or P) is programmed in a DIN program, an attempt is made to assign it to the last modal G-function (G0-G3 or G100-G103). If none of these functions is active, the error is reported.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Correct the line in the DIN program specified in the additional information.ExampleThe programming of the complained address may not have been intended at all. For example, the error may be reported due to the following incorrect code line:P1246=-4.54747350886464E-13 If floating point numbers are to be specified in the DIN program, the exponent must be separated with the lowercase letter e. The notation with capital letter E for the exponent is not allowed. Instead, the E is interpreted as an address, which is assigned the value -13 in the example. Since no G-function is called in the block, and no modal function was executed before, the error is reported.The correct spelling would be as follows:P1246=-4.54747350886464e-13</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

@@ -1,0 +1,15 @@
+= 2.10.7128 Precitec - PC - No Error Assigned
+:imagesdir: img
+
+== Description
+Precitec - PC - No Error Assigned
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

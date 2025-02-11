@@ -1,0 +1,15 @@
+= 2.10.829 Pallet Feed Hold is active
+:imagesdir: img
+
+== Description
+Pallet Feed Hold is active
+
+== Cause
+Press Feed Start to continue
+
+== Action
+ 
+
+== Effect
+ 
+

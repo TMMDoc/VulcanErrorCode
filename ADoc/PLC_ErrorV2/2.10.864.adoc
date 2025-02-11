@@ -1,0 +1,31 @@
+= 2.10.864 Laser - Status Error
+:imagesdir: img
+
+== Description
+Laser - Status Error
+
+== Cause
+Chiller May be in Error state. Laser source may be in error state
+ 
+Further possible causes:
+
+Chiller Emergency stop may have pressed.
+
+
+== Action
+Check chiller for On Condition and there is no error in the Chiller Display. Check Laser source is in ready condition.
+ 
+Further possible actions:
+
+Check chiller for On Condition and there is no error in the Chiller Display.
+
+Check Laser source is in ready condition.
+
+Check for any alarm present in the laser Application.
+
+image:img/media/image20.png[img/media/image20,width=601,height=289]
+
+== Effect
+ 
+
+

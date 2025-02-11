@@ -1,0 +1,15 @@
+= 2.10.7697 KL59 - Error Fan Temperature
+:imagesdir: img
+
+== Description
+KL59 - Error Fan Temperature
+
+== Cause
+ ""
+
+== Action
+ 
+
+== Effect
+ 
+

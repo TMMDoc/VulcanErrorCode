@@ -1,0 +1,15 @@
+= 2.1.107
+:imagesdir: img
+
+== Description
+CAN-Drive: Drive should be operating and is not yet ready
+
+== Cause
+• The external hardware enable (ENABLE signal) is not set. You can see the affected axis in the additional information (see 2.1 AXE module - axis computer).
+
+== Action
+Set external hardware enable (ENABLE signal).
+
+== Effect
+ 
+

@@ -1,0 +1,15 @@
+= 2.10.3009 CAN_MSG - Axis Soft Limit not set
+:imagesdir: img
+
+== Description
+CAN_MSG - Axis Soft Limit not set
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

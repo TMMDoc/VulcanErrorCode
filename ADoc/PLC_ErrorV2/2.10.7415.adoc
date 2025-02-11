@@ -1,0 +1,16 @@
+= 2.10.7415 KL59 - No Lumi reference value
+:imagesdir: img
+
+== Description
+KL59 - No Lumi reference value
+
+== CauseLumi reference value is less than or equal to zero..
+Set the value manually
+
+== Action Insert new protective glass and Select Lumi measure in the controls page and select ref and press start button. Lumi measure reference cycle to be done only with clean protective glass
+ 
+
+== Effect
+ 
+
+

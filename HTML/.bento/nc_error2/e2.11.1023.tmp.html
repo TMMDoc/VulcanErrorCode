@@ -1,0 +1,45 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>CAN-Bus: Reception error, Error counter exceeds error limit</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This error occurs, if the number of erroneous messages in the receive buffer, exceed a certain limit. The hex value in the additional error information contains the interrupt status register of the CAN controller:(*) according to CAN specification 2.0, Part B, see appendixThe x in the table shows if the appropriate function is implemented. The signal CAN_WAKEINT has no meaning for the controller.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Check the following sources of error:
+ wrong baud rate (Machine constant MK_CFG_CANOPEN_BITRATE, old syntax: MK_CANOPEN_BAUDRATE)
+ erroneous device
+ cabling
+ bus termination
+ EMC (shielding)
+ topology of the bus</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

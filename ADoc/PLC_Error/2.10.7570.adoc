@@ -1,0 +1,15 @@
+= 2.10.7570 KL59 - Error Frequency Counter not ready
+:imagesdir: img
+
+== Description
+KL59 - Error Frequency Counter not ready
+
+== Cause
+ ""
+
+== Action
+ 
+
+== Effect 
+ 
+

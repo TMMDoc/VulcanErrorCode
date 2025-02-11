@@ -1,0 +1,43 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>WOK: Tool radius too large for the programmed contour</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This error is reported if a contour is to be executed with active tool radius compensation and the tool does not fit into this contour. This is determined by a travel direction change of the tool center point (see figure).In the example, the contour is executed in a clockwise direction along the black arrow. When approaching the corner (tool is shown in red), the tool center point still moves clockwise as well. For the further path (shown in red), the direction would have to be reversed because the corner is too tight, and the center of the tool would move to the left. Due to the changeed travel direction, the error is reported.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Use another tool that fits the contour.
+Manually modify the contour (it may have to be taken into account in the postprocessor).
+Adapt the contour automatically via parameter D of function G41/G42. G41/42 ? D Behavior in case of contour damage:0 = ignore (test mode) 1 = report immediately if detectable 2 = eliminate max. one block (default) 3 = eliminate max. two blocks 4 = eliminate max. three blocks Example:A rectangular hole 4 mm x 4.4 mm and a the kerf that is 2 mm. This error occurs. Why?The error occurs because a change of direction has been detected. Often the deviation is in the micrometer range.With a kerf of 1.99 instead of 2.00, the error no longer occurs in this case.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

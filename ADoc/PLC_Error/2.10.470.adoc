@@ -1,0 +1,15 @@
+= 2.10.470 Cutting Head is Configured for 2 Technology
+:imagesdir: img
+
+== Description
+Cutting Head is Configured for 2 Technology
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

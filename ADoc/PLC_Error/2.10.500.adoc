@@ -1,0 +1,21 @@
+= 2.10.500 NC Wrong M Function in Program
+:imagesdir: img
+
+== Description
+
+
+NC Wrong M Function in Program
+
+== Cause
+
+
+Wrong M Function defined in the program. Check the program 
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+
+

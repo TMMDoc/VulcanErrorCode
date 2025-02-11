@@ -1,0 +1,15 @@
+= 2.10.7509 KL59 - Error Current Distance Sensor
+:imagesdir: img
+
+== Description
+KL59 - Error Current Distance Sensor
+
+== Cause
+ "Refer node ID" 
+
+== Action
+ 
+
+== Effect 
+ 
+

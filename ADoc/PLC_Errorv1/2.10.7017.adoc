@@ -1,0 +1,15 @@
+= 2.10.7017 Axis - Change the Y-axis offset value
+:imagesdir: img
+
+== Description
+Axis - Change the Y-axis offset value
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

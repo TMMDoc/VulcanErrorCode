@@ -1,0 +1,42 @@
+= 2.10.865 Laser - Emission failed
+:imagesdir: img
+
+== Description
+
+Laser - Emission failed
+
+== Cause
+
+Emission On feedback from Laser source not received even after 15secs of Emission On output
+ 
+Emission (Laser) On Output cable may be loose or disconnected.
+
+== Action
+
+Check Laser source of any error. Check Emission on Feedback signal
+
+
+
+Further possible actions:
+
+Check Laser source of any error. Check Emission (Laser) On Output cable.
+
+Check Emission on Feedback signal
+
+*Output Signal*
+
+image:image21.png[A diagram of a laser AI-generated content may be incorrect.,width=557,height=363]
+
+
+*Input Signal*
+
+image:image22.png[A diagram of a laser AI-generated content may be incorrect.,width=539,height=411]
+
+
+image:image23.png[A diagram of a machine AI-generated content may be incorrect.,width=493,height=486]
+
+
+== Effect 
+ 
+
+

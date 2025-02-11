@@ -1,0 +1,37 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>EtherCAT: Distributed Clocks sync lost</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The sync deviation in at least one slave is higher than the allowed value across several clocks. Possibly the slave has not received a DC packet with the reference time. This can occur due to a loose cable contact, cable break or similar. The error message normally does not appear alone but in conjunction with other error messages such as 2.26.511 EtherCAT: Statepolling: No response from slave. Check wiring and reload machineconstants/PLC, 2.26.401 EtherCAT: Slave reported errorstate, 2.26.401 EtherCAT: Unexpected slave state detected.Possible solutionCheck wiring und restart EtherCAT:? Do the RJ45 connectors sit firmly in the EtherCAT socket of the slaves?? Are the latches properly engaged or broken off?? Reload machine constants or reload PLC for systems without axes? At which position in the topology such a problem may occur can be limited by reading out the error counters in the EtherCAT devices (monitor command ecat errcnt).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

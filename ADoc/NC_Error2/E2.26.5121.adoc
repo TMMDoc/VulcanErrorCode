@@ -1,0 +1,27 @@
+= 2.26.5121
+:imagesdir: img
+
+== Description
+Ether CAT: No or Incomplete processing data received wkc error Packet 2
+
+== Cause
+Ether CAT Connection may be loose or disconnected.
+
+MCB- F6 may have Tripped
+
+
+== Action
+ 
+Check Ether-cat Connection cable.
+
+Check MCB-F6 for Trip Condition.
+
+Check Remedy Section of Error No.2.26.5117
+
+Go to controls page and select Ether cat Master restart for restarting the communication
+
+image:img/media/image5.png[A diagram of a computer AI-generated content may be incorrect.,width=396,height=332]
+
+== Effect
+ 
+

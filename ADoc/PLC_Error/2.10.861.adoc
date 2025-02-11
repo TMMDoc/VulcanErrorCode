@@ -1,0 +1,15 @@
+= 2.10.861 Laser - Protection Cover Open
+:imagesdir: img
+
+== Description
+Laser - Protection Cover Open
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

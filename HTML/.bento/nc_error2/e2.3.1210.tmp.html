@@ -1,0 +1,41 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>WOK: G41/G4 C-axis should be traced and is not configured</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>When switching on the tool radius compensation with G41/G42, it was specified in parameter E that the C axis should be traced tangentially. However, no C axis is configured in the machine constants and no transformation is active to create a "virtual" C axis.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>Check the machine constants and the call sequence of transformations and tool compensation in DIN program/cycles.Further documentationG41 Cutter compensation - left (see also CNC Programming Manual in EEDP) G42 Cutter compensation - right (see also CNC Programming Manual in EEDP)If the error occurs with the ECUT application package:In bevel cutting, there are kinematics with A and B axis. The C axis is not configured in the machine constants. G114 6-axis transformation (RTCP) (see also CNC Programming Manual in EEDP)In the DIN program a G41 R=P1500 E1 is written. Here, "E1 = tangential tracking on". The C axis is to be tracked in this case. If the message appears directly after START, the corresponding head on the machine panel (S8) may not be selected.</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

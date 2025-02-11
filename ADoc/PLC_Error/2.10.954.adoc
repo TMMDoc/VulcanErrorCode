@@ -1,0 +1,15 @@
+= 2.10.954 CNC1 & 2	 Other Gantry Not in its Limit - Pgm Aborted
+:imagesdir: img
+
+== Description
+CNC1 & 2	 Other Gantry Not in its Limit - Pgm Aborted
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect 
+ 
+

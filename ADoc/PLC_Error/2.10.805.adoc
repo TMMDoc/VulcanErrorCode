@@ -1,0 +1,19 @@
+= 2.10.805 Grease Lubrication No Pressure generated
+:imagesdir: img
+
+== Description
+
+Grease Lubrication No Pressure generated
+
+== Cause
+Lubrication Grease pressure is low. 
+ 
+
+== Action
+Check Lubrication grease level in the Tank.check direction of the motor.Check connection as per Page.59 in the Electrical scheme
+ 
+
+== Effect 
+ 
+
+

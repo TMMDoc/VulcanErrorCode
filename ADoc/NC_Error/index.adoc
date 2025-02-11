@@ -1,0 +1,16 @@
+= NC error messages
+:imagesdir: img
+
+
+image::logo-trumpf.png[Logo,width=254,float=right]
+
+This is the internal error code data base for Vulcan control (L99, Eckelmann). Please note that this information is for internal use only and is provided without any liabilities or warranties. It is intended for reference and does not carry any legal or financial obligations. Any actions taken based on this information are the sole responsibility of the individual or department using it.
+
+* xref:../HMI_Error/index#[HMI_Error]
+
+* xref:../PLC_Error/index#[PLC_Error]
+
+* xref:../NC_Error/index#[NC_Error]
+
+* xref:../NC_Error2/index#[NC_Error2]
+

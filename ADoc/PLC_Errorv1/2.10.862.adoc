@@ -1,0 +1,15 @@
+= 2.10.862 Laser - Switch ON timeout
+:imagesdir: img
+
+== Description
+Laser - Switch ON timeout
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

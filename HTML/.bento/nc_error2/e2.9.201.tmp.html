@@ -1,0 +1,43 @@
+<div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_description">Description</a></li>
+<li><a href="#_cause">Cause</a></li>
+<li><a href="#_action">Action</a></li>
+<li><a href="#_effect">Effect</a></li>
+</ul>
+</div>
+<div class="sect1">
+<h2 id="_description">Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Invalid state for the requested job, single function actually not allowed</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cause">Cause</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>A single block requested by the HMI is not executed because the controller is not in the IDLE state.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_action">Action</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Either an emergency stop is pending or the stop button is permanently on.Other conceivable reasons are:
+ Running DIN program or single block
+ Global error not acknowledged
+ Machine constants are being loaded
+ Controller has not finished bootingThe state of the central controller at the time the single block is called up is stored in the additional error information. The error reason can be derived from this.Possible states:Z_ZST_NOT_INIT_E Z_ZST_INIT_E Z_ZST_WAIT_Z_POS_KALTSTART_E Z_ZST_WAIT_Z_POS_WARMSTART_E Z_ZST_MK_UPDATE_EZ_ZST_WAIT_Z_POS_IDLE_E Z_ZST_IDLE_E Z_ZST_IDLE_UB_SOLL_AUS_E Z_ZST_WAIT_Z_POS_RUN_E Z_ZST_RUN_E Z_ZST_RUN_UB_SOLL_EIN_EZ_ZST_WAIT_Z_POS_FEHLER_HALT_E Z_ZST_FEHLER_HALT_E Z_ZST_WAIT_Z_POS_FEHLER_FREI_E Z_ZST_FEHLER_FREI_E Z_ZST_WAIT_FEHLER_FREI_UB_SOLL_EIN_E Z_ZST_WAIT_Z_POS_RESTART_K0_E Z_ZST_WAIT_Z_POS_IDLE_OR_RUN_E                                         Z_ZST_WAIT_Z_POS_FEHLER_ABBRUCH_E Z_ZST_FEHLER_ABBRUCH_E</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_effect">Effect</h2>
+<div class="sectionbody">
+
+</div>
+</div>

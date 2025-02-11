@@ -1,0 +1,15 @@
+= 2.10.7151 Precitec - PC - Window warning Temperature - Replace the Protective Window
+:imagesdir: img
+
+== Description
+Precitec - PC - Window warning Temperature - Replace the Protective Window
+
+== Cause
+ 
+
+== Action
+ 
+
+== Effect
+ 
+

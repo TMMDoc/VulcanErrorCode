@@ -1,0 +1,19 @@
+= 2.10.873 Laser - Invalid Tech Parameter
+:imagesdir: img
+
+== Description
+
+Laser - Invalid Tech Parameter
+
+== Cause
+Tech Parameters like Gas pressure,gas type ,Height are not set properly or the value is zero
+ 
+
+== Action
+Check the Tech table for proper Value
+ 
+
+== Effect 
+ 
+
+
