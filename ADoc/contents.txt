@@ -4,6 +4,8 @@ Overview
 [NC_error2]
 [HMI_Error]
 [ServiceManual]
+[KL59]
+[BM111]
 [Opmanual]
 [Schematics]
 manuals

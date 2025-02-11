@@ -1,5 +1,9 @@
-= Overview over components
+= Overview of components
 :imagesdir: img
+
+This chapter gives a overview of the cabinet and device panels
+
+(To be replaced by Vijays training material)
 
 image:Devicepanel_comp.jpg[]
 
