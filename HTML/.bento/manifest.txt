@@ -1,4 +1,0 @@
-TITLE=Vulcan ErrorCodes
-OUTDIR=../HTML
-LOGO=img/logo-flux.png,103,34
-COPYRIGHT=Copyright &copy; 2024 by Trumpf-Metamation. All rights reserved.
