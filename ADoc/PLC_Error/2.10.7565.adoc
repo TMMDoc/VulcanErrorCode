@@ -5,9 +5,11 @@
 KL59 - Error Overflow Frequency Counter
 
 == Cause
+
  "" 
 
 == Action
+ 
  
 
 == Effect 

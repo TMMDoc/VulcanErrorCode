@@ -5,9 +5,11 @@
 KL59 - Error Current Distance Sensor
 
 == Cause
+
  "Refer node ID" 
 
 == Action
+ 
  
 
 == Effect 

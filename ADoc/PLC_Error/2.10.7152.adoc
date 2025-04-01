@@ -6,10 +6,12 @@
 Precitec - PC - Collimating lens warning temperature - Contact Manufacturer
 
 == Cause
+
 Precitec Warning messages
  
 
 == Action
+ 
  
 
 == Effect 

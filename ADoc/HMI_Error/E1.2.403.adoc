@@ -5,9 +5,11 @@
 Timeout during ncrReadParamList
 
 == Cause
+
 The connection to the controller has been interrupted
 
 == Action
+ 
 
  Check network connection / cabling or the network components (e.g. switch, hub)
  Check the network utilization

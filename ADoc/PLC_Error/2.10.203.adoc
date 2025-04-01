@@ -5,9 +5,11 @@
 Head Crash Protection Activated
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

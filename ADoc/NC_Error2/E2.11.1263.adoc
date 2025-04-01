@@ -5,9 +5,11 @@
 CANdrive: A node floods the CAN-bus with emergency messages
 
 == Cause
+
 Certain errors occur more than once. This behavior floods the CAN bus. This is a consequential error.
 
 == Action
+ 
 Evaluate the additional error information (in the example "node 1 error 3210") to identify the CAN node and the error number.
  Eliminate the determined error at the CAN device.
  In many cases, only a hardware reset of the CAN device will help after the original error has been eliminated.

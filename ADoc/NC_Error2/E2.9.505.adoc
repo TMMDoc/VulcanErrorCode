@@ -5,9 +5,11 @@
 Transfer of compensation data only allowed in the IDLE state
 
 == Cause
+
 While a NC program is executed (Z_ZST_RUN_E), no axis corrections can be transferred.
 
 == Action
+ 
 The transfer is initiated by the PC application. In case of this error the transfer starts at the wrong time.Also the PLC application can cause this error, if it initiates a program start before the axis corrections are transferred after system start. Check the timing and the dependency of PC and PLC application in detail.
 
 == Effect

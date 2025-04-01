@@ -5,9 +5,11 @@
 CAN_MSG - Axis Soft Limit not set
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

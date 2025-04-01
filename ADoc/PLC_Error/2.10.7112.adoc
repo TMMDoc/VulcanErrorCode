@@ -5,9 +5,11 @@
 Precitec - PC - Window not Present
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

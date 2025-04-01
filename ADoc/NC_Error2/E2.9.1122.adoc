@@ -5,9 +5,11 @@
 Control system is not ready, program start not possible
 
 == Cause
+
 A program startup requested by the PLC is not executed because the controller is not in the IDLE state.
 
 == Action
+ 
 Possible reasons:
  Running DIN program or single block
  Global error not acknowledged

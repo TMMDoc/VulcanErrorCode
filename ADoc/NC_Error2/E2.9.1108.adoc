@@ -5,9 +5,11 @@
 PLC reports emergency stop
 
 == Cause
+
 The message appears when the emergency stop bit is set by the PLC.With CODESYS V Input XEmergencyStop on the function block NC_GlobalControlWith CODESYS V DB1 Bit 0 D1_000_0_EMERGENCYSTOP_BIT resp. DB1_SPS2NC_NOTAUS_BI
 
 == Action
+ 
 Eliminate the reason why the emergency stop was triggered.
 
 == Effect

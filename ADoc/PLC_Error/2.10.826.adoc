@@ -7,12 +7,14 @@ Pallet Door is Opened	 close and continue the program
 
 == Cause
 
+
 Pallet Door is not closed.
 
 Pallet close sensor may be malfunctioning
 
 
 == Action
+ 
 
 Check pallet door for close condition. Check connection as per Page.57 in the Electrical scheme
  

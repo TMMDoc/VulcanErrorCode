@@ -5,9 +5,11 @@
 WOK: Tool radius too large for the programmed contour
 
 == Cause
+
 This error is reported if a contour is to be executed with active tool radius compensation and the tool does not fit into this contour. This is determined by a travel direction change of the tool center point (see figure).In the example, the contour is executed in a clockwise direction along the black arrow. When approaching the corner (tool is shown in red), the tool center point still moves clockwise as well. For the further path (shown in red), the direction would have to be reversed because the corner is too tight, and the center of the tool would move to the left. Due to the changeed travel direction, the error is reported.
 
 == Action
+ 
  
  Use another tool that fits the contour. 
  Manually modify the contour (it may have to be taken into account in the postprocessor). 

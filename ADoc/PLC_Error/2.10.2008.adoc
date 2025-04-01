@@ -5,9 +5,11 @@
 CAN_OPEN - Axis Homing Error
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

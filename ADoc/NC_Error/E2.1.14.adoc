@@ -5,9 +5,11 @@
 Missing 24V process power supply on axis interface
 
 == Cause
+
 The 24V power supply of the axis interface (expansion board of the EXC882/EXC883 or LBMARI module on the EXC66) has failed. 
 
 == Action
+ 
 Check the wiring, especially of the supply voltage. If this is in order, it could be a hardware defect.
 
 == Effect

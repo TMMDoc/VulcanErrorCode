@@ -5,9 +5,11 @@
 Invalid state for the requested job, single function actually not allowed
 
 == Cause
+
 A single block requested by the HMI is not executed because the controller is not in the IDLE state.
 
 == Action
+ 
 Either an emergency stop is pending or the stop button is permanently on.Other conceivable reasons are:
  Running DIN program or single block
  Global error not acknowledged

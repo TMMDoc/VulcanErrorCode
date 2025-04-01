@@ -5,9 +5,11 @@
 CNC1 & 2	 Tandem Limit Reached - Pgm Paused
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

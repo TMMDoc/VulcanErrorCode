@@ -5,9 +5,11 @@
 Axis - Configured for more than 1 technology
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

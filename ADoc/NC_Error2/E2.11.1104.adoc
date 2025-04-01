@@ -5,9 +5,11 @@
 CANopen: not a valid baud rate
 
 == Cause
+
 The baud rate configured on the CAN node does not match the configuration in the controller (MK_CANOPEN_BAUDRATE).
 
 == Action
+ 
 Adapt the machine constant MK_CFG_CANOPEN_BITRATE (old syntax: MK_CANOPEN_BAUDRATE) or configure the CAN station differently.
 
 == Effect

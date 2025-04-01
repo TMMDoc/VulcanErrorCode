@@ -5,11 +5,13 @@
 Negative software limit switch active (X or Y or Z)
 
 == Cause
+
 X-Axis or Y-axis or Z axis position may have reached the Negative software limit.
 
 Work offset may be captured wrongly.
 
 == Action
+ 
 Check Whether Message is for X axis or Y axis or Z axis. This message will indicate the axis name along with the message.
 
 Check physical position of the axis.

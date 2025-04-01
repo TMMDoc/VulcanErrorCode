@@ -5,9 +5,11 @@
 CNC1 & 2	 Tandem Pgm Name are different - Pgm Aborted
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

@@ -5,9 +5,11 @@
 EtherCAT: Unknown or unsupported device type found
 
 == Cause
+
 An EtherCAT device configured as an axis is not a supported drive controller.
 
 == Action
+ 
 
  Only use drive controllers approved by Eckelmann as CNC or motion axes.
  Check the EtherCAT configuration in the machine constants. Are the specified addresses correct?

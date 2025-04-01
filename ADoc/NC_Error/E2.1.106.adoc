@@ -5,9 +5,11 @@
 CAN-Drive: Last reported axis error is still active
 
 == Cause
+
 An attempt was made to acknowledge an error message from the drive controller, but the acknowledgement failed because the causal problem still exists. This concerns a consequential error.
 
 == Action
+ 
 Fix the previously reported error.
 
 == Effect

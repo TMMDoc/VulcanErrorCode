@@ -7,6 +7,7 @@ Air Pressure Low - Program Paused
 
 == Cause
 
+
 Air input is low. 
 
 Check the Pressure and Start
@@ -18,6 +19,7 @@ Compressed Air input pressure is low.
 MCB -F3 may have tripped
 
 == Action
+ 
 
 Check Air compressor is On.Check the valves are open.
 

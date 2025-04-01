@@ -5,9 +5,11 @@
 Tandem Offset Program selection only in Slave Control
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

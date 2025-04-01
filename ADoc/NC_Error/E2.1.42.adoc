@@ -5,11 +5,14 @@
 Following error: excessive synchronisation deviation  
 
 == Cause
-The error message shows that the slave axis (apparently) did not move at the time of the error, while the master axis moved 195 increments. With a permitted deviation of 113 increments, this inevitably leads to a synchronization error.The question of how exactly this is achieved can only be answered with additional data:
+ 
+
+ The error message shows that the slave axis (apparently) did not move at the time of the error, while the master axis moved 195 increments. With a permitted deviation of 113 increments, this inevitably leads to a synchronization error.The question of how exactly this is achieved can only be answered with additional data:
  Did the error occur during start-up or deceleration?
  The machine constants must be considered, because without their recognition we do not know the encoder resolution and transmission ratio, and therefore cannot determine the size of the covered distances.Possible solutionA possible explanation would be a lost actual value packet. Even in standstill an actual value slightly moves forward and backward. Exactly the same actual value twice in succession is rather unusual, even with a axis in standstill.If the error occurs more often, it can be visualized well in the AXSCOPE tool (in case of a lost actual value packet, you can see an outlier in the velocity to 0 and then double the previous speed (or vice versa). The PDO trace does not help in this case because the temporal resolution is much too low.
 
 == Action
+ 
  
 
 == Effect

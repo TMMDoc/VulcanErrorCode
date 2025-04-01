@@ -5,9 +5,11 @@
 Auto Pallet not possible for this position
 
 == Cause
+
 Move in Manual mode and then start
 
 == Action
+ 
  
 
 == Effect 

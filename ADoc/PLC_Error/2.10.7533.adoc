@@ -5,9 +5,11 @@
 KL59 - Error Temperature Distance Sensor reached
 
 == Cause
+
  "" 
 
 == Action
+ 
  
 
 == Effect 

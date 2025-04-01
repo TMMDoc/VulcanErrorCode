@@ -5,9 +5,11 @@
 CNC1 & 2	 Other Gantry Not in its Limit - Pgm Aborted
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

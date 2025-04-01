@@ -6,10 +6,12 @@
 System CNC License Expired
 
 == Cause
+
 System Error
 Contact Manufacturer
 
 == Action
+ 
 Check with the manufacturer
  
 

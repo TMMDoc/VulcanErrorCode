@@ -5,9 +5,11 @@
 Precitec - PC - Window Cattridge not Present
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

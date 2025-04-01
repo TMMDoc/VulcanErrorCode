@@ -7,6 +7,7 @@ Emergency Stop Pressed
 
 == Cause
 
+
 Emergency Stop button pressed Either in Operator panel or in Pallet Operator Box. 
  
 Further possible causes:
@@ -15,6 +16,7 @@ MCB- F3 may have tripped
 
 
 == Action
+ 
 
 Check both Emergency stop button and release it. Check connection as per Page no.15,16 in the Electrical scheme if error is not cleared
  

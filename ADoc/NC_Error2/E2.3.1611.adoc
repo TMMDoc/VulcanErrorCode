@@ -5,9 +5,11 @@
 G25 destination address for import missing
 
 == Cause
+
 Parameter C is missing when G252 is used.
 
 == Action
+ 
  
 
 == Effect

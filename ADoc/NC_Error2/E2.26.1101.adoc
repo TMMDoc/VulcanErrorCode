@@ -5,9 +5,11 @@
 EtherCAT: Distributed Clocks sync failed
 
 == Cause
+
 The Distributed Clocks synchronization has failed. The maximum permissible sync difference to the reference time was exceeded several times during synchronization and was therefor aborted.Possible solutionNo generally applicable solution. Try to reset all slaves and restart EtherCAT. It could be a problem in wiring or an EMC problem. At which position in the topology such a problem may occur can be limited by reading out the error counters in the EtherCAT devices (monitor command ecat errcnt).
 
 == Action
+ 
  
 
 == Effect

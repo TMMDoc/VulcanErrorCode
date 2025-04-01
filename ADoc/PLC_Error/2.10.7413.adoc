@@ -6,10 +6,12 @@
 KL59 - Warning Active
 
 == Cause
+
 Message to indicate a situation
 No message found in the error list
 
 == Action
+ 
  
 
 == Effect 

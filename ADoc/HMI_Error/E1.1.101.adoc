@@ -5,9 +5,11 @@
 NC not initialized	 message not sent
 
 == Cause
+
 The cause may be that the controller was restarted by power failure user intervention or a fatal error. However the HMI was not terminated or the IPC is still running.
 
 == Action
+ 
  
 
 == Effect

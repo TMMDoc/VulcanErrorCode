@@ -5,9 +5,11 @@
 EtherCAT: Unable to quit slave error sa1001 st=preop 
 
 == Cause
+
 The error condition of the slave still exists.Possible solutionAnalyze previous error message from AL status register (see 2.26.401 EtherCAT: Slave reported errorstate), identify and, if possible, eliminate error cause. If necessary, reboot EtherCAT.
 
 == Action
+ 
  
 
 == Effect

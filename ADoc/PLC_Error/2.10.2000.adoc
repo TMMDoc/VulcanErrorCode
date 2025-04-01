@@ -13,6 +13,7 @@ CAN_OPEN Device not Found KL59 Focus not found in CAN2 NODE_ID=30
 
 == Cause
 
+
 KL59 Focus Control Drive not Detected.
 
 Further possible causes:
@@ -29,6 +30,7 @@ Further possible causes:
     MCB-F5 may have tripped
 
 == Action
+ 
 
 Check CAN connection cable is Connected
 

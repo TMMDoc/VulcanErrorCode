@@ -6,9 +6,11 @@ EtherCAT: Drive reports referencing error.
  Reference point traverse has been aborted.
 
 == Cause
+
  An error was reported by the drive controller during homing. Homing cannot be completed successfully for this reason and is aborted.
 
 == Action
+ 
 Fix the previously reported error.
 
 == Effect

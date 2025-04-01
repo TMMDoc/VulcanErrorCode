@@ -7,10 +7,12 @@ Program Start aborted due to Pallet position
 
 == Cause
 
+
 Pallet not in Position for Program start. 
 Check the Pallet For/Rev position
 
 == Action
+ 
 
 Check for the pallet posittion physically. If not in position,move the pallet with manual operation. Check the Pallet In postion sensor
 

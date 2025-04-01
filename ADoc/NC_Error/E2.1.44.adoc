@@ -5,9 +5,11 @@
 No reference points, synchronous axis must not be moved
 
 == Cause
+
 Controller does not accept travel commands for synchronous axis. Only after homing is it permitted to move the axes.
 
 == Action
+ 
 Perform a reference point run.
 
 == Effect

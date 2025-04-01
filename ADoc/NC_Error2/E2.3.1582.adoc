@@ -6,9 +6,11 @@ G23 The configured maximum speed of the virtual axis (E)
  exceeds the defined limit of the distance controlled axis
 
 == Cause
+
 The error occurs if parameter E (virtual control) has been programmed on the G231. The maximum speed of the virtual axis must not be higher than 80 % of the maximum speed of the height-controlled axis so that the controller has sufficient control reserve for the height control.
 
 == Action
+ 
 Change the machine constant MK_VMAX so that the maximum speed of the virtual axis is at most 80 % of the maximum speed of the height-controlled axis.ExampleError message:
 
 == Effect

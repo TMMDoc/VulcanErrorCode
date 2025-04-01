@@ -7,10 +7,12 @@ NC Wrong Firmware downloaded
 
 == Cause
 
+
 This Error occurs when wrong firmware is loaded in the controller.
  
 
 == Action
+ 
 
 Check with the manufacturer
  

@@ -6,10 +6,12 @@
 IO Close file Error
 
 == Cause
+
 Initial Configuration Setting issue. 
  
 
 == Action
+ 
  
 
 == Effect 

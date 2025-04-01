@@ -5,9 +5,11 @@
 EC-AR 01 and EC-AR 02 cannot be used together on one bus
 
 == Cause
+
 One of the extension cards in a CNC55 rack comes up with a wrong identifier (possibly a short circuit).
 
 == Action
+ 
 Remove one extension card after the other (after power has been switched off) to find out which card is erroneous. Replace this card.
 
 == Effect

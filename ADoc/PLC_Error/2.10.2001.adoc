@@ -6,10 +6,12 @@
 CAN_OPEN - Axis End Limit Active
 
 == Cause
+
 Focus position Motor reached the End Limit
  
 
 == Action
+ 
 Make sure to move the Posiiton within the Limits
  
 

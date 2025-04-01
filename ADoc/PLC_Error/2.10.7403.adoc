@@ -6,10 +6,12 @@
 KL59 - Minimum and Maximum Frequency value error
 
 == Cause
+
 There is no difference in Minimum and maximum frequency value during Height Calibration
 Check the Sensor insert
 
 == Action
+ 
  
 
 == Effect 

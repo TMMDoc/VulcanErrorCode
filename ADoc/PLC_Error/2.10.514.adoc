@@ -13,6 +13,7 @@ NC Axes not homed to start the Program
 
 == Cause
 
+
 Program start button is pressed before doing Homing. 
 
  
@@ -20,6 +21,7 @@ Program start button is pressed before doing Homing.
 
 
 == Action
+ 
 
 Select Homing in the setup page of the vulcan and press start button
 

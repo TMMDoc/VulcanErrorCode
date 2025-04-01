@@ -11,6 +11,7 @@ Module Monitoring error CAN2: NodeID = 30
 
 == Cause
 
+
 CAN1:NodeID=16
 
 CAN Bus communication interrupted for Cutting head KL59 Height sensing unit.
@@ -32,6 +33,7 @@ CAN Bus Connection may be loose or disconnected from the Cutting head KL59 IOM m
 MCB-F5 may have tripped
 
 == Action
+ 
 Check CAN-Bus Connection cable Cutting Head KL59 Height sensing unit, Focus drive and IOM Module
 
 Check MCB-F5 for trip condition.

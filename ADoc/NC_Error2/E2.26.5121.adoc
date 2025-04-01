@@ -5,12 +5,14 @@
 Ether CAT: No or Incomplete processing data received wkc error Packet 2
 
 == Cause
+
 Ether CAT Connection may be loose or disconnected.
 
 MCB- F6 may have Tripped
 
 
 == Action
+ 
  
 Check Ether-cat Connection cable.
 

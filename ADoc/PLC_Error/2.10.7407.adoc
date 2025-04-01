@@ -5,9 +5,11 @@
 KL59 - Body Touch
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

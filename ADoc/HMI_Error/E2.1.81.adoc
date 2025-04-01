@@ -5,9 +5,11 @@
 CAN-Drive: No processing data received from drive
 
 == Cause
+
 If this error message occurs while commissioning of an axis, check• if the node number and baud rate are configured correctly• if the power supply is availableIf this error occurs sporadically while the axis is in operation• set MK_CFG_INTERPOLATION_CYCLE_TIME (old syntax: MK_DELTAT) to a higher value, because the servo controller doesn't deliver the actual position within the configured time.• If this doesn't solve the problem, please contact the manufacturer of the servo drive. 
 
 == Action
+ 
  
 
 == Effect

@@ -5,6 +5,7 @@
 Negative hardware limit switch active(X or Y)
 
 == Cause
+
 X-Axis or Y-axis position may have reached the Negative End limit. X- Sensor(=WM+MB-B2), Y- Sensor(=WM+MB-B5).
 
 Sensor Cable connection may be loose or Cut
@@ -13,6 +14,7 @@ Sensor May be faulty
 
 
 == Action
+ 
 Check Whether Message is for X axis or Y axis. This message will indicate the axis name along with the message.
 
 Check physical position of the axis.

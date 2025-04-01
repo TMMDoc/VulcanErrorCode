@@ -6,10 +6,12 @@
 Empower - Cable Cut
 
 == Cause
+
 This error occurs when height sensor cable is not connected properly or cut.
  
 
 == Action
+ 
 Check the height sensor cable for any cut or loose conneciton
  
 

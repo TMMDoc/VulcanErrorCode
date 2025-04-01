@@ -6,10 +6,12 @@
 KL59 - Warning Pressure Sealing gas limit reached
 
 == Cause
+
 KL59 Warning Messages(Not Monitored for 3kw Laser)
  
 
 == Action
+ 
  
 
 == Effect 

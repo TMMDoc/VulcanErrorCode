@@ -6,11 +6,13 @@ CAN-Drive: Configured CAN-Bus-Interface is not available
 
 == Cause
 
+
  Configuration error: The used controller only has two CAN interfaces, a node ID was configured in MK_CANDRIVES, that refers to CAN3 or CAN4
  Insufficient activation code: a node ID was configured in MK_CANDRIVES that refers to a CAN bus that is physically available, but that is locked via the activation code
  Hardware defect: the expansion board of the EXC66H13 could not be found.
 
 == Action
+ 
 
  Map CAN axes only to interfaces that are available and that are not locked by the activation code (Caution: Please note the fixed mapping of CAN node IDs to the CAN buses of the controller)
  In case of a hardware defect return the device to the manufacturer.

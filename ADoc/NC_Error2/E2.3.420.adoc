@@ -5,9 +5,11 @@
 G99 not allowed at HP level
 
 == Cause
+
 An attempt was made to start a DIN program containing a call to G99 as the main program. Main programs must end with M30, subroutines with G99. 
 
 == Action
+ 
 
  Do not call subroutines directly, but start the associated main program. If it is a main program, change G99 to M30.If the error occurs in the Graphic tile of the ECut HMI, the cause may be in the configuration parameter UseInternalProgramNumber.UseInternalProgNumberTRUE: The number of the main program (e.g. 1) is used instead of the start program (e.g. 9000).FALSE: The start program (e.g. 9000) is used.
 

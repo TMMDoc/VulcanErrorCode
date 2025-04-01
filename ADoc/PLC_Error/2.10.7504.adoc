@@ -5,9 +5,11 @@
 KL59 - Error Access to SDOs
 
 == Cause
+
  "Refer node ID" 
 
 == Action
+ 
  
 
 == Effect 

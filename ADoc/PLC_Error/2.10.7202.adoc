@@ -6,10 +6,12 @@
 Empower - Nozzle Lost
 
 == Cause
+
 This error occurs when nozzle is removed from the cutting head. 
  
 
 == Action
+ 
 Make sure that nozzle is mounted properly.
  
 

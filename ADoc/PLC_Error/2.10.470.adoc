@@ -5,9 +5,11 @@
 Cutting Head is Configured for 2 Technology
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

@@ -6,9 +6,11 @@ Can not change PCI connection parameters"	 "
 1.1.407"
 
 == Cause
+
 Can not add new connection
 
 == Action
+ 
  
 
 == Effect

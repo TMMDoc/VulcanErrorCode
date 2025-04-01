@@ -5,9 +5,11 @@
 application-specific errors reported via G253
 
 == Cause
+
 An application-specific error has been reported via G253 (see CNC Programming Manual, G253).
 
 == Action
+ 
 
  Error specific - if in doubt, contact the application creator.
 

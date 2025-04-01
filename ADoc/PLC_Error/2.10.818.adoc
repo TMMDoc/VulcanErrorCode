@@ -5,9 +5,11 @@
 Pallet Door Open Motion is not Possible
 
 == Cause
+
 Close the Pallet Door
 
 == Action
+ 
  
 
 == Effect 

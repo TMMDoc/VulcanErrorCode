@@ -6,10 +6,12 @@
 KL59 - Focus Motor command position is lesser than Negative Limit
 
 == Cause
+
 Set focus motor position is lesser than the Negative Limit or the focus motor position reached the Negative Limit.
  
 
 == Action
+ 
 Set the Focus motor position within the Limits
  
 

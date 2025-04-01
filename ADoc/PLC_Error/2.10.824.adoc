@@ -7,6 +7,7 @@ Lanny Valve Under Voltage Actuator
 
 == Cause
 
+
 Under Voltage Feedback from lanny vlave
 Check the 24V PS
 
@@ -20,6 +21,7 @@ Lanny Valve Supply cable may be disconnected.
 
 
 == Action
+ 
 
 Check Voltage to the Lanny valve is ok. Check Page.no.55 in the Electrical scheme
  

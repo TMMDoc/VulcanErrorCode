@@ -5,9 +5,11 @@
 Format string too long
 
 == Cause
+
 G252, G253 may not contain more than 127 characters.
 
 == Action
+ 
 
  Organize text via language files.
 

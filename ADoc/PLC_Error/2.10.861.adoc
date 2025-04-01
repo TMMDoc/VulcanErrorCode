@@ -5,9 +5,11 @@
 Laser - Protection Cover Open
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

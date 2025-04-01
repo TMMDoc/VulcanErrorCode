@@ -7,6 +7,7 @@ Light Barrier Interrupted	 Pallet Motion Aborted
 
 == Cause
 
+
 Light barrier at the rear side of the machine interrupted due to some one enter in side the safe zone . 
 Check Light Barrier
 
@@ -16,6 +17,7 @@ Light barrier sensor may be malfunctioning.
 
 
 == Action
+ 
 
 Check for any person inside the safe zone. Reset the alarm by pressing the Ack button available in the pallet operator box.Check the light barrier sensor feedback.Check connection as per Page.19 in the Electrical scheme
  

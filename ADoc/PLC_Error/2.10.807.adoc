@@ -6,10 +6,12 @@
 Oxygen Pressure Low - Program Paused
 
 == Cause
+
 Oxygen Pressure is low. 
 Check the Pressure and Start
 
 == Action
+ 
 Check oxygen pressure valve is open
  
 

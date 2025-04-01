@@ -6,10 +6,12 @@
 KL59 - Error Initialization
 
 == Cause
+
 KL59 Initialization Error. 
  "Refer node ID" 
 
 == Action
+ 
  
 
 == Effect 

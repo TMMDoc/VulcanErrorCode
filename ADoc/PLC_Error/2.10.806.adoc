@@ -7,10 +7,12 @@ Safety Door Opened - Program Paused
 
 == Cause
 
+
 Safety door is not closed. 
  
 
 == Action
+ 
 
 Close the safety door and press Safety lock button in the operator panel.Check connection as per Page.18 in the Electrical scheme
 

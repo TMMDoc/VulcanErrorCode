@@ -5,12 +5,14 @@
 Ether CAT: State polling No response from slave. Check wiring and reload machine constants/plc sa1006(Slave Address) stun known err5113
 
 == Cause
+
 Ether CAT Connection may be loose or disconnected.
 
 MCB-F6 may have tripped
 
 
 == Action
+ 
 
 Check Ether-cat Connection cable.
 

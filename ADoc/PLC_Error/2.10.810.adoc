@@ -6,10 +6,12 @@
 Pallet Enable Input is OFF
 
 == Cause
+
 This error occurs when you disable the Pallet function in the configuration.
 Pallet Motion Aborted
 
 == Action
+ 
  
 
 == Effect 

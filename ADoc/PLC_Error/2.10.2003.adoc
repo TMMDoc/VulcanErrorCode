@@ -6,10 +6,12 @@
 CAN_OPEN - Command Not allowed
 
 == Cause
+
 Command sent during Initialisation of the Drive
  
 
 == Action
+ 
 During Initialisation of the Drive ,no command is allowed.
  
 

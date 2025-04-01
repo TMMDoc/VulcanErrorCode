@@ -6,10 +6,12 @@
 Laser - Gas Pressure Low
 
 == Cause
+
 Gas Pressure not reached the Programmed value
 Adust filters
 
 == Action
+ 
 Check Gas line Valves are open. Check for any blockage in the Line.Press reset and start program
  
 

@@ -5,9 +5,11 @@
 CANopen: module status error
 
 == Cause
+
 A CAN participant has reported an unexpected node state.
 
 == Action
+ 
 Determine why the actual state differs from the expected state. The states can be found in the additional error information.ExampleAdditional error message information: no2 nmt=5 nst=0x0cExplanationThe CAN node with the node ID 2 is in an undefined state (0x0c) although it should be in state Operational (0x05). The controller cyclically monitors the node state with means of the CANopen node guarding protocol. This error occurs if the monitored state of the module (nst=node state) deviates from the NMT state (nmt= node management), that was activated by the controller.If the node state changes from 0x05 (Operational) to 0x7f (PreOperational),this usually indicates an unexpected module reset. The state 0x0c is undefined.Defined states are:
 
  0x00 Bootup

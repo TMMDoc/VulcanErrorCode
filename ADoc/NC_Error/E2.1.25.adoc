@@ -5,9 +5,11 @@
 Cable breakage in the case of UA2
 
 == Cause
+
 The encoder monitoring for an analog axis checks the signals of the encoder interface. For this reason the negated signals of UA0, UA1 and UA2 are checked to be present in the right polarity.If a check fails the corresponding error 2.1.23, 2.1.24 or 2.1.25 is generated.
 
 == Action
+ 
 
  Check all connections of the encoder signals while commissioning. There might be one or more connections missing
  An encoder cable might be broken. Cables, running through a drag chain, might break after several years of usage.

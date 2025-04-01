@@ -7,11 +7,13 @@ Laser - Emission failed
 
 == Cause
 
+
 Emission On feedback from Laser source not received even after 15secs of Emission On output
  
 Emission (Laser) On Output cable may be loose or disconnected.
 
 == Action
+ 
 
 Check Laser source of any error. Check Emission on Feedback signal
 

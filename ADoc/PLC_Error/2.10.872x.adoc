@@ -6,6 +6,7 @@
 Laser - Back Refelction Alarm
 
 == Cause
+
 when light from the laser beam reflects back to the optic or source.This can cause the laser to become unstable, overheat, crack, or be damaged
 
 1) Perform all maintenance tasks according chap3.17 of the maintenance manual
@@ -29,6 +30,7 @@ xref:Productreports\PR001597en.pdf#[Procedure]
 https://trumpf.esc-eu-central-1.empolisservices.com/service-express/portal/project1_p/search?filter=%7B%22Category%22%3A%5B%22Productreport%22%5D,%22esc_Languages%22%3A%5B%22en%22%5D%7D&useExpertQuery=1&text=80000360#
 
 == Action
+ 
 Check the protective Window for any damage.Replace Protective Window if found issue.
  
 

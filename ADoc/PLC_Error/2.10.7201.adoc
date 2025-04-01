@@ -6,10 +6,12 @@
 Empower - Calibration Timeout
 
 == Cause
+
 Height calibration not finished within the timeout period.
  
 
 == Action
+ 
  
 
 == Effect 

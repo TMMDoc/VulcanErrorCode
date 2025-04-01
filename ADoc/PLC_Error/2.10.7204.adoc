@@ -6,10 +6,12 @@
 Empower - Body Touch
 
 == Cause
+
 Nozzle gets in touch with the part.
  
 
 == Action
+ 
 Make sure that there is no cut piece tilted. Remove the tilted part,Press Reset and Continue running
  
 

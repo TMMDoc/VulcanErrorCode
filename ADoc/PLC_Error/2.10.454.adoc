@@ -7,6 +7,7 @@ HMI PLC Communication Lost
 
 == Cause
 
+
 This error occurs when there is no communication between Vulcan Hmi and the controller.
  
 Further possible causes:
@@ -14,6 +15,7 @@ This error occurs when there is no communication between Vulcan HMI and the cont
 MCB-F2 may have tripped
 
 == Action
+ 
 
 Check PLC controller is in Run mode.Check ethernet cable is connected properly. Restart Vulcan controller from the HMI.
  

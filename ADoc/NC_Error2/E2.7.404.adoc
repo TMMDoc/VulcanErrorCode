@@ -5,9 +5,11 @@
 No further block available
 
 == Cause
+
 The error occurs if a M30 is missing in the main program or a G99 is missing in the subroutine.
 
 == Action
+ 
 
  Check whether M30 or G99 is missing in the DIN program specified in the additional info.
 

@@ -6,10 +6,12 @@
 KL59 - Focus Motor command position is greater than Positive Limit
 
 == Cause
+
 Set focus Motor position is Greater than the Positive Limit or the focus motor position reached the Positive Limit
  
 
 == Action
+ 
 Set the Focus position within the Limits
  
 

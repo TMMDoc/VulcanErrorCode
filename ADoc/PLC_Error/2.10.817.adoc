@@ -7,6 +7,7 @@ Nitrogen Pressure Low - Program Paused
 
 == Cause
 
+
 Nitrogen Pressure is low.
 
 Check the Pressure and Start
@@ -25,6 +26,7 @@ Check Nitrogen Bundle/Cylinder Pressure. Replace the Cylinder/Bundle if required
 
 
 == Action
+ 
 
  Check nitrogen pressure valve is open
  

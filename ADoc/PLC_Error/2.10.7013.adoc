@@ -6,10 +6,12 @@
 Axis - Move Z-axis to Park Pos to Start Homing
 
 == Cause
+
 Z axis not in safe position for Homing
  
 
 == Action
+ 
 Make sure Z axis is in safe position before start homing
  
 

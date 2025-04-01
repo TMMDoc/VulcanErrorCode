@@ -5,9 +5,11 @@
 Empower - Focus Axis not configured
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

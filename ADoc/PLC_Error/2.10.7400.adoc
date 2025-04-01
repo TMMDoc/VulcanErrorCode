@@ -5,9 +5,11 @@
 KL59 - Height Sensor main pgm start-up time out
 
 == Cause
+
 check the communication cable/error in the HS board
 
 == Action
+ 
  
 
 == Effect 

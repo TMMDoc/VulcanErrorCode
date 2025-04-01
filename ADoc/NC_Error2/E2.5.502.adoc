@@ -5,9 +5,11 @@
 No controller release
 
 == Cause
+
 The error occurs if an axis is to be moved implicitly (e.g. due to a transformation), but no controller enable is active for this axis.
 
 == Action
+ 
 
  Switch on the controller enable for all axes that are to be moved.
 

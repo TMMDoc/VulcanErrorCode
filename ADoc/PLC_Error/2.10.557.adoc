@@ -5,9 +5,11 @@
 IO Reached the maximum number of line
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

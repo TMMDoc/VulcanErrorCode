@@ -5,9 +5,11 @@
 Safe Stop Activated
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

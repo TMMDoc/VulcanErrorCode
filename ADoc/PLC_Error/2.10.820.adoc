@@ -6,10 +6,12 @@
 Lanny Valve Over Temperature Electronics
 
 == Cause
+
 Overtemperature feedback from Lanny Valve
  
 
 == Action
+ 
  
 
 == Effect 

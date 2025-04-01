@@ -5,9 +5,11 @@
 Axis - Pallet configured as CNC axis
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

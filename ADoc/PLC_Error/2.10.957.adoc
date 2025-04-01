@@ -5,9 +5,11 @@
 Tandem Pallet not in Cutting Position - Pgm Aborted
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

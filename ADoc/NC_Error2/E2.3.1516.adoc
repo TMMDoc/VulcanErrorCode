@@ -6,11 +6,13 @@ G2/G start-destination distance > (Radius + dRadius)
 
 == Cause
 
+
  Wrong radius or wrong target point programmed
  Rounding error and MK_EPSILONMM = 0
  Start position was changed (e.g. by an interrupt program)
 
 == Action
+ 
 
  Make sure that the start and target points are located actually on an arc of the programmed radius.
  Raise MK_EPSILONMM to a value >0.

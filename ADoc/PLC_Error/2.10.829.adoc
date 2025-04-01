@@ -7,10 +7,12 @@ Pallet Feed Hold is active
 
 == Cause
 
+
 This error occurs when the pallet movement is interrupted in the middle and try to move the pallet by manual button. 
 Press Feed Start to continue
 
 == Action
+ 
 
 Press Reset Button. Start the pallet movement by pressing start button available in the Opertaor box near the pallet or program continue button available in the control panel HMI
  

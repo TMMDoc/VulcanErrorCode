@@ -5,9 +5,11 @@
 G23 specified digital measured value channel not configured
 
 == Cause
+
 A digital measured value channel was configured when the height control was switched on, which is not configured in the machine constants. In demo mode (enabled MK_CFG_AXIS_EMULATION / MK_TEST_OHNEMECHANIK) only analog measurement channels are simulated, but no digital channels.
 
 == Action
+ 
 
  When using an incremental or absolute encoder input, the assigned axis must be configured as a measuring axis (see CNC Configuration Manual MK_AXIS_PROPERTIES / MK_ACHSENART).
  In demo mode, configure an analog input instead of a digital input for height control with the G231. This one can then be simulated. For this purpose use parameter J1 at G231 (e.g. G231 Z1 J1 K0.5 F600 L2).

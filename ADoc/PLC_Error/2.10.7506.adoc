@@ -5,9 +5,11 @@
 KL59 - Error Voltage 24V supply
 
 == Cause
+
  "Refer node ID" 
 
 == Action
+ 
  
 
 == Effect 

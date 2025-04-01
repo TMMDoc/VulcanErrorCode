@@ -6,10 +6,12 @@
 Pallet Forward/Reverse Motion is not Possible
 
 == Cause
+
 Pallet not in Up/Down Position for forward or reverse Movement. 
 Check the Pallet in Up/Down position
 
 == Action
+ 
 Check the pallet position is in up or down position(For Machine with Hydraulic up/down)
  
 

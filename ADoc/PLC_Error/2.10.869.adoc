@@ -6,10 +6,12 @@
 Laser - Invalid Pierce type
 
 == Cause
+
 Selected Pierce Type Not available
  
 
 == Action
+ 
 Make sure to select the Proper Pierce Type
  
 

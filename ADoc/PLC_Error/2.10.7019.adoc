@@ -6,10 +6,12 @@
 Axis - Reset the Focus axis offset to 0
 
 == Cause
+
 Message to indicate a situation
  
 
 == Action
+ 
  
 
 == Effect 

@@ -5,9 +5,11 @@
 Precitec - PC - Protective window cartridge COL missing
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

@@ -5,9 +5,11 @@
 Exhaustion System not Started
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

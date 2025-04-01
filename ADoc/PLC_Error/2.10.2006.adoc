@@ -5,9 +5,11 @@
 CAN_OPEN - Read Object Error
 
 == Cause
+
  
 
 == Action
+ 
  
 
 == Effect 

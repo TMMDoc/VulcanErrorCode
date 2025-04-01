@@ -5,9 +5,11 @@
 Too many axes addressed in one block
 
 == Cause
+
 In a DIN block, more than the maximum permitted number of simultaneously programmable axes (6) are addressed.
 
 == Action
+ 
 
  Program a maximum of six axes in one geometry block.
  If the block that was specified in the additional information for the error is not a geometry block (e.g. subroutine call G22 with generation of a new NC channel and transfer of more than 6 axes), you can update the controller firmware to at least V2.65beta1. As of this version, the specification of more than six axes is supported in non-geometry blocks.

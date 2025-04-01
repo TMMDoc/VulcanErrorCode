@@ -5,9 +5,11 @@
 No controller release for controller-moved axis
 
 == Cause
+
 The error message 2.5.503 No controller release for controller-moved axis always occurs if an axis without controller enable is to be moved exclusively due to participation in a transformation. The additional information indicates which axis is involved.
 
 == Action
+ 
 
 
 == Effect

@@ -5,9 +5,11 @@
 LocalBus: error counter reaching error level
 
 == Cause
+
 If the error occurs sporadically while machine operation, the reason is most probably an EMC problem.If the error occurs directly after a re-start, the reason is most probably a problem at the LocalBus (e.g. over voltage). When using an EXC66, E-FBM NT02/03 (power supply for field bus modules) might have been connected to the LocalBus by chance, because different voltages are used for the bus supply.
 
 == Action
+ 
 
  In case of EMC problems identify the source of interference and eliminate it. In case of bus problems check the modules at the LocalBus.
 

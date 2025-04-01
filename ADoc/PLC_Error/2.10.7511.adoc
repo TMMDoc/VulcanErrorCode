@@ -5,9 +5,11 @@
 KL59 - Error Voltage Internal 3V
 
 == Cause
+
  "Refer node ID"
 
 == Action
+ 
  
 
 == Effect 

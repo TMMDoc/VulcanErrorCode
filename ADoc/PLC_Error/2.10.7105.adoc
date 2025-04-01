@@ -6,10 +6,12 @@
 Precitec - Sensor Insert Temperature Exceeded
 
 == Cause
+
 Precitec Warning messages
  
 
 == Action
+ 
  
 
 == Effect 

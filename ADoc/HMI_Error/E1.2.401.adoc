@@ -5,9 +5,11 @@
 Timeout during ncrWriteParamList
 
 == Cause
+
 Connection to the controller interrupted
 
 == Action
+ 
 
  Check network connection/cabling or network equipment (switch/hub etc.).
  Check utilization of the network.

@@ -7,6 +7,7 @@ Laser - Status Error
 
 == Cause
 
+
 Chiller May be in Error state. Laser source may be in error state
  
 Further possible causes:
@@ -15,6 +16,7 @@ Chiller Emergency stop may have pressed.
 
 
 == Action
+ 
 
 Check chiller for On Condition and there is no error in the Chiller Display. Check Laser source is in ready condition.
  

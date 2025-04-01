@@ -5,9 +5,11 @@
 Pallet Fwd/Rev motion time out
 
 == Cause
+
 Pallet not reached to the end limits
 
 == Action
+ 
  
 
 == Effect 
