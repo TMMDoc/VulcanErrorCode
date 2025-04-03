@@ -1,0 +1,56 @@
+= Referencing
+:imagesdir: img
+
+Select Axis parameters and choose Referencing settings,
+
+image:image16.png[Graphical user interface Description automatically generated,width=558,height=485]
+
+
+== _3.6.1 MK_AXIS_HOMING_VELOCITY2_
+
+
+== _3.6.2 MK_AXIS_HOMING_ACCELERATION2_
+
+It determines acceleration and speed in the various phases of the reference point traverse, for axes with analog interface.
+MK_AXIS_HOMING_VELOCITY2 and MK_AXIS_HOMING_ACCELERATION2 are the values for the zero impulse search.
+For axes with CAN or EtherCAT interfaces, these values must be configured directly in the drive amplifier.
+
+== _3.6.3 MK_AXIS_HOMING_MODE_
+
+It defines the way in which the axes should be referenced, via the configured value. This MC only affects axes with analog interfaces and SERCOS axes. For CAN and EtherCAT axes, the type of reference point traverse must be configured in the drive amplifier.
+[width="100%",cols="8%,92%",options="header",]
+|===
+
+|*Value* |*Meaning*
+|0 |Normal Mode: The axis moves in the specified direction (MK_AXIS_HOMING_DIRECTION_AND_SEQUENCE), until the reference cam is recognized. The direction is then reversed. The actual value counter is set to zero after leaving the cam with the next zero impulse of the transducer (default).
+|1 |As 0, but the actual value counter will be zeroed after leaving the cam.
+|2 |The actual value counter is zeroed directly by the program, without movement. Only possible for axes with analog interfaces.
+|3 |Zeroing via next zero impulse. For axes with analog interfaces, the direction of the zero impulse search is determined additionally by the status of the reference cam.
+|4 |The spare input of the axis computer serves as an additional cam, which must be moved to first before executing a reference point traverse, according to mode 0. Only possible for axes with analog interfaces.
+|5 |Reference point traverse for measurement axis. System only waits for zero impulse. The axis is not actively moved, but must be moved manually or by some other means. Only possible for axes with analog interfaces.
+|6 |The actual value counter will be set directly to the value of MK_AXIS_HOMING_OFFSET without movement, so that the position 0 is displayed. Only possible for axes with analog interfaces.
+|7 |As mode 0, but when the reference cam is reached, the trailing distance is zeroed. This is necessary if the reference cam is wired as a direction limiter in the drive amplifier. Only possible for axes with analog interfaces.
+|8 |As mode 3, but without zero impulse (available with firmware 2.62)
+|+64 |External encoder for SERCOS. Adding 64 to the value of the selected Reftype activates „position control with external encoder“
+|===
+
+== _3.6.4 MK_AXIS_HOMING_VELOCITY1_
+
+
+== _3.6.5 MK_AXIS_HOMING_ACCELERATION1_
+
+It determines acceleration and speed in the various phases of the reference point traverse, for axes with analog interface.
+MK_AXIS_HOMING_VELOCITY1 and MK_AXIS_HOMING_ACCELERATION1 are the values for the cam search.
+For SERCOS axes, only MK_AXIS_HOMING_VELOCITY1 and MK_AXIS_HOMING_ACCELERATION1 are effective. For axes with CAN or EtherCAT interfaces, these values must be configured directly in the drive amplifier.
+
+== _3.6.6 MK_AXIS_HOMING_OFFSET_
+
+It is the offset of the mechanical zero point of the machine with respect to the zero point of the position measuring system. The units for linear axes are millimetres and for rotation axes, degrees.
+
+== _3.6.7 MK_AXIS_HOMING_DIRECTION_AND_SEQUENCE_
+
+It defines the direction and sequence in which the axes execute a reference point traverse. The direction in which the axis executes its first movement is determined by the sign of the entered value. The sequence in which the axis with common referencing executes the reference point traverse, is determined by the value of the entry.
+If an axis is not to be involved in an automatic reference point traverse, a 0 or –128 must be entered for this axis. The value –128 represents a direction reversal, where manual reference point means the axis.
+
+*Example:* The machine has an X, Y, Z and a C axis, where it must be ensured that the Z axis is moved out of the working space before the X and Y axes are moved (MK_CFG_AXIS_LETTER_ASSIGNMENT with default values). The Y axis should search for the cam in the negative direction. The C axis should not be involved in the automatic reference point traverse.
+MK_AXIS_HOMING_DIRECTION_AND_SEQUENCE 2, -2, 1, 0;

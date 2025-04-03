@@ -1,0 +1,16 @@
+= Nozzle cleaning options.
+:imagesdir: img
+
+In PLC options, Select function parameters to access nozzle cleaning options.
+
+image:image30.png[Graphical user interface Description automatically generated with medium confidence,width=519,height=416]
+
+_5.4.1 Nozzle Clean Active_
+- Will activate the Nozzle clean function in the PLC and corresponding sub programs will be activated in the NC
+_5.4.2 HC Calibration after Nozzle Clean_
+- Will activate the Height control calibration program in the PLC after the completion of the Nozzle cleaning program.
+_5.4.3 X-axis Limit Change_
+- Will activate the 2^nd^ limit value of X-axis for Nozzle cleaning program. Refer above the Custom parameter of X-axis Limit value for clear understanding.
+_5.4.3 Brush_
+- Selects the Location of Brush either in the Machine or in the Pallet.
+If the brush location is in the pallet, then an additional interlock is activated in the PLC to check the position of the pallet before the start of the Nozzle Cleaning program.

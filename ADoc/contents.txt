@@ -3,10 +3,12 @@
 [NC_Error]
 [NC_error2]
 [HMI_Error]
+[vulcanmachinesettings]
 [ServiceManual]
 [KL59]
 [BM111]
 [Opmanual]
 [Schematics]
+[productreports]
 manuals
 impressum

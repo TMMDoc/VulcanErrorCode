@@ -11,21 +11,17 @@ when light from the laser beam reflects back to the optic or source.This can cau
 
 1) Perform all maintenance tasks according chap3.17 of the maintenance manual
 
-xref:Productreports\B1296_en_maintenance.pdf[Maintenance manual]
+xref:..\OPmanual\index.adoc#[Maintenance manual]
 
 2) Check alignment of the laser light cable (Tapeshot)
 
-xref:Productreports\PR001065en_02.pdf#[Procedure]
+xref:..\productreports\PR001065en.pdf#[Procedure]
 
-3) Adjusting the incoupling optics
+3) Replacing and cleaning cutting lens KL59
 
-xref:Productreports\PR001656en.pdf#[Procedure]
+xref:..\productreports\PR001597en_02.pdf[Procedure]
 
-4) Replacing and cleaning cutting lens KL59
-
-xref:Productreports\PR001597en.pdf#[Procedure]
-
-5) Look for further instruction on the Knowlegehub
+4) Look for further instruction on the Knowlegehub
 
 https://trumpf.esc-eu-central-1.empolisservices.com/service-express/portal/project1_p/search?filter=%7B%22Category%22%3A%5B%22Productreport%22%5D,%22esc_Languages%22%3A%5B%22en%22%5D%7D&useExpertQuery=1&text=80000360#
 

@@ -1,0 +1,9 @@
+= General Parameters
+:imagesdir: img
+
+In General, Select Machine settings to access General settings
+
+image:image4.png[Graphical user interface Description automatically generated with low confidence,width=601,height=482]
+
+lorem
+

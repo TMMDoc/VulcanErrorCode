@@ -1,0 +1,13 @@
+= Tandem operation options.
+:imagesdir: img
+
+In PLC options, Select function parameters to access tandem operation options.
+
+image:image29.png[Graphical user interface Description automatically generated,width=575,height=470]
+
+_5.3.1 Activate Tandem Operation_
+- Will activate the tandem function in the PLC and check for the communication to the other controller.
+_5.3.2 Deactivate Red Zone Stop_
+- Will deactivate the red zone stop function in the PLC, during program running in tandem operation.
+Red Zone is the absolute area calculated between the Gantry 1 start of the left-side program pause distance and Gantry 2 start of the right-side program pause distance.
+For more information, refer Dual Head Tandem Operation manual.

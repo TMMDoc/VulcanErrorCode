@@ -1,0 +1,10 @@
+= MK_TECH_CUSTOM_PARAMETERS4
+:imagesdir: img
+
+
+It contains 10 entries which are stored one to one in the parameter field from *P790-P799* and can be used there arbitrarily. *All entries are FREE, not allocated yet.*
+Select Technology parameter and choose Laser technology.
+
+image:image26.png[Graphical user interface Description automatically generated with medium confidence,width=552,height=473]
+
+These parameters are left free for future expansion or OEM’s can use this parameters to access in PLC to write their own functions.

@@ -1,0 +1,38 @@
+= pallet changer configuration.
+:imagesdir: img
+
+In PLC options, Select function parameters to access pallet changer configuration.
+
+image:image32.png[Graphical user interface Description automatically generated,width=601,height=482]
+
+_5.6.1 Pallet_
+- Select the type of pallet used in the machine
+No Pallet – Pallet functions are disabled in the PLC.
+Single Pallet – Only one pallet in the machine
+Double Pallet – Two pallets in the machine
+_5.6.2 Pallet Lock_
+- Enables the Pallet Lock function in the PLC.
+If the Pallet has the locking system to ensure its position and to avoid the shaking of Pallet due to axes motions, enabling it will check the feedback of lock position in the PLC. Also make sure the lock is released before the start of Forward / Reverse motion of the Pallet.
+_5.6.3 Shuttle_
+- Defines the type of shuttle system used in the Pallet and following are the options available:
+
+*_No Shuttle_* – No Pallet motion.
+
+*_1 level shuttle_* – Pallet moves forward & reverse, whereas the cutting height remains the same.
+
+*_2 level shuttle, single drive_* – There are 2 pallets with single drive such that a forward motion will bring the Top pallet to the cutting position and the reverse motion will bring the Bottom pallet to the cutting position with a difference in cutting height. Hence according to the Top/Bottom pallet, the Z- axis negative limit is dynamically updated in the PLC with the value mentioned in the Technology parameter.
+
+*_2 level shuttle, double drive_* – There are 2 pallets with individual drive for each pallet, with difference in cutting height. Hence according to the Top/Bottom pallet, the Z-axis negative limit is dynamically updated in the PLC with the value mentioned in the Technology parameter.
+_5.6.4 Up Down Motion_
+- Defines the type of drive system used for Up/Down motion in the Pallet.
+No Up/Down motion
+Hydraulic system
+Induction motor
+Servo motor
+According to the type of drive system, the respective functions are activated in the PLC.
+_5.6.4 Forward Reverse Motion_
+- Defines the type of drive system used for Forward/Reverse motion in the Pallet.
+No For/Rev motion
+Induction motor
+Servo motor
+According to the type of drive system, the respective functions are activated in the PLC.

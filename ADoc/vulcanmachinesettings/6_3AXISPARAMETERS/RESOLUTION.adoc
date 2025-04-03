@@ -1,0 +1,34 @@
+= Resolution
+:imagesdir: img
+
+Select Axis parameters and choose Resolution settings,
+
+image:image13.png[Graphical user interface Description automatically generated,width=517,height=412]
+
+
+== _3.4.1 MK_AXIS_INCREMENTS_PER_DISTANCE_
+
+It determines the number of impulses received by the actual value counter of the axis interface, per revolution of the motor shaft (for rotation motors) and per millimetre (for linear motors). The number of impulses including impulse quadrupling must be entered. e.g. if a rotation transducer with the technical specification "1024 lines / revolution" is connected to the axis interface, then the value 4096 must be entered, in this case.
+By entering a negative value, the defined direction of the axis reversed. i.e. movement is in the other direction.This corresponds to the closed position control circuit; therefore, an incorrectly polarized nominal value cannot be compensated. The same effect occurs when the sign entered with MK_AXIS_DISTANCE has been reversed.
+This is also true for the reference point traverse (to be taken into account for MK_AXIS_HOMING_DIRECTION_AND_SEQUENCE).
+Because the axis computer interface does not take into account a possible rotational direction reversal, this has no influence on the definition of the hardware end switch. The rotation must be therefore additionally taken into account, in the allocation of the axis computer inputs (MK_AXIS_DIGITAL_INPUT_ASSIGNMENT).
+
+*MK_AXIS_DIGITAL_INPUT_ASSIGNMENT* allocates the logical axis computer inputs, "negative end switch", "positive end switch", "Reference cam" and "Reserve" to the physical inputs. The input "Reserve" is reserved for special application-specific use.
+The value to be entered is BCD coded and designates the logical axis computer inputs 1-4, by the entry of its index at the corresponding position in the MC.
+
+image:image14.png[image14,width=369,height=160]
+
+
+*Example:*
+The normal sequence should be maintained for the 1st axis. However, for the 2nd axis, "End switch +" and "End switch -" should be interchanged and for the 3rd axis, the negative end switch should be included as "Reference cam". MK_AXIS_DIGITAL_INPUT_ASSIGNMENT 1234, 2134, 1224, ...;
+
+== _3.4.2 MK_AXIS_DISTANCE_
+
+It defines the distance through which the axis computer counts the number of increments entered under MK_AXIS_INCREMENTS_PER_DISTANCE, i.e. for rotation motors, the path per revolution at the motor shaft and for linear motors, 1 mm. The units for linear axes are millimetres and for rotation axes, degrees.
+
+*Example:*
+A rotation transducer with 1024 impulses is mounted directly on the drive motor. The motor drives a spindle via a transmission (4:1), which moves a slide 3.4 mm in the reverse direction per revolution; i.e. for a positive path setting, the mechanical parts move in a negative direction.
+
+MK_AXIS_INCREMENTS_PER_DISTANCE 4096,... ; /* after quadrupling*/
+
+MK_AXIS_DISTANCE 0.85,...; /* 3.4 / 4, Gear ratio 4:1*/

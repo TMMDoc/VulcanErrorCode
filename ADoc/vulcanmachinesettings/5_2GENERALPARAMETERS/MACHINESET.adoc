@@ -1,0 +1,79 @@
+= Machine Settings
+:imagesdir: img
+
+
+== _2.1.1 MK_CFG_AXIS_EMULATION_ 
+
+It is for testing the control functions, without the need for a machine to be connected. For this purpose, the controller switches the actual value sensor inputs to simulation mode. Control variables continue to be output. If drives are already connected, the servo amplifiers must be turned off, as otherwise undesired motion will occur.
+[width="100%",cols="10%,90%",options="header",]
+|===
+
+|*Value* |*Meaning*
+|0 |Drives and Path measurement systems must be properly connected (default).
+|1 |To test MMI, PLC and DIN programs without connected drives.
+|===
+[#_Toc75111054 .anchor]##_2.1.2 MK_CFG_PRESETS_ (“G122 X4;G17;S0;T0;G163;G175;M48;G31" - Display the textbox)
+[width="100%",cols="20%,80%",options="header",]
+|===
+|Function |Meaning
+G100-G103
+Set modal control G function, optionally with speed data F,
+Example: „G1 F1000“
+|G17 / G18 / G19 |Selection of the main plane X-Y / Z-X / Y-Z
+|G24 / G25 |Apply software end switch from MK_AXIS_SOFTWARE_LIMIT_POSITIVE or MK_AXIS_SOFTWARE_LIMIT_NEGATIVE
+|G26 |Activate software end switch for the given axes, example: „G26 X0 Y0“
+|G30 / G31 |Activate straight-cut operation / path operation
+|G60 |Activate look-ahead or exact stop, example: „G60 X0“
+|G65 |Define the positioning sequence of axes during block search, example: „G65 X0 Y0 Z1"
+|G76 |Reset Scaling factors for pulse weighting
+|G90 / G91 |Activate absolute dimension / chain dimension for all axes
+|G112 a|
+Activate tangential slewing on the given axes (A,B,C,a,b,c),
+example: „G112 C1“
+|G122 |Configure the effect of the procedure key, example: „G122 X1“
+|G212 |Activate transformation for 3 axes handling kinematic
+|G163 |Activate / deactivate axes for geometrical functions
+|G175 |Reset Axis interchange
+|G221 |Activate retract handlerfor
+|M48 |Velocity override on
+|M49 |Velocity override off
+|S<n> |Activate workpiece coordinate system <n>
+|T<n> |Activate tool coordinate system <n>
+|===
+It is a string constant, by means of which certain preset values of G functions can be selected. The following G functions may be entered within the string, separated by semicolons.
+The entered string must be entered within quotation marks and may have a maximum of 80 characters. The configured preset values will be automatically activated during startup of the controller after the MCs have been loaded, as well as at the end of the program and following a program abort.
+[#_Toc75111055 .anchor]##_2.1.3 MK_CFG_CANOPEN_BITRATE_ (CAN1:1000 ; CAN2:2000 ) Units in Kbps
+MK_CFG_CANOPEN_BITRATE consists of two parameters.
+It is defined as follows:
+parameter for CAN interfaces with I/O functionality (PLC driven)
+parameter for CAN interfaces with drive functionality (NC driven)
+The following values are allowed:
+[width="100%",cols="20%,80%",options="header",]
+|===
+
+|*Value* |*Meaning*
+|0 |No CAN-Open module connected
+|10 |Bitrate 10 kBit/s
+|20 |Bitrate 20 kBit/s
+|50 |Bitrate 50 kBit/s
+|100 |Bitrate 100 kBit/s
+|125 |Bitrate 125 kBit/s
+|250 |Bitrate 250 kBit/s
+|500 |Bitrate 500 kBit/s
+|800 |Bitrate 800 kBit/s
+|1000 |Bitrate 1000 kBit/s
+|===
+[#_Toc75111056 .anchor]##_2.1.4 MK_CFG_NETDISK_SERVER_IP_ADDRESS_ (Predefined IP-Address - “ “ )
+It defines the IP address of the net disk server. If a net disk server runs on the device with the IP address that was specified in this MC, the controller can access the data on this device via the drive.
+[#_Toc75111057 .anchor]##_2.1.5 MK_CFG_SOFTWARE_LIMIT_MODE_ (1 = Brake with current brake ramp )
+It indicates whether controlled braking or an abrupt stop is applicable when machine travel limits are exceeded.
+[width="100%",cols="9%,91%",options="header",]
+|===
+
+|*Value* |*Meaning*
+|0 |Immediate stop when reaching SW end switch.
+|1 |Brake with current brake ramp on the programmed path. For this purpose, the machine travel limit must be chosen so that the axis with the set acceleration values can be brought to a standstill before the mechanical stop.
+|2 |Look ahead software end switch. Here, it is calculated whether the corresponding software end switch will be reached, using the current axis speed and the configured max. axis braking ramp. If this is the case, the respective axis will be braked so that it comes to a standstill at the set software limit. All other axes on the path will be stopped with 1.
+|===
+[#_Toc75111058 .anchor]##_2.1.6 MK_CFG_OVERRIDE_LIMIT_ ( 1200 ; 0-120% )
+It limits the override setting to this value.

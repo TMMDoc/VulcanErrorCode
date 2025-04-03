@@ -10,7 +10,7 @@ This error occurs, if the number of erroneous messages in the transmit buffer, e
 
 == Action
  
-Check the following sources of error:
+ Check the following sources of error:
  wrong baud rate (Machine constant MK_CFG_CANOPEN_BITRATE, old syntax: MK_CANOPEN_BAUDRATE)
  erroneous device
  cabling

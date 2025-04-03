@@ -1,0 +1,16 @@
+= Handwheel
+:imagesdir: img
+
+Select Axis parameters and choose Handwheel settings,
+
+image:image20.png[Graphical user interface Description automatically generated with medium confidence,width=565,height=452]
+
+
+== _3.10.1 MK_AXIS_HANDWHEEL_ASSIGNMENT_ 
+
+
+== _3.10.2 MK_AXIS_HANDWHEEL_FACTOR_
+
+It is an axis-specific MC, which allocates the individual axes to a configured hand wheel. This MC has a parameter for each application axis in which the number of the allocated hand wheel is entered. It must only be changed when more than one hand wheel is configured. The allocation can only be changed via this MC.
+lorem
+

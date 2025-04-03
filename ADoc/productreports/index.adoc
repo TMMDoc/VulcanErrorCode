@@ -1,0 +1,8 @@
+= Product reports
+
+
+xref:PR001597en_02.pdf#[Replacing and cleaning cutting lens KL59]
+
+xref:PR001065en.pdf#[Check alignment of the laser light cable]
+
+many other product reports to be inserted

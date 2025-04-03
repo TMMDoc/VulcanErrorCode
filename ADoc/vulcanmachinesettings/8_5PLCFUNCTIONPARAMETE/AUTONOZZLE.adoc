@@ -1,0 +1,17 @@
+= Auto Nozzle Clean
+:imagesdir: img
+
+In PLC options, Select function parameters to access auto nozzle clean options.
+
+image:image31.png[Graphical user interface, text Description automatically generated,width=575,height=461]
+
+_5.5.1 Based On_
+- The auto nozzle clean program can be activated based on the following options:
+{empty}i. Cutting length.
+{empty}ii. Number of Piercing
+the corresponding values are entered in the Custom parameter.
+_5.5.2 State of Pgm_
+- Selects the option to when to activate the Nozzle program if the above conditions are met.
+{empty}i. Before start of a Program
+{empty}ii. During running of program after the M15 command.
+Depends on both the options selected above, the PLC will activate the auto nozzle cleaning program.

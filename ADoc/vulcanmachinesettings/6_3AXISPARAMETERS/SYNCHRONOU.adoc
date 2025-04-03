@@ -1,0 +1,16 @@
+= Syncronous settings
+:imagesdir: img
+
+Select Axis parameters and choose Synchronous settings,
+
+image:image19.png[Graphical user interface Description automatically generated,width=536,height=422]
+
+
+== _3.9.1 MK_AXIS_SYNCHRONOUS_OFFSET_
+
+It defines the distance between the reference points of the master and slave axes in [mm] or [degrees]. Ideally, this should be 0, so that both axes are already synchronized after reaching the reference point. After reaching the reference point, the slave axis moves on by the value entered here, whereas the master axis remains stationary (not moved) at the reference point.
+
+== _3.9.2 MK_AXIS_SYNCHRONOUS_POSITION_DEVIATION_
+
+It specifies the maximum permitted deviation between master and slave axis position for synchronous error monitoring. The units are millimetres or degrees, depending upon axis type. The machine constant is only significant if a forced coupling has been configured.
+During the reference drive, the synchronous monitoring is only active at gantry drives with analog or SERCOS interfaces. A value of 10 times MK_AXIS_SYNCHRONOUS_POSITION_DEVIATION is allowed! At CAN-bus axes no synchronous monitoring by the controller will be performed during the reference point traverse.

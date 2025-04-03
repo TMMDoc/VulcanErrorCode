@@ -1,0 +1,41 @@
+= Encoder for analog axis 
+:imagesdir: img
+
+
+== _3.2.1 MK_AXIS_ENCODER_FAULT_DETECT_US_
+
+Activates the monitoring of the encoder signal "position encoder fault" (MK_AXIS_ENCODER_FAULT_DETECT_US) for axes with analog setpoint value interface. If the encoder does not provide the US signal, the monitoring of this signal needs not be activated. Generally, only the plausibility of the differential level of the signals is monitored.
+[width="100%",cols="16%,84%",options="header",]
+|===
+
+|*Value* |*Meaning*
+|0 |Monitoring switched off (default)
+|1 |Monitoring switched on
+|2 |Monitoring switched on; neglect single error
+|===
+
+== _3.2.2 MK_AXIS_ENCODER_MONITORING_UA0_
+
+[width="100%",cols="16%,84%",options="header",]
+|===
+
+|*Value* |*Meaning*
+|0 |Monitoring switched off (default)
+|1 |Monitoring switched on
+|2 |Monitoring switched on; neglect single error
+|===
+Activates the monitoring of the zero impulse (MK_AXIS_ENCODER_MONITORING_UA0) for axes with analog setpoint value interface. If the encoder does not provide the UA0 signal, the monitoring of this signal needs not be activated. Generally, only the plausibility of the differential level of the signals is monitored.
+
+== _3.2.3 MK_AXIS_ENCODER_MONITORING_UA1_UA2_
+
+[width="100%",cols="16%,84%",options="header",]
+|===
+
+|*Value* |*Meaning*
+|0 |Monitoring switched off (default)
+|1 |Monitoring switched on
+|2 |Monitoring switched on; neglect single error
+|===
+Activates the monitoring of the encoder signals (MK_AXIS_ENCODER_MONITORING_UA1_UA2) for axes with analog setpoint value interface. Generally, only the plausibility of the differential level of the signals is monitored.
+
+*NOTE:* The encoder signal monitoring should always be activated, at the latest when the axes are put into operation. In this way, wiring faults can be detected more quickly.

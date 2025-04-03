@@ -1,0 +1,41 @@
+= Monitoring
+:imagesdir: img
+
+Select Axis parameters and choose Monitoring settings,
+
+image:image15.png[Graphical user interface Description automatically generated,width=450,height=282]
+
+
+== _3.5.1 MK_AXIS_SOFTWARE_LIMIT_NEGATIVE_
+
+
+It defines the *negative machine travel limit* for the mechanical parts. The units for linear axes are millimeters and for rotation axes, degrees. The monitoring must be switched on with G26. See also MK_CFG_PRESETS. The value is referenced to the machine zero point and not to the zero point of the position measuring system.
+
+== _3.5.2 MK_AXIS_SOFTWARE_LIMIT_POSITIVE_
+
+
+It defines the *positive machine travel limit* for the mechanical parts. The units for linear axes are millimeters and for rotation axes, degrees. The monitoring must be switched on with G26. See also MK_CFG_PRESETS. The value is referenced to the machine zero point and not to the zero point of the position measuring system.
+
+== _3.5.3 MK_AXIS_LAG_DISTANCE_ERROR_LIMIT_
+
+[width="100%",cols="76%,24%",options="header",]
+|===
+
+|*MK* |*Unit*
+|MK_AXIS_LAG_DISTANCE_ERROR_LIMIT |Input units
+|===
+It defines the limit for axes with analog interface, above which the axis computer software recognizes "contouring error". The value entered here must be at least as large as the theoretical trailing distance to be set for Vmax.
+The maximum value is 32767 or the corresponding value in input units (preset).
+
+== _3.5.4 MK_AXIS_LAG COUNT_ERROR_LIMIT_
+
+It is the number of immediate consecutive regulation cycles for axes with analog interface, which must be exceeded by the trailing distance until a contouring error is recognized.
+The standard setting is recognition of the first contouring error (1).
+
+== _3.5.5 MK_AXIS_EXACT_STOP_LAG_WINDOW_
+
+It defines the limit value of the control deviation of the individual axes for in-position programming with position lag monitoring in [mm] or [degrees]. This function must be activated with G60.
+
+== _3.5.6 MK_AXIS_EXACT_STOP_TIME_WINDOW_
+
+It defines the time in seconds, within which the trailing distance value of an axis must remain below the value configured in MK_AXIS_EXACT_STOP_LAG_WINDOW before the next function can be executed. This MC is only effective if the exact stop function is activated with trailing distance monitoring. The default value is 0.
