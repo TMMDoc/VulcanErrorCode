@@ -16,9 +16,9 @@ This is the internal error code data base for Vulcan control (L99, Eckelmann). P
 
 see additional documents
 
-link:./manuals/ErrorMessagesNCControllers_EN.pdf#[Eckelmann documentation]
+xref:manuals/ErrorMessagesNCControllers_EN.pdf#[Eckelmann documentation]
 
-link:./manuals/LC800ProgrammingManual_V1.61.pdf#[Programming Manual]
+xref:manuals/LC800ProgrammingManual_V1.61.pdf#[Programming Manual]
 
 xref:ServiceManual/index#[L99 Service manual]
 

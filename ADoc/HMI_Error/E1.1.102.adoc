@@ -5,15 +5,14 @@
 MMI->NC message buffer timeout
 
 == Cause
-
 The HMI gateway can't transfer a message from the HMI to the controller or the controller doesn't retrieve the message.
 
 == Action
- 
 The error may be caused by 
- the connection to the controller has been interrupted 
- too many messages are received in a relatively short period of time 
- the controller can't fetch the messages because of an error
+
+- the connection to the controller has been interrupted 
+- too many messages are received in a relatively short period of time 
+- the controller can't fetch the messages because of an error
 
 == Effect
  

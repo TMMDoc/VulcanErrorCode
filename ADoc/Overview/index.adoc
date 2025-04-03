@@ -3,8 +3,8 @@
 
 This chapter gives an overview of the components
 
-xref:1_Laser&components.pdf[Laser and components]
+xref:1_Laser&components.pdf#[Laser and components]
 
-xref:2_DriveSystem.pdf[Drive system]
+xref:2_DriveSystem.pdf#[Drive system]
 
-xref:3_electrical.pdf[Electrical]
+xref:3_electrical.pdf#[Electrical]

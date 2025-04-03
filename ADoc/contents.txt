@@ -1,5 +1,5 @@
 [Overview]
-[PLC_Error]
+[plc_error]
 [NC_Error]
 [NC_error2]
 [HMI_Error]
