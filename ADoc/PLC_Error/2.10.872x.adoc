@@ -19,7 +19,7 @@ xref:..\productreports\PR001065en.pdf#[Procedure]
 
 3) Replacing and cleaning cutting lens KL59
 
-xref:..\productreports\PR001597en_02.pdf[Procedure]
+xref:..\productreports\PR001597en_02.pdf#[Procedure]
 
 4) Look for further instruction on the Knowlegehub
 
