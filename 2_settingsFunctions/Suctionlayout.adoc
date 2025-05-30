@@ -1,0 +1,10 @@
+= Suction cup layout
+:imagesdir: img
+
+If you run an automation you need to ensure that your suction cup layout is correct. The system of the T-series has the following layout scheme:
+
+image:suclayout.png[]
+
+it will be transported to the control in the sheet load data in the LST file
+
+image:suclayout2.png[]

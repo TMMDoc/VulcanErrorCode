@@ -1,0 +1,18 @@
+= Status light
+:imagesdir: img
+
+A colored LED light is installed in the status light, which is on or flashing according to the running status. 
+
+[cols=3, options="header"]
+|===
+|Signal color |Status |Description 
+|Red |Illuminated |Malfunction: FEED HOLD is active. 
+||Flashing |Malfunction: EMERGENCY STOP is active. 
+|Yellow 
+|Illuminated |Laser ignition 
+||Flashing |Laser on, Emission not on. 
+|Green 
+|Illuminated |The machine is in automatic mode. 
+||Flashing 
+|The machine is running in automatic mode. The start requirements have been fulfilled. 
+|===

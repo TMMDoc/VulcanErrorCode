@@ -1,0 +1,8 @@
+= Manuals
+:imagesdir: img
+
+This chapter contains the manuals for the machines and components Vulcan is used with. These documents are not actively maintained and are only for your reference. Always get the last manual version from the manufacturer.
+
+xref:manuals/ErrorMessagesNCControllers_EN.pdf[Eckelmann documentation]
+
+xref:manuals/LC800ProgrammingManual_V1.61.pdf[Programming Manual]

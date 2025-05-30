@@ -1,0 +1,19 @@
+= 2.6.7501
+:imagesdir: img
+
+== Description
+Q tab full: too many modal Q bits active simultaneously
+
+== Cause
+
+ The error is reported if too many modal comparisons are active at the same time. 7 modal comparisons can be managed simultaneously.
+
+== Action
+ 
+
+ Sign out modal comparisons that are no longer required per G131 or G150.
+ In EXC firmware V2.64beta1 this error may have been reported incorrectly. Use a different firmware version.
+
+== Effect
+ 
+

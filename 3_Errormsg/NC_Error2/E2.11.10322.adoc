@@ -1,0 +1,17 @@
+= 2.11.10322
+:imagesdir: img
+
+== Description
+CANopen: Emergency Message: Internal voltage too low
+
+== Cause
+
+A CAN participant reports an undervoltage error. You can identify the station by the additional error information.
+
+== Action
+ 
+Check the power supply of the relevant device.Structure of the additional information:CAN%d NodeID=%u EEC=%04X ER=%02X MSEF=%02X,%02X,%02X,%02X,%02XCANx: Corresponding CAN busNodeID: Node ID of the device that reports the errorEEC: Error number in hexadecimal notation (for 2.11.10322 it results in 10322 as hexadecimal notation = 0x2852)ER: Error registerMSEF: Manufacturer specific error code
+
+== Effect
+ 
+

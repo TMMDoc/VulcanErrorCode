@@ -1,0 +1,199 @@
+
+= Back up/Restore
+
+
+== Back up/Restore Vulcan system data
+
+[arabic]
+. Start HMI.
+Back up Vulcan system
+[arabic, start=2]
+. Select the “wrench” icon.
+. Select “Save backup”.
+.Fig. 5‑7
+[width="100%",cols="100%",options="header",]
+|image:img/image617.png[img/image617,width=382,height=249]
+
+[arabic, start=4]
+. Select the data to be saved.
+* Data: Parameter setting for the machine.
+* Log: Alarm log.
+* Programs: Customer and default programs.
+.Fig. 5‑8
+[width="100%",cols="100%",options="header",]
+|image:img/image618.png[img/image618,width=382,height=211]
+
+[arabic, start=5]
+. The backup is done.
+* The backup file can be found by the tip and copied to other disk.
+.Fig. 5‑9
+[width="100%",cols="100%",options="header",]
+|image:img/image619.png[img/image619,width=382,height=116]
+
+[arabic, start=6]
+. Select “Load backup” in HMI.
+Restore Vulcan system
+[arabic, start=7]
+. Select the backup file according to the date.
+.Fig. 5‑10
+[width="100%",cols="100%",options="header",]
+|image:img/image620.png[img/image620,width=382,height=236]
+
+[arabic, start=8]
+. Press the check mark.
+
+== Back up/Restore Inovance drive data
+
+Means, Tools, Materials
+* USB to RS232 converter cable, mat. no. 385230.
+* RS232 to RJ45 converter cable, mat. no. 359401.
+[arabic]
+. Connect your laptop to the respective X1/X2/Y/Z axis drive with communication cable by the port “CN5”.
+Connect InoDriveShop to
+Inovance drive
+.Fig. 5‑11
+[width="100%",cols="100%",options="header",]
+|image:img/image621.png[img/image621,width=288,height=264]
+
+[arabic, start=2]
+. Check the COM port of the communication cable in device manager on your laptop.
+.Fig. 5‑12
+[width="100%",cols="100%",options="header",]
+|image:img/image622.png[img/image622,width=382,height=189]
+
+[arabic, start=3]
+. Run software “InoDriveShop” on your laptop.
+. Select “New project”.
+. Choose “SV660N Series” and select the corresponding COMport as checked in device manager.
+. Click “Next page”.
+.Fig. 5‑13
+[width="100%",cols="100%",options="header",]
+|image:img/image623.png[img/image623,width=624,height=352]
+
+[arabic, start=7]
+. Click “Begin Scan” and wait unit the connected drive module being found.
+. Put a check mark on the target drive module and click “Finish”.
+.Fig. 5‑14
+[width="100%",cols="100%",options="header",]
+|image:img/image624.png[img/image624,width=382,height=276]
+
+[arabic, start=9]
+. Double click on “Multi-machine parameter management”.
+Back up Inovance drive
+[arabic, start=10]
+. Select “Export to recipe” and confirm query with “Yes”.
+.Export to recipe Fig. 5‑15
+[width="100%",cols="100%",options="header",]
+|image:img/image625.png[img/image625,width=624,height=320]
+
+[arabic, start=11]
+. Wait unit the transmission is done.
+. Acknowledge the error message by clicking “OK”.
+.Fig. 5‑16
+[width="100%",cols="100%",options="header",]
+|image:img/image626.png[img/image626,width=379,height=196]
+
+[arabic, start=13]
+. Name the backup data and save it on your laptop.
+. Go to “InoDriverShop” home page.
+Restore Inovance drive
+[arabic, start=15]
+. Double click “Multi-machine parameter management”.
+. Select “Import recipe file”.
+.Fig. 5‑17
+[width="100%",cols="100%",options="header",]
+|image:img/image627.png[img/image627,width=382,height=153]
+
+[arabic, start=17]
+. Select the corresponding Inovance drive data.
+.Fig. 5‑18
+[width="100%",cols="100%",options="header",]
+|image:img/image628.png[img/image628,width=382,height=215]
+
+[arabic, start=18]
+. Confirm with “Yes”.
+. Acknowledge the pop-up window about restoring parameter by clicking “OK”.
+* It’s normal that some system parameters or specific parameters fail to be written.
+.Fig. 5‑19
+[width="100%",cols="100%",options="header",]
+|image:img/image626.png[img/image626,width=382,height=197]
+
+[arabic, start=20]
+. Import parameters successfully.
+* In case that some parameters are unexpectedly lost, please double check the following parameters.
+[arabic, start=21]
+. In “Work Space”, select “SV660N” and double click on “Param List”.
+.Fig. 5‑20
+[width="100%",cols="100%",options="header",]
+|image:img/image629.png[img/image629,width=382,height=267]
+
+[arabic, start=22]
+. Check “H08” > “H08-19” (Speed feedforward gain).
+Setting value: 100.
+.Fig. 5‑21
+[width="100%",cols="100%",options="header",]
+|image:img/image630.png[img/image630,width=382,height=212]
+
+* If the value is 100, the following step 23 to 28 can be skipped.
+[arabic, start=23]
+. Find the parameter “H9-00”, change the setting value to1 (enabled).
+.Fig. 5‑22
+[width="100%",cols="100%",options="header",]
+|image:img/image631.png[img/image631,width=624,height=270]
+
+[arabic, start=24]
+. Right click on the item just modified and choose “Download the selected items” to save the parameters.
+.Fig. 5‑23
+[width="100%",cols="100%",options="header",]
+|image:img/image632.png[img/image632,width=382,height=155]
+
+[arabic, start=25]
+. Set “H08-19” (Speed feedforward gain) to 100.
+. Right click on it to download the selected items.
+. Set “H09-00” back to “0” (Disabled).
+. Right click on it to download the selected items.
+. Check “H08” > “H08-00” (Speed loop gain).
+* X1/X2 drive: 140.
+* Y/Z drive: 170.
+[arabic, start=30]
+. If not, set the “H08-00” and right click on it to download the selected items.
+. Check “H07” > “H07-26” (Flux weakening selection).
+Setting value: 1.
+.Fig. 5‑24
+[width="100%",cols="100%",options="header",]
+|image:img/image633.png[img/image633,width=624,height=270]
+
+[arabic, start=32]
+. If not, change it to 1.
+. Right click on the parameter to choose “Download the selected items”.
+. Switch the main switch off and then switch the machine on again.
+
+== Back up/Restore the whole system
+
+[arabic]
+. Go to the machine startup interface.
+Back up the whole system
+[arabic, start=2]
+. Select “Backup & Restore”.
+* The startup interface will appear every time the machine is switched on or restarted.
+.Fig. 5‑25
+[width="100%",cols="100%",options="header",]
+|image:img/image634.png[img/image634,width=382,height=264]
+
+[arabic, start=3]
+. Press “Create factory backup”.
+.Fig. 5‑26
+[width="100%",cols="100%",options="header",]
+|image:img/image635.png[img/image635,width=382,height=277]
+
+[arabic, start=4]
+. Confirm that backup is finished successfully.
+* The backup can be exported to the U disk by “Export factory backup”.
+[arabic, start=5]
+. Restart or shut down the machine.
+. Enter the “Backup and Restore” interface.
+Restore the whole system
+[arabic, start=7]
+. Select the backup to be restored.
+. Press the “Restore factory backup” button (example).
+. The restoration is done.

@@ -1,0 +1,7 @@
+= Changing the GCode format
+:imagesdir: img
+:experimental:
+
+Vulcan control supports the general DIN GCode as well as the Trumpf specific LST GCode.
+
+Here how to use / switch

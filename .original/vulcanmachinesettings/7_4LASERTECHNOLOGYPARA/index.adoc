@@ -1,0 +1,5 @@
+=  Laser technology
+:imagesdir: img
+
+lorem
+

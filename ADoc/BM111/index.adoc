@@ -1,4 +1,0 @@
-= BM111
-:imagesdir: img
-
-This chapter describes the details of BM111 cutting unit

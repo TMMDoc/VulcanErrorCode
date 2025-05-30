@@ -1,0 +1,29 @@
+= 2.10.809 Pallet Motion is not Possible
+:imagesdir: img
+
+== Description
+
+Pallet Motion is not Possible
+
+== Cause
+
+
+Axis not in safe position for pallet Movement. 
+Move the axes to Park Position
+
+== Action
+ 
+
+Goto Controls page of the Vulcan and select "Goto Park Position"and press start button. Axis will move to park position and then start moving the pallet
+ 
+
+Further possible actions:
+
+Goto Controls page of the Vulcan and select "Goto Park Position “and press start button.
+
+Axis will move to park position and then start moving the pallet
+
+== Effect 
+ 
+
+

@@ -1,0 +1,10 @@
+= Automated Layout optimization
+:imagesdir: img
+
+Vulcan allows to modify layouts for an optimal production flow. 
+
+== Add remnant
+
+You could add (or remove) a remnant cut to your layout
+
+image:Remnant.png[]

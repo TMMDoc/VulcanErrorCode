@@ -1,0 +1,17 @@
+= 2.10.958 Tandem Offset Program selection only in Slave Control
+:imagesdir: img
+
+== Description
+Tandem Offset Program selection only in Slave Control
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

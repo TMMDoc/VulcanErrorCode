@@ -1,0 +1,24 @@
+= 2.10.828 Service key activated
+:imagesdir: img
+
+== Description
+
+Service key activated
+
+== Cause
+
+
+Service Key is enabled.
+Program aborted
+
+== Action
+ 
+
+Disable service key before running the program
+ 
+image:image17.png[image17,width=494,height=408]
+
+== Effect 
+ 
+
+

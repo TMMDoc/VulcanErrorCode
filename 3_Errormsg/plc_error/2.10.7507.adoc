@@ -1,0 +1,17 @@
+= 2.10.7507 KL59 - Error Voltage Internal 5V
+:imagesdir: img
+
+== Description
+KL59 - Error Voltage Internal 5V
+
+== Cause
+
+ "Refer node ID" 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

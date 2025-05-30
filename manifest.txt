@@ -1,0 +1,4 @@
+TITLE=Vulcan OEM Manual
+OUTDIR=../VulcanOEM_EN
+LOGO=img/logo.png,103,34
+COPYRIGHT=Copyright &copy; 2024 by Trumpf-Metamation. All rights reserved.

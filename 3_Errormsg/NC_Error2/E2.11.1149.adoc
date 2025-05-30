@@ -1,0 +1,17 @@
+= 2.11.1149
+:imagesdir: img
+
+== Description
+CANopen: wrong multiplexer in SDO response
+
+== Cause
+
+Instead of the expected segment of a segmented CAN SDO transmission, a response was received that refers to a completely different object.
+
+== Action
+ 
+The cause of the error message is difficult to determine without a detailed analysis of the process. One possible explanation is that a previous transfer timed out on the controller side, but the CAN device then responded to the old request after the controller had already triggered the next transfer from the queue. Other explanations are transmission errors on the CAN bus or a software error in the CAN device.
+
+== Effect
+ 
+

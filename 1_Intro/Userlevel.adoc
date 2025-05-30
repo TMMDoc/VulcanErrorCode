@@ -1,0 +1,16 @@
+= Changing User Levels
+:imagesdir: img
+:experimental:
+
+From Settings page navigate to *Other settings -> Machine settings -> Change access*.
+
+image::UserLevel.png[]
+
+:imagesdir: img/icons
+The most basic user level is *Standard*, which allows you to change the fundamental machine parameters. In this level, you cannot change the machine settings denoted by image:Icons2.png[,20] or image:Icons3.png[,20].
+
+To change the machine parameters denoted by image:Icons2.png[,20], you must be a *administrator* or *service* user. 
+
+*Service* level user access denoted by image:Icons3.png[,20] enables for changes to all parameters. Normally, these parameters are set to the factory defaults and requires no change. 
+
+To change the user level access select the correct *user level* and enter the *password*.

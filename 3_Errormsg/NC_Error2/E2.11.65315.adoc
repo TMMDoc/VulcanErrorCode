@@ -1,0 +1,17 @@
+= 2.11.65315
+:imagesdir: img
+
+== Description
+File system: unsupported media format
+
+== Cause
+
+The file system of an external drive cannot be read.
+
+== Action
+ 
+Check the corresponding data medium.If the problem occurs in connection with the NetDisk (drive nd:), either set the working directory before accessing the NetDisk for the first time by calling SetCurrentPath in the PLC application with "nd:<IP address>". Alternatively, use a controller firmware v2.29.3.4 or later, and configure the IP address of the Netdisk server using the machine constant  MK_CFG_NETDISK_SERVER_IP_ADDRESS / MK_NETDISK_SRVADDR (see CNC Configuration Manual).
+
+== Effect
+ 
+

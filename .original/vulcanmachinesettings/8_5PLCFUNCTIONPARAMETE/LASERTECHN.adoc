@@ -1,0 +1,25 @@
+= Laser Technology Parameters
+:imagesdir: img
+
+In PLC options, Select function parameters to access laser technology miscellaneous control.
+
+image:image33.png[image33,width=612,height=493]
+
+_5.7.1 Auto Focus Active_
+- Activates the focus positioning function in the PLC.
+If a cutting head has the option of auto focus positioning, then activated this function.
+_5.7.2 HC Calibration on Ext. Plate_
+- If the machine is installed with separate plate for doing the Height sensor calibration, then activating this function will enable the Calibration program to be carried out in this plate. Also, it is required to enter the offset position of this plate in S51 work offset table.
+_5.7.3 High Peak Power_
+- If the Laser source has an option of “High Peak Power” HPP mode, then activating this function will enable different scaling factor for analogue output depends on the command power value.
+_5.7.4 HC in 2 steps for position > 9mm & measure range = 20mm_
+- If Height control measuring range is 20mm and a command of 15mm can be directly positioned using the sensor feedback. But sometimes the positioning is not accurate due to capacitance level at higher heights. Hence activating this function, will enable the positioning in 2 steps for height greater than 9mm.
+First, it will position to the height of 2mm (internally) and from there it will position to the given command.
+_5.7.5 High Pressure Valve_
+- Defines the control type of High-Pressure Valve as follows:
+Voltage Control
+Current Control
+_5.7.6 Low Pressure Valve_
+- Defines the control type of Low-Pressure Valve as follows:
+Voltage Control
+Current Control

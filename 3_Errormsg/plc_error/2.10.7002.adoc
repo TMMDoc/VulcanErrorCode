@@ -1,0 +1,21 @@
+= 2.10.7002 Axis - Speed null
+:imagesdir: img
+
+== Description
+
+Axis - Speed null
+
+== Cause
+
+Axis Speed set to Zero
+ 
+
+== Action
+ 
+Make sure Axis Speed set is not Zero
+ 
+
+== Effect 
+ 
+
+

@@ -1,0 +1,19 @@
+= 2.26.300
+:imagesdir: img
+
+== Description
+EtherCAT: Timeout waiting for PLC
+
+== Cause
+
+The PLC does not acknowledge the EVENT_ECAT_ADDITIONAL_INIT event of the EXC_EtherCAT library (see Events of the EtherCAT Library). This interrupts the initialization of EtherCAT and thus no communication to the EtherCAT devices is established.Possible solution
+ In MK_CFG_PLC_EVENT_ECAT_PREOP / MK_SPS_ECAT_KONFEVENT a value > 0 was entered by mistake, so set the value to 0.
+ Implement an event handler for the EVENT_ECAT_ADDITIONAL_INIT event in the PLC (see Events of the EtherCAT Library).
+
+== Action
+ 
+ 
+
+== Effect
+ 
+

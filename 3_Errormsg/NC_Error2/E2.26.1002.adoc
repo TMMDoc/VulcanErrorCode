@@ -1,0 +1,17 @@
+= 2.26.1002
+:imagesdir: img
+
+== Description
+EtherCAT: EtherCAT: ports are mixed up
+
+== Cause
+
+The additional information indicate that ports have been incorrectly connected to the slave. Input and output ports are mixed up. Input port is not port 0.Possible solutionCheck wiring:? Check the input and output ports at the displayed slave. If necessary, refer to the slave documentation to find out what the input ports are and what the output ports are. Port 0 must be the first input port.
+
+== Action
+ 
+ 
+
+== Effect
+ 
+

@@ -1,0 +1,20 @@
+= 2.10.7434 KL59 - Warning Pressure Sealing gas limit reached
+:imagesdir: img
+
+== Description
+
+KL59 - Warning Pressure Sealing gas limit reached
+
+== Cause
+
+KL59 Warning Messages(Not Monitored for 3kw Laser)
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+
+

@@ -1,0 +1,17 @@
+= 2.26.501
+:imagesdir: img
+
+== Description
+EtherCAT-IO-configuration: configuration has fatal error(s) and cannot be used
+
+== Cause
+
+The PLC configuration is faulty. The determined error is output in a preceding error message. The error that has occurred is fatal so that the complete configuration cannot be accepted because it is no longer unique (e.g. in the case of address conflicts).Possible solutionCorrect the configuration in the PLC according to the previous error message and reload the PLC.
+
+== Action
+ 
+ 
+
+== Effect
+ 
+

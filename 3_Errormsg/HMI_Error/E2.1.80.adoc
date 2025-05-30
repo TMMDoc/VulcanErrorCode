@@ -1,0 +1,17 @@
+= 2.1.80
+:imagesdir: img
+
+== Description
+CAN-Drive: Drive not ready for release for operation
+
+== Cause
+
+ The drive controller refuses to change to the Operation Enabled state. There may be several reasons for this:• Error in Wiring• Voltage supply for the DC link not switched on• External enable signal missing• Subsequent error after another error message from the drive
+
+== Action
+ 
+First, fix any other previously reported errors. If the problem persists, check the wiring and the presence of all the conditions necessary to enable the power.
+
+== Effect
+ 
+

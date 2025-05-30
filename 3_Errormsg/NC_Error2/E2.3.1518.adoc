@@ -1,0 +1,20 @@
+= 2.3.1518
+:imagesdir: img
+
+== Description
+G2/G distance between starting and destination center points 
+is implausible with regard to the other entries
+
+== Cause
+
+The arc is programmed inaccurately. The radius of the arc at the starting point differs from the radius at the target point.
+
+== Action
+ 
+There are two possible solutions, either:
+ Program circular arc correctly in CAD/CAM system, or
+ increase the tolerance to the programmed inaccuracy (see machine constant MK_CFG_POSITION_TOLERANCE_MM , old notation: MK_EPSILONMM)
+
+== Effect
+ 
+

@@ -1,0 +1,20 @@
+= 2.10.7413 KL59 - Warning Active
+:imagesdir: img
+
+== Description
+
+KL59 - Warning Active
+
+== Cause
+
+Message to indicate a situation
+No message found in the error list
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+
+

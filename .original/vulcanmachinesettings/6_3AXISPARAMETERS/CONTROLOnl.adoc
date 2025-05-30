@@ -1,0 +1,58 @@
+= Control for analog axis 
+:imagesdir: img
+
+
+== _3.3.1 MK_AXIS_POSITION_CONTROLLER_MODE_
+
+[width="100%",cols="10%,32%,58%",options="header",]
+|===
+|Value |Meaning |MCs to be set
+|0 |control loop open |none
+|2 |P controller (default) |MK_AXIS_POSITION_CONTROLLER_KP
+|3 |P controller with speed and acceleration feedforward control a|
+MK_AXIS_POSITION_CONTROLLER_KP, MK_AXIS_POSITION_CONTROLLER_KF,
+MK_AXIS_POSITION_CONTROLLER_KB
+|4 |Spindle |none
+PID controller with
+feedforward control
+MK_AXIS_POSITION_CONTROLLER_KP, MK_AXIS_POSITION_CONTROLLER_KF,
+MK_AXIS_POSITION_CONTROLLER_KB, MK_AXIS_POSITION_CONTROLLER_TV,
+MK_AXIS_POSITION_CONTROLLER_TN
+|===
+It determines the type of position controller for axes with analog interface.
+The selection of the control mode depends upon the area of application of the controller and upon the quality of the speed regulation for the connected axes. The pure P regulator is the easiest to set but operates with the largest trailing distance (regulation deviation).
+The P controller with speed feedforward control operates with very small trailing distances at constant speeds and with good drives. The trailing distance can also be greatly reduced in the acceleration and braking phase, via the acceleration feedforward control.
+Preference must be given to the PID controller, if drive amplifiers without an I-term are used for speed control. It can also be used for drives without speed control, for which the nominal value from the position controller is directly connected to the current controller. The superimposed speed feedforward control is of secondary importance in both cases, as this is only fully effective in conjunction with a good speed controller.
+
+== _3.3.2 MK_AXIS_POSITION_CONTROLLER_KP_
+
+MK_AXIS_POSITION_CONTROLLER_KP is the amplification factor of the P controller for axes with analog interface, which is integrated into all regulator types. It is the factor with which the regulating difference in increments is multiplied; i.e. for this setting, MK_AXIS_INCREMENTS_PER_DISTANCE and MK_AXIS_DISTANCE are also significant. For CAN axes, MK_AXIS_POSITION_CONTROLLER_KP is not significant. MK_AXIS_POSITION_CONTROLLER_KP is not the Kv factor as dimension for the amplification in the control circuit of the machine.
+
+== _3.3.3 MK_AXIS_POSITION_CONTROLLER_KF_
+
+MK_AXIS_POSITION_CONTROLLER_KF is the evaluation factor for the speed feedforward control for axes with analog nominal value interfaces. This can be calculated with the equation below. The value should then be checked in practice and optimized if necessary. In the best case, the contouring error can be reduced to zero.
+
+== _3.3.4 MK_AXIS_POSITION_CONTROLLER_KB_
+
+MK_AXIS_POSITION_CONTROLLER_KB is the evaluation factor for the acceleration feedforward control for axes with analog nominal value interfaces. It can be used to reduce the trailing distance in the acceleration and braking phase. This MC is only effective if a regulation mode with speed feedforward control is set and a value not equal to zero is entered in MK_AXIS_POSITION_CONTROLLER_KF.
+This MC should be set following optimization of MK_AXIS_POSITION_CONTROLLER_KF and MK_AXIS_POSITION_CONTROLLER_KP. Reasonable empirical values for this MC are in the range 0.0 to 2.0. As the acceleration feedforward control is only effective in the short duration of a speed change, the setting should be made using a circular interpolation or the graphical axis setting software AXSCOPE should be used.
+
+== _3.3.5 MK_AXIS_POSITION_CONTROLLER_TV_
+
+For axes with analog nominal value interface, MK_AXIS_POSITION_CONTROLLER_TV is used for setting the rate time [s] of the PID controller and of the synchronous controller for synchronous axes. The specified time is proportional to the differential term of the controller. The D term serves to suppress the oscillation tendency in sluggish control systems by acting against any change to the trailing distance.
+Reasonable values for this MC are in the range 0.0 to 0.05. The entered value is too large if the axis oscillates or emits loud noises when moving. For the set up, it is best to use the graphical axis setting software AXSCOPE.
+
+*Note*: This MC equally affects the D term of the position regulation and the D term of the synchronous regulator. Separate setting of both is not is not intended. For synchronous axes, efficiently-functioning speed controllers with I term are generally required, for which a P regulator with speed pre-control is more suitable.
+
+== _3.3.6 MK_AXIS_POSITION_CONTROLLER_TN_
+
+For axes with analog nominal value interface, MK_AXIS_POSITION_CONTROLLER_TN is the reset time [s] of the PID controller and of the synchronous controller for synchronous axes. The specified time is inversely proportional to the integral term of the controller. The I term compensates the remaining position error for speed controllers without speed feedback or without I term, by integrating the trailing distance and adding it to the speed nominal value from P and D terms.
+Reasonable values for this MC are in the range 1.0 to 0.05. The entered value is too small if the axis oscillates. The I term is deactivated for a value of 0. For the set up, it is best to use the graphical axis setting software AXSCOPE.
+
+== _3.3.7 MK_AXIS_ANALOG_OFFSET_COMPENSATION_
+
+MK_AXIS_ANALOG_OFFSET_COMPENSATION can be used for axes with analog interfaces, in order to compensate the offset at the nominal value input of the drive amplifier. This is only necessary if the drive amplifier itself offers no possibility to correct this offset. The offset values with sign are entered in millivolts for each axis.
+
+== _3.3.8 MK_AXIS_ANALOG_QUICKSTOP_TIME_
+
+MK_AXIS_ANALOG_QUICKSTOP_TIME defines the quick stop reaction in [ms] in the axis controller for axes with an analog interface after the occurrence of an axis error, e.g. hardware end switch or contouring error. Within the configured time the rotation speed set value is decreased continuously with a linear quick stop ramp. For this the position control is deactivated for a maximum of 1 second to avoid an overshoot of the axis after the error response. The machine constant contains one entry for each \ application axis.

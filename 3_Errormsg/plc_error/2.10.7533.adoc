@@ -1,0 +1,17 @@
+= 2.10.7533 KL59 - Error Temperature Distance Sensor reached
+:imagesdir: img
+
+== Description
+KL59 - Error Temperature Distance Sensor reached
+
+== Cause
+
+ "" 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

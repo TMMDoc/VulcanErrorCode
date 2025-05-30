@@ -1,0 +1,17 @@
+= 2.10.7118 Precitec - PC - Collimating lens max temperature exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Collimating lens max temperature exceeded
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

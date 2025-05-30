@@ -1,0 +1,34 @@
+= 2.10.202 Emergency Stop Pressed
+:imagesdir: img
+
+== Description
+
+Emergency Stop Pressed
+
+== Cause
+
+
+Emergency Stop button pressed Either in Operator panel or in Pallet Operator Box. 
+ 
+Further possible causes:
+Emergency Stop button pressed in Operator panel or in Pallet Operator Box or in Laser Source
+MCB- F3 may have tripped
+
+
+== Action
+ 
+
+Check both Emergency stop button and release it. Check connection as per Page no.15,16 in the Electrical scheme if error is not cleared
+ 
+Further possible actions:
+Check both Emergency stop button and release it.
+Check connection as per Page no.15,16 in the Electrical scheme if error is not cleared
+Check MCB- F3 for Trip condition.
+Check Emergency contactor is in On Condition.
+
+image:image1.png[A diagram of a computer AI-generated content may be incorrect.,width=500,height=306]
+
+== Effect 
+ 
+
+

@@ -1,0 +1,17 @@
+= 2.7.103
+:imagesdir: img
+
+== Description
+Program is still open for reading
+
+== Cause
+
+A DIN program should be uploaded to the NC controller. At this time a program with the same program number is active on the NC controller. The upload fails because of this reason.
+
+== Action
+ 
+Cancel the execution of the DIN program before replacing it.
+
+== Effect
+ 
+

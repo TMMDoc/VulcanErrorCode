@@ -1,0 +1,17 @@
+= 2.6.2001
+:imagesdir: img
+
+== Description
+No controller release during reference point travel
+
+== Cause
+
+While starting the homing procedure, the controller release of the PLC program was not set.
+
+== Action
+ 
+Check the conditions for setting / resetting the feed enable in the PLC program.ExampleAdditional information for the example: CH0 LV0 %9074 N85/1 3The last number in the additional information is the number of the application axis.
+
+== Effect
+ 
+

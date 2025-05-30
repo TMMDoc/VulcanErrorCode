@@ -1,0 +1,21 @@
+= 2.3.832
+:imagesdir: img
+
+== Description
+MK_CFG_PRESETS: illegal G code
+
+== Cause
+
+
+ The quoted G function is not implemented in the firmware version on your controller or
+ The quoted G function can't be used in the machine constant MK_CFG_PRESETS (former syntax: MK_VOREINSTELLUNG). Check the listing of the appropriate functions in the description of the machine constant MK_CFG_PRESETS / MK_VOREINSTELLUNG in the NC configuration manual.
+
+== Action
+ 
+
+ Use a more current firmware version, if the G function is not available in the version on your controller
+ Remove the G function from the machine MK_CFG_PRESETS, if the G function can't be used with it.
+
+== Effect
+ 
+

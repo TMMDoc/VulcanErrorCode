@@ -1,0 +1,18 @@
+= 2.7.344
+:imagesdir: img
+
+== Description
+Syntax error: real number expected
+
+== Cause
+
+The letter O and the number 0 have been confused.
+
+== Action
+ 
+
+ Pay attention to the use of the digit 0 for numbers.
+
+== Effect
+ 
+

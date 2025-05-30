@@ -1,0 +1,38 @@
+
+= Cutting gas supply
+
+
+==  Bleeding the gas lines
+
+When the main switch is switched off, the gas lines are still under pressure.
+The pressure must be released from the gas lines before working on the supply of cutting and ventilation gas.
+Overview of valves in the
+gas line
+.Solenoid valves on the gas supply unit Fig. 4‑218
+[width="100%",cols="100%",options="header",]
+|image:img/image616.png[img/image616,width=624,height=265]
+
+[arabic]
+. Switch off the system and safeguard it against restarting.
+. Close the customer’s gas supply.
+[width="100%",cols="35%,65%",options="header",]
+|image:img/image2.png[img/image2,width=192,height=33] a|
+
+*Bleed screw blown away by high pressure gas.*
+*Risk of serious injury.*
+Unscrew the bleed screw within the range of 1 to 2 turn.
+[arabic, start=3]
+. Slightly loosen the bleed screws upstream of the solenoid valve.
+* 1 to 2 turn are allowed.
+.Fig. 4‑219
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image7.png[img/image7,width=382,height=304] |
+
+|1 Bleed screws upstream of solenoid valve (primary side) |2 Bleed screws downstre- am of solenoid valve (secondary side)
+|3 Solenoid valves |
+[arabic, start=4]
+. Slightly loosen the bleed screws downstream of the solenoid valve.
+The pressure is bled from the system.
+[arabic, start=5]
+. Tighten the bleed screws as soon as the system is depressurized.
+Chapter 5

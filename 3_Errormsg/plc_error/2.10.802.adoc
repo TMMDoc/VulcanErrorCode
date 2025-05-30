@@ -1,0 +1,21 @@
+= 2.10.802 Oil Lubrication No Pressure generated
+:imagesdir: img
+
+== Description
+
+Oil Lubrication No Pressure generated
+
+== Cause
+
+Lubrication Oil pressure is low. 
+ 
+
+== Action
+ 
+Check Lubrication Oil level in the Tank.check Direction of the motor.Check connection as per Page.59 in the Electrical scheme
+ 
+
+== Effect 
+ 
+
+

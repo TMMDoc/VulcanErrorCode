@@ -1,0 +1,17 @@
+= 2.11.65135
+:imagesdir: img
+
+== Description
+CMOS-RAM invalid: residual data will be deleted
+
+== Cause
+
+The CMOS RAM of the controller is used to store coordinate systems and other data. The data is buffered with means of a battery, even if no external power is supplied to the controller.The battery might be empty (also has a separate error message) or has been recently changed (The battery exchange is buffered by a capacitor, but this buffering only covers a short period). The Data might be corrupted by other influences.
+
+== Action
+ 
+In this case you have to transfer the user defined coordinate systems and zero points once again to the controller. Otherwise DIN program might not be executed correctly.
+
+== Effect
+ 
+

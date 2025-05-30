@@ -1,0 +1,17 @@
+= 2.26.5126
+:imagesdir: img
+
+== Description
+EtherCAT-Config: Node already defined as axis sa1001 axe1 
+
+== Cause
+
+The specified application axis number (additional information) is already assigned to the slave with the EtherCAT address (additional information).Possible solutionCheck the controller configuration in the PLC. If necessary, correct the addressing or insert placeholders for the CNC or motion axis so that the automatic addressing of the configurator works.
+
+== Action
+ 
+ 
+
+== Effect
+ 
+

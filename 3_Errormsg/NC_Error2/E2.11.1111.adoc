@@ -1,0 +1,20 @@
+= 2.11.1111
+:imagesdir: img
+
+== Description
+CANopen: connected device doesn't fit to the PLC controller configuration
+
+== Cause
+
+In the PLC controller configuration in CODESYS, in the General tab, in the Checks at Startup area, checks are enabled for the CAN node mentioned that failed. See Introduction Manual EEXC 880, EEXC 89.Additional information:
+ Case  Vendor IDs do not match ? CANx: Affected CAN bus ? NodeID: Node number of the affected node ? found: Vendor ID (hexadecimal) of the node found on the bus (object 1018h, subindex 1) ? expected: Vendor ID (hexadecimal) of the node in the controller configuration (taken from the EDS file) 
+ Case Product codes do not match ? CANx: Affected CAN bus ? NodeID: Node number of the affected node? found: Product code (hexadecimal) of the node found on the bus (object 1018h, subindex 2) ? expected: Product code (hexadecimal) of the node in the controller configuration (taken from the EDS file). 
+ Case  Revision do not match ? CANx: Affected CAN bus ? NodeID: Node number of the affected node ? found: Revision (hexadecimal) of the node found on the bus (object 1018h, subindex 3) ? expected: Revision (hexadecimal) of the node in the controller configuration (taken from the EDS file). 
+
+== Action
+ 
+In the PLC controller configuration, use the EDS files that match the used node or disable the respective check.
+
+== Effect
+ 
+

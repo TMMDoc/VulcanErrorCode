@@ -1,0 +1,18 @@
+= 2.9.223
+:imagesdir: img
+
+== Description
+NC->MMI: message buffer overflow
+
+== Cause
+
+The messages sent by the controller are not retrieved by the HMI in time.The message type is stored in the additional information. The meaning of the controller blocks specified as sb0 and sb1 can be found in the chapter Messages in Detail in the documentation PC interface for EEXC controllers.
+
+== Action
+ 
+Either the controller sends a lot of messages within a short time, or the HMI does not retrieve any more messages. Thus the message buffer overflows.
+ Check that the HMI is still working properly. If this is the case, check which system component is sending the message and make sure that not too many messages are sent.ExampleAdditional information: sb0=14 sb1=101 module=5In the present case it has to be checked within the PLC project (CODESYS) why the message 101 (=SB1) is sent. It is likely that the PLC sends this message every cycle.
+
+== Effect
+ 
+

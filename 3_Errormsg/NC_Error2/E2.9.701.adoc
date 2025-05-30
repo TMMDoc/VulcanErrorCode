@@ -1,0 +1,21 @@
+= 2.9.701
+:imagesdir: img
+
+== Description
+Machine constant identifier not available
+
+== Cause
+
+An attempt was made to load a machine constant file containing a machine constant with an unknown name.Possible reasons:
+ Typing error when editing the MK file manually.
+ The file was created with a newer controller firmware and contains one or more machine constants that have been added in the meantime.
+ The loaded file is not a machine constant file at all.The machine constant identifier in question can be found in the additional information to the error message.
+
+== Action
+ 
+
+ Correct the MK file or use a valid MK file.
+
+== Effect
+ 
+

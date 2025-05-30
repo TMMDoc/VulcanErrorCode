@@ -1,0 +1,17 @@
+= 2.10.877 Error in number of Miscellaneous Control Parameter
+:imagesdir: img
+
+== Description
+Error in number of Miscellaneous Control Parameter
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

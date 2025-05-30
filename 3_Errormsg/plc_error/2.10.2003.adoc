@@ -1,0 +1,21 @@
+= 2.10.2003 CAN_OPEN - Command Not allowed
+:imagesdir: img
+
+== Description
+
+CAN_OPEN - Command Not allowed
+
+== Cause
+
+Command sent during Initialisation of the Drive
+ 
+
+== Action
+ 
+During Initialisation of the Drive ,no command is allowed.
+ 
+
+== Effect 
+ 
+
+

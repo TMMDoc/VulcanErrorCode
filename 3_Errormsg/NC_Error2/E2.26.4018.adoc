@@ -1,0 +1,17 @@
+= 2.26.4018
+:imagesdir: img
+
+== Description
+EtherCAT: Unexpected slave state detected sa1001 st=op->safeop 
+
+== Cause
+
+Something caused the slave to leave its state and change to the indicated new state.Possible changes and associated possible causes:? op->preop: DC lost? safeop->preop: Invalid PDO configuration or invalid process data sync manager configuration? preop->init: Illegal mailbox sync manager configurationPossible solutionCheck configuration and reinitialize EtherCAT.
+
+== Action
+ 
+ 
+
+== Effect
+ 
+

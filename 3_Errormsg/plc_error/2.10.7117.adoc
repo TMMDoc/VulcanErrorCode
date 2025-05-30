@@ -1,0 +1,17 @@
+= 2.10.7117 Precitec - PC - Linear Drive no reference travel
+:imagesdir: img
+
+== Description
+Precitec - PC - Linear Drive no reference travel
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

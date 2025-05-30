@@ -1,0 +1,17 @@
+= 2.10.7123 Precitec - PC - Leak Protective window Max Pressure exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Leak Protective window Max Pressure exceeded
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

@@ -1,0 +1,17 @@
+= 2.10.7510 KL59 - Error Voltage Internal 12V
+:imagesdir: img
+
+== Description
+KL59 - Error Voltage Internal 12V
+
+== Cause
+
+ "Refer node ID" 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

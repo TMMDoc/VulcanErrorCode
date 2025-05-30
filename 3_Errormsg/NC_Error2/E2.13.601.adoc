@@ -1,0 +1,17 @@
+= 2.13.601
+:imagesdir: img
+
+== Description
+CMOS-RAM contains invalid data: retain data has been lost
+
+== Cause
+
+The back-up battery is empty.
+
+== Action
+ 
+Exchange the battery - see the technical manual of the rspective controller.
+
+== Effect
+ 
+

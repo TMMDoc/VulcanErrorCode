@@ -1,0 +1,6 @@
+= Changing the Flavor
+:imagesdir: img
+:experimental:
+
+This chapter describes how to change between flavors.
+

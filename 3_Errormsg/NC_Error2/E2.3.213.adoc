@@ -1,0 +1,17 @@
+= 2.3.213
+:imagesdir: img
+
+== Description
+G programmed path speed must be greater than 0
+
+== Cause
+
+There was no speed assigned to G1.
+
+== Action
+ 
+Program feed rate with parameter F (also see CNC programming manual for G01).
+
+== Effect
+ 
+

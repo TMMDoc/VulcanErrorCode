@@ -1,0 +1,77 @@
+= Trace
+:imagesdir: img
+
+The following parameters are reserved for PLC tracing in the E-Conset Tool – Trace.
+
+. *T301* – Comprehensive logging of NC and PLC synchronization during program execution for diagnostic purposes. +
+Logged Parameters: Time, Laser On Status, Speed, Power, Frequency, Gas, Focus, Nozzle Height, X Position, Y Position, Z Position, X Speed, Y Speed, Z Speed.
+
+image:image1.png[A number of numbers and symbols AI-generated content may be incorrect.,width=575,height=68]
+
+[arabic, start=2]
+
+. *T360* – Monitoring of cutting head height control during program execution for diagnostic purposes. +
+Logged Parameter: Height Control Sequence.
+
+image:image2.png[A computer code with numbers and symbols AI-generated content may be incorrect.,width=573,height=111]
+
+[arabic, start=3]
+
+. *T366* – Comprehensive synchronization of laser technology data during program execution. +
+Logged Parameter: Laser Sequence.
+
+image:image3.png[A screenshot of a computer program AI-generated content may be incorrect.,width=523,height=243]
+
+[arabic, start=4]
+
+. *T367* – Logging of KL59 Lumi measurement data during program execution. +
+Logged Parameters: Protective Window Quality (in percentage) and Average Power.
+
+image:image4.png[A table of numbers with black text AI-generated content may be incorrect.,width=560,height=196]
+
+[arabic, start=5]
+
+. *T381* – Trace of pallet changer sequence during operation. +
+Logged Parameter: Pallet Changer Operation Sequence.
+
+image:image5.png[A screenshot of a computer program AI-generated content may be incorrect.,width=573,height=179]
+
+[arabic, start=6]
+
+. *T390* – Logging of independent drive handler information, including position, velocity, and related data. +
+Logged Parameter: Drive Handler Status.
+
+image:image6.png[A screenshot of a computer program AI-generated content may be incorrect.,width=502,height=200]
+
+
+*Open the E- Conset Tool from the Machine Configuration menu.*
+
+image:image7.png[A screenshot of a computer AI-generated content may be incorrect.,width=481,height=294]
+
+{empty}1. Select Ethernet for communication under _Connection Type_.
+{empty}2. Press the Refresh button to scan for connected controllers.
+{empty}3. Select the detected controller from the list (e.g., EXC880x).
+{empty}4. Press the Connect button to open the configuration page.
+{empty}5. Alternatively, enter the controller's IP address manually and press Connect.
+
+image:image8.png[image8,width=317,height=235]*Steps to Capture a Trace*
+
+. Open the controller configuration window and click the Trace button located on the left side panel.
+
+. Click the *"+" (Add)* button to create a new trace.
+
+image:image9.png[image9,width=288,height=214]image:image10.png[image10,width=254,height=216]
+
+[arabic, start=3]
+. Enter a name for the trace.
+
+. Select the appropriate *Trace Number* for capturing data.
+
+. Click *Start Trace* and run the program. The trace data will be recorded and saved automatically in *.txt* file format.
+
+*Trace File Viewing Tool*
+
+The trace file (T301) can be viewed using *Sharplot*, a tool developed by *TCN* specifically for analyzing trace data.
+
+image:image11.png[A screenshot of a computer AI-generated content may be incorrect.,width=606,height=250]
+

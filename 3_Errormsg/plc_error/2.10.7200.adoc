@@ -1,0 +1,21 @@
+= 2.10.7200 Empower - Calibration data file not found
+:imagesdir: img
+
+== Description
+
+Empower - Calibration data file not found
+
+== Cause
+
+No height calibration data found. 
+Please do Height Sensor Calibration
+
+== Action
+ 
+Select Height calibration(Make sure to keep the sheet under the cutting head) or (Height calibration and Nozzle cleaning) in the Controls page of the Vulcan and press start button.
+ 
+
+== Effect 
+ 
+
+

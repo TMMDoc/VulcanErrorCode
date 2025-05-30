@@ -1,0 +1,17 @@
+= 2.10.7129 Precitec - PC - EG8050/8030 Malfunction
+:imagesdir: img
+
+== Description
+Precitec - PC - EG8050/8030 Malfunction
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

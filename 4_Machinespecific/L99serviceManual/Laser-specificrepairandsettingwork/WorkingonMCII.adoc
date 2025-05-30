@@ -1,0 +1,143 @@
+
+= Working on MCII
+
+
+== Logging in MCII with service user level
+
+* Service user level in TOSh is activated. (see “link:#activating-the-service-user-level-in-tosh-1[Activating the Service user level in TOSh]”, pg. xxx)
+* Access to HVM Password Manager.
+[arabic]
+. Switch to “TOSh” interface.
+Start MCII
+[arabic, start=2]
+. Either
+* Select “LASER Application”.
+* Select “Machine Configuration”.
+* Select “Google Chrome”.
+* If it’s unable to enter laser control interface, type the laserIP address 172.29.3.1 in the web browser.
+* If the customer changed the laser IP address, type the IPaddress as shown in the display of the laser.
+[width="100%",cols="52%,48%",options="header",]
+|image:img/image316.png[img/image316,width=297,height=238] |image:img/image317.png[img/image317,width=297,height=238]
+
+|Left: LASER Application |Right: Google Chrome
+Fig. 3‑1
+.Display of the laser Fig. 3‑2
+[width="100%",cols="100%",options="header",]
+|image:img/image318.png[img/image318,width=297,height=162]
+
+[arabic, start=3]
+. Open the software “HVM Password Manager”.
+Retrieve the password
+of the laser
+.Retrieve the password Fig. 3‑3
+[width="100%",cols="100%",options="header",]
+|image:img/image319.png[img/image319,width=345,height=263]
+
+[arabic, start=4]
+. Enter the “Equipment Number”.
+. Select “Password Type”.
+. Enter the “Reason”.
+. Request the password of the laser.
+. Select “Service” in the authority drop-down menu.
+Activate the service user
+.Fig. 3‑4
+[width="100%",cols="100%",options="header",]
+|image:img/image320.png[img/image320,width=382,height=163]
+
+[arabic, start=9]
+. Enter the password.
+The service user level is active.
+
+== Querying the operating hours of the laser
+
+* Service user level in MCII is active.
+[arabic]
+. Select “Service Functions” > “Running Hours” in MCII interface.
+.Fig. 3‑5
+[width="100%",cols="100%",options="header",]
+|image:img/image321.png[img/image321,width=382,height=274]
+
+* The “System On Time” value corresponds to:
+Laser switched on in hours.
+* The “Laser On Time” value corresponds to:
+Beam ignited in hours.
+
+== I/O setting of the laser device
+
+* Service user level in MCII is active.
+[arabic]
+. Select “Settings” > “Machine interface” in MCII interface.
+The laser interface
+.I/O interface Fig. 3‑6
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image322.png[img/image322,width=624,height=350] |
+
+|1 Digital inputs |2 Analogue inputs
+|3 Digital outputs |4 Analogue outputs
+[arabic, start=2]
+. The status of I/O interface is displayed by the indicator on theright side.
+* The red status means active.
+* The laser interface should be used together with the ma-chine connection interface inside cabinet (see *Chapter 2.4.2 Electrical control interfaces in 90-00-00-000000- ASEN FD90 Operator Manual* for further information).
+
+== Checking temperature & flow rate of laser module
+
+.Fig. 3‑7
+[width="100%",cols="100%",options="header",]
+|image:img/image323.png[img/image323,width=382,height=274]
+
+[arabic, start=2]
+. Check the “Water Temperature” and “Water Flowrate”.
+* No Water Flowrate value for *FD90* due to no flowmeter.
+* When actual cooling water flowrate is lower than needed alarm/warning will be triggered.
+.FD90 Tab. 3‑9
+[width="100%",cols="39%,61%",options="header",]
+|Configuration |Minimum water flow requirement at nominal operating power at 25 °C
+|TruFiber 300X G |30 L/min
+|TruFiber 400X G |31.3 L/min
+|TruFiber 600X G |41.8 L/min
+|TruFiber 800X G |52.3 L/min
+.FD91 Tab. 3‑10
+[width="100%",cols="39%,61%",options="header",]
+|Configuration |Minimum water flow requirement at nominal operating power at 25 °C
+|TruFiber 300X G |28 L/min
+|TruFiber 600X G |55 L/min
+|TruFiber 1200X G |108 L/min
+
+== Bypassing laser module of TruFiber
+
+* Service user level in MCII is active.
+[arabic]
+. Select “Service Functions” > “Module Settings” in MCII interface.
+. Cancel the check mark on the laser module which you want to bypass at the “Enable” column.
+.Fig. 3‑8
+[width="100%",cols="100%",options="header",]
+|image:img/image324.png[img/image324,width=382,height=238]
+
+
+== Backing up / restoring the laser data
+
+* Service user level in MCII is active.
+[arabic]
+. Select “Service Functions” > “Product Parameter Backup” in MCII interface.
+Back up the laser data
+.Fig. 3‑9
+[width="100%",cols="100%",options="header",]
+|image:img/image325.png[img/image325,width=382,height=312]
+
+[arabic, start=2]
+. Click “Backup” button.
+Backup file of current system parameters will be created.
+* All the backup files are stored in the SD card and can be recovered back to the laser if necessary.
+* Only one backup file can be stored on one day and repeated backup will overwrite the files created before.
+[arabic, start=3]
+. Select the needed backup file in the file list.
+Restore the laser data
+* Without the needed backup file, the backup file on your computer can be uploaded to the SD card by “Upload” button and then restore the laser data.
+.Fig. 3‑10
+[width="100%",cols="100%",options="header",]
+|image:img/image326.png[img/image326,width=382,height=294]
+
+[arabic, start=4]
+. Select “Restore” in Function drop-down menu.
+. Click “Run” button.
+The system parameters will be restored.

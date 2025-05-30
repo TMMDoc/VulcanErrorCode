@@ -1,0 +1,32 @@
+= 2.1.6
+ 
+
+== Description
+Negative hardware limit switch active(X or Y)
+
+== Cause
+
+X-Axis or Y-axis position may have reached the Negative End limit. X- Sensor(=WM+MB-B2), Y- Sensor(=WM+MB-B5).
+
+Sensor Cable connection may be loose or Cut
+
+Sensor May be faulty
+
+
+== Action
+ 
+Check Whether Message is for X axis or Y axis. This message will indicate the axis name along with the message.
+
+Check physical position of the axis.
+
+Check sensor cable for any loose connection or cut. (X- Sensor(=WM+MB-B2), Y- Sensor(=WM+MB-B5)).
+
+Check Sensor for working condition. Relace sensor if faulty.
+
+Check Electrical scheme Pg.no.71 for X axis sensor(=WM+MB-B2) or Pg.no.53 for Y axis sensor(=WM+Mb-b5) for connection diagram.
+
+See Service manual 
+
+== Effect
+Axis will not move in negative direction 
+

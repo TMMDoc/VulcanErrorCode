@@ -1,0 +1,17 @@
+= 2.10.951 CNC1 & 2	 Tandem Pgm Name are different - Pgm Aborted
+:imagesdir: img
+
+== Description
+CNC1 & 2	 Tandem Pgm Name are different - Pgm Aborted
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

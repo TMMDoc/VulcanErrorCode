@@ -1,0 +1,17 @@
+= 2.10.7401 KL59 - IO Module main pgm start-up time out
+:imagesdir: img
+
+== Description
+KL59 - IO Module main pgm start-up time out
+
+== Cause
+
+check the communication cable/error in the IOM board
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

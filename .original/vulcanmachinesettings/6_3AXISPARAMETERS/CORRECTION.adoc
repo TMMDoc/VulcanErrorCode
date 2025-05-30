@@ -1,0 +1,18 @@
+= Corrections
+:imagesdir: img
+
+Select Axis parameters and choose Correction settings,
+
+image:image18.png[Graphical user interface Description automatically generated,width=535,height=356]
+
+
+== _3.8.1 MK_AXIS_BACKLASH_COMPENSATION_
+
+
+It specifies the position correction value for movement direction reversal, in millimetres or degrees. The default is 0. As soon as a value is entered, spindle reversal compensation is activated. The spindle backlash is limited to 32767 increments. The maximum adjustable spindle backlash is therefore 32767 * MK_AXIS_DISTANCE / MK_AXIS_INCREMENTS_PER_DISTANCE. A negative spindle backlash is limited to 0.
+
+*Correction of a spindle inclination error*
+The correction of a spindle inclination error or linearity error of the path measurement system, can be executed with the help of a table, which is stored in the flash PROM or is transferred from PC MMI after the start-up of the controller. The correction is activated automatically, if the table has been transferred.
+The correction is achieved for the axes specified in the file, within the defined actual position. The positions are with respect to the reference point. For a periodically recurring error, it is possible to define the relative range within the specified correction range, via the entry of a "modulo" value. At the end of this relative range, the values from the beginning of the table are reprocessed.
+One byte is available for each of the correction values; i.e. the correction value can be -128 to 127 increments per positions value. For axis output, the correction value is added to the calculated position. Linear interpolation is performed between two interpolation points. No correction is performed for positions which lie outside the defined range.
+The correction table can contain a maximum of 4096 entries per axis.

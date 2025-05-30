@@ -1,0 +1,11 @@
+= Repair manuals
+:imagesdir: img
+
+xxx:servicemanual/laser-specificrepairandsettingwork/cleaningandsettingwork.adoc#_creating_a_spot_image[Checking lens with a spot image]
+
+xxx:servicemanual/laser-specificrepairandsettingwork/cleaningandsettingwork.html#_centering_the_beam_to_the_nozzle_tapeshot[Centering the beam to the nozzle (Tapeshot)]
+
+xxx:servicemanual/control&electricalsettingwork/backup_restore.html[Back up/Restore]
+
+Look for further instruction on the Knowlegehub
+xxx:https://trumpf.esc-eu-central-1.empolisservices.com/service-express/portal/project1_p/search?filter=%7B%22Category%22%3A%5B%22Productreport%22%5D,%22esc_Languages%22%3A%5B%22en%22%5D%7D&useExpertQuery=1&text=80000360#[Knowlegehub]

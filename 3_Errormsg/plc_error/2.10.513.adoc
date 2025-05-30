@@ -1,0 +1,22 @@
+= 2.10.513 NC Automatic mode is Active
+:imagesdir: img
+
+== Description
+
+NC Automatic mode is Active
+
+== Cause
+
+
+Auto reference or Move to Zero point is commanded during program running. 
+ 
+
+== Action
+ 
+
+Make sure no other function button is pressed during program running
+ 
+
+== Effect 
+ 
+

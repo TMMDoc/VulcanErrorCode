@@ -1,0 +1,30 @@
+=  CONFIGURATION OF Laser Power Control (LPC)
+:imagesdir: img
+
+An Analog axis control module in the controller is configured as Spindle axis, to control the laser power analogue output depends on the path velocity. Since the properties of Spindle axis are defined to handle this special function, here it is called as “LPC”. It is possible to have 2 LPC as ‘LPC1’ & LPC2’.
+With ‘Add Axis’, when ‘LPC1’ is selected, the axis properties are assigned automatically and only need to select the ‘Axis Connection’ & ‘Axis Address’.
+
+image:image21.png[Graphical user interface, text Description automatically generated,width=601,height=482]
+
+
+== _3.11.1 LPC_INDEX_ASSIGNMENT_ 
+
+When ‘LPC1’ is selected, internally the ‘MK_SPINDLE_INDEX_ASSIGNMENT’ is allocated with axis application index number.
+_3.11.2 MAX LASER POWER_
+The Max Laser Power value in Watts, internally updates the ‘MK_SPINDLE_SPEED’ which complies with a nominal output value of 10V, via the axis analogue output. Hence 4000 watts -> 10V.
+
+== _3.11.3 AVERAGE POWER_
+
+The Average Power value in Watts, internally updates the ‘MK_TECH_SPINDLE_SPEED_GEAR_STAGE1’. It is only used for the information, to process the “High Peak Power” (HPP) , type Laser source, where the scaling of analogue output will be varied depends on the process of Piercing/Cutting and it is handled internally in the PLC.
+Max Laser Power = 5000 -> 10v (HPP, used for Piercing)
+Average Power = 3000 -> 10v
+
+*3.12 CONFIGURATION OF PALLET PLC AXIS*
+It is possible to configure the “Forward/Reverse” motion of pallet using servo motor control through Fieldbus. Also, can have maximum of 2 Pallet axis for Up & Down Pallet.
+With ‘Add Axis’, when ‘Pallet1’ is selected, the axis properties are assigned automatically and need to select the ‘Axis Connection’ & ‘Axis Address’ and enter the other values.
+
+image:image22.png[image22,width=570,height=429]
+
+Depends on the axis position and limit values, the following signals are evaluated:
+Pallet Forward Pos = Axis Pos >= (Positive Limit – 0.2)
+Pallet Reverse Pos = Axis Pos <= (Negative Limit + 0.2)

@@ -1,0 +1,17 @@
+= 2.10.7126 Precitec - PC - Diffused light Protective window COL Max level exceeded
+:imagesdir: img
+
+== Description
+Precitec - PC - Diffused light Protective window COL Max level exceeded
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

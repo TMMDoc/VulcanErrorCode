@@ -1,0 +1,17 @@
+= 2.10.813 Auto Pallet not possible for this position
+:imagesdir: img
+
+== Description
+Auto Pallet not possible for this position
+
+== Cause
+
+Move in Manual mode and then start
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

@@ -1,0 +1,18 @@
+= 2.7.358
+:imagesdir: img
+
+== Description
+Syntax error: Symbol is at this point prohibited
+
+== Cause
+
+The DIN program contains an error. The position of the first character that cannot be interpreted by the controller is indicated in the additional information. 
+
+== Action
+ 
+
+ Correct the indicated position in the DIN program.ExampleIn the example, a file of a different type was loaded as a DIN program.  The very first character is invalid.  %0 means that the controller could not yet interpret the program number.  (1,1) denotes the first character of the first line.  N0 means that no block number was found before the error.
+
+== Effect
+ 
+

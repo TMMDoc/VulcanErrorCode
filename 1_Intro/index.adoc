@@ -1,0 +1,4 @@
+= General
+:imagesdir: img
+
+This chapter describes the general usage of the Vulcan OEM manual.

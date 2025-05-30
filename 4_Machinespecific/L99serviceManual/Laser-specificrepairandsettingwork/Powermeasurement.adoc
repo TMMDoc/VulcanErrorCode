@@ -1,0 +1,15 @@
+
+= Power measurement
+
+
+== Measure the laser power at workpiece
+
+Need to discuss with the R&D guys and SCC
+
+== Set the nominal laser power on the workpiece
+
+Need to discuss with the R&D guys and SCC
+
+== Carry out aperture measurement (QD connector)
+
+Need to discuss with the R&D guys and SCC

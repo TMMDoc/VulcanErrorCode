@@ -1,0 +1,17 @@
+= 2.13.607
+:imagesdir: img
+
+== Description
+All offsets and tool data have been deleted due to a firmware upgrade!
+
+== Cause
+
+Beginning with starting with the EXC66e firmware version V2.75 for export controllers, the number of configurable application axes has been increased. As a result, the CMOS RAM layout has changed. All previously saved data is no longer valid
+
+== Action
+ 
+Handle the controller as if it was a new one without any persistent data in the CMOS RAM.
+
+== Effect
+ 
+

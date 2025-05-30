@@ -1,0 +1,94 @@
+
+= Yaskawa drive
+
+
+== Replacing Yaskawa drive
+
+[arabic]
+. Switch off the machine.
+. Disconnect all the cables from the Yaskawa drive.
+.Fig. 5‑87
+[width="100%",cols="100%",options="header",]
+|image:img/image687.png[img/image687,width=382,height=315]
+
+[arabic, start=3]
+. Remove the Yaskawa drive from the switch cabinet.
+. Mount a new Yaskawa drive.
+. Connect your laptop to CN7 port on the drive by Mini USB cable.
+* The driver needs to install when connecting for the first time.
+.Fig. 5‑88
+[width="100%",cols="100%",options="header",]
+|image:img/image688.png[img/image688,width=382,height=299]
+
+[arabic, start=6]
+. Open the software SigmaWin+.
+. Select “Start” > “Connect the SERVOPACK”.
+.Fig. 5‑89
+[width="100%",cols="100%",options="header",]
+|image:img/image689.png[img/image689,width=382,height=241]
+
+[arabic, start=8]
+. Select “USB Connection” > “Search for SERVOPACKs”.
+.Fig. 5‑90
+[width="100%",cols="100%",options="header",]
+|image:img/image690.png[img/image690,width=382,height=238]
+
+[arabic, start=9]
+. Select the target drive and connect.
+. Click on menu button in the top-left corner of the interface.
+.Fig. 5‑91
+[width="100%",cols="100%",options="header",]
+|image:img/image691.png[img/image691,width=382,height=184]
+
+[arabic, start=11]
+. Select “I/O Signal Allocation” for the pop-up window.
+.Fig. 5‑92
+[width="100%",cols="100%",options="header",]
+|image:img/image692.png[img/image692,width=382,height=189]
+
+[arabic, start=12]
+. Allocate the pin number for input signal of prohibiting the for-ward/reverse run and press “Write”.
+* P-OT: CN1-7.
+* N-OT: CN1-8.
+.Fig. 5‑93
+[width="100%",cols="100%",options="header",]
+|image:img/image693.png[img/image693,width=382,height=295]
+
+[arabic, start=13]
+. Acknowledge the warning.
+. Select “Jog” in main menu.
+.Fig. 5‑94
+[width="100%",cols="100%",options="header",]
+|image:img/image694.png[img/image694,width=382,height=199]
+
+[arabic, start=15]
+. Acknowledge the warning to enter the jog operation.
+. Make sure the servo is on.
+.Fig. 5‑95
+[width="100%",cols="100%",options="header",]
+|image:img/image695.png[img/image695,width=217,height=240]
+
+[arabic, start=17]
+. Click the forward/reverse button several times to approach the upper/lower limit position and check if the “P-OT”/ “N-OT”signal turns green.
+.Fig. 5‑96
+[width="100%",cols="100%",options="header",]
+|image:img/image696.png[img/image696,width=382,height=298]
+
+[arabic, start=18]
+. Check that the pointer can reach both upper and lower limit position and the alarm “A.710” is triggered.
+.Upper limit position Fig. 5‑97
+[width="100%",cols="50%,50%",options="header",]
+|image:img/image697.png[img/image697,width=189,height=132] |image:img/image698.png[img/image698,width=189,height=132]
+
+[arabic, start=19]
+. Switch off the servo by the “Servo OFF” button.
+. Double click the Axis interface (orange area) to show alarm Display.
+. Reset the alarm by click “Reset axes” button.
+.Fig. 5‑98
+[width="100%",cols="100%",options="header",]
+|image:img/image699.png[img/image699,width=382,height=218]
+
+[arabic, start=22]
+. Drive the servo motor on
+. Move the focus position away from the upper/lower limit position.
+. Restart the machine and then the servo motor will do homing automatically.

@@ -1,0 +1,18 @@
+= 2.3.293
+:imagesdir: img
+
+== Description
+Axis is not configured
+
+== Cause
+
+An axis identifier has been programmed in a DIN block that is not assigned to any configured axis. The affected block and the axis identifier can be found in the additional information.
+
+== Action
+ 
+
+ Correct the DIN program or configure the missing axis in the machine constants.
+
+== Effect
+ 
+

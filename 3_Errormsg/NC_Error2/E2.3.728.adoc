@@ -1,0 +1,18 @@
+= 2.3.728
+:imagesdir: img
+
+== Description
+No parameter identifiers found on compensation data transfer
+
+== Cause
+
+An invalid compensation file was loaded to the controller.
+
+== Action
+ 
+
+ Make sure that only valid compensation files are loaded.
+
+== Effect
+ 
+

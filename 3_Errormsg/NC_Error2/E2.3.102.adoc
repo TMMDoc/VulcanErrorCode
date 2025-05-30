@@ -1,0 +1,17 @@
+= 2.3.102
+:imagesdir: img
+
+== Description
+Block without G function while unknown modal G function
+
+== Cause
+
+If an instruction without a G-function (except addresses S/T/M/H/Q or P) is programmed in a DIN program, an attempt is made to assign it to the last modal G-function (G0-G3 or G100-G103). If none of these functions is active, the error is reported.
+
+== Action
+ 
+Correct the line in the DIN program specified in the additional information.ExampleThe programming of the complained address may not have been intended at all. For example, the error may be reported due to the following incorrect code line:P1246=-4.54747350886464E-13 If floating point numbers are to be specified in the DIN program, the exponent must be separated with the lowercase letter e. The notation with capital letter E for the exponent is not allowed. Instead, the E is interpreted as an address, which is assigned the value -13 in the example. Since no G-function is called in the block, and no modal function was executed before, the error is reported.The correct spelling would be as follows:P1246=-4.54747350886464e-13 
+
+== Effect
+ 
+

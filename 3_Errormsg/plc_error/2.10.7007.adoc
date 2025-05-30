@@ -1,0 +1,17 @@
+= 2.10.7007 Axis - Both Software Limit Active
+:imagesdir: img
+
+== Description
+Axis - Both Software Limit Active
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

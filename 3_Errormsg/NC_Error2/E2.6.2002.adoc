@@ -1,0 +1,17 @@
+= 2.6.2002
+:imagesdir: img
+
+== Description
+No feed release during reference point travel
+
+== Cause
+
+While starting the homing procedure, the feed enable was not set.
+
+== Action
+ 
+Check the conditions for setting / resetting the feed enable in the PLC program.
+
+== Effect
+ 
+

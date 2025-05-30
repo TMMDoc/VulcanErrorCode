@@ -1,0 +1,30 @@
+= 2.10.7003 Axis - Controller Enable Missing
+:imagesdir: img
+
+== Description
+
+Axis - Controller Enable Missing
+
+== Cause
+
+
+Controller Enable Missing
+ 
+
+== Action
+ 
+
+Check Safety Door is in closed condition. Check Emergency stop button. Make sure Drive Hardware enable is enabled 
+
+
+Further possible actions:
+
+Check Safety Door is in closed condition.
+
+Check Emergency stop button. Make sure Drive Hardware enable is enabled
+
+
+== Effect 
+ 
+
+

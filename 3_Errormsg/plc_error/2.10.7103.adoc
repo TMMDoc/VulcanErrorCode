@@ -1,0 +1,21 @@
+= 2.10.7103 Precitec - Body Touch
+:imagesdir: img
+
+== Description
+
+Precitec - Body Touch
+
+== Cause
+
+Nozzle gets in touch with the part.
+ 
+
+== Action
+ 
+Make sure that there is no cut piece tilted. Remove the tilted part,Press Reset and Continue running
+ 
+
+== Effect 
+ 
+
+

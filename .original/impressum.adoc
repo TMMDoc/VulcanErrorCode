@@ -1,0 +1,38 @@
+= Impressum
+:imagesdir: img
+:icons: font
+
+== Corporate Information
+
+TRUMPF SE + Co. KG (Holding)
+
+Johann-Maus-Strasse 2
+
+71254 Ditzingen
+
+Germany
+
+Telephone +49 7156 303-0
+
+Fax +49 7156 303-930309
+
+Email info@trumpf.com  
+
+see further details at: https://www.trumpf.com/en_US/meta/corporate-information/
+
+== Data privacy notice
+
+The information in accordance with Article 13 GDPR on how your data are handled in our company can be found on our homepage 
+https://www.trumpf.com/en_INT/meta/dataprivacynotice.
+
+== Data protection declaration
+
+TRUMPF SE + Co. KG and its affiliated companies, hereby referred to as the TRUMPF Group, would like to thank you for your interest in our company and our products and services. Protecting your personal data while it is being processed during the entire business process is important to us.
+
+see further details at https://www.trumpf.com/en_US/meta/data-protection/
+
+== Copyright and Trademarks
+
+All texts, pictures, graphics, animation, videos, sounds and any other contents of this website and their layout are protected by copyright and other protective laws. The afore-mentioned contents may not be duplicated, modified or used in other electronic or printed publications without the prior consent of TRUMPF SE + Co. KG.
+
+see further details at https://www.trumpf.com/en_US/meta/copyright/

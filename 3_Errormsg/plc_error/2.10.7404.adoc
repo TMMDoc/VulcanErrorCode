@@ -1,0 +1,20 @@
+= 2.10.7404 KL59 - Calibration Timeout
+:imagesdir: img
+
+== Description
+
+KL59 - Calibration Timeout
+
+== Cause
+
+Height calibration not finished within the timeout period.
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+
+

@@ -1,0 +1,17 @@
+= 2.9.1406
+:imagesdir: img
+
+== Description
+Realtime-Ethernet: Missing or not supported activation code
+
+== Cause
+
+ An incorrect customer configuration was activated.
+
+== Action
+ 
+ Verify the unlocking according to the type key. See Technical Manual of the respective controller, chapter Type Key.
+
+== Effect
+ 
+

@@ -1,0 +1,20 @@
+= 2.10.7024 Axis - Drive not supported via FieldBus
+:imagesdir: img
+
+== Description
+
+Axis - Drive not supported via FieldBus
+
+== Cause
+
+This error occurs when new drive type other than the specified type in the Plc is installed.
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+
+

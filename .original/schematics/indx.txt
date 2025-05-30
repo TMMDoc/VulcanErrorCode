@@ -1,0 +1,110 @@
+1 Cover page
+2 Contents Page 1
+3 Contents Page 2
+4 Contents Page 3
+5 Location overview
+6 Functional group overview
+7 Variants and options overview
+8 Reference ID overview
+9 Symbol/component legend
+10 Mains supply
+11 Options
+12 Power supply
+13 Power supply
+14 =MA Multi-function Power supply Drive
+15 =MA Multi-function  Transformer 220V(option BM111)
+16 =MA Multi-function  Power supply, 24V DC
+17 =MA Multi-function 0V/PE
+18 =MA Multi-function  24VDC
+19 =MA Multi-function Safety relay - Emergency stop
+20 =MA Multi-function Emergency stop
+21 =MA Multi-function Safety relay - Safety door monitoring
+22 =SY.SD Safety functions with safety doors  Safety door monitoring
+23 =MS.02 Make safe access to pallet changer  Light barrier
+24 =MA Multi-function STO
+25 =DV Machine kinematics (axes system/main axes)  Drive Axis X1
+26 =DV Machine kinematics (axes system/main axes)  Drive Axis X2
+27 =DV Machine kinematics (axes system/main axes)  Drive Axis Y
+28 =DV Machine kinematics (axes system/main axes)  Drive Axis Z  Page Func./Loc. Description
+29 =DV Machine kinematics (axes system/main axes)  Frequency converter
+30 =WP Workpiece  Pallet fixing device(Option: two level pallet)
+31 =WP Workpiece  Pallet infeed sensors
+32 =WP Workpiece  Upper Pallet clamping Sensors (option: two level pallet)
+33 =WP Workpiece  Lower Pallet clamping Sensors (option: two level pallet)
+34 =TL Handle laser beam tool  Cutting unit KL59
+35 =DV Machine kinematics (axes system/main axes)  Cutting unit BM111/Focal drive (option: BM111)
+36 =MA Multi-function  Controller Laser core 800
+37 =MA Multi-function  Controller Laser core 800
+38 =MA Multi-function  Controller Laser core 800
+39 =MA Multi-function  EtherCAT modules
+40 =MA Multi-function  Ethernet switch
+41 =MA Multi-function  M Guard
+42 =MA Multi-function  4G Router
+43 =MA Multi-function  Outputs 
+44 =MA Multi-function  Outputs
+45 =MA Multi-function  Frequency converter Inputs and Outputs
+46 =MA Multi-function  hydraulic Unit Pallet position Sensor
+47 =MA Multi-function  Hydraulic lift unit interface
+48 =MA Multi-function  Hydraulic lift unit interface
+49 =IF.09 Prepare hydraulic energy  Hydraulic lift unit
+50 =WP.03 Move workpiece pallet vertically  hydraulic Unit Pallet position Sensor
+51 =EC.01 Provide air conditioning in electrical cabinet  Fan unit/ Service Key
+52 =HM.05 Operation of workpiece changer  Start post With light barrier
+53 =HM.05 Operation of workpiece changer  Start post Without light barrier(Delete from S02.00)
+54 =HM.05 Operation of workpiece changer  Start post E-stop 
+55 =HM.06 Activate safety lock using key switch  Control panel
+56 =IF.08 Recool cooling water  Combination process cooler
+57 =MA Multi-function  Laser suction Control
+58 =MA Multi-function  Laser suction Control
+59 =RM.05 Suction out fumes and dusts  Laser suction
+60 =RM.05 Suction out fumes and dusts  Suction flaps
+61 =IL Laser interfaces  Laser signal in
+62 =IL Laser interfaces  Laser signal out
+63 =IL Laser interfaces  Laser
+64 =IL Laser interfaces  Laser 
+65 =MA Multi-function  Machine body interface
+66 =MA Multi-function  Motion unit interface
+67 =MA Multi-function  Motion unit interface, 24VDC
+68 =WP Workpiece  Motion unit Proximity switch/ Front lift plate sensor
+69 =WM &=WM;  Motion unit Proximity switch
+70 =TL Handle laser beam tool  Motion unit-Valves and Alignment laser diode  Page Func./Loc. Description
+71 =TL.11 Guide and shape cutting gas flow  Motion unit Lanny Valve
+72 =MA Multi-function  Pallet door interface
+73 =MS.01 Make safe enclosed protective housing and pallet opening access  Pallet changer door (Left rear)
+74 =MA Multi-function  Gas circuit interface
+75 =IF Interfaces  Cutting gas control
+76 =IF.10 Prepare and distribute lubricant  Lubrication
+77 =IF Interfaces  Device panel
+78 =CM &=CM;  Device panel
+79 =HM.04 Show operating status of machine with signal lamps  Status indicator
+80 =EC.03 lluminate work area  Work area illumination
+81 =HM.01 Observe work area  Camera (not used now)
+82 =PE Protective earthing and EMC  Equipotential bonding Star point 1 (left front)
+83 =PE Protective earthing and EMC  Equipotential bonding Star point 2 (left rear)
+84 =PE Protective earthing and EMC  Equipotential bonding Star point 3 (right rear)
+85 =PE Protective earthing and EMC  Equipotential bonding Star point 4 (right front)
+86 =PE Protective earthing and EMC  Equipotential bonding Valve terminal
+87 =PE Protective earthing and EMC  Equipotential bonding Motion unit
+88 +TF &+TF;  Cable laser interface
+89 +CO Cooling aggregate  Power cable Cooling aggregate
+90 +OP Operating panel  Panel PC Topology
+91 EtherCAT topology  /92 EtherCAT topology
+93  Ethernet topology
+94  +MB Machine body  Two Level Pallet changers Sensor station
+95  +MB Machine body  One Level Pallet changers Sensor station
+96  +PC Pallet changer Pallet A or B in pallet changer(option:one level pallet)
+97  +PC Pallet changer hydraulic Unit Pallet position Sensor
+98  +PC Pallet changer hydraulic Unit Pallet position Sensor
+99 +MB.04 Machine body section 4 Pallet changer door Sensors
+100  +MB.04 Machine body section 4 Additional pallet unit Door
+101  +MB Machine body Pallet clamping Sensors (option: two level pallet)
+102 +MB Machine bodyPallet clamping Sensors (option: two level pallet)
+103  Pallet clamping Sensors (option: one level pallet
+104) Pallet clamping Sensors (option: one level pallet
+105) Switch Cabinet 
+106  Instrument plate
+107  Setting values
+108  EtherCAT bus overview
+109  Ethernet bus overview
+110  PLC I/O list Sorting A (Ascending address) Page 1
+111  PLC I/O list Sorting A (Ascending address) Page 

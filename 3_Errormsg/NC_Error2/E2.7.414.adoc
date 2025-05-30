@@ -1,0 +1,18 @@
+= 2.7.414
+:imagesdir: img
+
+== Description
+Block jump not allowed in online program
+
+== Cause
+
+Online programs are processed during transmission. They must be sequential in structure and may not contain jumps or other branching. Subroutine calls with G22 Lxxx are allowed.
+
+== Action
+ 
+
+ If possible, replace the jump with a subroutine call or execute the program as an offline program.
+
+== Effect
+ 
+

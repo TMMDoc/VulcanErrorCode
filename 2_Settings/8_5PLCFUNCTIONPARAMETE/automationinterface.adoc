@@ -1,0 +1,13 @@
+= Automation Interface
+:imagesdir: img
+
+An automation unit will increase your productivity and efficiency. The automation interface is a powerful tool that allows you to control the machine from an external source. The automation interface allows you to control the automation remotely.
+
+The setup of the automation is done in the machine settings dialog:
+
+image:autointerface.png[]
+
+If you load the sheets via a loader please ensure that you select the correct sheet stop position.
+
+image:sheetstop.png[]
+

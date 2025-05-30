@@ -1,0 +1,23 @@
+= 2.11.1024
+:imagesdir: img
+
+== Description
+CAN-Bus: Transmission error, Error counter exceeds error limit
+
+== Cause
+
+This error occurs, if the number of erroneous messages in the transmit buffer, exceed a certain limit. The hex value in the additional error information contains the interrupt status register of the CAN controller:(*) according to CAN specification 2.0, Part B, see appendixThe x in the table shows if the appropriate function is implemented. The signal CAN_WAKEINT has no meaning for the controller.
+
+== Action
+ 
+ Check the following sources of error:
+ wrong baud rate (Machine constant MK_CFG_CANOPEN_BITRATE, old syntax: MK_CANOPEN_BAUDRATE)
+ erroneous device
+ cabling
+ bus termination
+ EMC (shielding)
+ topology of the bus
+
+== Effect
+ 
+

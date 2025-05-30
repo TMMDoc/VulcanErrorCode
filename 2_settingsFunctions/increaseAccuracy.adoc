@@ -1,0 +1,19 @@
+= Increase Accuracy
+:imagesdir: img
+
+In this section we will discuss best practises to increase the accuracy of the laser cutting process. The following options are available to increase the accuracy of the laser cutting process:
+
+Path correction
+ If the laser cut followed exactly the drawn cutting path, a con
+tour error would occur due to the given width of the kerf - 
+exactly by half the width of the kerf.
+ The smaller the contour, the greater the error or the effect, pro
+portionally speaking.
+ The machine can compensate for this error by means of an 
+automatic path correction. The kerf is offset half the width so 
+that the boundary of the kerf is aligned with the contour
+
+* Adapt the laser kerf value of TC_Laser_Corr.
+
+image:kerf.png[]
+

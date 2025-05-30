@@ -1,0 +1,18 @@
+= 2.9.726
+:imagesdir: img
+
+== Description
+Too many physical axes configured
+
+== Cause
+
+More axes were configured on a controller than permitted due to the customer configuration.
+
+== Action
+ 
+
+ Configure fewer axes or contact our sales department for an upgrade.ExampleContents of the additional information:incorrect axis index (=8).Cause: The axis is parameterized in the machine constants (here MK_CANDRIVES). The CAN node (=5) was configured for the axis with the corresponding index (=8), although only eight axes (corresponding to index 0..7) are permitted with this controller.
+
+== Effect
+ 
+

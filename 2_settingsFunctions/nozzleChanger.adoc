@@ -1,0 +1,13 @@
+= Nozzle Changer
+:imagesdir: img
+
+Nozzle changes are required if the material or material thickness is changed, or if the nozzle is worn. For this reason, there are two possibilities when operating in automated systems without personnel; either programs are run that do not require nozzle changes, or you must expect delays and downtime as a result of manual nozzle changes.
+
+If available, the nozzle changer is directed by the program to exchange the nozzle when needed:
+* When changing materials.
+* When changing to other material thicknesses.
+* After the nozzle's working life, which can be programmed as desired.
+
+Activate in the setting page
+
+image:nozzlechanger.png[]

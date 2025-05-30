@@ -1,0 +1,34 @@
+= 2.26.5117
+:imagesdir: img
+
+== Description
+Ether CAT: State polling No response from slave. Check wiring and reload machine constants/plc sa1006(Slave Address) stun known err5113
+
+== Cause
+
+Ether CAT Connection may be loose or disconnected.
+
+MCB-F6 may have tripped
+
+
+== Action
+ 
+
+Check Ether-cat Connection cable.
+
+Check MCB-F6 for trip Condition.
+
+The term sa1006 in the description indicates the slave address.
+
+Check for the minimum slave address in the message and check the Connection.
+
+(If suppose Slave Address sa1005 connection is loose or disconnected, then the Error message will appear for all the 
+slave devices that is connected after the slave device with the address 1005. So, need to check first the connection of the slave device (1005). Slave device details as follows)
+
+image:img/media/image5.png[A diagram of a computer AI-generated content may be incorrect.,width=396,height=332]
+
+
+
+== Effect
+ 
+

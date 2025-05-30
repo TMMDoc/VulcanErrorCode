@@ -1,0 +1,25 @@
+= 2.1.8
+
+
+== Description
+Negative software limit switch active (X or Y or Z)
+
+== Cause
+
+X-Axis or Y-axis or Z axis position may have reached the Negative software limit.
+
+Work offset may be captured wrongly.
+
+== Action
+ 
+Check Whether Message is for X axis or Y axis or Z axis. This message will indicate the axis name along with the message.
+
+Check physical position of the axis.
+
+Make sure that axis is moving within the software limits set individually for all axes. The software limits can be checked in the Vulcan HMI configure – Machine Settings —axis parameters.
+
+Make sure that Work offset is captured properly such that axis will not move to the limits.
+
+== Effect
+Axis will not move in Negative direction 
+

@@ -1,0 +1,4 @@
+= Technology data format
+:imagesdir: img
+
+Vulcan control supports the Metamation technology data base as well as the Trumpf specific technology data description

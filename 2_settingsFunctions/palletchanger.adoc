@@ -1,0 +1,11 @@
+= Pallet changer settings
+:imagesdir: img
+
+To optimize the motion of a hydraulic pallet changer you have the following options:
+
+image:pallet.png[t,300]
+
+Trumpf machines are equipped with Light Barrier in Pallet changer at the Loading side as a Safety option. Hence a 
+parameter Bit11 of Word19 of Pallet Changer Configuration in PLC options is added as follows: 
+
+image:pallet2.png[]

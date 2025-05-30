@@ -1,0 +1,28 @@
+= Speed & acceleration settings
+:imagesdir: img
+
+Select Axis parameters and choose Speed & acceleration settings,
+
+image:image17.png[Graphical user interface Description automatically generated,width=539,height=432]
+
+
+== _3.7.1 MK_AXIS_MODAL_VELOCITY_
+
+It is the maximum speed for manual operation (jog keys) of the individual axes. The specified value is limited to MK_AXIS_VELOCITY.
+
+== _3.7.2 MK_AXIS_VELOCITY_
+
+It is the maximum permitted speed of the individual axes in [m/min] or [RPM]. This corresponds to the rapid movement speed of the axes in the straight cut mode. If possible, the movement speed in path operation is also limited by the controller, so that the maximum speed of the individual axes is not exceeded.
+
+== _3.7.3 MK_AXIS_ACCELERATION_
+
+It defines the maximum acceleration and braking ramps for the individual axes in [m /s2] or [1/s2]. In path operation, the path ramps are limited in relation to the component involvement of the individual axes.
+
+== _3.7.4 MK_AXIS_DECELERATION_
+
+It defines the maximum braking ramps for the individual axes in [m /s2] or [1/s2]. In path operation, the path ramps are limited in relation to the component involvement of the individual axes.
+
+== _3.7.5 MK_AXIS_RAMP_TIME_
+
+
+It is the time in milliseconds, in which the maximum ramps configured in *MK_AXIS_ACCELERATION and MK_AXIS_DECELERATION* for manual operation and straight cut mode operation should be reached. This MC is for setting of acceleration and braking ramps of the individual axes.

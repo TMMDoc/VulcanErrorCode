@@ -1,0 +1,10 @@
+= PLC custom parameters.
+:imagesdir: img
+
+Select PLC options, choose function parameters and enable advanced to access PLC custom parameters.
+
+image:image27.png[Graphical user interface Description automatically generated,width=522,height=569]
+
+The PLC custom parameters from 0 to 12 are left free for future expansions or OEM’s can assign the values to access in the PLC.
+lorem
+

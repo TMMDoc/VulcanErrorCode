@@ -1,0 +1,21 @@
+= 2.10.7005 Axis - Negative Software Limit Active
+:imagesdir: img
+
+== Description
+
+Axis - Negative Software Limit Active
+
+== Cause
+
+Axis Negative Software limit reached.
+ 
+
+== Action
+ 
+Press Reset and Move the axis in the opposite direction. Check for Software Limit value
+ 
+
+== Effect 
+ 
+
+

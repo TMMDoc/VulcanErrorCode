@@ -1,0 +1,18 @@
+= Machine Settings
+:imagesdir: img
+
+- Open the application
+
+- Choose “*Configure*” from Home screen
+
+- Select *Machine settings*
+
+image:image2.png[Graphical user interface Description automatically generated,width=601,height=453]
+
+- To access the machine settings
+
+image:image3.png[USER role access,width=327,height=153]
+
+- Standard mode is for operator level access which means user can view but can’t make any changes.
+- Administration mode needs password to access since user can make changes in machine settings.
+- Service mode needs password to access since user make changes in advanced option of machine settings.

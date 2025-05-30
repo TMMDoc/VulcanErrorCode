@@ -1,0 +1,17 @@
+= 2.10.7112 Precitec - PC - Window not Present
+:imagesdir: img
+
+== Description
+Precitec - PC - Window not Present
+
+== Cause
+
+ 
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+

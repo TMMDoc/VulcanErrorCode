@@ -1,0 +1,27 @@
+= Memory reservation
+:imagesdir: img
+
+In General parameters, Select Machine settings to access Memory reservation settings
+
+image:image6.png[Graphical user interface Description automatically generated,width=524,height=245]
+
+
+== _2.3.1 MK_NC_LOOKAHEAD_BLOCK_COUNT_
+
+
+It defines the *maximum number of instructions in the search buffer*. The search buffer ring buffer (FIFO) between DIN interpreter and coarse interpolator and provides for decoupling of interpretation and execution of DIN blocks. This MC influences the number of blocks affected by the look ahead function in processing a DIN program.
+The MC contains a parameter for each possible NC channel. The minimum value for this MC is 8 blocks. The preset value depends upon the memory configuration of the CPU. The entered value should be a binary power (8, 16, 32, 64, 128, ...).If not, it will be rounded up to the next larger binary power internally.
+The search buffer occupies resources in the working memory of approx. 1500 bytes per block. In case there is not enough memory available to create the search buffer, a corresponding error message is generated when the controller is restarted and the search buffer is reduced to the minimum size of 8 blocks.
+
+==  _2.3.2 MK_NC_PATH_REVERSE_BLOCK_COUNT_
+
+
+It determines the *maximum number of blocks*, which can be reverse interpolated in a program. These blocks are stored in the search buffer and thus reduce the depth of the look ahead function.
+The MC contains a parameter for each possible NC channel.
+
+The value in this MC may not be larger than *MK_NC_LOOKAHEAD_BLOCK_COUNT-8*. Otherwise, the return limit will be limited to this value and an error will be reported.
+
+==  _2.3.3 MK_CFG_PARAMETER_ARRAY_SIZE_ 
+
+
+It defines the *total size of the parameter field in the controller*; this includes the 1024 system parameters. The number of parameters in the parameter field is specified using this MC. Each parameter occupies 8 bytes in the working memory. The minimum size is 2048 parameters. The maximum size is only dependent on the memory configuration of the controller.

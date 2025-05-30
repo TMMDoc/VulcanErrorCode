@@ -1,0 +1,8 @@
+= Automated corner optimization
+:imagesdir: img
+
+Corners are very important for the quality of your parts since the thermal impact might lead to burrs or process problems. Vulan offers an automated corner optimization feature. This feature is used to optimize the cutting path of the laser beam in order to reduce the cutting time and improve the cutting quality.
+
+The automated corner optimization feature can be activated in the settings page. To improve the quality of your parts you could use the option *"Cool at corners where rounding/looping is not possible"*. This option is available in the technology settings.
+
+image:advanced.png[]

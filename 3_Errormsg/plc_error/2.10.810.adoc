@@ -1,0 +1,20 @@
+= 2.10.810 Pallet Enable Input is OFF
+:imagesdir: img
+
+== Description
+
+Pallet Enable Input is OFF
+
+== Cause
+
+This error occurs when you disable the Pallet function in the configuration.
+Pallet Motion Aborted
+
+== Action
+ 
+ 
+
+== Effect 
+ 
+
+

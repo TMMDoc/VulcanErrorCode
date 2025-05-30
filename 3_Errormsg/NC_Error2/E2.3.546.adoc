@@ -1,0 +1,17 @@
+= 2.3.546
+:imagesdir: img
+
+== Description
+G15 displayed channel is not a child process of this channel
+
+== Cause
+
+The G153 function was called for synchronizing NC channels, although no child channel was created.
+
+== Action
+ 
+Create a child channel before using G153. Also see the description of the G153 in the NC programming manual with the corresponding example program.
+
+== Effect
+ 
+

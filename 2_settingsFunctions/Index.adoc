@@ -1,0 +1,22 @@
+= Settings by Functionality
+:imagesdir: img
+
+In this section we will discuss the advanced methods of the machine.
+
+Supported components:
+
+* xref:nozzleChanger.adoc#[Nozzle Changer]
+* xref:palletchanger.adoc#[Pallet changer settings]
+* xref:statuslight.adoc#[Status light]
+* xref:layoutopti.adoc#[Automated Layout optimization]
+
+Automation topics
+
+* xref:automationinterface.adoc#[Automation Interface]
+* xref:Suctionlayout.adoc#[Suction cup layout]
+
+Functions to improve your cutting quality
+
+* xref:adaptiveOptics.adoc#[KL59, Laser & Optics]
+* xref:corneropti.adoc#[Automated corner optimization]
+* xref:increaseAccuracy.adoc#[Increase Accuracy]

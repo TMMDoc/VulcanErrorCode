@@ -1,0 +1,18 @@
+= 2.7.311
+:imagesdir: img
+
+== Description
+Letter occurs multiply
+
+== Cause
+
+In a DIN block, an identification letter has been programmed more than once. The program number, block number and position of the erroneous character can be found in the additional information.
+
+== Action
+ 
+
+ Correct the indicated DIN block.ExampleThe additional information indicates the faulty position in the DIN program from block number N10 up to the next block number. In this case the second G is wrong, because no function with GG exists.
+
+== Effect
+ 
+

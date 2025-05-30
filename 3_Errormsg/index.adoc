@@ -1,0 +1,7 @@
+= Error messages
+:imagesdir: img
+
+
+image::logo-trumpf.png[Logo,width=254,float=right]
+
+This is the internal error code data base for Vulcan control (L99, Eckelmann). Please note that this information is for internal use only and is provided without any liabilities or warranties. It is intended for reference and does not carry any legal or financial obligations. Any actions taken based on this information are the sole responsibility of the individual or department using it.

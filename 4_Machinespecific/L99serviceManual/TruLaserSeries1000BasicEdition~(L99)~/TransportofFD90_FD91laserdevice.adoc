@@ -1,0 +1,25 @@
+
+= Transport of FD90/FD91 laser device
+
+For the exported L99 machine, using container shipment for delivery
+Container shipment
+The laser together with cutting unit and LLK are attached inside the wooden box on delivery.
+* The LLK is already connected to the laser and the cutting unit when it is delivered.
+* The LLK is spliced to the laser, which means it’s not allowed to separate the LLK from the laser.
+* The LLK is rolled up and placed on the top of the laser.
+.Fig. 1‑6
+[width="100%",cols="100%",options="header",]
+|image:img/image74.png[img/image74,width=403,height=390]
+
+For the domestic shipment, the laser device is attached to the rear of the machine on delivery.
+Domestic shipment
+* The LLK is already connected to the laser and the cutting unit when it is delivered.
+* The LLK is spliced to the laser, which means it’s not allowed to separate the LLK from the laser.
+* The cutting unit is already installed at the Z slide.
+* The LLK is rolled up at the rear side and is laid along the longitudinal direction.
+.Fig. 1‑7
+[width="100%",cols="^60%,^40%",options="header",]
+|image:img/image75.png[img/image75,width=364,height=326] |image:img/image76.png[img/image76,width=244,height=326]
+
+|image:img/image77.png[img/image77,width=460,height=261] |
+
